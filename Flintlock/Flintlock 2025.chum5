@@ -1356,7 +1356,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
     <groups>
       <group>
         <karma>0</karma>
-        <base>3</base>
+        <base>0</base>
         <isbroken>False</isbroken>
         <id>d47bd0bd-3b8e-440f-b448-b12551ce866c</id>
         <name>Acting</name>
@@ -1426,7 +1426,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       </group>
       <group>
         <karma>0</karma>
-        <base>2</base>
+        <base>5</base>
         <isbroken>False</isbroken>
         <id>7b54d10e-2c16-45f8-8edb-b6da76695474</id>
         <name>Stealth</name>
