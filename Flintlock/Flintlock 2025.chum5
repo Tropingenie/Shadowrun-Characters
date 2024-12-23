@@ -119,7 +119,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <playername />
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>0</karma>
+  <karma>8</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -143,9 +143,9 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>-134986.33333333333</nuyen>
+  <nuyen>-150986.33333333333</nuyen>
   <startingnuyen>140000</startingnuyen>
-  <nuyenbp>8</nuyenbp>
+  <nuyenbp>0</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -160,10 +160,10 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>2</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -230,10 +230,10 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>2</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>EDG</name>
@@ -12211,10 +12211,10 @@ Blame it on the media. The Hauler helps you blend in a little better and keeps y
   <improvementgroups />
   <calendar />
   <calculatedvalues>
-    <physicalcm>10</physicalcm>
+    <physicalcm>11</physicalcm>
     <physicalcmthresholdoffset>3</physicalcmthresholdoffset>
-    <physicalcmoverflow>4</physicalcmoverflow>
-    <stuncm>10</stuncm>
+    <physicalcmoverflow>6</physicalcmoverflow>
+    <stuncm>11</stuncm>
     <stuncmthresholdoffset>3</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
