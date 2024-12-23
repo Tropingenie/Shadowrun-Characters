@@ -119,7 +119,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <playername />
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>15</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -132,8 +132,8 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>30</basecarrylimit>
-  <baseliftlimit>45</baseliftlimit>
+  <basecarrylimit>20</basecarrylimit>
+  <baseliftlimit>30</baseliftlimit>
   <totalcarriedweight>0.000</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -143,7 +143,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>-69286.33333333333</nuyen>
+  <nuyen>-41536.33333333333</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -193,7 +193,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>CHA</name>
@@ -241,9 +241,9 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
-      <karma>1</karma>
+      <karma>2</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -304,7 +304,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.03</totaless>
+  <totaless>2.59</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -5009,7 +5009,7 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>3</rating>
+      <rating>2</rating>
       <minrating />
       <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
@@ -5236,7 +5236,7 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>2</rating>
+      <rating>1</rating>
       <minrating />
       <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
@@ -5437,34 +5437,6 @@ Some people are just born fast. This quality provides an unaugmented character t
       <notesColor>Chocolate</notesColor>
     </quality>
     <quality>
-      <sourceid>fd78fa11-5ab6-40db-bdb8-9fd722b08054</sourceid>
-      <guid>591fdf46-29ed-4f40-8850-8626915e2b04</guid>
-      <name>Perfect Time</name>
-      <extra />
-      <bp>5</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RF</source>
-      <page>148</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes>PERFECT TIME
-COST: 5 KARMA
-Who needs a watch when you’re around? The character with this quality always knows the time, down to the minute, and has a perfect sense of rhythm and timing. This perfect sense can only be obstructed through prolonged isolation, unconsciousness, or distortion of temporal perception through drugs, chips, or an extended period in the Matrix. This quality provides two game benefits: a +1 dice pool modifier for Performance Tests involving timing and rhythm, along with an additional Free Action during every Action Phase.</notes>
-      <notesColor>Chocolate</notesColor>
-    </quality>
-    <quality>
       <sourceid>7b051d98-e95b-48f9-8fbb-dae69a739913</sourceid>
       <guid>80e6d335-fd55-494a-9d07-a512a7d21c7f</guid>
       <name>No Man Left Behind</name>
@@ -5617,6 +5589,34 @@ Anything the character attempts to sabotage using only Gremlins will function fl
       <firstlevelbonus />
       <naturalweapons />
       <notes />
+      <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>fd78fa11-5ab6-40db-bdb8-9fd722b08054</sourceid>
+      <guid>bfc75641-0386-4095-bdaf-f08720a1be8e</guid>
+      <name>Perfect Time</name>
+      <extra />
+      <bp>5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>148</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>PERFECT TIME
+COST: 5 KARMA
+Who needs a watch when you’re around? The character with this quality always knows the time, down to the minute, and has a perfect sense of rhythm and timing. This perfect sense can only be obstructed through prolonged isolation, unconsciousness, or distortion of temporal perception through drugs, chips, or an extended period in the Matrix. This quality provides two game benefits: a +1 dice pool modifier for Performance Tests involving timing and rhythm, along with an additional Free Action during every Action Phase.</notes>
       <notesColor>Chocolate</notesColor>
     </quality>
   </qualities>
@@ -10935,31 +10935,6 @@ Yamaha’s latest racing bike, the Kaburaya is as sleek and loud as the arrow it
       <notesColor>Chocolate</notesColor>
     </improvement>
     <improvement>
-      <unique>group0</unique>
-      <target />
-      <improvedname />
-      <sourcename>0d0cb9d2-776a-4ba7-b335-3fd411a105a3</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>3</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
       <target />
       <improvedname>47c13198-575d-402b-a4dd-ba0642b78db8</improvedname>
       <sourcename>6c8c570a-db58-4f37-a156-3992d2ea6cc1</sourcename>
@@ -11392,56 +11367,6 @@ Yamaha’s latest racing bike, the Kaburaya is as sleek and loud as the arrow it
       <notesColor>Chocolate</notesColor>
     </improvement>
     <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>Celerity</improvedname>
-      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
       <unique>insulation</unique>
       <target />
       <improvedname />
@@ -11577,6 +11502,81 @@ Yamaha’s latest racing bike, the Kaburaya is as sleek and loud as the arrow it
       <condition>Hearing</condition>
       <improvementttype>Skill</improvementttype>
       <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>group0</unique>
+      <target />
+      <improvedname />
+      <sourcename>0d0cb9d2-776a-4ba7-b335-3fd411a105a3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>muscle</unique>
+      <target />
+      <improvedname>Celerity</improvedname>
+      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>muscle</unique>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Bioware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
