@@ -1217,23 +1217,6 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
-        <guid>be55b966-805b-419c-b152-2f532e0b368d</guid>
-        <suid>bee29957-affb-4593-a4fe-002f6dd5be9c</suid>
-        <isknowledge>True</isknowledge>
-        <skillcategory>Street</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>2</base>
-        <notes />
-        <notesColor>Chocolate</notesColor>
-        <name>Bars and Clubs</name>
-        <buywithkarma>False</buywithkarma>
-        <type>Street</type>
-        <isnativelanguage>False</isnativelanguage>
-      </skill>
-      <skill>
         <guid>98d64f14-2619-4e79-a0fc-2df6b491bf12</guid>
         <suid>d9c2e7c4-b9c6-4904-b4a4-56ecca7c9530</suid>
         <isknowledge>True</isknowledge>
@@ -1290,6 +1273,23 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
         <name>Firearms</name>
         <buywithkarma>False</buywithkarma>
         <type>Interest</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>6dd2f289-fd29-4b62-9e49-fe1a083cec83</guid>
+        <suid>f876953e-a14e-4ca5-b454-b0090907da28</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Japanese</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
