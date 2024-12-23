@@ -132,8 +132,8 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>20</basecarrylimit>
-  <baseliftlimit>30</baseliftlimit>
+  <basecarrylimit>10</basecarrylimit>
+  <baseliftlimit>15</baseliftlimit>
   <totalcarriedweight>0.000</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -143,7 +143,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>-41536.33333333333</nuyen>
+  <nuyen>-286.33333333333</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -193,7 +193,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
       <name>CHA</name>
@@ -304,7 +304,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.59</totaless>
+  <totaless>4.41</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -4744,86 +4744,6 @@ Standard Upgrades/Accessories: Imaging Scope (w/ flare compensation, image link,
   </weapons>
   <cyberwares>
     <cyberware>
-      <guid>69ab65c9-259c-4b00-9e41-1dd1fd1d34c2</guid>
-      <sourceid>76523da7-271d-459a-9502-3f7c8d54be6a</sourceid>
-      <name>Bone Lacing (Aluminum)</name>
-      <category>Bodyware</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>1</ess>
-      <capacity>0</capacity>
-      <avail>12R</avail>
-      <cost>18000</cost>
-      <weight />
-      <source>SR5</source>
-      <page>454</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>0</rating>
-      <minrating />
-      <maxrating />
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Used</grade>
-      <location />
-      <extra />
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <armor>2</armor>
-        <damageresistance>2</damageresistance>
-        <unarmeddv>2</unarmeddv>
-        <unarmeddvphysical />
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Cyberware</improvementsource>
-      <pairinclude>
-        <name>Bone Lacing (Aluminum)</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Bone Lacing (Aluminum)</name>
-      </wirelesspairinclude>
-      <children />
-      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
-    <cyberware>
       <guid>0d4839ba-1f94-4531-acb1-99302f18b0b9</guid>
       <sourceid>0bf88be2-4339-4861-90c8-97fc417eb1ce</sourceid>
       <name>False Face</name>
@@ -5009,7 +4929,7 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>2</rating>
+      <rating>1</rating>
       <minrating />
       <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
@@ -5192,87 +5112,6 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       </wirelesspairinclude>
       <children />
       <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
-    <cyberware>
-      <guid>65c780e0-eabe-49e2-9fe9-c75cc6eed184</guid>
-      <sourceid>841572d6-0785-4a8d-acd3-e106fb464781</sourceid>
-      <name>Muscle Augmentation</name>
-      <category>Basic</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>Rating * 0.2</ess>
-      <capacity>0</capacity>
-      <avail>(Rating * 5)R</avail>
-      <cost>Rating * 31000</cost>
-      <weight />
-      <source>SR5</source>
-      <page>459</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>1</rating>
-      <minrating />
-      <maxrating>4</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Used</grade>
-      <location />
-      <extra />
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus unique="muscle">
-        <disablequality>Celerity</disablequality>
-        <specificattribute>
-          <name>STR</name>
-          <val>Rating</val>
-        </specificattribute>
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Bioware</improvementsource>
-      <pairinclude>
-        <name>Muscle Augmentation</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Muscle Augmentation</name>
-      </wirelesspairinclude>
-      <children />
-      <notes>Muscle augmentation: This biological weaving treat- ment enhances existing muscle tissue, rather than replac- ing it with vat-grown muscles. Specially grown muscle cables are woven into existing muscle fibers, enhancing muscle mass and brute strength while providing a bulk- ier look. Muscle augmentation adds its rating to your Strength. This bioware is incompatible with augmenta- tions that increase Strength, including the muscle re- placements cyberware.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -10599,102 +10438,6 @@ Yamaha’s latest racing bike, the Kaburaya is as sleek and loud as the arrow it
   <improvements>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>69ab65c9-259c-4b00-9e41-1dd1fd1d34c2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>69ab65c9-259c-4b00-9e41-1dd1fd1d34c2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DamageResistance</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>69ab65c9-259c-4b00-9e41-1dd1fd1d34c2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>UnarmedDV</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>69ab65c9-259c-4b00-9e41-1dd1fd1d34c2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>UnarmedDVPhysical</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Disguise</improvedname>
       <sourcename>0d4839ba-1f94-4531-acb1-99302f18b0b9</sourcename>
       <min>0</min>
@@ -11521,61 +11264,11 @@ Yamaha’s latest racing bike, the Kaburaya is as sleek and loud as the arrow it
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />
       <improvementttype>Armor</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>Celerity</improvedname>
-      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>65c780e0-eabe-49e2-9fe9-c75cc6eed184</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
       <improvementsource>Bioware</improvementsource>
       <custom>False</custom>
       <customname />
