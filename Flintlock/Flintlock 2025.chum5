@@ -861,7 +861,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>Locksmith</name>
@@ -1196,6 +1196,22 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
         <notesColor>Chocolate</notesColor>
         <name>Unarmed Combat</name>
         <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>b1553c74-dc2e-4026-95a8-115706b800c7</guid>
+        <suid>88ee65ba-c797-4f9c-91fe-39bc43b0f9c8</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Exotic Ranged Weapon</name>
+        <buywithkarma>False</buywithkarma>
+        <specific>Grapple Gun</specific>
       </skill>
     </skills>
     <knoskills>
