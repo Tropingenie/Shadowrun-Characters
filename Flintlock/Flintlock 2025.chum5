@@ -132,8 +132,8 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>10</basecarrylimit>
-  <baseliftlimit>15</baseliftlimit>
+  <basecarrylimit>20</basecarrylimit>
+  <baseliftlimit>30</baseliftlimit>
   <totalcarriedweight>0.000</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -143,7 +143,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>False</created>
-  <nuyen>43993.66666666667</nuyen>
+  <nuyen>1238.66666666667</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -193,7 +193,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>1</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>CHA</name>
@@ -304,7 +304,7 @@ Still, they weren't out of the woods, and their Yakuza contact at the Seattle bo
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>4.35</totaless>
+  <totaless>2.42</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -1721,318 +1721,11 @@ Backstory: Mash, of Bangers n' Mash Gun Emporium, knows when a person who has ne
       <ratinglabel>String_Rating</ratinglabel>
       <stolen>False</stolen>
       <emcumbrance>True</emcumbrance>
-      <armormods>
-        <armormod>
-          <guid>ce922d5c-ae10-48a7-a116-56cf4fd9b74e</guid>
-          <sourceid>9ee8e6ad-2472-485d-ae42-d1978749b456</sourceid>
-          <name>Electrochromic Clothing</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>1</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>+2</avail>
-          <cost>500</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-      </armormods>
-      <gears>
-        <gear>
-          <sourceid>418d5ba1-dd19-4179-add8-074be445a7b2</sourceid>
-          <guid>af834a8c-37e5-4d90-929b-ebd4b0547b76</guid>
-          <name>Trodes</name>
-          <category>Electronics Accessories</category>
-          <capacity />
-          <armorcapacity>[2]</armorcapacity>
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>0</avail>
-          <cost>70</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>SR5</source>
-          <page>439</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype />
-          <canformpersona />
-          <devicerating>3</devicerating>
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes>Trodes: Available as a headband, net, or full-on cap, this electrode-and-ultrasound net gives you a direct neural interface. Useful if you’re too squeamish to get a hole drilled in your head for a datajack. Adding this to headgear takes two slots of Capacity.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>0</sortorder>
-        </gear>
-      </gears>
-      <bonus />
-      <wirelessbonus />
-      <location />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
-    </armor>
-    <armor>
-      <sourceid>8f0c06ee-9915-415f-bf5b-26a4e3e517ea</sourceid>
-      <guid>b7daa3d4-01b1-482f-91c1-5749017c576e</guid>
-      <name>Bike Racing Armor</name>
-      <category>Specialty Armor</category>
-      <armor>8</armor>
-      <armoroverride />
-      <armorcapacity>8</armorcapacity>
-      <avail>6</avail>
-      <cost>500</cost>
-      <weight />
-      <source>RG</source>
-      <page>68</page>
-      <armorname />
-      <equipped>False</equipped>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <wirelesson>False</wirelesson>
-      <canformpersona />
-      <extra />
-      <damage>0</damage>
-      <rating>0</rating>
-      <maxrating>0</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
-      <armormods>
-        <armormod>
-          <guid>cffc54b0-9b33-42a2-a624-0d15aa79062a</guid>
-          <sourceid>9ee8e6ad-2472-485d-ae42-d1978749b456</sourceid>
-          <name>Electrochromic Clothing</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>1</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>+2</avail>
-          <cost>500</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>20b4df72-20f6-460c-a614-f23508434016</guid>
-          <sourceid>49addc2c-ee9b-4f97-9c4b-4d49259734bc</sourceid>
-          <name>Attachable Gear Access</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[4]</armorcapacity>
-          <gearcapacity />
-          <maxrating>1</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>4</avail>
-          <cost>150</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>HT</source>
-          <page>185</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-      </armormods>
-      <gears>
-        <gear>
-          <sourceid>82334694-a630-42c4-95d6-eb1345e4ed82</sourceid>
-          <guid>74c08322-6e9a-4bab-b90b-462d2fccfa56</guid>
-          <name>Concealed Quick-Draw Holster</name>
-          <category>Armor Enhancements</category>
-          <capacity />
-          <armorcapacity>[4]</armorcapacity>
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>6</avail>
-          <cost>275</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>RG</source>
-          <page>51</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype />
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>0</sortorder>
-        </gear>
-      </gears>
-      <bonus />
-      <wirelessbonus />
-      <location />
-      <notes>BIKE RACING ARMOR
-place you’ll probably see them. The armor is designed for protection, not mobility, and walking around in this for much more than a standard patrol puts a strain on most folks.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
-    </armor>
-    <armor>
-      <sourceid>9c03e0c2-251a-496b-902b-d0c6743568fd</sourceid>
-      <guid>be743684-c612-4fd7-8081-57b4c4832469</guid>
-      <name>Riot Control Helmet</name>
-      <category>Specialty Armor</category>
-      <armor>+2</armor>
-      <armoroverride />
-      <armorcapacity>6</armorcapacity>
-      <avail>6R</avail>
-      <cost>1000</cost>
-      <weight />
-      <source>RG</source>
-      <page>69</page>
-      <armorname />
-      <equipped>False</equipped>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <wirelesson>False</wirelesson>
-      <canformpersona />
-      <extra />
-      <damage>0</damage>
-      <rating>0</rating>
-      <maxrating>0</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
       <armormods />
       <gears>
         <gear>
           <sourceid>418d5ba1-dd19-4179-add8-074be445a7b2</sourceid>
-          <guid>3bc83596-51b8-44fd-bf78-eb4c430b55db</guid>
+          <guid>af834a8c-37e5-4d90-929b-ebd4b0547b76</guid>
           <name>Trodes</name>
           <category>Electronics Accessories</category>
           <capacity />
@@ -2161,7 +1854,7 @@ place you’ll probably see them. The armor is designed for protection, not mobi
       <source>RG</source>
       <page>73</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -2307,34 +2000,6 @@ The owner can also use their Contacts to help them get the job done, requiring l
           <stolen>False</stolen>
           <notes>CONCEALABILITY
 This feature means things are either more easily hidden beneath the girth or length of the piece, or the design of the piece means it is less likely to be detected. Keep a little bit of realism in mind—no matter what the dice pool says, you cannot hide an assault cannon inside assless chaps.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>a3abb1a1-631f-42cd-9dd7-028ec34d6d3b</guid>
-          <sourceid>9ee8e6ad-2472-485d-ae42-d1978749b456</sourceid>
-          <name>Electrochromic Clothing</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>1</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>+2</avail>
-          <cost>500</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
@@ -2527,34 +2192,6 @@ This feature means things are either more easily hidden beneath the girth or len
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
         </armormod>
-        <armormod>
-          <guid>17daf35d-f2fd-479e-94d2-bc6a8a1560a4</guid>
-          <sourceid>9ee8e6ad-2472-485d-ae42-d1978749b456</sourceid>
-          <name>Electrochromic Clothing</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>1</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>+2</avail>
-          <cost>500</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <extra />
-          <stolen>False</stolen>
-          <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
       </armormods>
       <bonus>
         <limitmodifier>
@@ -2717,6 +2354,214 @@ I have a pretty solid stock of “lightly worn” Mortimer from some of his past
       <wirelessbonus />
       <location />
       <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>a71e62ca-bf6f-43d0-bacf-454908d92fbb</sourceid>
+      <guid>baee8720-2190-4bd8-9739-14387eddb2ec</guid>
+      <name>Ares Victory: Big Game Hunter</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>14</armor>
+      <armoroverride />
+      <armorcapacity>12</armorcapacity>
+      <avail>12</avail>
+      <cost>5000</cost>
+      <weight />
+      <source>RG</source>
+      <page>64</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating>0</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <emcumbrance>True</emcumbrance>
+      <armormods>
+        <armormod>
+          <guid>507cf726-6b97-4469-9fea-f4fdc4059684</guid>
+          <sourceid>af3208a9-05b5-47bb-92a1-f3d2ea82f6f0</sourceid>
+          <name>Liner - Insulation (6)</name>
+          <category>Victory Liners</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus unique="insulation">
+            <coldarmor>6</coldarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>002d12b7-75af-4b41-bbba-b53247680b3b</guid>
+          <sourceid>38168e21-833e-4ab3-8e5c-186468b70ef9</sourceid>
+          <name>Custom Fit</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes>CUSTOM FIT
+Items that are Custom Fit were measured for a specific person.
+They are specially designed for that person and don’t fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual’s Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test.
+The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>69357e02-f02b-48d3-ac9d-fc1ffbe21105</guid>
+          <sourceid>6a4274bb-307d-433d-a1a7-75be52eacb93</sourceid>
+          <name>Gear Access</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <stolen>False</stolen>
+          <notes>GEAR ACCESS
+This feature allows items to be retrieved from the piece of armor with more ease than usual. This means drawing or retrieving items that are set up on the armor takes one lower action. Complex becomes Simple, and Simple becomes Free. Free stays Free, but gamemasters can consider allowing an extra Free Action for the Action Phase.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
+      <gears>
+        <gear>
+          <sourceid>5977fb0b-b74e-4eb9-b433-9b7c9877b14f</sourceid>
+          <guid>1b53fa74-186d-424b-b841-dc049f21b1de</guid>
+          <name>Holster</name>
+          <category>Armor Enhancements</category>
+          <capacity>[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>2</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>431</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>baee8720-2190-4bd8-9739-14387eddb2ec</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <bonus />
+      <wirelessbonus>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </wirelessbonus>
+      <location />
+      <notes>ARES VICTORY
+NAME ARMOR RATING CAPACITY AVAIL COST
+Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clothing suited to a particular corporate environment), Gear Access Wireless Bonus: +1 dice pool bonus to Social Tests when worn within the appropriate corp.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
@@ -3918,7 +3763,7 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>1</rating>
+      <rating>3</rating>
       <minrating />
       <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
@@ -4126,32 +3971,113 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <sortorder>0</sortorder>
     </cyberware>
     <cyberware>
-      <guid>2ea50e4e-e06e-4f97-a25c-30c637a72a1a</guid>
-      <sourceid>c46fbaba-d941-44b5-9bdc-643c5c6f4b24</sourceid>
-      <name>Damage Compensators</name>
-      <category>Cultured</category>
+      <guid>16a16bf2-a7a6-40a0-80e7-ae91ab26a369</guid>
+      <sourceid>841572d6-0785-4a8d-acd3-e106fb464781</sourceid>
+      <name>Muscle Augmentation</name>
+      <category>Basic</category>
       <limbslot />
       <limbslotcount>1</limbslotcount>
       <inheritattributes>False</inheritattributes>
-      <ess>Rating * 0.1</ess>
+      <ess>Rating * 0.2</ess>
       <capacity>0</capacity>
-      <avail>(Rating * 3)F</avail>
-      <cost>Rating * 2000</cost>
+      <avail>(Rating * 5)R</avail>
+      <cost>Rating * 31000</cost>
       <weight />
       <source>SR5</source>
-      <page>460</page>
+      <page>459</page>
       <parentid />
       <hasmodularmount />
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>2</rating>
+      <rating>1</rating>
       <minrating />
-      <maxrating>12</maxrating>
+      <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems />
       <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
+      <grade>Used</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus unique="muscle">
+        <disablequality>Celerity</disablequality>
+        <specificattribute>
+          <name>STR</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Muscle Augmentation</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Muscle Augmentation</name>
+      </wirelesspairinclude>
+      <children />
+      <notes>Muscle augmentation: This biological weaving treat- ment enhances existing muscle tissue, rather than replac- ing it with vat-grown muscles. Specially grown muscle cables are woven into existing muscle fibers, enhancing muscle mass and brute strength while providing a bulk- ier look. Muscle augmentation adds its rating to your Strength. This bioware is incompatible with augmenta- tions that increase Strength, including the muscle re- placements cyberware.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>d515e294-17a6-4d7c-8cc5-f9f19e680e60</guid>
+      <sourceid>76523da7-271d-459a-9502-3f7c8d54be6a</sourceid>
+      <name>Bone Lacing (Aluminum)</name>
+      <category>Bodyware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>1</ess>
+      <capacity>0</capacity>
+      <avail>12R</avail>
+      <cost>18000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>454</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Used</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -4164,22 +4090,23 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       <matrixcmbonus>0</matrixcmbonus>
       <prototypetranshuman>False</prototypetranshuman>
       <bonus>
-        <conditionmonitor>
-          <sharedthresholdoffset>Rating</sharedthresholdoffset>
-        </conditionmonitor>
+        <armor>2</armor>
+        <damageresistance>2</damageresistance>
+        <unarmeddv>2</unarmeddv>
+        <unarmeddvphysical />
       </bonus>
       <pairbonus />
       <wirelessbonus />
       <wirelesspairbonus />
-      <improvementsource>Bioware</improvementsource>
+      <improvementsource>Cyberware</improvementsource>
       <pairinclude>
-        <name>Damage Compensators</name>
+        <name>Bone Lacing (Aluminum)</name>
       </pairinclude>
       <wirelesspairinclude>
-        <name>Damage Compensators</name>
+        <name>Bone Lacing (Aluminum)</name>
       </wirelesspairinclude>
       <children />
-      <notes />
+      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -9302,30 +9229,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
     <improvement>
       <target />
       <improvedname />
-      <sourcename>2ea50e4e-e06e-4f97-a25c-30c637a72a1a</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>CMSharedThresholdOffset</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
       <sourcename>7dfce585-d865-499b-b7e6-28a9f1d4b164</sourcename>
       <min>0</min>
       <max>0</max>
@@ -9372,6 +9275,126 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <notesColor>Chocolate</notesColor>
     </improvement>
     <improvement>
+      <target />
+      <improvedname>Firearms</improvedname>
+      <sourcename>8fbf5ace-9761-44da-a175-f6cd2d5257a4</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d515e294-17a6-4d7c-8cc5-f9f19e680e60</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d515e294-17a6-4d7c-8cc5-f9f19e680e60</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DamageResistance</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d515e294-17a6-4d7c-8cc5-f9f19e680e60</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>UnarmedDV</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d515e294-17a6-4d7c-8cc5-f9f19e680e60</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>UnarmedDVPhysical</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
       <unique>group0</unique>
       <target />
       <improvedname />
@@ -9380,7 +9403,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>3</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -9397,9 +9420,10 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <notesColor>Chocolate</notesColor>
     </improvement>
     <improvement>
+      <unique>muscle</unique>
       <target />
-      <improvedname>Firearms</improvedname>
-      <sourcename>8fbf5ace-9761-44da-a175-f6cd2d5257a4</sourcename>
+      <improvedname>Celerity</improvedname>
+      <sourcename>16a16bf2-a7a6-40a0-80e7-ae91ab26a369</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -9408,8 +9432,58 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>muscle</unique>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>16a16bf2-a7a6-40a0-80e7-ae91ab26a369</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <unique>insulation</unique>
+      <target />
+      <improvedname />
+      <sourcename>507cf726-6b97-4469-9fea-f4fdc4059684</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ColdArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -9462,9 +9536,9 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
   <calendar />
   <calculatedvalues>
     <physicalcm>11</physicalcm>
-    <physicalcmthresholdoffset>2</physicalcmthresholdoffset>
+    <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
     <physicalcmoverflow>6</physicalcmoverflow>
     <stuncm>11</stuncm>
-    <stuncmthresholdoffset>2</stuncmthresholdoffset>
+    <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
