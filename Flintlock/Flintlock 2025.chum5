@@ -147,7 +147,7 @@ Crash:\par
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
   <basecarrylimit>20</basecarrylimit>
-  <baseliftlimit>-79228162514264337593543950335</baseliftlimit>
+  <baseliftlimit>30</baseliftlimit>
   <totalcarriedweight>0.000</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
