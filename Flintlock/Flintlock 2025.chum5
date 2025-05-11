@@ -4342,7 +4342,7 @@ Cost: +1,000 nuyen a month</notes>
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>59561c08-3269-470d-9d8b-3cde8a8ccbf8</sourceid>
@@ -4404,7 +4404,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>fc0987f2-b3cf-4ba2-8777-0610ed97e90e</sourceid>
@@ -4461,7 +4461,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>a17cae86-4d6f-4e00-acb6-03f0ccfb2807</sourceid>
@@ -4518,7 +4518,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>01077e2d-4f67-428a-850d-250faad2007c</sourceid>
@@ -6956,7 +6956,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
@@ -7667,7 +7667,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
@@ -7839,7 +7839,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>10</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>baa9ba27-f93b-48da-91b7-cfcce0ba274d</sourceid>
@@ -7897,7 +7897,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>d0eb5971-03d6-4822-9fb5-c524bf16bf62</sourceid>
@@ -7954,7 +7954,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>dff54f55-846d-4017-84e2-dd1f1c29861f</sourceid>
@@ -8011,7 +8011,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>76890101-9f90-41db-a6f0-6f5fd4802896</sourceid>
@@ -8068,7 +8068,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -8250,65 +8250,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <sortorder>13</sortorder>
     </gear>
     <gear>
-      <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
-      <guid>8fbf5ace-9761-44da-a175-f6cd2d5257a4</guid>
-      <name>Tool Kit</name>
-      <category>Tools</category>
-      <capacity />
-      <armorcapacity>[6]</armorcapacity>
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>500</cost>
-      <weight />
-      <extra>Firearms</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus>
-        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
-      </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>443</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>11</sortorder>
-    </gear>
-    <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
       <guid>efd6a4af-562c-4661-acd8-bcaef99eed27</guid>
       <name>Ammo: Gel Rounds</name>
@@ -8429,6 +8370,65 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>16</sortorder>
+    </gear>
+    <gear>
+      <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
+      <guid>2bd54282-6699-4512-853f-c701449a6370</guid>
+      <name>Tool Kit</name>
+      <category>Tools</category>
+      <capacity />
+      <armorcapacity>[6]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>500</cost>
+      <weight />
+      <extra>Armorer</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>443</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
   </gears>
   <vehicles />
@@ -9067,30 +9067,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>Firearms</improvedname>
-      <sourcename>8fbf5ace-9761-44da-a175-f6cd2d5257a4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname />
       <sourcename>d515e294-17a6-4d7c-8cc5-f9f19e680e60</sourcename>
       <min>0</min>
@@ -9275,6 +9251,30 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <condition />
       <improvementttype>Armor</improvementttype>
       <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Armorer</improvedname>
+      <sourcename>2bd54282-6699-4512-853f-c701449a6370</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
