@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>62284195</settingshashcode>
+  <settingshashcode>1483184103</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -57,6 +57,7 @@
     <directoryname>Unrestricted Kill Code Qualities</directoryname>
     <directoryname>Way of the Samurai</directoryname>
     <directoryname>Ammo Skip Internal Mount</directoryname>
+    <directoryname>Silencers on Shotguns</directoryname>
   </customdatadirectorynames>
   <metatype>Human</metatype>
   <metatypeid>a53d885d-a4a4-443d-b6a6-b0a55b0a96c7</metatypeid>
@@ -80,7 +81,7 @@
   <prioritytalent>Mundane</prioritytalent>
   <priorityskills />
   <essenceatspecialstart>-79228162514264337593543950335</essenceatspecialstart>
-  <name />
+  <name>Jane Levant</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
   <gender />
@@ -102,8 +103,10 @@
 {\*\generator Wine Riched20 2.0;}
 \pard\sl-240\slmult1 \lang4105\fs16\f0 Rigging Jumped In To An Anthrodrone Cheat Sheet:\par
 \par
-\pard\sl-240\slmult1\li-53\fi53 Vehicle Test = Anything when jumped in?\par
-Vehicle skill test = ???\par
+\pard\sl-240\slmult1\li-53 Vehicle Test = Anything when jumped in? Does not include defense\par
+Vehicle skill test = More cut and dry skill tests, therefore not defense\par
+Combat test = Includes vehicles?\par
+Defense test = Includes when jumped in?\par
 \par
 Control Rig R2: +2 dice to Vehicle skill tests and limits (sensor, speed, handling, and accuracy)\par
 \par
@@ -111,15 +114,31 @@ Control Rig Nanomachines Son R3: +3 dice to Vehicle tests\par
 \par
 Hot Sim: +3d6 Matrix init, +1 dice to Vehicle Actions\par
 \par
-Dodge equivalent: Reaction + Intuition + bonuses? = 5 + 5 + 6? = 16? DDD\par
+Bioware:\par
+\pard\sl-240\slmult1\li-53\fi53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
+Reakt: +2 dice pool modifier to all ranged and melee Defense tests (this includes dodging indirect combat spells) Y73000, 10\par
+Synch: +1 dice pool modifier on combat tests 14000, 8\par
+Synaptic Booster: +1 Reaction Y95000, 6R\par
+Cerebellum Booster: +1-2 Intuition Y50000 x rating, 8 x rating\par
+Genetic Optimization\par
+\par
+Exceptional Attribute?\par
+SURGE - Metagenetic Improvement?\par
+\pard\sl-240\slmult1\li-53 \par
+Dodge equivalent: Reaction + Intuition + bonuses? = 5 + 5 + 1 = 11 DDD\par
 Soak equivalent: Armour + Body = 19 + 4 = 23 DDD\par
+34 DDD stock\par
 \par
-Drugs: Cram/Psyche, Reaction +2, Intuition +2, Logic +2, and Initiative +1d6 = 4 DDD? (with Narco?)\par
+Drugs: Cram/Psyche, Reaction +1, Intuition +1, Logic +1, and Initiative +1d6 = 2 DDD\par
 \par
-\pard\sl-240\slmult1\li-53 \b\ul\f1 Dogbrain Drones:\par
+Full defense: Int x3 = 5 x 3 = 15 (not DDD)\par
+\par
+Biowared up: up to +8 DDD\par
+\par
+\pard\sl-240\slmult1\fi-53 \b\ul\f1 Dogbrain Drones:\par
 \pard\sl-240\slmult1 \b0\ulnone\f0 \par
 Noise Cheat Sheet:\par
-\pard\sl-240\slmult1\li-53\fi53 Silence is Golden: -2 noise\par
+\pard\sl-240\slmult1\li-53 Silence is Golden: -2 noise\par
 Cyberears: -3 noise\par
 Satellite uplink: Max 5 noise from distance\par
 Retrans unit: ???\par
@@ -211,7 +230,7 @@ Retrans unit: ???\par
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -221,7 +240,7 @@ Retrans unit: ???\par
       <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -1412,7 +1431,7 @@ Retrans unit: ???\par
       <source>SR5</source>
       <page>438</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1463,7 +1482,7 @@ Retrans unit: ???\par
       <source>RG</source>
       <page>64</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1671,7 +1690,7 @@ Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clo
       <source>RG</source>
       <page>74</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1731,7 +1750,7 @@ Custom jobs are, naturally, more expensive.</notes>
       <source>RG</source>
       <page>73</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -10082,57 +10101,7 @@ Similar Models: Sony Orderly-4, Ares Pygmalion &gt; The Secretary has the single
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>Chocolate</notesColor>
