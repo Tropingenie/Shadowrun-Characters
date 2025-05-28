@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>1483184103</settingshashcode>
+  <settingshashcode>1253437515</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1233,7 +1233,42 @@ Retrans unit: ???\par
         <buywithkarma>False</buywithkarma>
       </skill>
     </skills>
-    <knoskills />
+    <knoskills>
+      <skill>
+        <guid>991477d8-da90-46c9-8c7c-e89bc842ab47</guid>
+        <suid>907a3a8f-2c40-4543-a5a9-891bcde41f6b</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>6</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>English</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>72c4c4e3-0c01-4ed8-8993-1fd839db2cbc</guid>
+        <suid>026062e0-9bdd-4a06-9cca-c3640c634cfd</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>French</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>True</isnativelanguage>
+      </skill>
+    </knoskills>
     <skilljackknowledgeskills />
     <groups>
       <group>
@@ -2963,34 +2998,6 @@ At the gamemaster’s discretion, the Illness quality can be removed permanently
       <notesColor>Chocolate</notesColor>
     </quality>
     <quality>
-      <sourceid>9ac85feb-ae1e-4996-8514-3570d411e1d5</sourceid>
-      <guid>dd40aecd-a7d6-4beb-aa63-54881fa3c106</guid>
-      <name>SINner (National)</name>
-      <extra>UCAS</extra>
-      <bp>-5</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Negative</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>84</page>
-      <sourcename />
-      <bonus>
-        <selecttext />
-      </bonus>
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </quality>
-    <quality>
       <sourceid>eefe6c28-5d7b-403d-8c24-5bc26536b52b</sourceid>
       <guid>ae9bfb2e-4c52-4eb4-babc-496ec6fe4008</guid>
       <name>Silence is Golden</name>
@@ -3086,68 +3093,37 @@ During character creation, the player chooses one existing individual contact an
 The selected contact can always buy or sell goods in that category through the black market with better-than-normal rates for the character. Purchases through this contact get a ten percent price reduction and a +2 dice pool modifier for the Availability Test. When looking to sell goods through the contact, the character gets (7 percent x Loyalty) of the item’s original value instead of the standard 5 percent. The contact has to be appropriate to the category chosen, though creativity can be king here.</notes>
       <notesColor>Chocolate</notesColor>
     </quality>
-  </qualities>
-  <lifestyles />
-  <gears>
-    <gear>
-      <sourceid>2eed08e8-1bda-4f4a-86a5-d9564c1c55a7</sourceid>
-      <guid>f56cbc20-46e1-4fac-a5d2-27278aa3769b</guid>
-      <name>SIN</name>
-      <category>ID/Credsticks</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>0</cost>
-      <weight />
-      <extra>Jane Levant (UCAS)</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
+    <quality>
+      <sourceid>9ac85feb-ae1e-4996-8514-3570d411e1d5</sourceid>
+      <guid>9c4c5dc2-53c2-4a81-abb5-2c5e89fd8618</guid>
+      <name>SINner (National)</name>
+      <extra>ROQ</extra>
+      <bp>-5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>84</page>
+      <sourcename />
       <bonus>
         <selecttext />
       </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>442</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>True</allowrename>
-      <children />
-      <location>90cf9fc3-54f0-466b-9e43-c6916281ad96</location>
+      <firstlevelbonus />
+      <naturalweapons />
       <notes />
       <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>0</sortorder>
-    </gear>
+    </quality>
+  </qualities>
+  <lifestyles />
+  <gears>
     <gear>
       <sourceid>9d81218f-ee70-4304-9a09-ac865d84b8e0</sourceid>
       <guid>3758464c-4e81-4403-b53f-c28145f347e2</guid>
@@ -9599,54 +9575,6 @@ Similar Models: Sony Orderly-4, Ares Pygmalion &gt; The Secretary has the single
     </improvement>
     <improvement>
       <target />
-      <improvedname>UCAS</improvedname>
-      <sourcename>dd40aecd-a7d6-4beb-aa63-54881fa3c106</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Jane Levant (UCAS)</improvedname>
-      <sourcename>f56cbc20-46e1-4fac-a5d2-27278aa3769b</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>MCT-Nissan Roto-drone (Medium)</improvedname>
       <sourcename>3758464c-4e81-4403-b53f-c28145f347e2</sourcename>
       <min>0</min>
@@ -10102,6 +10030,30 @@ Similar Models: Sony Orderly-4, Ares Pygmalion &gt; The Secretary has the single
       <customgroup />
       <addtorating>0</addtorating>
       <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>ROQ</improvedname>
+      <sourcename>9c4c5dc2-53c2-4a81-abb5-2c5e89fd8618</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>Chocolate</notesColor>
