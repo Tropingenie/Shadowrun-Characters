@@ -751,6 +751,14 @@ Retrans unit: ???\par
         <notesColor>Chocolate</notesColor>
         <name>Gunnery</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>487da4ff-0b2b-4f9c-80e1-17c6f4ad3def</guid>
+            <name>Ballistic</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>034c1ac1-7ff8-4664-83d4-e3335850e7cc</guid>
@@ -3122,7 +3130,233 @@ The selected contact can always buy or sell goods in that category through the b
       <notesColor>Chocolate</notesColor>
     </quality>
   </qualities>
-  <lifestyles />
+  <lifestyles>
+    <lifestyle>
+      <sourceid>9cb0222c-14c1-4bea-bf83-055513a1f33e</sourceid>
+      <guid>6a62672e-4677-4786-a363-eedbdf75c0b6</guid>
+      <name>Quebec House</name>
+      <cost>5000</cost>
+      <dice>4</dice>
+      <lp>4</lp>
+      <baselifestyle>Medium</baselifestyle>
+      <multiplier>100</multiplier>
+      <months>1</months>
+      <roommates>0</roommates>
+      <percentage>100.0</percentage>
+      <area>0</area>
+      <comforts>0</comforts>
+      <security>0</security>
+      <basearea>4</basearea>
+      <basecomforts>3</basecomforts>
+      <basesecurity>3</basesecurity>
+      <maxarea>5</maxarea>
+      <maxcomforts>4</maxcomforts>
+      <maxsecurity>4</maxsecurity>
+      <costforearea>0</costforearea>
+      <costforcomforts>0</costforcomforts>
+      <costforsecurity>0</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
+      <source>SR5</source>
+      <page>369</page>
+      <trustfund>False</trustfund>
+      <splitcostwithroommates>False</splitcostwithroommates>
+      <type>Advanced</type>
+      <increment>Month</increment>
+      <sourceid>9cb0222c-14c1-4bea-bf83-055513a1f33e</sourceid>
+      <city />
+      <district />
+      <borough />
+      <lifestylequalities>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>4450ff5c-7640-49d3-95e0-ef5eb4d8c12a</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Local Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>True</free>
+          <isfreegrid>True</isfreegrid>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes>GRID SUBSCRIPTION
+Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
+Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>6eff6ce2-44d7-487d-82b5-0149d8db4b0a</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Public Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>True</free>
+          <isfreegrid>True</isfreegrid>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes>GRID SUBSCRIPTION
+Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
+Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>7e721535-3827-4a85-9771-9d20cf348d11</sourceid>
+          <guid>55365032-9cdd-4498-8f52-b475013e5086</guid>
+          <name>Discreet Deliveryman</name>
+          <category>Entertainment - Service</category>
+          <extra />
+          <cost>100</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>3</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>RF</source>
+          <page>221</page>
+          <allowed />
+          <bonus />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>0a41dfd4-67f7-4d8d-80e5-15db2fc64f09</sourceid>
+          <guid>0a4860ca-06be-45f7-a3f9-a56813ca2445</guid>
+          <name>Limited Building Space</name>
+          <category>Negative</category>
+          <extra />
+          <cost>0</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>-1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Negative</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>HT</source>
+          <page>141</page>
+          <allowed />
+          <bonus />
+          <notes>LIMITED BUILDING SPACE
+(NEGATIVE QUALITY)
+The number of people who can live in your residence is strictly limited—whether due to physical space or any other reason. Things are abnormally close. Occupancy is limited to the number of roommates; no guests. If occupancy is above the set number, reduce the dice pool of any skill test done in the residence by 1 per person over the limit. Add 1 point to the base Lifestyle.</notes>
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>cc3abead-ab2a-4023-8a63-d64536ccf5e5</sourceid>
+          <guid>00c258cb-c071-407a-981f-6f067cca7b2d</guid>
+          <name>Bat Cave</name>
+          <category>Entertainment - Asset</category>
+          <extra />
+          <cost>100</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>2</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>RF</source>
+          <page>224</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>8cc2d931-becd-40d7-a0bd-705412037f38</sourceid>
+          <guid>17647cd8-79ad-4f8f-893e-8138a4d6c525</guid>
+          <name>Hotel California</name>
+          <category>Negative</category>
+          <extra />
+          <cost />
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>-1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Negative</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>RF</source>
+          <page>226</page>
+          <allowed />
+          <bonus />
+          <notes>HOTEL CALIFORNIA
+(NEGATIVE)
+There’s a limited window when someone can enter or leave the premises. The rest of the time, the character is stuck and can only use the resources the place has.
+The time period of lockdown should be agreed upon between the gamemaster and player and should not be too long lest the character become MIA while the rest of the team continue missions. Add 1 point to the base lifestyle.</notes>
+          <notesColor>Chocolate</notesColor>
+        </lifestylequality>
+      </lifestylequalities>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <sortorder>0</sortorder>
+    </lifestyle>
+  </lifestyles>
   <gears>
     <gear>
       <sourceid>9d81218f-ee70-4304-9a09-ac865d84b8e0</sourceid>
@@ -10038,6 +10272,54 @@ Similar Models: Sony Orderly-4, Ares Pygmalion &gt; The Secretary has the single
       <target />
       <improvedname>ROQ</improvedname>
       <sourcename>9c4c5dc2-53c2-4a81-abb5-2c5e89fd8618</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Local Grid</improvedname>
+      <sourcename>4450ff5c-7640-49d3-95e0-ef5eb4d8c12a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Public Grid</improvedname>
+      <sourcename>6eff6ce2-44d7-487d-82b5-0149d8db4b0a</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
