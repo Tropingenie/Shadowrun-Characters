@@ -349,8 +349,8 @@ Social Chameleon\par
   <groupname />
   <groupnotes />
   <totaless>2.11</totaless>
-  <physicalcmfilled>5</physicalcmfilled>
-  <stuncmfilled>11</stuncmfilled>
+  <physicalcmfilled>0</physicalcmfilled>
+  <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
   <newskills>
     <skillptsmax>36</skillptsmax>
@@ -1573,7 +1573,9 @@ Backstory: Jade has always skulked around elves, never quite to the degree of th
       <type>Contact</type>
       <file />
       <relative />
-      <notes>Physical Description: This 3 meter tall troll towers over most. His rippling muscles are barely contained within his white business-casual shirt, yet he moves with a fluidity and grace through his shop that betrays he is not to be underestimated.
+      <notes>1 chip
+
+Physical Description: This 3 meter tall troll towers over most. His rippling muscles are barely contained within his white business-casual shirt, yet he moves with a fluidity and grace through his shop that betrays he is not to be underestimated.
 
 Backstory: Mash, of Bangers n' Mash Gun Emporium, knows when a person who has never bought a gun from him regularly purchases ammunition under two different names, he isn't to ask questions. Still, one can't help but be curious, and when the client is an elf shopping at a Troll's store in Seattle, that must be some good tea. So when that customer starts asking for some heavier firepower, well, starting a rapport with her is inevitable. So long as this chick who calls herself Flintlock doesn't bring trouble, well, he can turn a blind eye to her green motorcycle. And who knows, maybe if he or someone he knows gets in above their head with Humanis, that commlink code she gave him might actually come in handy.</notes>
       <notesColor>Chocolate</notesColor>
@@ -2069,7 +2071,7 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <source>RG</source>
       <page>64</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
