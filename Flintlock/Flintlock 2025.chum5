@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>15488.666666666666</nuyen>
+  <nuyen>15725.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -2811,399 +2811,6 @@ Removing the stock reduces both the recoil compensation and the Concealability o
       <weapontype>gun</weapontype>
     </weapon>
     <weapon>
-      <sourceid>59cd61ef-4fb0-45e4-96cf-74c62c2b4fe8</sourceid>
-      <guid>0650cf9a-c38d-42d0-bf9d-58fd62101b2a</guid>
-      <name>Altmayr SPX2</name>
-      <category>Shotguns</category>
-      <type>Ranged</type>
-      <spec />
-      <spec2 />
-      <reach>0</reach>
-      <damage>10P</damage>
-      <ap>-1</ap>
-      <mode>SS/SA</mode>
-      <rc>0</rc>
-      <ammo>8(m)</ammo>
-      <cyberware>False</cyberware>
-      <ammocategory />
-      <ammoslots>1</ammoslots>
-      <sizecategory />
-      <firingmode>DogBrain</firingmode>
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <accuracy>4</accuracy>
-      <activeammoslot>1</activeammoslot>
-      <conceal>2</conceal>
-      <avail>4R</avail>
-      <cost>475</cost>
-      <weight />
-      <useskill />
-      <useskillspec />
-      <range>Heavy Pistols</range>
-      <alternaterange>Shotguns (flechette)</alternaterange>
-      <rangemultiply>1</rangemultiply>
-      <singleshot>1</singleshot>
-      <shortburst>3</shortburst>
-      <longburst>6</longburst>
-      <fullburst>10</fullburst>
-      <suppressive>20</suppressive>
-      <allowsingleshot>True</allowsingleshot>
-      <allowshortburst>True</allowshortburst>
-      <allowlongburst>True</allowlongburst>
-      <allowfullburst>True</allowfullburst>
-      <allowsuppressive>True</allowsuppressive>
-      <source>SAG</source>
-      <page>34</page>
-      <parentid />
-      <allowaccessory>True</allowaccessory>
-      <weaponname />
-      <included>False</included>
-      <equipped>True</equipped>
-      <requireammo>True</requireammo>
-      <accuracy>4</accuracy>
-      <mount />
-      <stolen>False</stolen>
-      <extramount />
-      <accessories>
-        <accessory>
-          <sourceid>85b01b5c-c788-4b43-8190-9e0c18391436</sourceid>
-          <guid>73147256-38ce-4e97-9807-9f9c4b087bcb</guid>
-          <name>Personalized Grip</name>
-          <mount>None</mount>
-          <extramount>None</extramount>
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>2</avail>
-          <cost>100</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>182</page>
-          <accuracy>1</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes>PERSONALIZED GRIP
-This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>88d0e08b-1ac2-442e-8f2f-dfaeb9cda9ab</sourceid>
-          <guid>70080165-6a95-4570-8766-6c2ab65d7126</guid>
-          <name>Stock Removal</name>
-          <mount>Stock</mount>
-          <extramount>None</extramount>
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>-1</conceal>
-          <avail>2</avail>
-          <cost>20</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>182</page>
-          <accuracy>0</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes>STOCK REMOVAL
-Removing the stock reduces both the recoil compensation and the Concealability of a gun by 1. Weapon modifications such as a shock pad or any other stock modifications cannot be applied. If combined with sawed off the Accuracy is also reduced by 1 in addition to the other benefits and penalties listed.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>1</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>6b06cf52-04fa-4034-bb10-2bcdd58c4bfb</sourceid>
-          <guid>908affe1-4f26-4013-ac71-e6eb0736eb0f</guid>
-          <name>Gas-Vent 3 System</name>
-          <mount>Barrel</mount>
-          <extramount>None</extramount>
-          <rc>3</rc>
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>9R</avail>
-          <cost>600</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>SR5</source>
-          <page>431</page>
-          <accuracy>0</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>2</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>a16a52a9-3b57-4e3c-96f6-564616bcd576</sourceid>
-          <guid>4104a531-f494-454c-b456-91d15811a10b</guid>
-          <name>Red Dot Sight</name>
-          <mount>Top</mount>
-          <extramount>None</extramount>
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>4</avail>
-          <cost>75</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>SL</source>
-          <page>47</page>
-          <accuracy>0</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>3</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>8eec5df1-88e2-4822-b156-9c2340a33efc</sourceid>
-          <guid>f9ed948c-b9f6-405a-bd0c-67d2f55595f4</guid>
-          <name>Foregrip</name>
-          <mount>Under</mount>
-          <extramount>None</extramount>
-          <rc>1</rc>
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>1</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>1</conceal>
-          <avail>2</avail>
-          <cost>100</cost>
-          <weight />
-          <included>False</included>
-          <equipped>False</equipped>
-          <source>RG</source>
-          <page>52</page>
-          <accuracy>0</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>4</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>98c9ed33-2636-40bb-a455-334e8fb8e65f</sourceid>
-          <guid>b62b1e46-04f9-4aff-a098-e69db71d9cf6</guid>
-          <name>Chameleon Coating (Rifle)</name>
-          <mount>Side</mount>
-          <extramount>None</extramount>
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>-1</conceal>
-          <avail>10R</avail>
-          <cost>1000</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>180</page>
-          <accuracy>0</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach>0</reach>
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <stolen>False</stolen>
-          <sortorder>5</sortorder>
-          <parentid />
-        </accessory>
-      </accessories>
-      <location />
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <weaponslots>Stock/Side/Barrel/Top/Under</weaponslots>
-      <doubledcostweaponslots />
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <wirelessbonus />
-      <wirelesson>True</wirelesson>
-      <sortorder>2</sortorder>
-      <weapontype>gun</weapontype>
-    </weapon>
-    <weapon>
       <sourceid>9c267b03-103e-43f4-bfe8-986c69dc17d2</sourceid>
       <guid>4c07bb4a-d935-4d1c-8a62-c19e834b1246</guid>
       <name>Grapple Gun</name>
@@ -3461,6 +3068,11 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
           <count>6</count>
           <location>loaded</location>
           <id>460675aa-ed12-4eeb-b476-870915c77fb1</id>
+        </clip>
+        <clip>
+          <count>6</count>
+          <location>loaded</location>
+          <id>cb04f8f3-0cca-4e41-b43b-6a11490cef28</id>
         </clip>
       </clips>
       <conceal>2</conceal>
@@ -9556,7 +9168,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>12</qty>
+      <qty>6</qty>
       <avail>9F</avail>
       <costfor>10</costfor>
       <cost>80</cost>
@@ -9592,6 +9204,67 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <discountedcost>False</discountedcost>
       <programlimit />
       <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
+      <guid>cb04f8f3-0cca-4e41-b43b-6a11490cef28</guid>
+      <name>Ammo: Explosive Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>6</qty>
+      <avail>9F</avail>
+      <costfor>10</costfor>
+      <cost>80</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked />
       <attack />
       <sleaze />
       <dataprocessing />
@@ -11553,6 +11226,22 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddCyberware</nuyentype>
         <objectid>74273747-f09e-47df-a0f6-5046a2cf3886</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>8b72f054-a24c-4660-9956-c88fa07ce1c8</guid>
+      <date>2025-06-21T18:36:15</date>
+      <amount>237</amount>
+      <reason>Fencing Altmayr SPX-2</reason>
+      <type>Nuyen</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
