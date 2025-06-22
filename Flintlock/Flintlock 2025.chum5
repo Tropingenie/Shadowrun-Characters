@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>15725.666666666666</nuyen>
+  <nuyen>13475.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -2271,6 +2271,57 @@ This feature allows items to be retrieved from the piece of armor with more ease
 NAME ARMOR RATING CAPACITY AVAIL COST
 Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clothing suited to a particular corporate environment), Gear Access Wireless Bonus: +1 dice pool bonus to Social Tests when worn within the appropriate corp.</notes>
       <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>fc4074b5-b48a-43d4-8d9c-25a11da2a6a8</sourceid>
+      <guid>6328e9ba-2b34-4649-930b-f5279f1e03fc</guid>
+      <name>Designer Cloak</name>
+      <category>Cloaks</category>
+      <armor>0</armor>
+      <armoroverride />
+      <armorcapacity>Rating</armorcapacity>
+      <avail>1</avail>
+      <cost>(100 * Rating) + 300</cost>
+      <weight />
+      <source>HT</source>
+      <page>184</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>1</rating>
+      <maxrating>6</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <emcumbrance>True</emcumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
     </armor>
@@ -8502,67 +8553,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <sortorder>4</sortorder>
     </gear>
     <gear>
-      <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
-      <guid>efd6a4af-562c-4661-acd8-bcaef99eed27</guid>
-      <name>Ammo: Gel Rounds</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>8</qty>
-      <avail>2R</avail>
-      <costfor>10</costfor>
-      <cost>25</cost>
-      <weight />
-      <extra>Shotguns</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus>
-        <ap>1</ap>
-        <damagetype>S</damagetype>
-      </weaponbonus>
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>434</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype>gun</ammoforweapontype>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>1</sortorder>
-    </gear>
-    <gear>
       <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
       <guid>2bd54282-6699-4512-853f-c701449a6370</guid>
       <name>Tool Kit</name>
@@ -8680,7 +8670,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>2633cf38-90a6-4843-b475-e3ee1132fb5f</sourceid>
@@ -8798,7 +8788,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>24e87c73-22be-480d-bb79-978277672a1d</sourceid>
@@ -8855,7 +8845,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>8f351e25-d734-4bd0-86da-80b68a4cae68</sourceid>
@@ -8973,7 +8963,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -9034,7 +9024,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -9095,7 +9085,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -9156,68 +9146,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
-    </gear>
-    <gear>
-      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
-      <guid>7634b528-b6bd-4826-8f2d-3ce891cf7a3c</guid>
-      <name>Ammo: Explosive Rounds</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>6</qty>
-      <avail>9F</avail>
-      <costfor>10</costfor>
-      <cost>80</cost>
-      <weight />
-      <extra>Shotguns</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus>
-        <ap>-1</ap>
-        <damage>1</damage>
-      </weaponbonus>
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>434</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype>gun</ammoforweapontype>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -9278,7 +9207,189 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
+      <guid>063ca894-76c5-44dd-b8f4-77739a85ffad</guid>
+      <name>Ammo: APDS</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>12F</avail>
+      <costfor>10</costfor>
+      <cost>120</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-4</ap>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
       <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
+      <guid>6469cdcd-a6b2-4678-95b9-15ac4c27913b</guid>
+      <name>Ammo: Explosive Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>56.0</qty>
+      <avail>9F</avail>
+      <costfor>10</costfor>
+      <cost>80</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
+      <guid>73efad5e-eaf3-428a-bc06-d1fd41e32d94</guid>
+      <name>Ammo: Gel Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>108.0</qty>
+      <avail>2R</avail>
+      <costfor>10</costfor>
+      <cost>25</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>1</ap>
+        <damagetype>S</damagetype>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
     </gear>
   </gears>
   <vehicles>
@@ -11242,6 +11353,70 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
         <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>ca248693-9956-4ea7-8a49-7d7687524388</guid>
+      <date>2025-06-21T18:40:47</date>
+      <amount>-1200</amount>
+      <reason>Purchased Gear Ammo: APDS</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>063ca894-76c5-44dd-b8f4-77739a85ffad</objectid>
+        <qty>100</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a822fd3a-60ca-4b70-9a7c-955ccaa3ab03</guid>
+      <date>2025-06-21T18:43:02</date>
+      <amount>-400</amount>
+      <reason>Purchased Gear Ammo: Explosive Rounds</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>6469cdcd-a6b2-4678-95b9-15ac4c27913b</objectid>
+        <qty>50</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b234f7db-e459-4eda-8f17-025b7301ae84</guid>
+      <date>2025-06-21T18:44:36</date>
+      <amount>-250</amount>
+      <reason>Purchased Gear Ammo: Gel Rounds</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>73efad5e-eaf3-428a-bc06-d1fd41e32d94</objectid>
+        <qty>100</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a72b9893-c2ef-44a5-9c24-634747c670c3</guid>
+      <date>2025-06-21T18:46:49</date>
+      <amount>-400</amount>
+      <reason>Purchased Armor Designer Cloak</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmor</nuyentype>
+        <objectid>6328e9ba-2b34-4649-930b-f5279f1e03fc</objectid>
         <qty>0</qty>
         <extra />
       </undo>
