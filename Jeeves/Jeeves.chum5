@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>1988131560</settingshashcode>
+  <settingshashcode>1434149838</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -97,24 +97,24 @@
 }</description>
   <background />
   <concept />
-  <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
+  <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1 \lang4105\fs16\f0 Rigging Jumped In To An Anthrodrone Cheat Sheet:\par
+\pard\sl-240\slmult1\fi-53 \b\lang4105\fs16\ul\f0 Planning\b0\ulnone\f1 \par
 \par
-\pard\sl-240\slmult1\li-53 Vehicle Test = Anything when jumped in? Does not include defense\par
+Vehicle Test = Anything when jumped in? Does not include defense\par
 Vehicle skill test = More cut and dry skill tests, therefore not defense\par
 Combat test = Includes vehicles?\par
 Defense test = Includes when jumped in?\par
 \par
-Control Rig R2: +2 dice to Vehicle skill tests and limits (sensor, speed, handling, and accuracy)\par
+Control Rig: +Rating dice to Vehicle skill tests and limits (sensor, speed, handling, and accuracy)\par
 \par
-Control Rig Nanomachines Son R3: +3 dice to Vehicle tests\par
+Control Rig Nanomachines Son: +Rating dice to Vehicle tests\par
 \par
 Hot Sim: +3d6 Matrix init, +1 dice to Vehicle Actions\par
 \par
 Bioware:\par
-\pard\sl-240\slmult1\li-53\fi53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
+\pard\sl-240\slmult1\li-53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
 Reakt: +2 dice pool modifier to all ranged and melee Defense tests (this includes dodging indirect combat spells) Y73000, 10\par
 Synch: +1 dice pool modifier on combat tests 14000, 8\par
 Synaptic Booster: +1 Reaction Y95000, 6R\par
@@ -123,29 +123,36 @@ Genetic Optimization\par
 \par
 Exceptional Attribute?\par
 SURGE - Metagenetic Improvement?\par
-\pard\sl-240\slmult1\li-53 \par
-Dodge equivalent: Reaction + Intuition + bonuses? = 5 + 5 + 1 = 11 DDD\par
-Soak equivalent: Armour + Body = 19 + 4 = 23 DDD\par
-34 DDD stock\par
 \par
-Drugs: Cram/Psyche, Reaction +1, Intuition +1, Logic +1, and Initiative +1d6 = 2 DDD\par
+Important Stats:\par
+REA: Vehicle Tests, vehicle defense, vehicle stealth\par
+INT: Vehicle defense, sensor tests, infiltration when jumped in\b\ul\f0 \par
+\pard\sl-240\slmult1 \b0\ulnone\f1 LOG: Repair matrix damage, compensate for noise on the fly, attacking when jumped in\par
+WIL: Resist biofeedback, full matrix defense\par
 \par
-Full defense: Int x3 = 5 x 3 = 15 (not DDD)\par
+Important skills:\par
+Pilot (type): Piloting, defending\par
+Ewar: Compensate for noise on the fly\par
+Gunnery: Shooting when jumped in to non-anthrodrones\par
 \par
-Biowared up: up to +8 DDD\par
+Autosofts (dogbrains):\par
+(Model) Evasion: Defense, stealth\par
+(Model) Pilot: Initiative, perception, attacking\par
+Clearsight: Perception\par
+(Weapon) Targeting: Hmm I wonder\par
 \par
-\pard\sl-240\slmult1\fi-53 \b\ul\f1 Dogbrain Drones:\par
-\pard\sl-240\slmult1 \b0\ulnone\f0 \par
-Noise Cheat Sheet:\par
-\pard\sl-240\slmult1\li-53 Silence is Golden: -2 noise\par
+\b\ul\f0 Noise Cheat Sheet:\b0\ulnone\f1 \par
+\pard\sl-240\slmult1\fi-53 Silence is Golden: -2 noise\par
 Cyberears: -3 noise\par
 Satellite uplink: Max 5 noise from distance\par
 Retrans unit: ???\par
+\par
+\par
 }</notes>
   <alias>Jeeves</alias>
   <playername>Pon Pon</playername>
   <gamenotes />
-  <primaryarm>Right</primaryarm>
+  <primaryarm>Left</primaryarm>
   <karma>0</karma>
   <special>1</special>
   <totalspecial>1</totalspecial>
