@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>1434149838</settingshashcode>
+  <settingshashcode>-768234024</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -100,7 +100,7 @@
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1\fi-53 \b\lang4105\fs16\ul\f0 Planning\b0\ulnone\f1 \par
+\pard\sl-240\slmult1\li53\fi-53 \b\lang4105\fs16\ul\f0 Planning\b0\ulnone\f1 \par
 \par
 Vehicle Test = Anything when jumped in? Does not include defense\par
 Vehicle skill test = More cut and dry skill tests, therefore not defense\par
@@ -114,7 +114,7 @@ Control Rig Nanomachines Son: +Rating dice to Vehicle tests\par
 Hot Sim: +3d6 Matrix init, +1 dice to Vehicle Actions\par
 \par
 Bioware:\par
-\pard\sl-240\slmult1\li-53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
+\pard\sl-240\slmult1\fi-53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
 Reakt: +2 dice pool modifier to all ranged and melee Defense tests (this includes dodging indirect combat spells) Y73000, 10\par
 Synch: +1 dice pool modifier on combat tests 14000, 8\par
 Synaptic Booster: +1 Reaction Y95000, 6R\par
@@ -126,9 +126,9 @@ SURGE - Metagenetic Improvement?\par
 \par
 Important Stats:\par
 REA: Vehicle Tests, vehicle defense, vehicle stealth\par
-INT: Vehicle defense, sensor tests, infiltration when jumped in\b\ul\f0 \par
+INT: Vehicle defense, sensor tests, infiltration when jumped in, defend marks\b\ul\f0 \par
 \pard\sl-240\slmult1 \b0\ulnone\f1 LOG: Repair matrix damage, compensate for noise on the fly, attacking when jumped in\par
-WIL: Resist biofeedback, full matrix defense\par
+WIL: Resist biofeedback, full matrix defense, defend/remove marks\par
 \par
 Important skills:\par
 Pilot (type): Piloting, defending\par
@@ -142,12 +142,17 @@ Clearsight: Perception\par
 (Weapon) Targeting: Hmm I wonder\par
 \par
 \b\ul\f0 Noise Cheat Sheet:\b0\ulnone\f1 \par
-\pard\sl-240\slmult1\fi-53 Silence is Golden: -2 noise\par
+\pard\sl-240\slmult1\li53\fi-53 Silence is Golden: -2 noise\par
 Cyberears: -3 noise\par
 Fresnel Fabric: Post gen.\par
 Satellite uplink: Max 5 noise from distance\par
 Retrans unit: Back ass wards but takes the larger of the distance malus\par
 \par
+\b\ul\f0 Marks\b0\ulnone\f1 \par
+Brute Force: Cybercombat + Logic vs. Firewall + Willpower to add mark\par
+Erase Mark: Cybercombat + Logic vs. Firewall + Willpower to remove mark\par
+Hack on the Fly: Hacking + Logic vs. Firewall + Intuition to add mark\par
+Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
 \par
 }</notes>
   <alias>Jeeves</alias>
@@ -204,10 +209,10 @@ Retrans unit: Back ass wards but takes the larger of the distance malus\par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>4</base>
+      <base>5</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -314,10 +319,10 @@ Retrans unit: Back ass wards but takes the larger of the distance malus\par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>5</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>BOD</name>
@@ -3134,6 +3139,63 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
     </lifestyle>
   </lifestyles>
   <gears>
+    <gear>
+      <sourceid>d3bb1242-73b0-4b8a-89ab-27c272ebc900</sourceid>
+      <guid>b601be95-6298-4c91-aabd-61e075c864ac</guid>
+      <name>Encryption</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>8c969165-f5ad-4da6-bb34-ada0e396863a</location>
+      <notes>Encryption: Activating the Encryption utility gives you a +1 bonus to your Firewall attribute.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
     <gear>
       <sourceid>d157fdf9-2315-4402-af6e-2aa4924f6a82</sourceid>
       <guid>0827984f-e933-4f93-937c-e2f2dd15818f</guid>
@@ -9289,18 +9351,25 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <name>RCC Software</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>3</sortorder>
+      <sortorder>4</sortorder>
     </location>
     <location>
       <guid>b5d11dbe-9f73-483c-8794-c94e182eb72e</guid>
       <name>Running Kit</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</guid>
       <name>Ammo Stockpile</name>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>8c969165-f5ad-4da6-bb34-ada0e396863a</guid>
+      <name>RCC Programs</name>
       <notes />
       <notesColor>Chocolate</notesColor>
       <sortorder>1</sortorder>
