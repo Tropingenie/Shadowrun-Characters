@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-768234024</settingshashcode>
+  <settingshashcode>835551092</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -100,21 +100,21 @@
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1\li53\fi-53 \b\lang4105\fs16\ul\f0 Planning\b0\ulnone\f1 \par
+\pard\sl-240\slmult1\li53 \b\lang4105\fs16\ul\f0 Planning\b0\ulnone\f1 \par
 \par
 Vehicle Test = Anything when jumped in? Does not include defense\par
 Vehicle skill test = More cut and dry skill tests, therefore not defense\par
 Combat test = Includes vehicles?\par
 Defense test = Includes when jumped in?\par
 \par
-Control Rig: +Rating dice to Vehicle skill tests and limits (sensor, speed, handling, and accuracy)\par
+Control Rig: +Rating dice to Vehicle skill tests and limits (sensor, speed, handling, and accuracy), hubrule doesn't actually "affect" base stats\par
 \par
 Control Rig Nanomachines Son: +Rating dice to Vehicle tests\par
 \par
 Hot Sim: +3d6 Matrix init, +1 dice to Vehicle Actions\par
 \par
 Bioware:\par
-\pard\sl-240\slmult1\fi-53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
+\pard\sl-240\slmult1\li53\fi-53 Narco: Nothing on its own but boosts drugs by +1 (+1 Rea, +1 Int) Y16420, 12F\par
 Reakt: +2 dice pool modifier to all ranged and melee Defense tests (this includes dodging indirect combat spells) Y73000, 10\par
 Synch: +1 dice pool modifier on combat tests 14000, 8\par
 Synaptic Booster: +1 Reaction Y95000, 6R\par
@@ -128,7 +128,7 @@ Important Stats:\par
 REA: Vehicle Tests, vehicle defense, vehicle stealth\par
 INT: Vehicle defense, sensor tests, infiltration when jumped in, defend marks\b\ul\f0 \par
 \pard\sl-240\slmult1 \b0\ulnone\f1 LOG: Repair matrix damage, compensate for noise on the fly, attacking when jumped in\par
-WIL: Resist biofeedback, full matrix defense, defend/remove marks\par
+WIL: Resist biofeedback, full matrix defense, defend/remove marks (once you get cyberdeck)\par
 \par
 Important skills:\par
 Pilot (type): Piloting, defending\par
@@ -142,13 +142,13 @@ Clearsight: Perception\par
 (Weapon) Targeting: Hmm I wonder\par
 \par
 \b\ul\f0 Noise Cheat Sheet:\b0\ulnone\f1 \par
-\pard\sl-240\slmult1\li53\fi-53 Silence is Golden: -2 noise\par
+\pard\sl-240\slmult1\li53 Silence is Golden: -2 noise\par
 Cyberears: -3 noise\par
 Fresnel Fabric: Post gen.\par
 Satellite uplink: Max 5 noise from distance\par
 Retrans unit: Back ass wards but takes the larger of the distance malus\par
 \par
-\b\ul\f0 Marks\b0\ulnone\f1 \par
+\b\ul\f0 Marks (decker shit)\b0\ulnone\f1 \par
 Brute Force: Cybercombat + Logic vs. Firewall + Willpower to add mark\par
 Erase Mark: Cybercombat + Logic vs. Firewall + Willpower to remove mark\par
 Hack on the Fly: Hacking + Logic vs. Firewall + Intuition to add mark\par
@@ -1263,7 +1263,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>5</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Area Knowledge: Seattle</name>
@@ -1327,12 +1327,20 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <notesColor>#E3813C</notesColor>
         <name>Fashion</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>4ef3161b-c627-4710-a4d7-ee5976369aaa</guid>
+            <name>Paris Scene</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
         <type>Interest</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
         <guid>72c4c4e3-0c01-4ed8-8993-1fd839db2cbc</guid>
-        <suid>026062e0-9bdd-4a06-9cca-c3640c634cfd</suid>
+        <suid>00000000-0000-0000-0000-000000000000</suid>
         <isknowledge>True</isknowledge>
         <skillcategory>Language</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
@@ -1342,7 +1350,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
-        <name>French</name>
+        <name>Québécois French</name>
         <buywithkarma>False</buywithkarma>
         <type>Language</type>
         <isnativelanguage>True</isnativelanguage>
@@ -1380,14 +1388,14 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       </group>
       <group>
         <karma>0</karma>
-        <base>0</base>
+        <base>5</base>
         <isbroken>False</isbroken>
         <id>66efce30-bc06-4b22-afed-0560b4c55af3</id>
         <name>Cracking</name>
       </group>
       <group>
         <karma>0</karma>
-        <base>5</base>
+        <base>0</base>
         <isbroken>False</isbroken>
         <id>55cdc3d5-6bc6-4899-bd09-3c42046f8edc</id>
         <name>Electronics</name>
@@ -1462,7 +1470,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
     <contact>
       <name>John Fixer</name>
       <role>Fixer</role>
-      <location />
+      <location>tbd</location>
       <connection>5</connection>
       <loyalty>2</loyalty>
       <metatype />
