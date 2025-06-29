@@ -359,7 +359,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>3.94</totaless>
+  <totaless>3.74</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -2639,6 +2639,88 @@ The booster applies its Rating as a dice pool modifier to your Vehicle Tests whe
       <addtoparentess>False</addtoparentess>
       <addtoparentcapacity>False</addtoparentcapacity>
       <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>503f6b14-4486-46ba-89fe-3b91ad55d2b5</guid>
+      <sourceid>92a00ca4-7e2b-47ca-ac02-1d58e4932d0a</sourceid>
+      <name>Narco</name>
+      <category>Exotic Metagenetics</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>16420</cost>
+      <weight />
+      <source>CF</source>
+      <page>159</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>None</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade>None</forcegrade>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <physiologicaladdictionfirsttime>-2</physiologicaladdictionfirsttime>
+        <psychologicaladdictionfirsttime>-2</psychologicaladdictionfirsttime>
+        <physiologicaladdictionalreadyaddicted>2</physiologicaladdictionalreadyaddicted>
+        <psychologicaladdictionalreadyaddicted>2</psychologicaladdictionalreadyaddicted>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Narco</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Narco</name>
+      </wirelesspairinclude>
+      <notes>NARCO
+This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>True</isgeneware>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -6636,45 +6718,6 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
           <stolen>False</stolen>
         </mod>
         <mod>
-          <sourceid>ecc73836-9110-4f5f-9464-cb6ae6e954d2</sourceid>
-          <guid>9f0e84df-c542-49c6-a6cc-7623cfcfa92a</guid>
-          <name>Speed Enhancement</name>
-          <category>Powertrain</category>
-          <limit />
-          <slots>FixedValues(5,14,20)</slots>
-          <capacity />
-          <rating>1</rating>
-          <maxrating>3</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>FixedValues(6,8,12)</avail>
-          <cost>FixedValues(number(Speed = 0) * 1000 + Speed * 2000,number(Speed = 0) * 2500 + Speed * 5000,number(Speed = 0) * 6000 + Speed * 12000)</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>157</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <bonus>
-            <offroadspeed>+Rating</offroadspeed>
-            <speed>+Rating</speed>
-          </bonus>
-          <notes>SPEED ENHANCEMENT
-Using a variety of techniques and equipment (depending on the vehicle), including things such as superchargers, fuel distribution optimization, and parts replacement, the top speed of the vehicle is increased.
-More dramatic increases in top end speed require more extensive modifications to the vehicle as it is pushed far beyond its original design and limitations. Some designs can only be pushed so far. In the end, though, having that raw top-end speed can save your hoop. Speed Enhancement modification can be taken with a Rating of 1 to 3, with the Rating adding to the Speed attribute of the vehicle.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>1</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
           <sourceid>bbfe9593-12ea-4873-9203-8f7063957225</sourceid>
           <guid>e8ed7cc4-ad2c-4577-89ac-ae46fac17f7f</guid>
           <name>SunCell</name>
@@ -9258,6 +9301,102 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>503f6b14-4486-46ba-89fe-3b91ad55d2b5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysiologicalAddictionFirstTime</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>503f6b14-4486-46ba-89fe-3b91ad55d2b5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PsychologicalAddictionFirstTime</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>503f6b14-4486-46ba-89fe-3b91ad55d2b5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysiologicalAddictionAlreadyAddicted</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>503f6b14-4486-46ba-89fe-3b91ad55d2b5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PsychologicalAddictionAlreadyAddicted</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
     </improvement>
   </improvements>
   <sustainedobjects />
