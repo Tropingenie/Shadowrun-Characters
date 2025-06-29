@@ -98,7 +98,19 @@
   <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1 \lang4105\fs16\f0 Jeanne was born and raised a blue-blooded \i\f1 Qu\'e9b\'e9coise\i0\f0 \par
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Jeanne was born and raised a blue-blooded \i\f1 Qu\'e9b\'e9coise\i0  with a silver spoon in her mouth. Particularly, the silver spoon of MCT, where her parents were employed in the Beaux Retail Consortium. She made her way up the ranks, getting a start in fashion design and coasting through life, pursuing hobbies like drone racing and studying for a pilot's license, and landing a cushy position doing not much for very little pay. Still, looking over Montr\'e9al she knew full well that silver spoon, though probably made of plastic, was still making strides for her.\par
+\par
+It all came tumbling down when a group of Pink Mohawks failed an extraction. They were brash, loud, and unafraid of the consequences of gunning down civilians in broad daylight. She had started her day normally, but ended it barely alive in the back of a DocWagon, three bullets in her back and penning a brand new Basic contract.\par
+\par
+Her life changed that day, and not just because the DocWagon salesperson was behind on his commission. Though she had the Nuyen to cover medical costs, she didn't bother getting her spine repaired. Chronic, phantom pains began flaring up, and for a while she would wake up to the nonexistent sounds of automatic weapons fire in a cold sweat. Her appearance grew disheveled, and her work performance dropped. Eventually, she quit.\par
+\par
+In the deepest part of her mind, she knew her money wouldn't last forever, but she wallowed in her sorrows nontheless. First, it was the quality beers and wines of Quebec. Then BTLs. Then hard drugs. Then, a strange turn: Thrills.\par
+\par
+She had already taken to having an armed drone follow her around as she made her illicit acquisitions, and her dealer let her in on a proposition. He knew some guys who needed a hand to hold a gun--anyone would do--and she fit the bill as a nobody that nobody would miss. He dangled the bait of some "pocket change" in front of this washed up wageslave and she bit.\par
+\par
+Her first job went well, not a single shot fired, and frankly she wasn't worth kidnapping. Not that she knew the risks, at the time, but she worked with the dealer as an impromptu fixer, and he found her more work. The moment bullets began to fly, though, she realized that she wasn't particularly cut out for killing people.\par
+\par
+She did a bit more work, but never beyond the point of minor gang crime. Still, she heard tales from the shadows of a far more lucrative business. Lured by these thrills, and under the false impression she could quit at any time, she decided to travel far away from her home country. The Tir, Azltan, and NAN didn't particularly appeal for various reasons, and the CAS and UCAS were too close to home. Eventually, she settled on the Free City of Seattle, and, though worried her limited English skill could cause problems, packed her bags.\f0 \par
 }</background>
   <concept />
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
@@ -2819,7 +2831,9 @@ Cost: –5 Karma “You clean up real well!” You’ve never heard this in your
       <notes>ILLNESS
 Bonus: 5, 10, or 15 BP or 5, 10, or 15 Karma A character with the Illness quality has a chronic medical condition that requires ongoing treatment to prevent complications and possibly annoying effects. Depending on the level of the quality, the character must periodically succeed in Body + Body (3) Test or their Illness will flair, causing negative dice pool modifiers affecting all tests. If the character keeps up with the necessary medical treatments (pills, injections, inhalers, potions, procedures, etc.; the gamemaster can develop a specific regimen based in the illness), the threshold for this test is reduced by 1.
 The Illness Quality Table shows the build point/Karma bonus, dice pool modifier and frequency of tests for each level, as well as the cost for ongoing medical treatment.
-At the gamemaster’s discretion, the Illness quality can be removed permanently through a combination of surgery and genetic therapy at a cost equal to 12 times the monthly treatment cost.</notes>
+At the gamemaster’s discretion, the Illness quality can be removed permanently through a combination of surgery and genetic therapy at a cost equal to 12 times the monthly treatment cost.
+
+Illness: Chronic Pain</notes>
       <notesColor>Chocolate</notesColor>
     </quality>
     <quality>
@@ -6058,6 +6072,64 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
+      <guid>fed7a257-bf5d-4c8c-b433-8d9c898875e1</guid>
+      <name>Psyche</name>
+      <category>Drugs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>5</qty>
+      <avail>0</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>412</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>PSYCHE
+Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 hour Addiction Type: Psychological Effect: +1 Intuition, +1 Logic, +1 Mental limit This designer stimulant is especially prized by magicians and technomancers alike. In addition to the effects noted above, Awakened users also only suffer a –1 dice pool modifier for each sustained spell (rather than the standard –2). Psyche users are simultaneously hyper-aware and detached, easily absorbed by detail and obsessive about certain facts or problems.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
   </gears>
   <vehicles>
