@@ -1,14 +1,94 @@
 Narco Delivery: July 3rd
 _______________________________________________
-Game 3: Come The Revolution, There Will Be No Resurrection For You
+Game 3: Come The Revolution, There Will Be No Resurrection For You (Part I)
 2025-06-28
-GM:
+GM: swimmer117
 Players:
-drbraddock as Purple
-Pon Pon (Myself) as Flintlock
-demonsunshine as Dokkalfar
-foreverjester as The Black Witch
+drbraddock as Purple the Muscle/Face
+Pon Pon (Myself) as Flintlock the Muscle/Face
+demonsunshine as Dokkalfar the Technomancer
+foreverjester as The Black Witch the Mage
 
+Forwarded job by fixer. After their response, they were given an address in Snohomish, pointing to a "João's Foreign Import Mechanic"
+
+As soon as she got the notification, she hopped in her FunOne, setting GridGuide to take her to Snohomish.
+
+Still, with traffic she was going to be an hour late, arriving around the same time as Dokkalfar.
+
+She spotted an LS patrol car pottering around, but he gave them no trouble.
+
+Seeing either a short elf or a tall dwarf, Flintlock gave a casual greeting in Sperethiel, to which Dokk replied with a native, but German, timbre.
+
+With all 4 present, they linked DNI... And found Flintlock didn't have DNI. She used her usual AR kludge.
+
+Shortly after, a dwarf walked into the room. His mouth twitched slightly at the sight of them.
+
+He spoke in a German accent. "So you're the team of couriers my friend hired."
+
+After some questions from the team, he lead them into the garage, which was devoid of any equipment like the prior room.
+
+He pulled three modestly sized briefcases out of the office, telling them to drop each of them off at locations in Pullayup.
+
+"It's important these are delivered in a timely manner, preferably before tomorrow morning."
+
+When questioned why he needed Shadowrunners, he deflected, saying his colleague was busy.
+
+He invited them into the office, closing the door to activate a white noise machine to mask their conversation.
+
+He told them more about the job, reiterating the location, then turning on a trid showing a map of the Seattle metroplex, zooming to the locations of interest.
+
+He looked at the three elves, mentioning Ancients and Laesa were likely OpFor, as that was who the job was against despite the two groups being at odds with one another.
+
+When asked pay, he procured a block of gold, saying they each get three.
+
+The team wasn't happy with that, and Flintlock agreed internally with the Black Witch's concerns about civilian casualties.
+
+Dokkalfar also briefly switched the conversation to German for a question.
+
+After they decided to take the job, Dokkalfar took one last push, mentioning that as Runners they needed information, and if any info was witheld and things went wrong, guns and bullets were their only recompense. This caused the Johnson to fold.
+
+"I don't know my friend anymore, and I like his new friends even less."
+
+Legwork:
+- The Big O
+    - Bar that has a "particular patronage" that need to no longer have access
+    - Neutral ground between the gangs of Pullayup and even Fort Louis
+    - A Laesa/Ancients meet is scheduled for tonight
+    - Watching the bar camera feed, Ancients picked the second door on the left
+- An airfield by the border
+    - Typical smuggler spot
+    - Used by "people who are acting against the cause"
+- The Black Lotus Casino
+    - Just north of the Big O
+    - Owned by an ally of the Johnson
+    - Rumor of really shady things
+    - Established himself in Pullayup and has higher ambititions
+    - Local gumi works in other fields, the colour scheme seems to imply Triad, though they don't have a prescence in Pullayup
+    - Laesa however do have a presence
+
+After casing Big O, Purple and Flintlock began their assault. He lent her his RPC, and they approached, passing an Ancients patrol roaring around on their Harley's.
+
+A basic fence surrounded the Big O, keeping the squalor of Pullayup out. Trash, feces, maybe even a body.
+
+With no second floor windows in sight, they began moving for the second floor door, gathering debris to get over the fence.
+
+Flint fired her grapple gun at the roof, and they easily climbed up, then Purple picked the maglock.
+
+They descended the stairs, creeping past the Ancients in the main room as more Ancients showed up outside, overhearing their four way argument, accusations being thrown at the bartender regarding his professionalism among other insults.
+
+Purple made a bit of noise getting an access panel off to hide the bomb, Flintlock strained her ears but nobody was approaching the room. As they resealed the panel, Dokkalfar spoke over the micro tranceiver:
+
+"Drek, their firewall made me."
+
+Dokkalfar bought them a few minutes, and the inside team began their exfil through the rear door, since some Ancients were moving towards the roof. Purple shot looper rounds to fool the cams, and they jumped the fence. Flint got caught on the fence, but Purple lubed her up and they were on their way.
+
+She changed her gloves, to get a better grip on things, and cleaned up once they reached the car.
+
+END PART 1
+
+Postgame Notes:
+    - Trode patch (important for DNI)
+    - Basic BNE gear
 _______________________________________________
 Game 2: Problems with Running a Train
 2025-06-12
