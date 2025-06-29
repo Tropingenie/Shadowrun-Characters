@@ -200,7 +200,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <created>False</created>
   <nuyen>450000</nuyen>
   <startingnuyen>450000</startingnuyen>
-  <nuyenbp>0</nuyenbp>
+  <nuyenbp>1</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -5864,124 +5864,6 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <sortorder>0</sortorder>
     </gear>
     <gear>
-      <sourceid>0949997a-acb7-49d9-9905-5ae2cd35626f</sourceid>
-      <guid>89dde361-32e8-418c-a6e3-084d35eab3f5</guid>
-      <name>[Weapon] Targeting Autosoft</name>
-      <category>Autosofts</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating>6</maxrating>
-      <rating>3</rating>
-      <qty>1.0</qty>
-      <avail>Rating * 2</avail>
-      <cost>Rating * 500</cost>
-      <weight />
-      <extra>Steyr TMP</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus>
-        <selecttext xml="weapons.xml" xpath="/chummer/weapons/weapon[type = 'Ranged']" allowedit="True" />
-      </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>270</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>fe12526e-cb65-40d2-8018-7392478c176b</location>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>2</sortorder>
-    </gear>
-    <gear>
-      <sourceid>9d81218f-ee70-4304-9a09-ac865d84b8e0</sourceid>
-      <guid>dc66b7d6-5304-43df-aa02-efadae9eb35e</guid>
-      <name>[Model] Maneuvering Autosoft</name>
-      <category>Autosofts</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating>6</maxrating>
-      <rating>3</rating>
-      <qty>1.0</qty>
-      <avail>Rating * 2</avail>
-      <cost>Rating * 500</cost>
-      <weight />
-      <extra>Messerschmitt-Kawasaki Libelle</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus>
-        <selecttext xml="vehicles.xml" xpath="/chummer/vehicles/vehicle" allowedit="True" />
-      </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>269</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>fe12526e-cb65-40d2-8018-7392478c176b</location>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>3</sortorder>
-    </gear>
-    <gear>
       <sourceid>9d81218f-ee70-4304-9a09-ac865d84b8e0</sourceid>
       <guid>3c9e6e5c-8430-4856-8655-ef907bdfde77</guid>
       <name>[Model] Maneuvering Autosoft</name>
@@ -6851,6 +6733,45 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <sortorder>5</sortorder>
           <stolen>False</stolen>
         </mod>
+        <mod>
+          <sourceid>ecc73836-9110-4f5f-9464-cb6ae6e954d2</sourceid>
+          <guid>2d707d62-2ebe-4c4c-b38c-9e0cd2ecc5d7</guid>
+          <name>Speed Enhancement</name>
+          <category>Powertrain</category>
+          <limit />
+          <slots>FixedValues(5,14,20)</slots>
+          <capacity />
+          <rating>1</rating>
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>FixedValues(6,8,12)</avail>
+          <cost>FixedValues(number(Speed = 0) * 1000 + Speed * 2000,number(Speed = 0) * 2500 + Speed * 5000,number(Speed = 0) * 6000 + Speed * 12000)</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>157</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <bonus>
+            <offroadspeed>+Rating</offroadspeed>
+            <speed>+Rating</speed>
+          </bonus>
+          <notes>SPEED ENHANCEMENT
+Using a variety of techniques and equipment (depending on the vehicle), including things such as superchargers, fuel distribution optimization, and parts replacement, the top speed of the vehicle is increased.
+More dramatic increases in top end speed require more extensive modifications to the vehicle as it is pushed far beyond its original design and limitations. Some designs can only be pushed so far. In the end, though, having that raw top-end speed can save your hoop. Speed Enhancement modification can be taken with a Rating of 1 to 3, with the Rating adding to the Speed attribute of the vehicle.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
       </mods>
       <weaponmounts />
       <gears>
@@ -7112,424 +7033,6 @@ In the course of jumping through multiple vehicles and taking in multiple stream
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <sortorder>0</sortorder>
-    </vehicle>
-    <vehicle>
-      <sourceid>c2073528-54a5-45e0-b5f8-9c1ab74647aa</sourceid>
-      <guid>2940a051-8c6d-4784-a978-aef53e8cfd28</guid>
-      <name>Messerschmitt-Kawasaki Libelle</name>
-      <category>Drones: Small</category>
-      <handling>5</handling>
-      <offroadhandling>5</offroadhandling>
-      <accel>1</accel>
-      <offroadaccel>1</offroadaccel>
-      <speed>2</speed>
-      <offroadspeed>2</offroadspeed>
-      <pilot>3</pilot>
-      <body>2</body>
-      <seats>0</seats>
-      <armor>1</armor>
-      <sensor>4</sensor>
-      <avail>8</avail>
-      <cost>4500</cost>
-      <addslots>0</addslots>
-      <modslots>1</modslots>
-      <powertrainmodslots>0</powertrainmodslots>
-      <protectionmodslots>0</protectionmodslots>
-      <weaponmodslots>0</weaponmodslots>
-      <bodymodslots>0</bodymodslots>
-      <electromagneticmodslots>0</electromagneticmodslots>
-      <cosmeticmodslots>0</cosmeticmodslots>
-      <source>SAG</source>
-      <page>61</page>
-      <parentid />
-      <sortorder>4</sortorder>
-      <stolen>False</stolen>
-      <physicalcmfilled>0</physicalcmfilled>
-      <matrixcmfilled>0</matrixcmfilled>
-      <vehiclename />
-      <mods>
-        <mod>
-          <sourceid>1f723236-24f2-40d4-8dc0-617726004524</sourceid>
-          <guid>3e9af43f-73cc-4ba5-a157-44bd7f5f9d9d</guid>
-          <name>Assembly Time Improvement (Drone)</name>
-          <category>All</category>
-          <limit />
-          <slots>1</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>0</avail>
-          <cost>number(Body = 0) * 50 + Body * 100</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>125</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>1</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>354bd92f-dafc-42a4-979c-e3631be6cf45</sourceid>
-          <guid>049bcf81-17c5-4768-858c-7d3e4e45f37e</guid>
-          <name>Rigger Interface</name>
-          <category>Cosmetic</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>4</avail>
-          <cost>1000</cost>
-          <markup>0</markup>
-          <extra />
-          <source>SR5</source>
-          <page>461</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>Rigger interface: When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>2</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>df14f2ec-c85c-4b5f-9765-98bbc7c8b7d5</sourceid>
-          <guid>8611f44b-ff6d-409c-85f0-20d1ab3ddaec</guid>
-          <name>Sensor Downgrade (Drone)</name>
-          <category>Sensor</category>
-          <limit />
-          <slots>-1</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>0</avail>
-          <cost>0</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>123</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <bonus>
-            <sensor>-1</sensor>
-          </bonus>
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>3</sortorder>
-          <stolen>False</stolen>
-        </mod>
-      </mods>
-      <weaponmounts>
-        <weaponmount>
-          <sourceid>9ee5e112-8ced-4266-9141-02ef18e33f43</sourceid>
-          <guid>5fee97ed-0c08-41b1-94c7-fc86a54f54fd</guid>
-          <name>Small (Drone)</name>
-          <category>Size</category>
-          <limit />
-          <slots>2</slots>
-          <avail>8R</avail>
-          <cost>1600</cost>
-          <freecost>False</freecost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>124</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <weaponmountcategories>Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols</weaponmountcategories>
-          <weaponcapacity>1</weaponcapacity>
-          <weapons>
-            <weapon>
-              <sourceid>c8e3d921-45df-4850-8619-7fcca279d774</sourceid>
-              <guid>68b59b0c-6565-4599-b2bc-cb8a5c91e11a</guid>
-              <name>Steyr TMP</name>
-              <category>Machine Pistols</category>
-              <type>Ranged</type>
-              <spec>Semi-Automatics</spec>
-              <spec2 />
-              <reach>0</reach>
-              <damage>7P</damage>
-              <ap>-</ap>
-              <mode>SA/BF/FA</mode>
-              <rc>0</rc>
-              <ammo>30(c)</ammo>
-              <cyberware>False</cyberware>
-              <ammocategory />
-              <ammoslots>1</ammoslots>
-              <sizecategory />
-              <firingmode>DogBrain</firingmode>
-              <minrating />
-              <maxrating />
-              <rating>0</rating>
-              <accuracy>4</accuracy>
-              <activeammoslot>1</activeammoslot>
-              <conceal>0</conceal>
-              <avail>8R</avail>
-              <cost>350</cost>
-              <weight />
-              <useskill />
-              <useskillspec />
-              <range />
-              <alternaterange />
-              <rangemultiply>1</rangemultiply>
-              <singleshot>1</singleshot>
-              <shortburst>3</shortburst>
-              <longburst>6</longburst>
-              <fullburst>10</fullburst>
-              <suppressive>20</suppressive>
-              <allowsingleshot>True</allowsingleshot>
-              <allowshortburst>True</allowshortburst>
-              <allowlongburst>True</allowlongburst>
-              <allowfullburst>True</allowfullburst>
-              <allowsuppressive>True</allowsuppressive>
-              <source>SR5</source>
-              <page>427</page>
-              <parentid />
-              <allowaccessory>True</allowaccessory>
-              <weaponname />
-              <included>False</included>
-              <equipped>True</equipped>
-              <requireammo>True</requireammo>
-              <accuracy>4</accuracy>
-              <mount />
-              <stolen>False</stolen>
-              <extramount />
-              <accessories>
-                <accessory>
-                  <sourceid>521f9c2e-dfb2-42a6-b707-9808ae4885de</sourceid>
-                  <guid>c49f161b-f395-4daa-9f8e-f145d01cbc7f</guid>
-                  <name>Laser Sight</name>
-                  <mount>Internal</mount>
-                  <extramount>None</extramount>
-                  <rc />
-                  <maxrating>0</maxrating>
-                  <rating>0</rating>
-                  <ratinglabel>String_Rating</ratinglabel>
-                  <rcgroup>0</rcgroup>
-                  <rcdeployable>False</rcdeployable>
-                  <specialmodification>False</specialmodification>
-                  <conceal />
-                  <avail>2</avail>
-                  <cost>125</cost>
-                  <weight />
-                  <included>True</included>
-                  <equipped>True</equipped>
-                  <source>SR5</source>
-                  <page>432</page>
-                  <accuracy>1</accuracy>
-                  <ammoreplace />
-                  <ammoslots>0</ammoslots>
-                  <modifyammocapacity />
-                  <damagetype />
-                  <damage />
-                  <reach>0</reach>
-                  <damagereplace />
-                  <firemode />
-                  <firemodereplace />
-                  <ap />
-                  <apreplace />
-                  <notes>Laser sight: This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon’s Accuracy by 1, which is not cu- mulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Simple Action.</notes>
-                  <notesColor>#E3813C</notesColor>
-                  <discountedcost>False</discountedcost>
-                  <singleshot>0</singleshot>
-                  <shortburst>0</shortburst>
-                  <longburst>0</longburst>
-                  <fullburst>0</fullburst>
-                  <suppressive>0</suppressive>
-                  <rangebonus>0</rangebonus>
-                  <rangemodifier>0</rangemodifier>
-                  <extra />
-                  <ammobonus />
-                  <wirelesson>True</wirelesson>
-                  <wirelessbonus />
-                  <stolen>False</stolen>
-                  <sortorder>0</sortorder>
-                  <parentid />
-                </accessory>
-              </accessories>
-              <location />
-              <notes>Steyr TMP: This lightweight polymer-frame pistol is capable of full autofire, but its light weight makes it hard to control when firing on full auto. It comes equipped with a built-in top-mounted laser sight.</notes>
-              <notesColor>#E3813C</notesColor>
-              <discountedcost>False</discountedcost>
-              <weaponslots>Stock/Side/Barrel/Top</weaponslots>
-              <doubledcostweaponslots />
-              <active>False</active>
-              <homenode>False</homenode>
-              <devicerating />
-              <programlimit />
-              <overclocked>None</overclocked>
-              <attack />
-              <sleaze />
-              <dataprocessing />
-              <firewall />
-              <attributearray />
-              <modattack />
-              <modsleaze />
-              <moddataprocessing />
-              <modfirewall />
-              <modattributearray />
-              <canswapattributes>False</canswapattributes>
-              <matrixcmfilled>0</matrixcmfilled>
-              <wirelessbonus />
-              <wirelesson>True</wirelesson>
-              <sortorder>0</sortorder>
-              <weapontype>gun</weapontype>
-            </weapon>
-          </weapons>
-          <weaponmountoptions>
-            <weaponmountoption>
-              <sourceid>be56fb91-88d3-4bfb-8e42-d12929b44fe5</sourceid>
-              <guid>8e0445a9-cbb0-42ec-9f18-6de7228d081c</guid>
-              <name>None</name>
-              <category>Control</category>
-              <slots>0</slots>
-              <avail>0</avail>
-              <cost>0</cost>
-              <includedinparent>False</includedinparent>
-            </weaponmountoption>
-            <weaponmountoption>
-              <sourceid>c6939caa-e94d-4db3-94f6-a46fbcc4df07</sourceid>
-              <guid>98369174-6d06-4360-a4a5-55f2f9a55939</guid>
-              <name>None</name>
-              <category>Flexibility</category>
-              <slots>0</slots>
-              <avail>0</avail>
-              <cost>0</cost>
-              <includedinparent>False</includedinparent>
-            </weaponmountoption>
-            <weaponmountoption>
-              <sourceid>b7333366-24bf-4f47-bb68-b1cfe8f450fd</sourceid>
-              <guid>35049528-5b14-4ccc-9a52-7880fdc39471</guid>
-              <name>None</name>
-              <category>Visibility</category>
-              <slots>0</slots>
-              <avail>0</avail>
-              <cost>0</cost>
-              <includedinparent>False</includedinparent>
-            </weaponmountoption>
-          </weaponmountoptions>
-          <mods />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-          <stolen>False</stolen>
-        </weaponmount>
-      </weaponmounts>
-      <gears>
-        <gear>
-          <sourceid>2ca81a10-d0f7-4b39-ac93-a84f2f69f9d9</sourceid>
-          <guid>0b26736c-8728-438b-b512-55e15c9b328f</guid>
-          <name>Sensor Array</name>
-          <category>Sensors</category>
-          <capacity>8/[0]</capacity>
-          <armorcapacity>[0]</armorcapacity>
-          <minrating>2</minrating>
-          <maxrating>8</maxrating>
-          <rating>3</rating>
-          <qty>1.0</qty>
-          <avail>7</avail>
-          <cost>0</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>SR5</source>
-          <page>445</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype />
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid>2940a051-8c6d-4784-a978-aef53e8cfd28</parentid>
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>4</sortorder>
-        </gear>
-      </gears>
-      <weapons />
-      <location>d32093b6-dfd0-4424-8967-a670c79cbd8c</location>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>True</discountedcost>
-      <dealerconnection>False</dealerconnection>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>4</sortorder>
     </vehicle>
     <vehicle>
       <sourceid>1291ab59-2483-42ca-b7a9-503b2c354cee</sourceid>
@@ -9210,54 +8713,6 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <target />
       <improvedname>Colt M23</improvedname>
       <sourcename>13d13ff5-d0b7-4eff-8e51-bbd980e721a0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Steyr TMP</improvedname>
-      <sourcename>89dde361-32e8-418c-a6e3-084d35eab3f5</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Messerschmitt-Kawasaki Libelle</improvedname>
-      <sourcename>dc66b7d6-5304-43df-aa02-efadae9eb35e</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
