@@ -80,7 +80,7 @@
   <prioritytalent>Mundane</prioritytalent>
   <priorityskills />
   <essenceatspecialstart>-79228162514264337593543950335</essenceatspecialstart>
-  <name>Jane Levant</name>
+  <name>Jeanne (Jane) Levant</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
   <gender>Female</gender>
@@ -95,7 +95,11 @@
 {\*\generator Wine Riched20 2.0;}
 \pard\sl-240\slmult1 \lang4105\fs16\f0 Jack of all trades drone rigger, who is trying to keep her nose clean in a futile attempt to cling to her long-gone old life.\par
 }</description>
-  <background />
+  <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Jeanne was born and raised a blue-blooded \i\f1 Qu\'e9b\'e9coise\i0\f0 \par
+}</background>
   <concept />
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
@@ -1263,7 +1267,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>5</base>
+        <base>6</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Area Knowledge: Seattle</name>
@@ -1305,7 +1309,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>2</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>English</name>
@@ -1322,7 +1326,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>3</base>
+        <base>2</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Fashion</name>
@@ -1336,6 +1340,31 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
           </spec>
         </specs>
         <type>Interest</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>37468617-0973-48d4-b1c2-e3faf556b505</guid>
+        <suid>cee3de6f-4947-4947-b2e1-75fde02a5d78</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Professional</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>3</base>
+        <notes />
+        <notesColor>Chocolate</notesColor>
+        <name>Fashion Design</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>ff7dadfc-5619-4f16-a864-dbd0a7b3573d</guid>
+            <name>Paris Scene</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Professional</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
