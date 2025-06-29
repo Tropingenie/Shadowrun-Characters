@@ -200,7 +200,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <created>False</created>
   <nuyen>450000</nuyen>
   <startingnuyen>450000</startingnuyen>
-  <nuyenbp>10</nuyenbp>
+  <nuyenbp>0</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -255,10 +255,10 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>4</base>
+      <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -268,7 +268,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -286,9 +286,9 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <metatypemax>7</metatypemax>
       <metatypeaugmax>7</metatypeaugmax>
       <base>1</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -325,7 +325,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>0</base>
+      <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>2</totalvalue>
@@ -359,7 +359,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.69</totaless>
+  <totaless>3.94</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -2658,92 +2658,6 @@ The booster applies its Rating as a dice pool modifier to your Vehicle Tests whe
       <canswapattributes>False</canswapattributes>
       <sortorder>0</sortorder>
     </cyberware>
-    <cyberware>
-      <guid>5f7c881d-19f5-4207-aa61-8a9523e96f1e</guid>
-      <sourceid>46f80a44-80ae-41d7-a7c8-a119c4cff70f</sourceid>
-      <name>Muscle Replacement</name>
-      <category>Bodyware</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>Rating * 1</ess>
-      <capacity>0</capacity>
-      <avail>(Rating * 5)R</avail>
-      <cost>Rating * 25000</cost>
-      <weight />
-      <source>SR5</source>
-      <page>455</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>1</rating>
-      <minagility>3</minagility>
-      <minstrength>3</minstrength>
-      <minrating />
-      <maxrating>4</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Used</grade>
-      <location />
-      <extra />
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus unique="muscle">
-        <disablequality>Celerity</disablequality>
-        <specificattribute>
-          <name>AGI</name>
-          <val>Rating</val>
-        </specificattribute>
-        <specificattribute>
-          <name>STR</name>
-          <val>Rating</val>
-        </specificattribute>
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Cyberware</improvementsource>
-      <pairinclude>
-        <name>Muscle Replacement</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Muscle Replacement</name>
-      </wirelesspairinclude>
-      <notes>Muscle replacement: Why take the time to exercise when you can just install a physique? Vat-grown syn- thetic muscles replace or augment your own, and cal- cium treatments and skeletal reinforcement contribute to your overall strength. It increases both your Strength and Agility attributes by its rating. It cannot be combined with other augmentations to the muscles, including muscle augmentation or muscle toner bioware.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
   </cyberwares>
   <qualities>
     <quality>
@@ -2834,35 +2748,6 @@ The Illness Quality Table shows the build point/Karma bonus, dice pool modifier 
 At the gamemaster’s discretion, the Illness quality can be removed permanently through a combination of surgery and genetic therapy at a cost equal to 12 times the monthly treatment cost.
 
 Illness: Chronic Pain</notes>
-      <notesColor>Chocolate</notesColor>
-    </quality>
-    <quality>
-      <sourceid>eefe6c28-5d7b-403d-8c24-5bc26536b52b</sourceid>
-      <guid>ae9bfb2e-4c52-4eb4-babc-496ec6fe4008</guid>
-      <name>Silence is Golden</name>
-      <extra />
-      <bp>9</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>KC</source>
-      <page>76</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes>SILENCE IS GOLDEN
-COST: 9 KARMA
-It might be anemia from all that soykaf, or perhaps there’s something about the character—maybe the Matrix just likes them. Whatever the case, for some reason the ever-present noise of the Matrix is muted near this character.
-The noise penalty for the character and anyone within ten meters of them is reduced by 2. Anyone outside the radius who attempts to connect to the character does not benefit from the noise reduction.</notes>
       <notesColor>Chocolate</notesColor>
     </quality>
     <quality>
@@ -4422,7 +4307,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <weight />
       <extra />
       <bonded>False</bonded>
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <wirelesson>False</wirelesson>
       <stolen>False</stolen>
       <bonus />
@@ -5108,7 +4993,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <weight />
       <extra />
       <bonded>False</bonded>
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <wirelesson>False</wirelesson>
       <stolen>False</stolen>
       <bonus />
@@ -8858,81 +8743,6 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <exclude />
       <condition />
       <improvementttype>Skill</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>Celerity</improvedname>
-      <sourcename>5f7c881d-19f5-4207-aa61-8a9523e96f1e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename>5f7c881d-19f5-4207-aa61-8a9523e96f1e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <unique>muscle</unique>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>5f7c881d-19f5-4207-aa61-8a9523e96f1e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
       <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
