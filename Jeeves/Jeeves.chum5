@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>835551092</settingshashcode>
+  <settingshashcode>-621474718</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -180,7 +180,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <totalspecial>1</totalspecial>
   <totalattributes>20</totalattributes>
   <edgeused>0</edgeused>
-  <contactpoints>3</contactpoints>
+  <contactpoints>12</contactpoints>
   <spelllimit>0</spelllimit>
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
@@ -245,20 +245,20 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>0</base>
+      <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>1</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>3</base>
+      <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
