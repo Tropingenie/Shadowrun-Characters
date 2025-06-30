@@ -200,7 +200,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <created>False</created>
   <nuyen>450000</nuyen>
   <startingnuyen>450000</startingnuyen>
-  <nuyenbp>1</nuyenbp>
+  <nuyenbp>5</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -1580,7 +1580,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <martialarts />
   <limitmodifiers>
     <limitmodifier>
-      <guid>7c3ea90f-12d3-4bb1-8862-4db6d04898ca</guid>
+      <guid>05c4ba99-8b6e-46e3-a838-7272c7fb5845</guid>
       <name>Ballistic Mask</name>
       <limit>Social</limit>
       <bonus>1</bonus>
@@ -1643,7 +1643,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
     </armor>
     <armor>
       <sourceid>9f88a210-9ec6-4fc5-ad91-ffb7e7051447</sourceid>
-      <guid>d1f12fa6-1470-48b1-abec-11efbef321ad</guid>
+      <guid>905bc241-5a8c-4e1a-b057-590e6bbe0fe3</guid>
       <name>Ballistic Mask</name>
       <category>Specialty Armor</category>
       <armor>+2</armor>
@@ -1655,7 +1655,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <source>RG</source>
       <page>74</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -6204,297 +6204,6 @@ When the modification is made, the installer chooses a single living being that 
       <sortorder>1</sortorder>
     </vehicle>
     <vehicle>
-      <sourceid>69c76fc9-43e0-44b4-9ff9-4ea9f700ee81</sourceid>
-      <guid>7f452a59-fde7-4906-8424-2e6ea6b9f285</guid>
-      <name>Renault-Fiat Funone</name>
-      <category>Cars</category>
-      <handling>3</handling>
-      <offroadhandling>1</offroadhandling>
-      <accel>1</accel>
-      <offroadaccel>1</offroadaccel>
-      <speed>3</speed>
-      <offroadspeed>3</offroadspeed>
-      <pilot>2</pilot>
-      <body>6</body>
-      <seats>2</seats>
-      <armor>4</armor>
-      <sensor>1</sensor>
-      <avail>0</avail>
-      <cost>8500</cost>
-      <addslots>0</addslots>
-      <modslots>6</modslots>
-      <powertrainmodslots>0</powertrainmodslots>
-      <protectionmodslots>0</protectionmodslots>
-      <weaponmodslots>0</weaponmodslots>
-      <bodymodslots>0</bodymodslots>
-      <electromagneticmodslots>0</electromagneticmodslots>
-      <cosmeticmodslots>0</cosmeticmodslots>
-      <source>R5</source>
-      <page>47</page>
-      <parentid />
-      <sortorder>1</sortorder>
-      <stolen>False</stolen>
-      <physicalcmfilled>0</physicalcmfilled>
-      <matrixcmfilled>0</matrixcmfilled>
-      <vehiclename />
-      <mods>
-        <mod>
-          <sourceid>a586e8b6-2737-4baa-a343-f366d33fe57a</sourceid>
-          <guid>7702b3af-3430-4b0c-9a0d-93850804253a</guid>
-          <name>Metahuman Adjustment</name>
-          <category>Cosmetic</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>2</rating>
-          <maxrating>Seats</maxrating>
-          <ratinglabel>Label_Seats</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>4</avail>
-          <cost>Rating * 500</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>170</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>METAHUMAN ADJUSTMENT
-As time marches on in the Sixth World, death, greed, and racism seem to be constant. Despite the best efforts of many metahuman activist groups over the last few decades, most vehicles are still designed and built with human (or human-equivalent) size in mind. As a result, any metahuman who wants to comfortably use a vehicle must have it adjusted to their body. For trolls and dwarfs, this means adjusting the position of vehicle controls to fit their size. For orks and elves, this means more minor adjustments that take advantage of their distinct physiology. Orks and elves attempting to pilot a vehicle that has not been adjusted suffer a –1 penalty to any Pilot Tests, and dwarfs and trolls suffer a –2 penalty. Pixies and centaurs shouldn’t even try.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>2e9575fb-d141-4f1d-a1a0-63aadc261c97</sourceid>
-          <guid>d9189550-395e-4115-b8b2-8d5bc600872c</guid>
-          <name>GridLink Override</name>
-          <category>Electromagnetic</category>
-          <limit />
-          <slots>1</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>8F</avail>
-          <cost>1000</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>167</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>GRIDLINK OVERRIDE
-Using a combination of hardware and software modifications, a vehicle can be equipped to override its gridlink system, and retain independent control. When activated, the vehicle appears to be a interacting with the system normally but cannot be shut down, can exceed the posted speed limit, and randomly rotates its identifier so it cannot be tracked for an extended period. Since even runners are pragmatic, the vehicle still draws its operational power from the gridlink system, as long as it is available, because who doesn’t love stealing from the corps?</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>1</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>354bd92f-dafc-42a4-979c-e3631be6cf45</sourceid>
-          <guid>24116e14-a0ef-456e-b507-ad150c5b867d</guid>
-          <name>Rigger Interface</name>
-          <category>Cosmetic</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>4</avail>
-          <cost>1000</cost>
-          <markup>0</markup>
-          <extra />
-          <source>SR5</source>
-          <page>461</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>Rigger interface: When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>2</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>99f438a6-7543-4bb0-a1dc-4cef3112f003</sourceid>
-          <guid>fb9b44ae-ed7c-4b47-8b67-ff43628ee97d</guid>
-          <name>Spoof Chips</name>
-          <category>All</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>8F</avail>
-          <cost>500</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>152</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>3</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>b02bf28a-1012-452c-ac88-cb98181eded4</sourceid>
-          <guid>0a9f280a-10ec-4811-ad04-21e726abe8c0</guid>
-          <name>Morphing License Plate</name>
-          <category>All</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>8F</avail>
-          <cost>1000</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>152</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>MORPHING LICENSE PLATE
-While most modern governments primarily use electronic identification for vehicles, they still require some sort of physical identification plate to uniquely identify a vehicle. Since being positively identified is something that an average shadowrunner wants to avoid, most install a special morphing license plate. Made from smart materials, a morphing license plate can reshape itself with a Complex Action and mimic any of the forms used in governments around the world today. Runners will typically also purchase a spoof chip (see below) to keep their vehicle from being identified.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>4</sortorder>
-          <stolen>False</stolen>
-        </mod>
-      </mods>
-      <weaponmounts />
-      <gears>
-        <gear>
-          <sourceid>2ca81a10-d0f7-4b39-ac93-a84f2f69f9d9</sourceid>
-          <guid>33e3c502-fd5e-42a8-bc3a-36966c5f3909</guid>
-          <name>Sensor Array</name>
-          <category>Sensors</category>
-          <capacity>8/[0]</capacity>
-          <armorcapacity>[0]</armorcapacity>
-          <minrating>2</minrating>
-          <maxrating>8</maxrating>
-          <rating>2</rating>
-          <qty>1.0</qty>
-          <avail>7</avail>
-          <cost>0</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>SR5</source>
-          <page>445</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype />
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid>7f452a59-fde7-4906-8424-2e6ea6b9f285</parentid>
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>5</sortorder>
-        </gear>
-      </gears>
-      <weapons />
-      <location>5b6e24b7-2b43-494e-b54f-f120a9b156f7</location>
-      <notes>RENAULT-FIAT FUNONE
-This tiny two-seater is like a little box on wheels. What makes it so special is the easily adjusted interior. The FunOne has three steering wheel inputs—left, right, and center—for differing countries and differing sizes of drivers. The seats slide forward and back on a rail system and are designed to be completely removable so the cabin can accommodate whatever is necessary. Trolls require a specially designed center seat, but the massive scissor doors open up with plenty of space to climb in and out.
-Even the rear door opens wide. All this versatility makes this car a dream for the rigger in need of a subcompact.
-&gt; Even orks will find a center-set regular seat more comfortable. This setup also allows you to keep your rifle handy.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>True</discountedcost>
-      <dealerconnection>False</dealerconnection>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>1</sortorder>
-    </vehicle>
-    <vehicle>
       <sourceid>c659ace5-1dfb-4eeb-b49d-5867b3153649</sourceid>
       <guid>fe3646ee-2e51-4cb4-9a1d-05fe85649202</guid>
       <name>Avibras-Nissan AN 822</name>
@@ -6763,45 +6472,6 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>5</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>ecc73836-9110-4f5f-9464-cb6ae6e954d2</sourceid>
-          <guid>2d707d62-2ebe-4c4c-b38c-9e0cd2ecc5d7</guid>
-          <name>Speed Enhancement</name>
-          <category>Powertrain</category>
-          <limit />
-          <slots>FixedValues(5,14,20)</slots>
-          <capacity />
-          <rating>1</rating>
-          <maxrating>3</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>FixedValues(6,8,12)</avail>
-          <cost>FixedValues(number(Speed = 0) * 1000 + Speed * 2000,number(Speed = 0) * 2500 + Speed * 5000,number(Speed = 0) * 6000 + Speed * 12000)</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>157</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <bonus>
-            <offroadspeed>+Rating</offroadspeed>
-            <speed>+Rating</speed>
-          </bonus>
-          <notes>SPEED ENHANCEMENT
-Using a variety of techniques and equipment (depending on the vehicle), including things such as superchargers, fuel distribution optimization, and parts replacement, the top speed of the vehicle is increased.
-More dramatic increases in top end speed require more extensive modifications to the vehicle as it is pushed far beyond its original design and limitations. Some designs can only be pushed so far. In the end, though, having that raw top-end speed can save your hoop. Speed Enhancement modification can be taken with a Rating of 1 to 3, with the Rating adding to the Speed attribute of the vehicle.</notes>
-          <notesColor>Chocolate</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
           <stolen>False</stolen>
         </mod>
       </mods>
@@ -8678,6 +8348,293 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <canswapattributes>False</canswapattributes>
       <sortorder>0</sortorder>
     </vehicle>
+    <vehicle>
+      <sourceid>41ae9ef0-11b5-443b-a9fa-2617fafa2589</sourceid>
+      <guid>49ba780e-4abb-40f7-a22a-677349acf705</guid>
+      <name>Mercedes Click</name>
+      <category>Cars</category>
+      <handling>4</handling>
+      <offroadhandling>3</offroadhandling>
+      <accel>3</accel>
+      <offroadaccel>3</offroadaccel>
+      <speed>5</speed>
+      <offroadspeed>5</offroadspeed>
+      <pilot>1</pilot>
+      <body>10</body>
+      <seats>4</seats>
+      <armor>5</armor>
+      <sensor>2</sensor>
+      <avail>0</avail>
+      <cost>24000</cost>
+      <addslots>0</addslots>
+      <modslots>10</modslots>
+      <powertrainmodslots>0</powertrainmodslots>
+      <protectionmodslots>0</protectionmodslots>
+      <weaponmodslots>0</weaponmodslots>
+      <bodymodslots>0</bodymodslots>
+      <electromagneticmodslots>0</electromagneticmodslots>
+      <cosmeticmodslots>0</cosmeticmodslots>
+      <source>SAG</source>
+      <page>49</page>
+      <parentid />
+      <sortorder>0</sortorder>
+      <stolen>False</stolen>
+      <physicalcmfilled>0</physicalcmfilled>
+      <matrixcmfilled>0</matrixcmfilled>
+      <vehiclename />
+      <mods>
+        <mod>
+          <sourceid>a586e8b6-2737-4baa-a343-f366d33fe57a</sourceid>
+          <guid>4494ec2b-2deb-4715-a0da-82587cd46ea3</guid>
+          <name>Metahuman Adjustment</name>
+          <category>Cosmetic</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>4</rating>
+          <maxrating>Seats</maxrating>
+          <ratinglabel>Label_Seats</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>4</avail>
+          <cost>Rating * 500</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>170</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes>METAHUMAN ADJUSTMENT
+As time marches on in the Sixth World, death, greed, and racism seem to be constant. Despite the best efforts of many metahuman activist groups over the last few decades, most vehicles are still designed and built with human (or human-equivalent) size in mind. As a result, any metahuman who wants to comfortably use a vehicle must have it adjusted to their body. For trolls and dwarfs, this means adjusting the position of vehicle controls to fit their size. For orks and elves, this means more minor adjustments that take advantage of their distinct physiology. Orks and elves attempting to pilot a vehicle that has not been adjusted suffer a –1 penalty to any Pilot Tests, and dwarfs and trolls suffer a –2 penalty. Pixies and centaurs shouldn’t even try.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+        <mod>
+          <sourceid>354bd92f-dafc-42a4-979c-e3631be6cf45</sourceid>
+          <guid>e6e4f11e-264e-45cd-a5b3-d26c258e6f24</guid>
+          <name>Rigger Interface</name>
+          <category>Cosmetic</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>0</rating>
+          <maxrating>0</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>4</avail>
+          <cost>1000</cost>
+          <markup>0</markup>
+          <extra />
+          <source>SR5</source>
+          <page>461</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes>Rigger interface: When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+        <mod>
+          <sourceid>99f438a6-7543-4bb0-a1dc-4cef3112f003</sourceid>
+          <guid>1b1cf8fa-babe-44c8-a9eb-655640c359a5</guid>
+          <name>Spoof Chips</name>
+          <category>All</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>0</rating>
+          <maxrating>0</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>8F</avail>
+          <cost>500</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>152</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+        <mod>
+          <sourceid>b02bf28a-1012-452c-ac88-cb98181eded4</sourceid>
+          <guid>33878c8e-c8fe-4df4-b549-6c692448035c</guid>
+          <name>Morphing License Plate</name>
+          <category>All</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>0</rating>
+          <maxrating>0</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>8F</avail>
+          <cost>1000</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>152</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes>MORPHING LICENSE PLATE
+While most modern governments primarily use electronic identification for vehicles, they still require some sort of physical identification plate to uniquely identify a vehicle. Since being positively identified is something that an average shadowrunner wants to avoid, most install a special morphing license plate. Made from smart materials, a morphing license plate can reshape itself with a Complex Action and mimic any of the forms used in governments around the world today. Runners will typically also purchase a spoof chip (see below) to keep their vehicle from being identified.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+        <mod>
+          <sourceid>aba3338c-0a54-4486-84a4-2e74524b63de</sourceid>
+          <guid>746e3074-e72b-40c5-88b6-2dc1c28ee520</guid>
+          <name>Run-Flat Tires</name>
+          <category>All</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>4</rating>
+          <maxrating>qty</maxrating>
+          <ratinglabel>Label_Qty</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>4</avail>
+          <cost>Rating * 250</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>152</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+      </mods>
+      <weaponmounts />
+      <gears>
+        <gear>
+          <sourceid>2ca81a10-d0f7-4b39-ac93-a84f2f69f9d9</sourceid>
+          <guid>d168422b-4ee2-447e-8edb-370e2d4a6e95</guid>
+          <name>Sensor Array</name>
+          <category>Sensors</category>
+          <capacity>8/[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating>2</minrating>
+          <maxrating>8</maxrating>
+          <rating>2</rating>
+          <qty>1.0</qty>
+          <avail>7</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>445</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>49ba780e-4abb-40f7-a22a-677349acf705</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <weapons />
+      <location />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <dealerconnection>False</dealerconnection>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </vehicle>
   </vehicles>
   <metamagics />
   <arts />
@@ -8753,30 +8710,6 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <customgroup />
       <addtorating>0</addtorating>
       <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>7c3ea90f-12d3-4bb1-8862-4db6d04898ca</improvedname>
-      <sourcename>d1f12fa6-1470-48b1-abec-11efbef321ad</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_IntimidationVisible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>Chocolate</notesColor>
@@ -9276,6 +9209,30 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <condition />
       <improvementttype>PsychologicalAddictionAlreadyAddicted</improvementttype>
       <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>05c4ba99-8b6e-46e3-a838-7272c7fb5845</improvedname>
+      <sourcename>905bc241-5a8c-4e1a-b057-590e6bbe0fe3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_IntimidationVisible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
