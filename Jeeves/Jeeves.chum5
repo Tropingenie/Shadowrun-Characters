@@ -6842,7 +6842,408 @@ More dramatic increases in top end speed require more extensive modifications to
           <matrixcmbonus>0</matrixcmbonus>
           <parentid>fe3646ee-2e51-4cb4-9a1d-05fe85649202</parentid>
           <allowrename>False</allowrename>
-          <children />
+          <children>
+            <gear>
+              <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
+              <guid>0cc3fa6c-5fac-4e5c-8c1e-2b4948e50261</guid>
+              <name>Radar</name>
+              <category>Custom</category>
+              <capacity />
+              <armorcapacity />
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>1</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>ffc069af-d3ec-4201-887c-0178dcdfeef9</sourceid>
+              <guid>3dc45ed2-db55-47d9-82be-26111716c933</guid>
+              <name>Camera</name>
+              <category>Sensor Functions</category>
+              <capacity>Rating/[1]</capacity>
+              <armorcapacity>Rating/[1]</armorcapacity>
+              <minrating />
+              <maxrating>{Parent Rating}</maxrating>
+              <rating>3</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children>
+                <gear>
+                  <sourceid>7fc23c2f-b41a-46b0-9ed7-9dc93986fab3</sourceid>
+                  <guid>d37d3d7b-a512-4868-ade5-abeca6e2ad60</guid>
+                  <name>Flare Compensation</name>
+                  <category>Vision Enhancements</category>
+                  <capacity>[1]</capacity>
+                  <armorcapacity>[1]</armorcapacity>
+                  <minrating />
+                  <maxrating />
+                  <rating>0</rating>
+                  <qty>1.0</qty>
+                  <avail>+1</avail>
+                  <cost>250</cost>
+                  <weight />
+                  <extra />
+                  <bonded>False</bonded>
+                  <equipped>True</equipped>
+                  <wirelesson>False</wirelesson>
+                  <stolen>False</stolen>
+                  <bonus />
+                  <wirelessbonus />
+                  <weaponbonus />
+                  <flechetteweaponbonus />
+                  <source>SR5</source>
+                  <page>444</page>
+                  <isflechetteammo>False</isflechetteammo>
+                  <ammoforweapontype />
+                  <canformpersona />
+                  <devicerating />
+                  <gearname />
+                  <forcedvalue />
+                  <matrixcmfilled>0</matrixcmfilled>
+                  <matrixcmbonus>0</matrixcmbonus>
+                  <parentid />
+                  <allowrename>False</allowrename>
+                  <children />
+                  <location />
+                  <notes>Flare compensation: This protects you from blinding flashes of light as well as simple glare. It mitigates the vision modifiers for glare and reduces the penalty from flashing lights, like from a flash-pak.</notes>
+                  <notesColor>Chocolate</notesColor>
+                  <discountedcost>False</discountedcost>
+                  <programlimit />
+                  <overclocked>None</overclocked>
+                  <attack />
+                  <sleaze />
+                  <dataprocessing />
+                  <firewall />
+                  <attributearray />
+                  <modattack />
+                  <modsleaze />
+                  <moddataprocessing />
+                  <modfirewall />
+                  <modattributearray />
+                  <canswapattributes>False</canswapattributes>
+                  <active>False</active>
+                  <homenode>False</homenode>
+                  <sortorder>0</sortorder>
+                </gear>
+                <gear>
+                  <sourceid>287c6d58-2217-48b2-9e14-6ba23584939a</sourceid>
+                  <guid>0a59dbb0-5ac4-42f0-9651-595cb8caed59</guid>
+                  <name>Low Light</name>
+                  <category>Vision Enhancements</category>
+                  <capacity>[1]</capacity>
+                  <armorcapacity>[1]</armorcapacity>
+                  <minrating />
+                  <maxrating />
+                  <rating>0</rating>
+                  <qty>1.0</qty>
+                  <avail>+4</avail>
+                  <cost>500</cost>
+                  <weight />
+                  <extra />
+                  <bonded>False</bonded>
+                  <equipped>True</equipped>
+                  <wirelesson>False</wirelesson>
+                  <stolen>False</stolen>
+                  <bonus />
+                  <wirelessbonus />
+                  <weaponbonus />
+                  <flechetteweaponbonus />
+                  <source>SR5</source>
+                  <page>444</page>
+                  <isflechetteammo>False</isflechetteammo>
+                  <ammoforweapontype />
+                  <canformpersona />
+                  <devicerating />
+                  <gearname />
+                  <forcedvalue />
+                  <matrixcmfilled>0</matrixcmfilled>
+                  <matrixcmbonus>0</matrixcmbonus>
+                  <parentid />
+                  <allowrename>False</allowrename>
+                  <children />
+                  <location />
+                  <notes />
+                  <notesColor>Chocolate</notesColor>
+                  <discountedcost>False</discountedcost>
+                  <programlimit />
+                  <overclocked>None</overclocked>
+                  <attack />
+                  <sleaze />
+                  <dataprocessing />
+                  <firewall />
+                  <attributearray />
+                  <modattack />
+                  <modsleaze />
+                  <moddataprocessing />
+                  <modfirewall />
+                  <modattributearray />
+                  <canswapattributes>False</canswapattributes>
+                  <active>False</active>
+                  <homenode>False</homenode>
+                  <sortorder>0</sortorder>
+                </gear>
+              </children>
+              <location />
+              <notes />
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>5c3b9966-ad7e-42e3-b0e0-f656021784cf</sourceid>
+              <guid>857b02ea-a3c8-42ef-9139-d0bf5b3ab208</guid>
+              <name>Atmosphere Sensor</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Atmosphere sensor: Weather forecasts are notori- ously untrustworthy (thanks to pollution, the Awakening, and other factors), but atmospheric sensors can keep you from getting caught in the rain with up-to-the second analysis of what’s happening in the air around you.</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>4d12e4a1-edd3-4abf-830f-aa95874b7531</sourceid>
+              <guid>d0543dfc-1fed-41a6-8530-098c521f4b95</guid>
+              <name>Radio Signal Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Radio signal scanner: This can be used as a bug scanner (p. 440).</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>e140b671-dc22-429d-b12a-dfbf46951049</sourceid>
+              <guid>f74e1bf0-f08d-488c-a0dc-63a93c1e0c4c</guid>
+              <name>Ultrasound</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Ultrasound: The ultrasound accessory consists of an emitter that sends out continuous ultrasonic pulses and a receiver that picks up the echoes of these pulses to create a topographic ultrasound map. Ultrasound is per- fect to “see” textures, calculate distances between ob- jects, and pick up things otherwise invisible to the naked eye (like people cloaked by an Invisibility spell), it can’t handle colors or brightness. It also can’t penetrate mate- rials like glass that would be transparent to optical sen- sors. You can set it to a passive mode, where it doesn’t emit ultrasonic pulses but still picks up ultrasound from outside sources, such as motion sensors or someone else’s ultrasound sensors on active mode (or bats).</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+          </children>
           <location />
           <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
           <notesColor>#E3813C</notesColor>
