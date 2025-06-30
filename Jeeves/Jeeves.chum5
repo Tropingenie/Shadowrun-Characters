@@ -6304,7 +6304,7 @@ When the modification is made, the installer chooses a single living being that 
           <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>7</sortorder>
+          <sortorder>6</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -6337,7 +6337,7 @@ When the modification is made, the installer chooses a single living being that 
           <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>6</sortorder>
+          <sortorder>5</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -6371,7 +6371,7 @@ When the modification is made, the installer chooses a single living being that 
 For runners that are economically or environmentally minded, the SunCell modification provides a great option. Using powerful solar-energy collectors and a battery system, a vehicle can be powered by collecting solar energy. If operating exclusively during sunny daylight hours, a vehicle has unlimited operational time and needs no other fuel source. In any other conditions (where sunlight isn’t readily available), the vehicle will use up all power stored in the battery and then switch to its standard means of power production (likely a fossil-fuel engine). If operating in a mix of conditions, the SunCell system roughly doubles the operational time of the vehicle between refueling stops.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>2</sortorder>
+          <sortorder>1</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -6404,7 +6404,7 @@ For runners that are economically or environmentally minded, the SunCell modific
           <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>3</sortorder>
+          <sortorder>2</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -6438,7 +6438,7 @@ For runners that are economically or environmentally minded, the SunCell modific
 In the course of jumping through multiple vehicles and taking in multiple streams of information from different sources, a rigger can easily lose contact with their immediate surroundings—namely, the interior of their own vehicle. As a result, many riggers install interior cameras into their vehicle so they can easily keep track of their own meat body and any passengers in the vehicle by routing the feed from the interior cameras into their PAN. Interior cameras allow a rigger to make a standard Perception Test to notice anyone or anything inside of their vehicle, even while they are in full VR mode.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>4</sortorder>
+          <sortorder>3</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -6471,7 +6471,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>5</sortorder>
+          <sortorder>4</sortorder>
           <stolen>False</stolen>
         </mod>
       </mods>
@@ -6718,7 +6718,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
                   <canswapattributes>False</canswapattributes>
                   <active>False</active>
                   <homenode>False</homenode>
-                  <sortorder>0</sortorder>
+                  <sortorder>1</sortorder>
                 </gear>
               </children>
               <location />
@@ -6740,7 +6740,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>1</sortorder>
             </gear>
             <gear>
               <sourceid>5c3b9966-ad7e-42e3-b0e0-f656021784cf</sourceid>
@@ -6797,7 +6797,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>2</sortorder>
             </gear>
             <gear>
               <sourceid>4d12e4a1-edd3-4abf-830f-aa95874b7531</sourceid>
@@ -6854,7 +6854,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>3</sortorder>
             </gear>
             <gear>
               <sourceid>e140b671-dc22-429d-b12a-dfbf46951049</sourceid>
@@ -6911,7 +6911,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>4</sortorder>
             </gear>
           </children>
           <location />
@@ -6933,7 +6933,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>8</sortorder>
+          <sortorder>7</sortorder>
         </gear>
         <gear>
           <sourceid>80137629-41f0-41da-bfed-c8a1388b759e</sourceid>
@@ -6992,7 +6992,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>9</sortorder>
+          <sortorder>8</sortorder>
         </gear>
         <gear>
           <sourceid>87d24cff-e63b-4f73-a115-7aa5e29ea467</sourceid>
@@ -7051,7 +7051,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>10</sortorder>
+          <sortorder>9</sortorder>
         </gear>
         <gear>
           <sourceid>9d81218f-ee70-4304-9a09-ac865d84b8e0</sourceid>
@@ -7110,7 +7110,7 @@ In the course of jumping through multiple vehicles and taking in multiple stream
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>11</sortorder>
+          <sortorder>10</sortorder>
         </gear>
       </gears>
       <weapons />
@@ -8447,7 +8447,7 @@ As time marches on in the Sixth World, death, greed, and racism seem to be const
           <notes>Rigger interface: When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265.</notes>
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -8480,7 +8480,7 @@ As time marches on in the Sixth World, death, greed, and racism seem to be const
           <notes />
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -8514,7 +8514,7 @@ As time marches on in the Sixth World, death, greed, and racism seem to be const
 While most modern governments primarily use electronic identification for vehicles, they still require some sort of physical identification plate to uniquely identify a vehicle. Since being positively identified is something that an average shadowrunner wants to avoid, most install a special morphing license plate. Made from smart materials, a morphing license plate can reshape itself with a Complex Action and mimic any of the forms used in governments around the world today. Runners will typically also purchase a spoof chip (see below) to keep their vehicle from being identified.</notes>
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -8547,7 +8547,7 @@ While most modern governments primarily use electronic identification for vehicl
           <notes />
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
           <stolen>False</stolen>
         </mod>
       </mods>
@@ -8588,7 +8588,350 @@ While most modern governments primarily use electronic identification for vehicl
           <matrixcmbonus>0</matrixcmbonus>
           <parentid>49ba780e-4abb-40f7-a22a-677349acf705</parentid>
           <allowrename>False</allowrename>
-          <children />
+          <children>
+            <gear>
+              <sourceid>5c3b9966-ad7e-42e3-b0e0-f656021784cf</sourceid>
+              <guid>d7adbccb-8cfe-42ae-aa7f-c11b6bfa8fa0</guid>
+              <name>Atmosphere Sensor</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Atmosphere sensor: Weather forecasts are notori- ously untrustworthy (thanks to pollution, the Awakening, and other factors), but atmospheric sensors can keep you from getting caught in the rain with up-to-the second analysis of what’s happening in the air around you.</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>ffc069af-d3ec-4201-887c-0178dcdfeef9</sourceid>
+              <guid>9e5f0a43-9eea-464f-85fa-61edaee2ab58</guid>
+              <name>Camera</name>
+              <category>Sensor Functions</category>
+              <capacity>Rating/[1]</capacity>
+              <armorcapacity>Rating/[1]</armorcapacity>
+              <minrating />
+              <maxrating>{Parent Rating}</maxrating>
+              <rating>2</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>1</sortorder>
+            </gear>
+            <gear>
+              <sourceid>d98f419f-7625-4228-9723-0217950d8155</sourceid>
+              <guid>f2f1c25f-2a09-46aa-9974-3e69722def01</guid>
+              <name>Geiger Counter</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Geiger counter: This sensor picks up the amount of radioactivity surrounding it.</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>2</sortorder>
+            </gear>
+            <gear>
+              <sourceid>e140b671-dc22-429d-b12a-dfbf46951049</sourceid>
+              <guid>3d9f582a-333b-4aed-8d11-34990a25b11c</guid>
+              <name>Ultrasound</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Ultrasound: The ultrasound accessory consists of an emitter that sends out continuous ultrasonic pulses and a receiver that picks up the echoes of these pulses to create a topographic ultrasound map. Ultrasound is per- fect to “see” textures, calculate distances between ob- jects, and pick up things otherwise invisible to the naked eye (like people cloaked by an Invisibility spell), it can’t handle colors or brightness. It also can’t penetrate mate- rials like glass that would be transparent to optical sen- sors. You can set it to a passive mode, where it doesn’t emit ultrasonic pulses but still picks up ultrasound from outside sources, such as motion sensors or someone else’s ultrasound sensors on active mode (or bats).</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>3</sortorder>
+            </gear>
+            <gear>
+              <sourceid>4d12e4a1-edd3-4abf-830f-aa95874b7531</sourceid>
+              <guid>04587274-8244-411e-8184-a62c076f7979</guid>
+              <name>Radio Signal Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Radio signal scanner: This can be used as a bug scanner (p. 440).</notes>
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>4</sortorder>
+            </gear>
+            <gear>
+              <sourceid>1345a189-50d2-44e0-aeea-73ce0f28390b</sourceid>
+              <guid>7d25f048-a6f5-4531-884a-7d2b74386353</guid>
+              <name>Directional Microphone</name>
+              <category>Sensor Functions</category>
+              <capacity>Rating/[1]</capacity>
+              <armorcapacity>Rating/[1]</armorcapacity>
+              <minrating />
+              <maxrating>{Parent Rating}</maxrating>
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <notesColor>Chocolate</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>5</sortorder>
+            </gear>
+          </children>
           <location />
           <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
           <notesColor>Chocolate</notesColor>
@@ -8608,7 +8951,7 @@ While most modern governments primarily use electronic identification for vehicl
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>5</sortorder>
         </gear>
       </gears>
       <weapons />
