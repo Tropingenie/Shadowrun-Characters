@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-621474718</settingshashcode>
+  <settingshashcode>835551092</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -818,12 +818,20 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>Hardware</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>a3c60175-c2ae-4406-939c-6eefd0f63b9b</guid>
+            <name>Jack Out</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>08097fde-849a-43b4-b576-f020d2e8bdf5</guid>
@@ -984,11 +992,19 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>2</base>
         <notes />
         <notesColor>Chocolate</notesColor>
         <name>Navigation</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>c5635978-d9fa-43e2-9525-5dd10a680da8</guid>
+            <name>GPS</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>bd5976e7-8cc5-481b-9dd3-b16890c47546</guid>
@@ -1079,6 +1095,14 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <notesColor>Chocolate</notesColor>
         <name>Pilot Aircraft</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>f58e6680-439e-4a04-90f2-629931bf6dda</guid>
+            <name>Rotary Wing</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>750ed97e-7a3e-4056-8d98-42d1d91e2c22</guid>
@@ -1094,6 +1118,14 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <notesColor>Chocolate</notesColor>
         <name>Pilot Ground Craft</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>5973efaf-1f59-4124-b155-490b9811a27f</guid>
+            <name>Wheeled</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>0cace12c-483a-48c5-8b8a-01cc0ffcf245</guid>
@@ -2720,7 +2752,7 @@ This is a set of several minor genetic modifications that have the collective ef
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
       <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>True</isgeneware>
+      <isgeneware>False</isgeneware>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
