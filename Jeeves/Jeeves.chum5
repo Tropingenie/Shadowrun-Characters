@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>835551092</settingshashcode>
+  <settingshashcode>1434149838</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -112,7 +112,11 @@ Her first job went well, not a single shot fired, and frankly she wasn't worth k
 \par
 She did a bit more work, but never beyond the point of minor gang crime. Still, she heard tales from the shadows of a far more lucrative business. Lured by these thrills, and under the false impression she could quit at any time, she decided to travel far away from her home country. The Tir, Azltan, and NAN didn't particularly appeal for various reasons, and the CAS and UCAS were too close to home. Eventually, she settled on the Free City of Seattle, and, though worried her limited English skill could cause problems, packed her bags.\f0 \par
 }</background>
-  <concept />
+  <concept>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Utility rigger who always has the right tool for the situation. Dabbles in decking in order to cover their Matrix ass.\par
+}</concept>
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
@@ -200,7 +204,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   <created>False</created>
   <nuyen>450000</nuyen>
   <startingnuyen>450000</startingnuyen>
-  <nuyenbp>5</nuyenbp>
+  <nuyenbp>10</nuyenbp>
   <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -1785,6 +1789,89 @@ Custom jobs are, naturally, more expensive.</notes>
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>a12169ea-a345-407f-96a3-32bf32449bf3</sourceid>
+      <guid>f3f6f588-792c-45e9-9915-b753e6347e0a</guid>
+      <name>Minigrenade: Flash-Bang</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Grenade Launcher</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>10S (10m Radius)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>0</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>6R</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Heavy Weapons</useskill>
+      <useskillspec />
+      <range>Grenade Launchers</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>435</page>
+      <parentid>28f79801-8b5a-404b-a7f1-321b9fd66292</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>0</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -3911,7 +3998,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -3946,7 +4033,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <avail>(Rating * 3)F</avail>
       <cost>Rating * 2500</cost>
       <weight />
-      <extra>Jeeves Levant (UCAS)</extra>
+      <extra>Jeeves Levant (FCoS)</extra>
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
@@ -4384,7 +4471,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <sortorder>6</sortorder>
         </gear>
       </children>
-      <location />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -4403,7 +4490,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>89a0f3c9-5ef6-41cd-981f-4ac690ee2ab3</sourceid>
@@ -4415,7 +4502,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>3</qty>
+      <qty>1.0</qty>
       <avail>2</avail>
       <cost>100</cost>
       <weight />
@@ -5070,7 +5157,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -5089,7 +5176,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>6de5a1b0-30e2-4c74-8646-971f698cb231</sourceid>
@@ -5756,7 +5843,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -5775,7 +5862,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>2eed08e8-1bda-4f4a-86a5-d9564c1c55a7</sourceid>
@@ -5834,7 +5921,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <sourceid>0949997a-acb7-49d9-9905-5ae2cd35626f</sourceid>
@@ -5964,7 +6051,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>5</qty>
+      <qty>2.0</qty>
       <avail>0</avail>
       <cost>200</cost>
       <weight />
@@ -5990,7 +6077,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
       <notes>PSYCHE
 Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 hour Addiction Type: Psychological Effect: +1 Intuition, +1 Logic, +1 Mental limit This designer stimulant is especially prized by magicians and technomancers alike. In addition to the effects noted above, Awakened users also only suffer a –1 dice pool modifier for each sustained spell (rather than the standard –2). Psyche users are simultaneously hyper-aware and detached, easily absorbed by detail and obsessive about certain facts or problems.</notes>
       <notesColor>Chocolate</notesColor>
@@ -6010,7 +6097,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
@@ -6048,8 +6135,761 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>d882ce4b-8e7e-4073-a27f-a3f15567fbdb</location>
       <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
+      <guid>3a096d3f-c077-44df-a2c2-946e11774e8f</guid>
+      <name>Ammo: APDS</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>40</qty>
+      <avail>12F</avail>
+      <costfor>10</costfor>
+      <cost>120</cost>
+      <weight />
+      <extra>Assault Rifles</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-4</ap>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d9f69780-93eb-41ff-9a9c-893f8c52794e</sourceid>
+      <guid>f9f41341-b1b3-4b13-a3c2-4a9f6048f450</guid>
+      <name>Ammo: Stick-n-Shock</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>40</qty>
+      <avail>6R</avail>
+      <costfor>10</costfor>
+      <cost>80</cost>
+      <weight />
+      <extra>Assault Rifles</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <apreplace>-5</apreplace>
+        <damage>-2</damage>
+        <damagetype>S(e)</damagetype>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
+      <guid>679ae19a-76b5-456b-b9bb-ab60ba1d6cd2</guid>
+      <name>Ammo: APDS</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>50</qty>
+      <avail>12F</avail>
+      <costfor>10</costfor>
+      <cost>120</cost>
+      <weight />
+      <extra>Medium Machine Guns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-4</ap>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>f092fca8-46a9-4351-a06a-362846e6546a</sourceid>
+      <guid>28f79801-8b5a-404b-a7f1-321b9fd66292</guid>
+      <name>Minigrenade: Flash-Bang</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>2.0</qty>
+      <avail>6R</avail>
+      <cost>100</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>f3f6f588-792c-45e9-9915-b753e6347e0a</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>435</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>glauncher</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>4f5b4fbc-78c4-4aa4-a5c2-7739f12e9b39</sourceid>
+      <guid>171514c6-0038-478a-a4f2-2c4e6a867a76</guid>
+      <name>Certified Credstick, Silver</name>
+      <category>ID/Credsticks</category>
+      <capacity>20000</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>20</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>5</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>c56554d1-4102-446f-8d3e-acd0c7404c3a</sourceid>
+      <guid>4c6253b1-f3f3-4914-a365-8ce2ecd8d8cd</guid>
+      <name>Certified Credstick, Standard</name>
+      <category>ID/Credsticks</category>
+      <capacity>5000</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>5</qty>
+      <avail>0</avail>
+      <cost>5</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>5</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>b5d11dbe-9f73-483c-8794-c94e182eb72e</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0918742f-6fc8-46ac-91e0-2b7260841923</sourceid>
+      <guid>db548e0d-564a-4190-81a8-2b9e80244e5b</guid>
+      <name>Bug Scanner</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>(Rating)R</avail>
+      <cost>Rating * 100</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>440</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>{Rating}</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes>Bug scanner: Also called a radio signal scanner, this device locates and locks in wireless devices within 20 meters. The scanner can also measure a signal’s strength and pinpoint its location. To operate a bug scanner, roll Electronic Warfare + Logic [Rating]. A device that is run- ning silent (like a Stealth tag) can use its Logic + Sleaze to defend against the scan. If you get any net hits at all, you find the device.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>6576cfa9-f2f5-4624-bbde-60a8f3f13785</sourceid>
+      <guid>3da5d756-50b4-4873-931a-08a0f8fef5cb</guid>
+      <name>Jammer, Area</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>{Rating}</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>5</sortorder>
+    </gear>
+    <gear>
+      <sourceid>7e887224-6896-4588-a5d3-cace6a8506d2</sourceid>
+      <guid>f97d26b2-6a5c-4580-b250-30a7b55c5467</guid>
+      <name>White Noise Generator</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>(Rating)</avail>
+      <cost>Rating * 50</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes>White noise generator: This device creates a field of random noise, masking the sounds within its area and preventing direct audio surveillance. All Perception Tests to overhear a conversation within (Rating) meters of a white noise generator receive a negative dice pool modifier equal to the generator’s Rating. If more than one generator is in use, only count the highest rating. A white noise generator is redundant in a noisy environ- ment (such as a nightclub or a firefight) and does not help to curtail video surveillance or jam wireless signals.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d1fca845-ae01-4b39-a176-1506da699e0e</sourceid>
+      <guid>87066ac7-d397-4fe7-875b-de89d68d6fd1</guid>
+      <name>Micro-Transceiver</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[1]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>2</avail>
+      <cost>100</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes>Micro-transceiver: This classic short-range com- municator has been favored by professional operatives since the 2050s. It doesn’t do anything special, it just lets you communicate by voice with other micro-trans- ceivers and commlinks that you (and the other person) choose, within a kilometer. The micro-transceiver con- sists of an ear bud and an adhesive subvocal micro- phone (p. 439), both of which are commonly available in hard-to-spot designs.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>a210be88-be16-4d66-afcb-7d58b8e1397f</sourceid>
+      <guid>ef47090e-0631-4869-860a-d18334b29293</guid>
+      <name>Miniwelder</name>
+      <category>Breaking and Entering Gear</category>
+      <capacity />
+      <armorcapacity>[1]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>2</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>448</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes>Miniwelder: This portable device creates a small electric arc to melt metals, either to cut through met- al or to weld it together. Its power supply allows it to operate for 30 minutes. While creating an intense heat, the arc is much too small to make a good weapon (it would be like trying to stab someone with a lighter). The miniwelder has a Damage Value of 25 when used to cut through barriers.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>97f888dd-7e0d-4f33-b4cc-396cddecdf62</sourceid>
+      <guid>54020913-99fb-41d1-96aa-2213064ef7f7</guid>
+      <name>Miniwelder Fuel Canister</name>
+      <category>Breaking and Entering Gear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>2</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>448</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>425122e2-5c7f-465d-b178-704afbb440f6</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>a17cae86-4d6f-4e00-acb6-03f0ccfb2807</sourceid>
+      <guid>abcae341-3e3d-46f8-b053-e0ae8bfd978c</guid>
+      <name>Climbing Gear</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity>[5]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>4</qty>
+      <avail>0</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>448</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>d882ce4b-8e7e-4073-a27f-a3f15567fbdb</location>
+      <notes>Climbing gear: This is a backpack full of rope (400- kilo test), an ascent/descent harness, gloves, carabiners, crampons, and so forth needed for assisted climbing (Climbing, p. 134).</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -6462,40 +7302,6 @@ For runners that are economically or environmentally minded, the SunCell modific
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>2</sortorder>
-          <stolen>False</stolen>
-        </mod>
-        <mod>
-          <sourceid>0eab79a6-b552-4c17-8fac-a6c0e07f76e4</sourceid>
-          <guid>d0d8f414-5908-46e3-8870-330e4ea1ebb5</guid>
-          <name>Interior Cameras</name>
-          <category>Cosmetic</category>
-          <limit />
-          <slots>0</slots>
-          <capacity />
-          <rating>0</rating>
-          <maxrating>0</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <conditionmonitor>0</conditionmonitor>
-          <avail>6</avail>
-          <cost>2000</cost>
-          <markup>0</markup>
-          <extra />
-          <source>R5</source>
-          <page>171</page>
-          <included>False</included>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <subsystems />
-          <weaponmountcategories />
-          <ammobonus>0</ammobonus>
-          <ammobonuspercent>0</ammobonuspercent>
-          <ammoreplace />
-          <weapons />
-          <notes>INTERIOR CAMERAS
-In the course of jumping through multiple vehicles and taking in multiple streams of information from different sources, a rigger can easily lose contact with their immediate surroundings—namely, the interior of their own vehicle. As a result, many riggers install interior cameras into their vehicle so they can easily keep track of their own meat body and any passengers in the vehicle by routing the feed from the interior cameras into their PAN. Interior cameras allow a rigger to make a standard Perception Test to notice anyone or anything inside of their vehicle, even while they are in full VR mode.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>3</sortorder>
           <stolen>False</stolen>
         </mod>
         <mod>
@@ -7997,7 +8803,7 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
           <weaponmountoptions>
             <weaponmountoption>
               <sourceid>be56fb91-88d3-4bfb-8e42-d12929b44fe5</sourceid>
-              <guid>2a9a008a-b3e8-4a7d-9874-b61f126b17ba</guid>
+              <guid>88bc3f35-118a-4418-841b-50f4a53cc690</guid>
               <name>None</name>
               <category>Control</category>
               <slots>0</slots>
@@ -8007,7 +8813,7 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
             </weaponmountoption>
             <weaponmountoption>
               <sourceid>c6939caa-e94d-4db3-94f6-a46fbcc4df07</sourceid>
-              <guid>c33cdd57-3e48-4d55-baf2-eac043ae5e0f</guid>
+              <guid>5ea64fd7-5af3-4dec-9814-90b2c667aad5</guid>
               <name>None</name>
               <category>Flexibility</category>
               <slots>0</slots>
@@ -8017,7 +8823,7 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
             </weaponmountoption>
             <weaponmountoption>
               <sourceid>b7333366-24bf-4f47-bb68-b1cfe8f450fd</sourceid>
-              <guid>f94ad287-ef90-4fd7-8bce-c387719544fe</guid>
+              <guid>3e1cf2b1-89b6-4464-8e63-549746a27fa1</guid>
               <name>None</name>
               <category>Visibility</category>
               <slots>0</slots>
@@ -8434,7 +9240,7 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
       <source>SAG</source>
       <page>49</page>
       <parentid />
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
       <stolen>False</stolen>
       <physicalcmfilled>0</physicalcmfilled>
       <matrixcmfilled>0</matrixcmfilled>
@@ -8605,6 +9411,39 @@ While most modern governments primarily use electronic identification for vehicl
           <notesColor>Chocolate</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>4</sortorder>
+          <stolen>False</stolen>
+        </mod>
+        <mod>
+          <sourceid>a7c44bc7-0fac-4853-b0b9-d62516ca5490</sourceid>
+          <guid>42302e8e-ed39-4da8-a99f-dbbf8da6e47e</guid>
+          <name>Landing Drone Rack (Medium)</name>
+          <category>Weapons</category>
+          <limit />
+          <slots>4</slots>
+          <capacity />
+          <rating>0</rating>
+          <maxrating>0</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>8</avail>
+          <cost>10000</cost>
+          <markup>0</markup>
+          <extra />
+          <source>R5</source>
+          <page>160</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes />
+          <notesColor>Chocolate</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
           <stolen>False</stolen>
         </mod>
       </mods>
@@ -9012,7 +9851,7 @@ While most modern governments primarily use electronic identification for vehicl
         </gear>
       </gears>
       <weapons />
-      <location />
+      <location>5b6e24b7-2b43-494e-b54f-f120a9b156f7</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -9033,7 +9872,7 @@ While most modern governments primarily use electronic identification for vehicl
       <modfirewall />
       <modattributearray />
       <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </vehicle>
   </vehicles>
   <metamagics />
@@ -9477,54 +10316,6 @@ While most modern governments primarily use electronic identification for vehicl
     </improvement>
     <improvement>
       <target />
-      <improvedname>Colt M23</improvedname>
-      <sourcename>13d13ff5-d0b7-4eff-8e51-bbd980e721a0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>MCT-Nissan Roto-drone (Medium)</improvedname>
-      <sourcename>3c9e6e5c-8430-4856-8655-ef907bdfde77</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname />
       <sourcename>503f6b14-4486-46ba-89fe-3b91ad55d2b5</sourcename>
       <min>0</min>
@@ -9643,6 +10434,54 @@ While most modern governments primarily use electronic identification for vehicl
       <notes />
       <notesColor>Chocolate</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Colt M23</improvedname>
+      <sourcename>13d13ff5-d0b7-4eff-8e51-bbd980e721a0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MCT-Nissan Roto-drone (Medium)</improvedname>
+      <sourcename>3c9e6e5c-8430-4856-8655-ef907bdfde77</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -9654,25 +10493,39 @@ While most modern governments primarily use electronic identification for vehicl
       <name>RCC Software</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </location>
     <location>
       <guid>b5d11dbe-9f73-483c-8794-c94e182eb72e</guid>
       <name>Running Kit</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </location>
     <location>
       <guid>f973cd4e-2f22-4f6d-97f5-2da87ba370d5</guid>
       <name>Ammo Stockpile</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>2</sortorder>
+      <sortorder>4</sortorder>
     </location>
     <location>
       <guid>8c969165-f5ad-4da6-bb34-ada0e396863a</guid>
       <name>RCC Programs</name>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <sortorder>3</sortorder>
+    </location>
+    <location>
+      <guid>d882ce4b-8e7e-4073-a27f-a3f15567fbdb</guid>
+      <name>Helicopter helicopter</name>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>425122e2-5c7f-465d-b178-704afbb440f6</guid>
+      <name>Tools</name>
       <notes />
       <notesColor>Chocolate</notesColor>
       <sortorder>1</sortorder>
