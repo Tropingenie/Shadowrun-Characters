@@ -116,6 +116,10 @@ She did a bit more work, but never beyond the point of minor gang crime. Still, 
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
 \pard\sl-240\slmult1 \lang4105\fs16\f0 Utility rigger who always has the right tool for the situation. Dabbles in decking in order to cover their Matrix ass.\par
+\par
+Named after the only Quebecois Ace not KIA:\par
+http://www.igleize.fr/aces/ww2que.htm\par
+https://aircrewremembered.com/robillard-joseph-guillaume-laurent.html\par
 }</concept>
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0 Tahoma;}{\f1\fcharset0 Tahoma;}}
 {\colortbl;}
@@ -175,7 +179,7 @@ Hack on the Fly: Hacking + Logic vs. Firewall + Intuition to add mark\par
 Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
 \par
 }</notes>
-  <alias>Jeeves</alias>
+  <alias>Spitfire IIb</alias>
   <playername>Pon Pon</playername>
   <gamenotes />
   <primaryarm>Left</primaryarm>
@@ -1518,7 +1522,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
     <contact>
       <name>Riku Honda</name>
       <role>Vehicle Dealer (Air)</role>
-      <location>tbd</location>
+      <location>McChord AFB, Fort Lewis</location>
       <connection>5</connection>
       <loyalty>2</loyalty>
       <metatype>Ork</metatype>
@@ -1531,7 +1535,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <type>Contact</type>
       <file />
       <relative />
-      <notes>John acts like your typical care salesman, with a few... Upgrades. He's never far from his "dapper" hat, wears an ill-fitting but barely presentable three piece suit, and coats his tusks with gaudy gold flake every morning. That's because his clientele are a little... Richer than most used car lots. Most riggers only know him for his aircraft, usually military surplus and the like, but if you get on the Italian-American Ork's shoulder, he has the connections to get anything you could need, from yachts to drones. Just don't ask why some of them are so much cheaper than market rate.</notes>
+      <notes>Honda acts like your typical care salesman, with a few... Upgrades. He's never far from his "dapper" hat, wears an ill-fitting but barely presentable three piece suit, and coats his tusks with gaudy gold flake every morning. That's because his clientele are a little... Richer than most used car lots. Most riggers only know him for his aircraft, usually military surplus and the like, but if you get on the Italian-Japa-American Ork's shoulder, he has the connections to get anything you could need, from yachts to drones. Just don't ask why some of them are so much cheaper than market rate.</notes>
       <notesColor>Chocolate</notesColor>
       <groupname />
       <colour>0</colour>
@@ -1545,22 +1549,22 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
       <mugshots />
     </contact>
     <contact>
-      <name>John Fixer</name>
+      <name>Tláloc</name>
       <role>Fixer</role>
-      <location>tbd</location>
+      <location>Redmond Barrens</location>
       <connection>5</connection>
       <loyalty>2</loyalty>
-      <metatype />
-      <gender />
-      <age />
+      <metatype>Human</metatype>
+      <gender>Unknown</gender>
+      <age>Unknown</age>
       <contacttype />
-      <preferredpayment />
+      <preferredpayment>Service (Shadowrunner Job)</preferredpayment>
       <hobbiesvice />
-      <personallife />
+      <personallife>Unknown</personallife>
       <type>Contact</type>
       <file />
       <relative />
-      <notes />
+      <notes>Tláloc keeps their cards close to their chest, communicating over heavily obfuscated means whenever possible, and practically never in person. Rumor is, they're on the board of Aztech, but there's no real way to know.</notes>
       <notesColor>Chocolate</notesColor>
       <groupname />
       <colour>0</colour>
@@ -4033,7 +4037,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <avail>(Rating * 3)F</avail>
       <cost>Rating * 2500</cost>
       <weight />
-      <extra>Jeeves Levant (FCoS)</extra>
+      <extra>Joseph Guillaume Robillard (FCoS)</extra>
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
