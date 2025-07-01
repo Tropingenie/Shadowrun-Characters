@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>1434149838</settingshashcode>
+  <settingshashcode>494256950</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1516,7 +1516,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
   </newskills>
   <contacts>
     <contact>
-      <name>John Honda</name>
+      <name>Riku Honda</name>
       <role>Vehicle Dealer (Air)</role>
       <location>tbd</location>
       <connection>5</connection>
@@ -3081,9 +3081,9 @@ At some point in your wide travels and extra-legal activities, you met someone w
       <type>Advanced</type>
       <increment>Month</increment>
       <sourceid>9cb0222c-14c1-4bea-bf83-055513a1f33e</sourceid>
-      <city />
-      <district />
-      <borough />
+      <city>Seattle</city>
+      <district>Redmond</district>
+      <borough>Barrens</borough>
       <lifestylequalities>
         <lifestylequality>
           <sourceid>67e41d1f-78a9-417b-88d4-94eeb58fa4ff</sourceid>
@@ -3270,7 +3270,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <notesColor>#E3813C</notesColor>
         </lifestylequality>
       </lifestylequalities>
-      <notes />
+      <notes>Near Smith Hill, just East of High Bridge, Redmond</notes>
       <notesColor>#E3813C</notesColor>
       <sortorder>0</sortorder>
     </lifestyle>
