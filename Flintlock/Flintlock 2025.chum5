@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>38710.666666666666</nuyen>
+  <nuyen>38390.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -5520,6 +5520,295 @@ Cost: +1,000 nuyen a month</notes>
   </lifestyles>
   <gears>
     <gear>
+      <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
+      <guid>9a331737-1cd2-44d3-b468-9f6e2cd43b6b</guid>
+      <name>Slap Patch, Trauma Patch</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>6</avail>
+      <cost>500</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>451</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>a4d097a9-8a07-4c5d-a006-c2b92767f4d4</location>
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
+    </gear>
+    <gear>
+      <sourceid>5deb8e1d-98bf-4cd4-9dce-b74d67546a1d</sourceid>
+      <guid>6ad711ce-be99-4aa2-b700-0312105bc974</guid>
+      <name>Datachip</name>
+      <category>RFID Tags</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>10</qty>
+      <avail>0</avail>
+      <costfor>10</costfor>
+      <cost>5</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>False</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>440</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>1</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Datachip: For occasions when you want to transfer data by physical means—like bringing the project specs on the competition’s new cyberdeck to Mr. Johnson in person at the meet—a datachip can hold enormous quantitites of data in a small finger-sized chip, accessible by any electronic device. Datachips have no wireless ca- pability, so you need to plug them into a universal data connector (found on any device) if you want to read or write to them.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>baa9ba27-f93b-48da-91b7-cfcce0ba274d</sourceid>
+      <guid>d9a7db11-6013-47fa-a7c4-022bbf654209</guid>
+      <name>Stealth Tags</name>
+      <category>RFID Tags</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>3</qty>
+      <avail>7R</avail>
+      <costfor>10</costfor>
+      <cost>10</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>False</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>440</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>3</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Stealth tags: A stealth tag always runs silent (p. 235) and has a Sleaze rating equal to its Device Rating. It’s disguised to not look like RFID tags, which gives it an additional –2 Concealability modifier. Stealth tags are often used as a backup for security tags by megacorps that are security conscious (and sneaky). They can be implanted the same way security tags can.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze>3</sleaze>
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d0eb5971-03d6-4822-9fb5-c524bf16bf62</sourceid>
+      <guid>875378c4-53e7-4716-9957-6e0e8ab89903</guid>
+      <name>Tag Eraser</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[1]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>6R</avail>
+      <cost>450</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>False</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Tag eraser: This handheld device creates a strong electromagnetic field perfect for burning out RFID tags and other unshielded electronics. It is probably strong enough to destroy a commlink, and you might want to keep it away from your cyberdeck just in case. When you bring the eraser within 5 millimeters of an electronic de- vice and push the button, the device takes 10 boxes of Matrix damage (resisted normally). The extremely short range makes it hard to use on targets like vehicles, most drones, maglocks, and cyberware (and by the time you open them up to get at the electronics, you’ve already done plenty of damage). The tag eraser has one charge but can be fully recharged at a power point in 10 seconds.</notes>
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
+      <guid>2bd54282-6699-4512-853f-c701449a6370</guid>
+      <name>Tool Kit</name>
+      <category>Tools</category>
+      <capacity />
+      <armorcapacity>[6]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>500</cost>
+      <weight />
+      <extra>Armorer</extra>
+      <bonded>False</bonded>
+      <equipped>False</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>443</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
       <sourceid>2bb6956f-c00e-452c-ab99-6b4613d7bb3e</sourceid>
       <guid>eeebf2d1-b826-4400-9bb8-165cccc98875</guid>
       <name>Rappelling Gloves</name>
@@ -5555,7 +5844,7 @@ Cost: +1,000 nuyen a month</notes>
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes>Rappelling gloves: These gloves are made of a spe- cial fabric that allows you to get a tighter grip on a grap- ple line, giving you a +2 dice pool bonus on all tests to hold your grip on the line. These gloves are necessary in order to use ultrathin microwire without gruesomely slicing your hands apart as you slide down it.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -5574,7 +5863,7 @@ Cost: +1,000 nuyen a month</notes>
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>59561c08-3269-470d-9d8b-3cde8a8ccbf8</sourceid>
@@ -5613,7 +5902,7 @@ Cost: +1,000 nuyen a month</notes>
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes>GRAPPLE GUN
 This gun can shoot a grappling hook and attached rope, using Light Crossbow ranges. It comes equipped with an internal winch to pull back the grapple (or pull up small loads). Use the Exotic Ranged Weapon skill to shoot it. Micro rope can support a weight of up to 100 kilograms; standard and stealth ropes can support a weight of up to 400 kilograms.
 Microwire: This micro rope is made of an extremely thin (nearly monofilament) and resilient fiber; a great length of it can be stored in a very small compartment, and it is very difficult to see. The downside is that it can only be grabbed with special protective rappelling gloves without slicing straight through the climber’s hands, inflicting 8P damage with an AP of –8.
@@ -5636,7 +5925,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>fc0987f2-b3cf-4ba2-8777-0610ed97e90e</sourceid>
@@ -5674,7 +5963,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -5693,7 +5982,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>a17cae86-4d6f-4e00-acb6-03f0ccfb2807</sourceid>
@@ -5731,7 +6020,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes>Climbing gear: This is a backpack full of rope (400- kilo test), an ascent/descent harness, gloves, carabiners, crampons, and so forth needed for assisted climbing (Climbing, p. 134).</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -5750,7 +6039,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>01077e2d-4f67-428a-850d-250faad2007c</sourceid>
@@ -7122,7 +7411,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -8062,7 +8351,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</sourceid>
@@ -8106,7 +8395,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>9ec1818e-0d33-4e58-b875-a65b61bd90a9</location>
+      <location>a4d097a9-8a07-4c5d-a006-c2b92767f4d4</location>
       <notes>Medkit: The medkit includes drug supplies, bandages, tools, and a (talkative) doctor expert system that can ad- vise the user on techniques to handle most typical medical emergencies (including fractures, gunshot wounds, chem- ical wounds, and poisoning, as well as offering advice for the treating of shock, handling blood loss, and of course performing resuscitations). Add the medkit’s rating to your limit on First Aid tests. A medkit of Rating 3 or lower fits in a pocket; at Rating 4+ it’s a handheld case. The medkit needs to be restocked after every (Rating) uses.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -8125,7 +8414,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</sourceid>
@@ -8780,63 +9069,6 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <sortorder>2</sortorder>
     </gear>
     <gear>
-      <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
-      <guid>9a331737-1cd2-44d3-b468-9f6e2cd43b6b</guid>
-      <name>Slap Patch, Trauma Patch</name>
-      <category>Biotech</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>1.0</qty>
-      <avail>6</avail>
-      <cost>500</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>451</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>9ec1818e-0d33-4e58-b875-a65b61bd90a9</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>5</sortorder>
-    </gear>
-    <gear>
       <sourceid>320bd9e3-e261-4a45-aa03-c740b6855e73</sourceid>
       <guid>b71cd42a-2b2c-4dbf-870b-e5c15f65937e</guid>
       <name>Slap Patch, Stim Patch</name>
@@ -8872,7 +9104,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>9ec1818e-0d33-4e58-b875-a65b61bd90a9</location>
+      <location>a4d097a9-8a07-4c5d-a006-c2b92767f4d4</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -8891,180 +9123,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
-    </gear>
-    <gear>
-      <sourceid>5deb8e1d-98bf-4cd4-9dce-b74d67546a1d</sourceid>
-      <guid>6ad711ce-be99-4aa2-b700-0312105bc974</guid>
-      <name>Datachip</name>
-      <category>RFID Tags</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>10</qty>
-      <avail>0</avail>
-      <costfor>10</costfor>
-      <cost>5</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>False</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>440</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating>1</devicerating>
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
-      <notes>Datachip: For occasions when you want to transfer data by physical means—like bringing the project specs on the competition’s new cyberdeck to Mr. Johnson in person at the meet—a datachip can hold enormous quantitites of data in a small finger-sized chip, accessible by any electronic device. Datachips have no wireless ca- pability, so you need to plug them into a universal data connector (found on any device) if you want to read or write to them.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>9</sortorder>
-    </gear>
-    <gear>
-      <sourceid>baa9ba27-f93b-48da-91b7-cfcce0ba274d</sourceid>
-      <guid>d9a7db11-6013-47fa-a7c4-022bbf654209</guid>
-      <name>Stealth Tags</name>
-      <category>RFID Tags</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>3</qty>
-      <avail>7R</avail>
-      <costfor>10</costfor>
-      <cost>10</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>False</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>440</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating>3</devicerating>
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
-      <notes>Stealth tags: A stealth tag always runs silent (p. 235) and has a Sleaze rating equal to its Device Rating. It’s disguised to not look like RFID tags, which gives it an additional –2 Concealability modifier. Stealth tags are often used as a backup for security tags by megacorps that are security conscious (and sneaky). They can be implanted the same way security tags can.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze>3</sleaze>
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>8</sortorder>
-    </gear>
-    <gear>
-      <sourceid>d0eb5971-03d6-4822-9fb5-c524bf16bf62</sourceid>
-      <guid>875378c4-53e7-4716-9957-6e0e8ab89903</guid>
-      <name>Tag Eraser</name>
-      <category>Communications and Countermeasures</category>
-      <capacity />
-      <armorcapacity>[1]</armorcapacity>
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>1.0</qty>
-      <avail>6R</avail>
-      <cost>450</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>False</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>441</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
-      <notes>Tag eraser: This handheld device creates a strong electromagnetic field perfect for burning out RFID tags and other unshielded electronics. It is probably strong enough to destroy a commlink, and you might want to keep it away from your cyberdeck just in case. When you bring the eraser within 5 millimeters of an electronic de- vice and push the button, the device takes 10 boxes of Matrix damage (resisted normally). The extremely short range makes it hard to use on targets like vehicles, most drones, maglocks, and cyberware (and by the time you open them up to get at the electronics, you’ve already done plenty of damage). The tag eraser has one charge but can be fully recharged at a power point in 10 seconds.</notes>
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>dff54f55-846d-4017-84e2-dd1f1c29861f</sourceid>
@@ -9102,7 +9161,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -9121,7 +9180,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>76890101-9f90-41db-a6f0-6f5fd4802896</sourceid>
@@ -9159,7 +9218,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -9178,7 +9237,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -9237,7 +9296,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>d4cf626d-0af1-41f7-bec0-e53b4dba2eb1</sourceid>
@@ -9360,65 +9419,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <sortorder>1</sortorder>
     </gear>
     <gear>
-      <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
-      <guid>2bd54282-6699-4512-853f-c701449a6370</guid>
-      <name>Tool Kit</name>
-      <category>Tools</category>
-      <capacity />
-      <armorcapacity>[6]</armorcapacity>
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>500</cost>
-      <weight />
-      <extra>Armorer</extra>
-      <bonded>False</bonded>
-      <equipped>False</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus>
-        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
-      </bonus>
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>443</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>e261e343-c073-46d2-9b99-c7a132accf46</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>0</sortorder>
-    </gear>
-    <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
       <guid>f76777ba-27d6-45c5-b9ec-12b82711f243</guid>
       <name>Ammo: Gel Rounds</name>
@@ -9477,7 +9477,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>10</sortorder>
+      <sortorder>12</sortorder>
     </gear>
     <gear>
       <sourceid>2633cf38-90a6-4843-b475-e3ee1132fb5f</sourceid>
@@ -9595,7 +9595,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>11</sortorder>
+      <sortorder>13</sortorder>
     </gear>
     <gear>
       <sourceid>24e87c73-22be-480d-bb79-978277672a1d</sourceid>
@@ -9652,7 +9652,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>12</sortorder>
+      <sortorder>14</sortorder>
     </gear>
     <gear>
       <sourceid>8f351e25-d734-4bd0-86da-80b68a4cae68</sourceid>
@@ -9770,7 +9770,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -9831,7 +9831,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -9892,7 +9892,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -9953,7 +9953,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10014,7 +10014,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
@@ -10135,7 +10135,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10196,7 +10196,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>324e2a5f-de77-4e64-9c95-676bd987c772</sourceid>
@@ -10294,7 +10294,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>9ec1818e-0d33-4e58-b875-a65b61bd90a9</location>
       <notes>Monocle: A monocle is worn on a headband or hel- met with a flip-down arm, or (for the old-fashioned look) on a chain.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10313,7 +10313,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
@@ -10373,7 +10373,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10434,7 +10434,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10495,7 +10495,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10543,6 +10543,120 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <discountedcost>False</discountedcost>
       <programlimit />
       <overclocked />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>418d5ba1-dd19-4179-add8-074be445a7b2</sourceid>
+      <guid>ed679177-b3ea-4893-a034-f4112b49652d</guid>
+      <name>Trodes</name>
+      <category>Electronics Accessories</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>70</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>439</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>3</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Trodes: Available as a headband, net, or full-on cap, this electrode-and-ultrasound net gives you a direct neural interface. Useful if you’re too squeamish to get a hole drilled in your head for a datajack. Adding this to headgear takes two slots of Capacity.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0fdeb240-743c-4a9d-9cf1-fef0990575bb</sourceid>
+      <guid>04099606-1d3a-42f2-906f-88e321862d55</guid>
+      <name>Lockpick Set</name>
+      <category>Breaking and Entering Gear</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>448</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>ace45391-f344-4fe7-b9f5-ff9e213fd630</location>
+      <notes>Lockpick set: These mechanical burglary devices have undergone only slight improvements in the last sev- eral centuries. They are necessary tools for picking locks.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
       <attack />
       <sleaze />
       <dataprocessing />
@@ -13269,6 +13383,38 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>6b663641-b7d4-431f-bb81-6aa960ff4622</guid>
+      <date>2025-07-05T17:36:53</date>
+      <amount>-70</amount>
+      <reason>Purchased Gear Trodes</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>ed679177-b3ea-4893-a034-f4112b49652d</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>8d3a58fa-5df1-4637-b656-db25014b694f</guid>
+      <date>2025-07-05T17:43:01</date>
+      <amount>-250</amount>
+      <reason>Purchased Gear Lockpick Set</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>04099606-1d3a-42f2-906f-88e321862d55</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -13276,41 +13422,48 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <name>Runner</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>4</sortorder>
+      <sortorder>5</sortorder>
     </location>
     <location>
       <guid>5a2ad54b-2caf-483d-9494-9e2a71306680</guid>
       <name>Daily Life</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>5</sortorder>
+      <sortorder>6</sortorder>
     </location>
     <location>
       <guid>64c56117-1554-4d63-b37d-a516978b0d40</guid>
       <name>The Van</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>6</sortorder>
+      <sortorder>7</sortorder>
     </location>
     <location>
       <guid>e261e343-c073-46d2-9b99-c7a132accf46</guid>
       <name>House 1</name>
       <notes />
       <notesColor>Chocolate</notesColor>
-      <sortorder>3</sortorder>
+      <sortorder>4</sortorder>
     </location>
     <location>
       <guid>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</guid>
       <name>Ammunition</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>a4d097a9-8a07-4c5d-a006-c2b92767f4d4</guid>
       <name>Drugs</name>
       <notes />
       <notesColor>Chocolate</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>ace45391-f344-4fe7-b9f5-ff9e213fd630</guid>
+      <name>B&amp;E</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
     </location>
   </gearlocations>
