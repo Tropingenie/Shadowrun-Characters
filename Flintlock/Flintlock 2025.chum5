@@ -5022,7 +5022,7 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
         <name>Narco</name>
       </wirelesspairinclude>
       <notes>NARCO
-This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off</notes>
+This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off are halved in duration. On Addiction Tests, take a –2 dice pool modifier when you aren’t addicted to the drug you’re rolling for, and a +2 dice pool modifier when you are addicted to the drug.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -12132,150 +12132,6 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     </improvement>
     <improvement>
       <target />
-      <improvedname>REA</improvedname>
-      <sourcename>979c01ae-9a6b-455f-b270-bf43e35f209c</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+2 Reaction</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Betameth</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>INT</improvedname>
-      <sourcename>998ff6f4-44af-42e0-b151-1c9e4ae75f06</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+1 Intuition</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Betameth</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>BOD</improvedname>
-      <sourcename>1a2d8b56-257a-4ecd-bd62-9a8e17ee5fce</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+1 Body</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>17df64bb-faf6-4a4c-8c3a-a7fb571092f3</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+2 Strength</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename>196defea-b38c-44d7-89fe-1004282c326c</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+1 Agility</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>WIL</improvedname>
-      <sourcename>f76a5520-6f7c-4f1c-92fa-0d945d414ff9</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+1 Willpower</customname>
-      <customid>specificattribute</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Physical</improvedname>
       <sourcename>58edcccb-5940-424c-ad37-9171875d5ea2</sourcename>
       <min>0</min>
@@ -12366,6 +12222,150 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customgroup />
       <addtorating>0</addtorating>
       <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>3435ac9b-1a1a-46d5-a6a2-c88bbe6ba302</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Agility</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>BOD</improvedname>
+      <sourcename>207ae7a9-f1c0-4b8a-b950-0a65e429beb3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Body</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>WIL</improvedname>
+      <sourcename>52079a7c-f916-4d79-8206-b47b2f43ded0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Willpower</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>db5f2840-dcde-4be4-9266-c191b4dfeda0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+3 Strength</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>INT</improvedname>
+      <sourcename>3e312ec2-df25-450a-a274-8ca3db5470dc</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Intuition</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Betameth</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename>e58f3124-0085-4a58-ab77-fbd512b1ac3e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+3 Reaction</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Betameth</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -13489,6 +13489,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
   <improvementgroups>
     <improvementgroup>Kamikaze</improvementgroup>
     <improvementgroup>Betameth</improvementgroup>
+    <improvementgroup>Cereprax</improvementgroup>
   </improvementgroups>
   <calendar />
   <calculatedvalues>
