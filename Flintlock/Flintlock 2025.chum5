@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-2126176516</settingshashcode>
+  <settingshashcode>1910466882</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>17</karma>
+  <karma>18</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>5460.666666666666</nuyen>
+  <nuyen>38710.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -358,7 +358,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <groupname />
   <groupnotes />
   <totaless>1.91</totaless>
-  <physicalcmfilled>0</physicalcmfilled>
+  <physicalcmfilled>1</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
   <newskills>
@@ -1360,7 +1360,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>2</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -12875,6 +12875,118 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddWeaponAccessory</nuyentype>
         <objectid>9edabfd5-9501-4dcf-9172-cec7d6eafa4e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>3d9d84ef-81f3-47de-b5e9-5b5a3581882f</guid>
+      <date>2025-07-05T17:23:58</date>
+      <amount>3</amount>
+      <reason>Game 3: Come The Revolution</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>689f831e-24b4-4099-adda-740df8192139</guid>
+      <date>2025-07-05T17:24:35</date>
+      <amount>30000</amount>
+      <reason>Game 3: Come The Revolution</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>82853328-9856-4ae0-868e-2c80d6dea90a</guid>
+      <date>2025-07-05T17:24:48</date>
+      <amount>-2</amount>
+      <reason>Game 3: Working for the Man</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualSubtract</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d6950d78-07c0-4b15-af9d-655969fc9e12</guid>
+      <date>2025-07-05T17:24:48</date>
+      <amount>4000</amount>
+      <reason>Game 3: Working for the Man</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>33d0982d-4f7b-4221-9202-69b284307dc8</guid>
+      <date>2025-07-05T17:25:41</date>
+      <amount>-3</amount>
+      <reason>Knowledge Skill Sperethiel 2 -&gt; 3</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>89fb765e-ae21-4a01-bef9-790fa8726dd8</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>36fca638-de04-49c9-89c4-cb3d58245b92</guid>
+      <date>2025-07-05T17:25:47</date>
+      <amount>3</amount>
+      <reason>Free KS</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b3c6d071-09c5-4765-a5db-3953898d45b3</guid>
+      <date>2025-07-05T17:26:08</date>
+      <amount>-750</amount>
+      <reason>Game 3: Burner SIN</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
