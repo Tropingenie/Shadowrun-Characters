@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>1910466882</settingshashcode>
+  <settingshashcode>-1763125744</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -185,8 +185,8 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>20</basecarrylimit>
-  <baseliftlimit>30</baseliftlimit>
+  <basecarrylimit>50</basecarrylimit>
+  <baseliftlimit>75</baseliftlimit>
   <totalcarriedweight>0</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>38390.666666666666</nuyen>
+  <nuyen>37065.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -226,7 +226,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -256,7 +256,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -266,7 +266,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>5</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <totalvalue>9</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -316,7 +316,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -326,7 +326,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -346,7 +346,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
   </attributes>
   <magenabled>False</magenabled>
@@ -2450,13 +2450,6 @@ Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clo
       <rating>0</rating>
       <accuracy>9</accuracy>
       <activeammoslot>1</activeammoslot>
-      <clips>
-        <clip>
-          <count>4</count>
-          <location>loaded</location>
-          <id>00000000-0000-0000-0000-000000000000</id>
-        </clip>
-      </clips>
       <conceal>8</conceal>
       <avail>4R</avail>
       <cost>3600</cost>
@@ -9419,67 +9412,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <sortorder>1</sortorder>
     </gear>
     <gear>
-      <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
-      <guid>f76777ba-27d6-45c5-b9ec-12b82711f243</guid>
-      <name>Ammo: Gel Rounds</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>4</qty>
-      <avail>2R</avail>
-      <costfor>10</costfor>
-      <cost>25</cost>
-      <weight />
-      <extra>Sporting Rifles</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus>
-        <ap>1</ap>
-        <damagetype>S</damagetype>
-      </weaponbonus>
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>434</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype>gun</ammoforweapontype>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>12</sortorder>
-    </gear>
-    <gear>
       <sourceid>2633cf38-90a6-4843-b475-e3ee1132fb5f</sourceid>
       <guid>be78246c-cbc1-49e8-b068-baa8c65084a5</guid>
       <name>Gas Mask</name>
@@ -9595,7 +9527,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>13</sortorder>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <sourceid>24e87c73-22be-480d-bb79-978277672a1d</sourceid>
@@ -9652,7 +9584,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>14</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>8f351e25-d734-4bd0-86da-80b68a4cae68</sourceid>
@@ -9843,7 +9775,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>7</qty>
+      <qty>17.0</qty>
       <avail>9F</avail>
       <costfor>10</costfor>
       <cost>80</cost>
@@ -9892,7 +9824,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>10</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -9904,7 +9836,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>15</qty>
+      <qty>19.0</qty>
       <avail>2R</avail>
       <costfor>10</costfor>
       <cost>25</cost>
@@ -9953,7 +9885,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>11</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10147,7 +10079,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>44.0</qty>
+      <qty>94.0</qty>
       <avail>2R</avail>
       <costfor>10</costfor>
       <cost>25</cost>
@@ -10196,7 +10128,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>324e2a5f-de77-4e64-9c95-676bd987c772</sourceid>
@@ -10373,7 +10305,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10435,128 +10367,6 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>4</sortorder>
-    </gear>
-    <gear>
-      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
-      <guid>d83ea832-f863-4361-9c65-0046fc19bf95</guid>
-      <name>Ammo: Explosive Rounds</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>5</qty>
-      <avail>9F</avail>
-      <costfor>10</costfor>
-      <cost>80</cost>
-      <weight />
-      <extra>Sporting Rifles</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus>
-        <ap>-1</ap>
-        <damage>1</damage>
-      </weaponbonus>
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>434</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype>gun</ammoforweapontype>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>1</sortorder>
-    </gear>
-    <gear>
-      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
-      <guid>ef38d360-9d02-4fd6-86ad-4ff2a4d9ac30</guid>
-      <name>Ammo: Explosive Rounds</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>5</qty>
-      <avail>9F</avail>
-      <costfor>10</costfor>
-      <cost>80</cost>
-      <weight />
-      <extra>Sporting Rifles</extra>
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus>
-        <ap>-1</ap>
-        <damage>1</damage>
-      </weaponbonus>
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>434</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype>gun</ammoforweapontype>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>418d5ba1-dd19-4179-add8-074be445a7b2</sourceid>
@@ -10671,6 +10481,68 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>96eb3f57-26e0-40c5-8dac-62cf8a0bc52f</sourceid>
+      <guid>5f0e33bc-e51b-4a06-86df-6952b38ef13b</guid>
+      <name>Ammo: EX-Explosive Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>14F</avail>
+      <costfor>10</costfor>
+      <cost>120</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>2</damage>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>RG</source>
+      <page>54</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes>AMMO
+Not in the mood for a new gun, but still want a different experience with your firearm? Then load out some new ammo! Check out these options to add some extra pop or flare to your gun.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>5</sortorder>
     </gear>
   </gears>
   <vehicles>
@@ -12132,30 +12004,6 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     </improvement>
     <improvement>
       <target />
-      <improvedname>Physical</improvedname>
-      <sourcename>58edcccb-5940-424c-ad37-9171875d5ea2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PhysicalLimit</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+2 Physical Limit</customname>
-      <customid>physicallimit</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname />
       <sourcename>14ad6427-c16b-4906-93d8-12d0991bddf4</sourcename>
       <min>0</min>
@@ -12173,7 +12021,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>initiativediceadd</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12229,10 +12077,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>AGI</improvedname>
-      <sourcename>3435ac9b-1a1a-46d5-a6a2-c88bbe6ba302</sourcename>
+      <sourcename>315f1518-3acb-4164-9a30-63958e566dfd</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>1</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12245,7 +12093,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12253,10 +12101,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>BOD</improvedname>
-      <sourcename>207ae7a9-f1c0-4b8a-b950-0a65e429beb3</sourcename>
+      <sourcename>9f49493a-1364-4a96-a627-0f3db4cfa499</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>1</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12269,7 +12117,31 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Physical</improvedname>
+      <sourcename>e396594c-96c3-425b-8749-c67c2455146f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalLimit</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Physical Limit</customname>
+      <customid>physicallimit</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12277,10 +12149,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>WIL</improvedname>
-      <sourcename>52079a7c-f916-4d79-8206-b47b2f43ded0</sourcename>
+      <sourcename>3045749b-686f-49aa-9c47-6f37b35b3e4b</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>1</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12293,7 +12165,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12301,10 +12173,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>STR</improvedname>
-      <sourcename>db5f2840-dcde-4be4-9266-c191b4dfeda0</sourcename>
+      <sourcename>2d5930f4-19ff-4d57-8648-32122e657b22</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>2</aug>
+      <aug>3</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12317,7 +12189,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12325,10 +12197,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>INT</improvedname>
-      <sourcename>3e312ec2-df25-450a-a274-8ca3db5470dc</sourcename>
+      <sourcename>5a65567e-826b-471a-88e1-1c9bb38484c4</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>1</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12341,7 +12213,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Betameth</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12349,10 +12221,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvement>
       <target />
       <improvedname>REA</improvedname>
-      <sourcename>e58f3124-0085-4a58-ab77-fbd512b1ac3e</sourcename>
+      <sourcename>739f69db-221f-4001-b73c-b7c27fbfed52</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>2</aug>
+      <aug>3</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
@@ -12365,7 +12237,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Betameth</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -13431,6 +13303,38 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>7169f6ec-8efe-4808-bd8d-63ca5b4e68dc</guid>
+      <date>2025-07-05T18:37:21</date>
+      <amount>-125</amount>
+      <reason>Purchased Gear Ammo: Gel Rounds</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>73efad5e-eaf3-428a-bc06-d1fd41e32d94</objectid>
+        <qty>50</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d076f558-fa3d-4300-ac54-93b63292a6a1</guid>
+      <date>2025-07-05T18:39:44</date>
+      <amount>-1200</amount>
+      <reason>Purchased Gear Ammo: EX-Explosive Rounds</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>5f0e33bc-e51b-4a06-86df-6952b38ef13b</objectid>
+        <qty>100</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -13493,10 +13397,10 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
   </improvementgroups>
   <calendar />
   <calculatedvalues>
-    <physicalcm>11</physicalcm>
+    <physicalcm>12</physicalcm>
     <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
-    <physicalcmoverflow>6</physicalcmoverflow>
-    <stuncm>11</stuncm>
+    <physicalcmoverflow>8</physicalcmoverflow>
+    <stuncm>12</stuncm>
     <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
