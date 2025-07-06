@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-2126176516</settingshashcode>
+  <settingshashcode>-1763125744</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -563,7 +563,7 @@ Trace Icon: Computer + Intuition vs. Sleaze + Willpower\par
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -8406,7 +8406,65 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
           <matrixcmbonus>0</matrixcmbonus>
           <parentid>cfead136-6a56-470f-be48-c70cffb891ea</parentid>
           <allowrename>False</allowrename>
-          <children />
+          <children>
+            <gear>
+              <sourceid>4d12e4a1-edd3-4abf-830f-aa95874b7531</sourceid>
+              <guid>10fd9ec2-2847-407a-9f9b-672c8e04eddf</guid>
+              <name>Radio Signal Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Radio signal scanner: This can be used as a bug scanner (p. 440).</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+          </children>
           <location />
           <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
           <notesColor>#E3813C</notesColor>
