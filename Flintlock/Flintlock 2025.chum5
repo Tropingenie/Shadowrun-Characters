@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>18</karma>
+  <karma>14</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -358,7 +358,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <groupname />
   <groupnotes />
   <totaless>1.91</totaless>
-  <physicalcmfilled>1</physicalcmfilled>
+  <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
   <newskills>
@@ -563,7 +563,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>4</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -1262,6 +1262,22 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
           </spec>
         </specs>
         <type>Professional</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>bed02618-6b07-49cf-a82c-fc364091fd9f</guid>
+        <suid>43378bcc-7ca9-4f26-9ee5-8bbc69953628</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>1</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Corporation: Lone Star Security Services</name>
+        <type>Academic</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
@@ -2436,7 +2452,7 @@ Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clo
       <activeammoslot>1</activeammoslot>
       <clips>
         <clip>
-          <count>5</count>
+          <count>4</count>
           <location>loaded</location>
           <id>00000000-0000-0000-0000-000000000000</id>
         </clip>
@@ -3678,9 +3694,9 @@ This one Flintlock keeps loaded with explosive rounds, unless otherwise specifie
       <activeammoslot>1</activeammoslot>
       <clips>
         <clip>
-          <count>64</count>
+          <count>30</count>
           <location>loaded</location>
-          <id>7f52a81b-9257-478d-a2e4-e652612dbdd6</id>
+          <id>063ca894-76c5-44dd-b8f4-77739a85ffad</id>
         </clip>
         <clip>
           <count>56</count>
@@ -5273,6 +5289,63 @@ Anything the character attempts to sabotage using only Gremlins will function fl
 COST: 5 KARMA
 Who needs a watch when you’re around? The character with this quality always knows the time, down to the minute, and has a perfect sense of rhythm and timing. This perfect sense can only be obstructed through prolonged isolation, unconsciousness, or distortion of temporal perception through drugs, chips, or an extended period in the Matrix. This quality provides two game benefits: a +1 dice pool modifier for Performance Tests involving timing and rhythm, along with an additional Free Action during every Action Phase.</notes>
       <notesColor>Chocolate</notesColor>
+    </quality>
+    <quality>
+      <sourceid>ea7cced4-a201-44a2-9a1b-e10180b1df81</sourceid>
+      <guid>6fd7d55d-b464-4a5c-b458-f658da85ec7c</guid>
+      <name>Addiction (Mild)</name>
+      <extra>Betameth</extra>
+      <bp>-4</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>77</page>
+      <sourcename />
+      <bonus>
+        <notoriety>1</notoriety>
+        <selecttext />
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>cf3a62e1-8a41-413e-a679-30c8d1b5a0c1</sourceid>
+      <guid>e969ca09-4924-43fd-af4e-959b58bba577</guid>
+      <name>Common Sense</name>
+      <extra />
+      <bp>3</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>145</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>COMMON SENSE
+COST: 3 KARMA
+“Common sense is not so common” as they say. It’s nothing supernatural, just a keen sense of knowing when something is just a bad idea. Any time a character with this quality is about to do something the gamemaster deems foolish, the gamemaster must act as their proverbial inner voice of reason and issue a little warning. The gamemaster can only give a number of warnings per session equal to or less than the character’s Edge rating. After that, they’re on their own.</notes>
+      <notesColor>#E3813C</notesColor>
     </quality>
   </qualities>
   <lifestyles>
@@ -9355,7 +9428,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>5</qty>
+      <qty>4</qty>
       <avail>2R</avail>
       <costfor>10</costfor>
       <cost>25</cost>
@@ -9770,7 +9843,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>12</qty>
+      <qty>7</qty>
       <avail>9F</avail>
       <costfor>10</costfor>
       <cost>80</cost>
@@ -9953,7 +10026,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>36</qty>
+      <qty>30</qty>
       <avail>12F</avail>
       <costfor>10</costfor>
       <cost>120</cost>
@@ -10406,6 +10479,67 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
       <notes />
       <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
+      <guid>ef38d360-9d02-4fd6-86ad-4ff2a4d9ac30</guid>
+      <name>Ammo: Explosive Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>5</qty>
+      <avail>9F</avail>
+      <costfor>10</costfor>
+      <cost>80</cost>
+      <weight />
+      <extra>Sporting Rifles</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus>
+        <ap>-1</ap>
+        <damage>1</damage>
+      </weaponbonus>
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>2ac3c4af-94a8-4299-ad60-4276f7f05a3e</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
       <overclocked />
@@ -12074,6 +12208,54 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Betameth</improvedname>
+      <sourcename>6fd7d55d-b464-4a5c-b458-f658da85ec7c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>6fd7d55d-b464-4a5c-b458-f658da85ec7c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Notoriety</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -12986,6 +13168,102 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>60012c15-fda6-421d-95c6-78ea4dafe60c</guid>
+      <date>2025-07-05T17:30:33</date>
+      <amount>0</amount>
+      <reason>Gained Negative Quality Addiction (Mild)</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddQuality</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>6fd7d55d-b464-4a5c-b458-f658da85ec7c</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>44915d53-b01d-4573-81dd-f18ecaacd15f</guid>
+      <date>2025-07-05T17:30:43</date>
+      <amount>0</amount>
+      <reason>Gained Positive Quality Common Sense</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddQuality</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>e969ca09-4924-43fd-af4e-959b58bba577</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>8fc8f431-dbc3-422a-8c09-e7ccfe368afc</guid>
+      <date>2025-07-05T17:31:12</date>
+      <amount>-10</amount>
+      <reason>Active Skill Con 4 -&gt; 5</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>17840887-ddc2-47cb-b154-9905f4c0b147</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>84da4243-3ef3-47ca-aa47-e2f15615dffe</guid>
+      <date>2025-07-05T17:31:22</date>
+      <amount>6</amount>
+      <reason>Solo 1 Run Reward: Discounted skill</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>187965cd-1e40-4449-be13-256d318a6265</guid>
+      <date>2025-07-05T17:32:38</date>
+      <amount>-1</amount>
+      <reason>Knowledge Skill Corporation: Lone Star Security Services 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>bed02618-6b07-49cf-a82c-fc364091fd9f</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>744c9376-8bd3-4943-8f23-3637c74bcdd8</guid>
+      <date>2025-07-05T17:32:46</date>
+      <amount>1</amount>
+      <reason>Free KS</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
