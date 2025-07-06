@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>14</karma>
+  <karma>12</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -885,7 +885,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>Chocolate</notesColor>
@@ -13412,6 +13412,22 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <nuyentype>AddGear</nuyentype>
         <objectid>04099606-1d3a-42f2-906f-88e321862d55</objectid>
         <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>99224f63-af1d-498c-8154-f22c01b07862</guid>
+      <date>2025-07-05T17:46:19</date>
+      <amount>-2</amount>
+      <reason>Active Skill Locksmith 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>4eaf7672-5b83-41a9-93df-4b0560048606</objectid>
+        <qty>0</qty>
         <extra />
       </undo>
     </expense>
