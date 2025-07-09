@@ -6551,7 +6551,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>3</rating>
+      <rating>6</rating>
       <qty>1.0</qty>
       <avail>(Rating)R</avail>
       <cost>Rating * 100</cost>
@@ -6608,7 +6608,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>2</rating>
+      <rating>5</rating>
       <qty>1.0</qty>
       <avail>(Rating * 3)F</avail>
       <cost>Rating * 200</cost>
@@ -6665,7 +6665,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>3</rating>
+      <rating>5</rating>
       <qty>1.0</qty>
       <avail>(Rating)</avail>
       <cost>Rating * 50</cost>
@@ -8782,91 +8782,6 @@ Similar to a cyberarm, a drone arm is much cheaper due to the lack of flesh-chro
               <mount />
               <stolen>False</stolen>
               <extramount />
-              <underbarrel>
-                <weapon>
-                  <sourceid>5df8388e-9ca9-4455-9ac0-3d83ffd77d0d</sourceid>
-                  <guid>b94eb1b9-7485-4cba-8c41-29bbbc588e69</guid>
-                  <name>Underbarrel Grenade Launcher</name>
-                  <category>Underbarrel Weapons</category>
-                  <type>Ranged</type>
-                  <spec />
-                  <spec2 />
-                  <reach>0</reach>
-                  <damage>Grenade</damage>
-                  <ap>Grenade</ap>
-                  <mode>SS</mode>
-                  <rc>0</rc>
-                  <ammo>6(c)</ammo>
-                  <cyberware>False</cyberware>
-                  <ammocategory>Grenade Launchers</ammocategory>
-                  <ammoslots>1</ammoslots>
-                  <sizecategory />
-                  <firingmode>DogBrain</firingmode>
-                  <minrating />
-                  <maxrating />
-                  <rating>0</rating>
-                  <accuracy>6</accuracy>
-                  <activeammoslot>1</activeammoslot>
-                  <conceal>6</conceal>
-                  <avail>10F</avail>
-                  <cost>3500</cost>
-                  <weight />
-                  <useskill>Heavy Weapons</useskill>
-                  <useskillspec>Grenade Launchers</useskillspec>
-                  <range>Grenade Launchers</range>
-                  <alternaterange />
-                  <rangemultiply>1</rangemultiply>
-                  <singleshot>1</singleshot>
-                  <shortburst>3</shortburst>
-                  <longburst>6</longburst>
-                  <fullburst>10</fullburst>
-                  <suppressive>20</suppressive>
-                  <allowsingleshot>True</allowsingleshot>
-                  <allowshortburst>True</allowshortburst>
-                  <allowlongburst>True</allowlongburst>
-                  <allowfullburst>True</allowfullburst>
-                  <allowsuppressive>True</allowsuppressive>
-                  <source>SR5</source>
-                  <page>428</page>
-                  <parentid />
-                  <allowaccessory>True</allowaccessory>
-                  <weaponname />
-                  <included>False</included>
-                  <equipped>True</equipped>
-                  <requireammo>True</requireammo>
-                  <accuracy>6</accuracy>
-                  <mount>Under</mount>
-                  <stolen>False</stolen>
-                  <extramount />
-                  <location />
-                  <notes />
-                  <notesColor>#E3813C</notesColor>
-                  <discountedcost>False</discountedcost>
-                  <weaponslots />
-                  <doubledcostweaponslots />
-                  <active>False</active>
-                  <homenode>False</homenode>
-                  <devicerating />
-                  <programlimit />
-                  <overclocked>None</overclocked>
-                  <attack />
-                  <sleaze />
-                  <dataprocessing />
-                  <firewall />
-                  <attributearray />
-                  <modattack />
-                  <modsleaze />
-                  <moddataprocessing />
-                  <modfirewall />
-                  <modattributearray />
-                  <canswapattributes>False</canswapattributes>
-                  <matrixcmfilled>0</matrixcmfilled>
-                  <wirelessbonus />
-                  <wirelesson>True</wirelesson>
-                  <sortorder>0</sortorder>
-                  <weapontype>glauncher</weapontype>
-                </weapon>
-              </underbarrel>
               <location />
               <notes>Colt M23: This cheap, mass-produced, no-frills as- sault rifle is loved both by the gangbangers and pirates who can manage to get their hands on one and by the pros who are looking for something to modify from the ground up.</notes>
               <notesColor>#E3813C</notesColor>
