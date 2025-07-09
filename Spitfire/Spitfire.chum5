@@ -3344,7 +3344,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location>8c969165-f5ad-4da6-bb34-ada0e396863a</location>
+      <location />
       <notes>Encryption: Activating the Encryption utility gives you a +1 bonus to your Firewall attribute.</notes>
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -3363,7 +3363,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>d157fdf9-2315-4402-af6e-2aa4924f6a82</sourceid>
@@ -4522,7 +4522,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>89a0f3c9-5ef6-41cd-981f-4ac690ee2ab3</sourceid>
@@ -5208,7 +5208,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>6de5a1b0-30e2-4c74-8646-971f698cb231</sourceid>
@@ -5894,7 +5894,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>2eed08e8-1bda-4f4a-86a5-d9564c1c55a7</sourceid>
@@ -6483,7 +6483,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>c56554d1-4102-446f-8d3e-acd0c7404c3a</sourceid>
@@ -6540,7 +6540,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>0918742f-6fc8-46ac-91e0-2b7260841923</sourceid>
@@ -6551,7 +6551,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>6</rating>
+      <rating>5</rating>
       <qty>1.0</qty>
       <avail>(Rating)R</avail>
       <cost>Rating * 100</cost>
@@ -6608,7 +6608,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>5</rating>
+      <rating>4</rating>
       <qty>1.0</qty>
       <avail>(Rating * 3)F</avail>
       <cost>Rating * 200</cost>
@@ -6665,7 +6665,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity>[2]</armorcapacity>
       <minrating />
       <maxrating>6</maxrating>
-      <rating>5</rating>
+      <rating>4</rating>
       <qty>1.0</qty>
       <avail>(Rating)</avail>
       <cost>Rating * 50</cost>
@@ -6923,6 +6923,120 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <location>d882ce4b-8e7e-4073-a27f-a3f15567fbdb</location>
       <notes>Climbing gear: This is a backpack full of rope (400- kilo test), an ascent/descent harness, gloves, carabiners, crampons, and so forth needed for assisted climbing (Climbing, p. 134).</notes>
       <notesColor>Chocolate</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1662e26b-7370-4ade-9d9d-c9b92b0d145b</sourceid>
+      <guid>cb46740c-6a11-4114-b0e1-f8edf56ba9f2</guid>
+      <name>Signal Scrub</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>fe12526e-cb65-40d2-8018-7392478c176b</location>
+      <notes>Signal Scrub: By analyzing the background noise and incoming signals, Signal Scrub gives you Rating 2 noise reduction.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>8920c83c-f4f2-4dfa-81a4-b150ba6ae1c0</sourceid>
+      <guid>ab004c61-5988-4265-928f-ee98ddc95e79</guid>
+      <name>Sneak</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>fe12526e-cb65-40d2-8018-7392478c176b</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
       <overclocked>None</overclocked>
@@ -12503,13 +12617,6 @@ While most modern governments primarily use electronic identification for vehicl
       <notes />
       <notesColor>Chocolate</notesColor>
       <sortorder>4</sortorder>
-    </location>
-    <location>
-      <guid>8c969165-f5ad-4da6-bb34-ada0e396863a</guid>
-      <name>RCC Programs</name>
-      <notes />
-      <notesColor>Chocolate</notesColor>
-      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>d882ce4b-8e7e-4073-a27f-a3f15567fbdb</guid>
