@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-1763125744</settingshashcode>
+  <settingshashcode>-1026655554</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1499,7 +1499,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <type>Contact</type>
       <file />
       <relative />
-      <notes>1 chip
+      <notes>2 chips
 
 Physical Description: A middle-aged man, it is clear that Komon has kept up with his physical training, as is common for specialists in the Yakuza. Still, as a fixer it isn't his strong suit, so anyone who knows him might suspect the involvement of bioware or well-concealed cyberware is what's really keeping him in peak physical condition.
 
