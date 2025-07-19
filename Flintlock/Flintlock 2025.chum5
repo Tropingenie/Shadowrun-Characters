@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-1026655554</settingshashcode>
+  <settingshashcode>-2126176516</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>12</karma>
+  <karma>20</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>37065.666666666666</nuyen>
+  <nuyen>67065.666666666666</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -1369,6 +1369,22 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
+        <guid>0ddf438d-6ce3-436d-9acb-f8f83f71cd9c</guid>
+        <suid>fe3ccfd5-9e14-4e0a-962d-f9601fc24950</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>1</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Shadow Community</name>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
         <guid>89fb765e-ae21-4a01-bef9-790fa8726dd8</guid>
         <suid>a364caab-f0bd-49b8-859e-1fa0d73c3c53</suid>
         <isknowledge>True</isknowledge>
@@ -1499,7 +1515,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <type>Contact</type>
       <file />
       <relative />
-      <notes>2 chips
+      <notes>3 chips
 
 Physical Description: A middle-aged man, it is clear that Komon has kept up with his physical training, as is common for specialists in the Yakuza. Still, as a fixer it isn't his strong suit, so anyone who knows him might suspect the involvement of bioware or well-concealed cyberware is what's really keeping him in peak physical condition.
 
@@ -2304,7 +2320,7 @@ Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clo
       <source>HT</source>
       <page>184</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -3687,7 +3703,7 @@ This one Flintlock keeps loaded with explosive rounds, unless otherwise specifie
       <activeammoslot>1</activeammoslot>
       <clips>
         <clip>
-          <count>30</count>
+          <count>28</count>
           <location>loaded</location>
           <id>063ca894-76c5-44dd-b8f4-77739a85ffad</id>
         </clip>
@@ -7765,7 +7781,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <weight />
       <extra />
       <bonded>False</bonded>
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <wirelesson>False</wirelesson>
       <stolen>False</stolen>
       <bonus />
@@ -9242,7 +9258,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>2.0</qty>
+      <qty>1.0</qty>
       <avail>4R</avail>
       <cost>100</cost>
       <weight />
@@ -9958,7 +9974,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>30</qty>
+      <qty>28</qty>
       <avail>12F</avail>
       <costfor>10</costfor>
       <cost>120</cost>
@@ -10146,7 +10162,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <weight />
       <extra />
       <bonded>False</bonded>
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <wirelesson>False</wirelesson>
       <stolen>False</stolen>
       <bonus />
@@ -10257,7 +10273,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>64</qty>
+      <qty>30</qty>
       <avail>12F</avail>
       <costfor>10</costfor>
       <cost>120</cost>
@@ -11077,7 +11093,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>Chocolate</notesColor>
@@ -11997,7 +12013,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12236,6 +12252,30 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customname>+3 Reaction</customname>
       <customid>specificattribute</customid>
       <customgroup>Betameth</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>9263566f-f77d-465a-a500-ecf4cf0087c3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CMThresholdOffset</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>High Pain Tolerance</customname>
+      <customid>conditionmonitoroffset</customid>
+      <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>1</enabled>
       <order>0</order>
@@ -13335,6 +13375,70 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>1e42dd4b-5328-4784-88cf-a845e944086e</guid>
+      <date>2025-07-19T03:57:51</date>
+      <amount>8</amount>
+      <reason>Game 4: X-Mas in July</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>5dc42e9b-9b44-4ba5-8094-665f57722f85</guid>
+      <date>2025-07-19T03:58:31</date>
+      <amount>30000</amount>
+      <reason>Game 4: X-Mas in July</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b4507560-b713-495d-8cf0-7d019e67bdf6</guid>
+      <date>2025-07-19T03:58:58</date>
+      <amount>-1</amount>
+      <reason>Knowledge Skill Shadow Community 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>0ddf438d-6ce3-436d-9acb-f8f83f71cd9c</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>cfd617e0-5bf5-40ac-9cd5-b2166ce47d07</guid>
+      <date>2025-07-19T03:59:03</date>
+      <amount>1</amount>
+      <reason>Free KS</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -13398,9 +13502,9 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
   <calendar />
   <calculatedvalues>
     <physicalcm>12</physicalcm>
-    <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
+    <physicalcmthresholdoffset>3</physicalcmthresholdoffset>
     <physicalcmoverflow>8</physicalcmoverflow>
     <stuncm>12</stuncm>
-    <stuncmthresholdoffset>0</stuncmthresholdoffset>
+    <stuncmthresholdoffset>3</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
