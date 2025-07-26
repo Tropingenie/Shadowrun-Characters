@@ -185,8 +185,8 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>50</basecarrylimit>
-  <baseliftlimit>75</baseliftlimit>
+  <basecarrylimit>20</basecarrylimit>
+  <baseliftlimit>30</baseliftlimit>
   <totalcarriedweight>0</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>56487.333333333332</nuyen>
+  <nuyen>9687.333333333332</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -226,7 +226,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -256,7 +256,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -266,7 +266,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>5</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>9</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -316,7 +316,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -326,7 +326,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -346,7 +346,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
   </attributes>
   <magenabled>False</magenabled>
@@ -357,7 +357,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.18</totaless>
+  <totaless>0.78</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -5185,6 +5185,96 @@ The user’s Physical limit for the Escape Artist skill is increased by 1. In ad
       </wirelesspairinclude>
       <notes>NARCO
 This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off are halved in duration. On Addiction Tests, take a –2 dice pool modifier when you aren’t addicted to the drug you’re rolling for, and a +2 dice pool modifier when you are addicted to the drug.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>b02419a0-7d67-44d5-be4d-103798dc5cce</guid>
+      <sourceid>bea0ded3-821f-449c-9507-815088f68b86</sourceid>
+      <name>Wired Reflexes</name>
+      <category>Bodyware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>FixedValues(2,3,5)</ess>
+      <capacity>0</capacity>
+      <avail>FixedValues(8R,12R,20R)</avail>
+      <cost>FixedValues(39000,149000,217000)</cost>
+      <weight />
+      <source>SR5</source>
+      <page>455</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>1</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating>1</minrating>
+      <maxrating>3</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>True</wirelesson>
+      <grade>Alphaware</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <disablequality>3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
+        <initiativepass precedence="0">Rating</initiativepass>
+        <specificattribute precedence="0">
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus mode="replace">
+        <disablequality>3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
+        <initiativepass precedence="1">Rating</initiativepass>
+        <specificattribute precedence="1">
+          <name>REA</name>
+          <val>Rating</val>
+          <aug>FixedValues(0,0,1)</aug>
+        </specificattribute>
+      </wirelesspairbonus>
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Wired Reflexes</name>
+        <name>Reaction Enhancers</name>
+      </pairinclude>
+      <wirelesspairinclude />
+      <notes>Wired reflexes: This highly invasive, painful, life-changing operation adds a multitude of neural boost- ers and adrenaline stimulators in strategic locations throughout your body work to catapult you into a whole new world where everything around you seems to move in slow motion. The system includes both manual and wireless triggers to turn the wired reflexes on and off; activating or deactivating the trigger manually requires a Complex Action, doing so wirelessly is a Simple Action. When activated, each rating point of wired reflexes gives you +1 Reaction (and accompanying bonus to Initiative) and +1D6 Initiative Die. Wired reflexes are incompatible with augmentations that affect Reaction or Initiative.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -12317,30 +12407,6 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>14ad6427-c16b-4906-93d8-12d0991bddf4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>InitiativeDiceAdd</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>+1d6 Initiative Dice</customname>
-      <customid>initiativediceadd</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Betameth</improvedname>
       <sourcename>6fd7d55d-b464-4a5c-b458-f658da85ec7c</sourcename>
       <min>0</min>
@@ -12406,7 +12472,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12430,7 +12496,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12454,7 +12520,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>physicallimit</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12478,7 +12544,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12502,7 +12568,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12526,7 +12592,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Betameth</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12550,31 +12616,7 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <customid>specificattribute</customid>
       <customgroup>Betameth</customgroup>
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>9263566f-f77d-465a-a500-ecf4cf0087c3</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>3</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>CMThresholdOffset</improvementttype>
-      <improvementsource>Custom</improvementsource>
-      <custom>True</custom>
-      <customname>High Pain Tolerance</customname>
-      <customid>conditionmonitoroffset</customid>
-      <customgroup>Kamikaze</customgroup>
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12620,6 +12662,128 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <custom>False</custom>
       <customname />
       <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>eb16e31f-b5ad-44ed-b4f5-8e0a9adbd4cc</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CMThresholdOffset</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>High Pain Tolerance 3</customname>
+      <customid>conditionmonitoroffset</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>3564b678-7721-4a8d-ac79-1600cf92dc14</improvedname>
+      <sourcename>b02419a0-7d67-44d5-be4d-103798dc5cce</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname />
+      <sourcename>b02419a0-7d67-44d5-be4d-103798dc5cce</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>InitiativeDice</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename>b02419a0-7d67-44d5-be4d-103798dc5cce</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d3576304-599d-4562-8675-b172b866a952</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1.00</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>InitiativeDiceAdd</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>Wired Reflexes Init Dice</customname>
+      <customid>initiativediceadd</customid>
       <customgroup />
       <addtorating>0</addtorating>
       <enabled>1</enabled>
@@ -13905,6 +14069,22 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>8f7edb13-5cb7-409b-9024-fd4280f3fca3</guid>
+      <date>2025-07-26T11:23:13</date>
+      <amount>-46800.0</amount>
+      <reason>Purchased Cyberware Wired Reflexes</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>b02419a0-7d67-44d5-be4d-103798dc5cce</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -13964,13 +14144,14 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
     <improvementgroup>Kamikaze</improvementgroup>
     <improvementgroup>Betameth</improvementgroup>
     <improvementgroup>Cereprax</improvementgroup>
+    <improvementgroup>Nitro</improvementgroup>
   </improvementgroups>
   <calendar />
   <calculatedvalues>
-    <physicalcm>12</physicalcm>
-    <physicalcmthresholdoffset>3</physicalcmthresholdoffset>
-    <physicalcmoverflow>8</physicalcmoverflow>
-    <stuncm>12</stuncm>
-    <stuncmthresholdoffset>3</stuncmthresholdoffset>
+    <physicalcm>11</physicalcm>
+    <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
+    <physicalcmoverflow>6</physicalcmoverflow>
+    <stuncm>11</stuncm>
+    <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
