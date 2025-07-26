@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>57382.333333333332</nuyen>
+  <nuyen>56532.333333333332</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -5702,6 +5702,65 @@ Cost: +1,000 nuyen a month</notes>
       <sortorder>1</sortorder>
     </gear>
     <gear>
+      <sourceid>64fa5212-1d58-4e94-9cc1-9e3eb10773ed</sourceid>
+      <guid>b386a92d-b622-40ef-829f-0b6096aaabb5</guid>
+      <name>Tool Kit</name>
+      <category>Tools</category>
+      <capacity />
+      <armorcapacity>[6]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>500</cost>
+      <weight />
+      <extra>Disguise</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttext xml="skills.xml" xpath="/chummer/skills/skill/name | /chummer/knowledgeskills/skill/name" allowedit="True" />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>443</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>64c56117-1554-4d63-b37d-a516978b0d40</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
       <sourceid>d0eb5971-03d6-4822-9fb5-c524bf16bf62</sourceid>
       <guid>875378c4-53e7-4716-9957-6e0e8ab89903</guid>
       <name>Tag Eraser</name>
@@ -5796,7 +5855,7 @@ Cost: +1,000 nuyen a month</notes>
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>64c56117-1554-4d63-b37d-a516978b0d40</location>
       <notes />
       <notesColor>Chocolate</notesColor>
       <discountedcost>False</discountedcost>
@@ -7420,7 +7479,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -8360,7 +8419,7 @@ Stealth rope &amp; catalyst stick: When stealth rope is touched with the catalys
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</sourceid>
@@ -10261,7 +10320,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
@@ -10420,7 +10479,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>9ec1818e-0d33-4e58-b875-a65b61bd90a9</location>
       <notes>Trodes: Available as a headband, net, or full-on cap, this electrode-and-ultrasound net gives you a direct neural interface. Useful if you’re too squeamish to get a hole drilled in your head for a datajack. Adding this to headgear takes two slots of Capacity.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10439,7 +10498,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>0fdeb240-743c-4a9d-9cf1-fef0990575bb</sourceid>
@@ -10559,6 +10618,63 @@ Not in the mood for a new gun, but still want a different experience with your f
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>5</sortorder>
+    </gear>
+    <gear>
+      <sourceid>6bc81c68-d84b-435d-b441-660e4b18f2e8</sourceid>
+      <guid>70d8199a-f8d0-4dbb-97e0-c80432ae7a72</guid>
+      <name>Nanopaste Disguise Container, Small</name>
+      <category>Nanogear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>12F</avail>
+      <cost>350</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CF</source>
+      <page>152</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>64c56117-1554-4d63-b37d-a516978b0d40</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
     </gear>
   </gears>
   <vehicles>
@@ -12282,6 +12398,30 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Disguise</improvedname>
+      <sourcename>b386a92d-b622-40ef-829f-0b6096aaabb5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -13463,6 +13603,38 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <type>Nuyen</type>
       <refund>False</refund>
       <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>7aeb7670-fa7a-4036-b00b-b78a7586a4f5</guid>
+      <date>2025-07-26T10:05:37</date>
+      <amount>-350</amount>
+      <reason>Purchased Gear Nanopaste Disguise Container, Small</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>70d8199a-f8d0-4dbb-97e0-c80432ae7a72</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>db4de01e-4c93-4482-99e4-6e359c545cbe</guid>
+      <date>2025-07-26T10:06:23</date>
+      <amount>-500</amount>
+      <reason>Purchased Gear Tool Kit</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>b386a92d-b622-40ef-829f-0b6096aaabb5</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
     </expense>
   </expenses>
   <gearlocations>
