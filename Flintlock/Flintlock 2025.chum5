@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-2126176516</settingshashcode>
+  <settingshashcode>601301066</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>67065.666666666666</nuyen>
+  <nuyen>57382.333333333332</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -13438,6 +13438,31 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <qty>0</qty>
         <extra />
       </undo>
+    </expense>
+    <expense>
+      <guid>8281e15a-5ad9-434e-be24-f49d021d62cd</guid>
+      <date>2025-07-26T09:56:03</date>
+      <amount>-9683.333333333334</amount>
+      <reason>Purchased Lifestyle Medium</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>IncreaseLifestyle</nuyentype>
+        <objectid>947fc6c9-903d-46b1-bb2a-7c96e4562864</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>524aef18-ed7c-47c2-919f-de3f06a63ee5</guid>
+      <date>2025-07-26T09:56:06</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Medium</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
     </expense>
   </expenses>
   <gearlocations>
