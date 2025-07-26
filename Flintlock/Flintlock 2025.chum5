@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>56532.333333333332</nuyen>
+  <nuyen>56487.333333333332</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -2994,6 +2994,57 @@ This modification allows a weapon’s owner to customize a weapon to fit the siz
           <sortorder>0</sortorder>
           <parentid />
         </accessory>
+        <accessory>
+          <sourceid>a1865555-8ad5-43ec-a30e-b7d77e804fab</sourceid>
+          <guid>9e44fa39-fea5-403f-856e-a8db64a6b0b3</guid>
+          <name>Sling</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>0</avail>
+          <cost>15</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>RG</source>
+          <page>52</page>
+          <accuracy>0</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach>0</reach>
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
       </accessories>
       <location />
       <notes>GRAPPLE GUN
@@ -3631,6 +3682,57 @@ This one Flintlock keeps loaded with Gel Rounds, unless otherwise specified</not
           <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.
 
 This one Flintlock keeps loaded with explosive rounds, unless otherwise specified.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>a1865555-8ad5-43ec-a30e-b7d77e804fab</sourceid>
+          <guid>8af28370-6877-438a-bc69-f118bbc60c3f</guid>
+          <name>Sling</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>0</avail>
+          <cost>15</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>RG</source>
+          <page>52</page>
+          <accuracy>0</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach>0</reach>
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <singleshot>0</singleshot>
@@ -4361,6 +4463,57 @@ This modification allows a weapon’s owner to customize a weapon to fit the siz
           <ap />
           <apreplace />
           <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>a1865555-8ad5-43ec-a30e-b7d77e804fab</sourceid>
+          <guid>8a3a1dad-aac6-4464-a1af-5f0141fda6a2</guid>
+          <name>Sling</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>0</avail>
+          <cost>15</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>RG</source>
+          <page>52</page>
+          <accuracy>0</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach>0</reach>
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <singleshot>0</singleshot>
@@ -13633,6 +13786,54 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <nuyentype>AddGear</nuyentype>
         <objectid>b386a92d-b622-40ef-829f-0b6096aaabb5</objectid>
         <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b7dba33a-712d-41b9-8526-ae33bfc460dc</guid>
+      <date>2025-07-26T10:09:02</date>
+      <amount>-15</amount>
+      <reason>Purchased Weapon Accessory Sling</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>8af28370-6877-438a-bc69-f118bbc60c3f</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>763237c1-fe5e-4102-b3ad-4239b264d735</guid>
+      <date>2025-07-26T10:09:11</date>
+      <amount>-15</amount>
+      <reason>Purchased Weapon Accessory Sling</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>8a3a1dad-aac6-4464-a1af-5f0141fda6a2</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>6e86b00b-6787-4d17-b51d-0582240abe3c</guid>
+      <date>2025-07-26T10:09:21</date>
+      <amount>-15</amount>
+      <reason>Purchased Weapon Accessory Sling</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>9e44fa39-fea5-403f-856e-a8db64a6b0b3</objectid>
+        <qty>0</qty>
         <extra />
       </undo>
     </expense>
