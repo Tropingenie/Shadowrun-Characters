@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>20</karma>
+  <karma>10</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -357,7 +357,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>1.91</totaless>
+  <totaless>2.18</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -5507,6 +5507,34 @@ Who needs a watch when you’re around? The character with this quality always k
       <notes>COMMON SENSE
 COST: 3 KARMA
 “Common sense is not so common” as they say. It’s nothing supernatural, just a keen sense of knowing when something is just a bad idea. Any time a character with this quality is about to do something the gamemaster deems foolish, the gamemaster must act as their proverbial inner voice of reason and issue a little warning. The gamemaster can only give a number of warnings per session equal to or less than the character’s Edge rating. After that, they’re on their own.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>23bfa65d-9241-4183-b7ea-0e2935e42f29</sourceid>
+      <guid>a3e9224c-2708-4ebe-b269-bd081c2a2d43</guid>
+      <name>Biocompatibility (Cyberware)</name>
+      <extra />
+      <bp>5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>CF</source>
+      <page>54</page>
+      <sourcename />
+      <bonus>
+        <cyberwareessmultiplier>90</cyberwareessmultiplier>
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
       <notesColor>#E3813C</notesColor>
     </quality>
   </qualities>
@@ -12575,6 +12603,30 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>a3e9224c-2708-4ebe-b269-bd081c2a2d43</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>90</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CyberwareEssCost</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -13833,6 +13885,22 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddWeaponAccessory</nuyentype>
         <objectid>9e44fa39-fea5-403f-856e-a8db64a6b0b3</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>93f9d4aa-a057-4c3b-9951-3c59d8ce529d</guid>
+      <date>2025-07-26T10:58:30</date>
+      <amount>-10</amount>
+      <reason>Gained Positive Quality Biocompatibility (Cyberware)</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddQuality</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>a3e9224c-2708-4ebe-b269-bd081c2a2d43</objectid>
         <qty>0</qty>
         <extra />
       </undo>
