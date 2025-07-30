@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>601301066</settingshashcode>
+  <settingshashcode>-2126176516</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -173,7 +173,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
 [] Psyche\tab \tab Ingestion\tab \tab 10 Minutes\tab (12-BOD) = 7 hours\tab \tab +1 Intuition, +1 Logic, +1 Mental limit, Sustained Spell dicepool modifier reduced to -1 (from -2)\par
 }</gamenotes>
   <primaryarm>Left</primaryarm>
-  <karma>10</karma>
+  <karma>5</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -196,7 +196,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>9687.333333333332</nuyen>
+  <nuyen>312.333333333332</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -1628,6 +1628,37 @@ Backstory: Mash, of Bangers n' Mash Gun Emporium, knows when a person who has ne
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>fa126752-e4d5-4d91-a62b-3bc34db6eb76</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Kyoko Hayashi (Hub)</name>
+      <role>SIN Forger</role>
+      <location />
+      <connection>5</connection>
+      <loyalty>2</loyalty>
+      <metatype>Human</metatype>
+      <gender>Female</gender>
+      <age>Young</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Kyoko Hayashi is the name of a Seattle-born Japanese artist who died very publicly in the Bellevue Bombings. The woman before you does bear a slight resemblance to the artist, but carries herself with nothing like the neo-hippie air of the late painter. Sharply dressed, punctual to a T, and never a hair more coy than necessary to disguise the nature of her business. She avoids any attempts to veer a conversation away from business, and is exactly as polite as necessary, giving neither veiled insult nor dramatic compliment. Further, she is extremely realistic about her skills, and will be frank if you ask the impossible, improbable, or excessively risky of her.
+
+That aside, she is a master of her craft, and when she sets out to a task she accomplishes it. If you follow her directions regarding meetings and handoffs, (typically being Absolutely No Guns, Look Nice, and Convincingly Pretend to be Cultured) your patience will be rewarded with consistency uncommon in the shadows.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>6586574e-be30-4e1d-bd70-658cb7f443bd</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
@@ -9930,7 +9961,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>8f351e25-d734-4bd0-86da-80b68a4cae68</sourceid>
@@ -10048,7 +10079,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>12</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10109,7 +10140,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10170,7 +10201,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10231,7 +10262,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10292,7 +10323,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>ef9c8aae-26df-4fe6-88b3-79fbb5eb77c5</sourceid>
@@ -10352,7 +10383,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -10413,7 +10444,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10474,7 +10505,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>324e2a5f-de77-4e64-9c95-676bd987c772</sourceid>
@@ -10651,7 +10682,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
@@ -10712,7 +10743,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>418d5ba1-dd19-4179-add8-074be445a7b2</sourceid>
@@ -10888,7 +10919,7 @@ Not in the mood for a new gun, but still want a different experience with your f
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>6bc81c68-d84b-435d-b441-660e4b18f2e8</sourceid>
@@ -10946,6 +10977,65 @@ Not in the mood for a new gun, but still want a different experience with your f
       <active>False</active>
       <homenode>False</homenode>
       <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
+      <guid>7dd1b557-ebc7-47a4-b55f-5b2a18905f8e</guid>
+      <name>Fake SIN</name>
+      <category>ID/Credsticks</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>5</rating>
+      <qty>1.0</qty>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 2500</cost>
+      <weight />
+      <extra>Catherine De Luca - Ares</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>True</allowrename>
+      <children />
+      <location>5a2ad54b-2caf-483d-9494-9e2a71306680</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
     </gear>
   </gears>
   <vehicles>
@@ -12791,6 +12881,30 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Catherine De Luca - Ares</improvedname>
+      <sourcename>7dd1b557-ebc7-47a4-b55f-5b2a18905f8e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -14082,6 +14196,38 @@ Even the rear door opens wide. All this versatility makes this car a dream for t
         <nuyentype>AddCyberware</nuyentype>
         <objectid>b02419a0-7d67-44d5-be4d-103798dc5cce</objectid>
         <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>1b071161-edee-4226-8e5c-7f3e348e7442</guid>
+      <date>2025-07-30T15:49:48</date>
+      <amount>-5</amount>
+      <reason>Purchased contact: Kyoko Hayashi</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualSubtract</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>582492c8-1e92-4792-b76d-0d45c490b81e</guid>
+      <date>2025-07-30T15:57:26</date>
+      <amount>-9375.00</amount>
+      <reason>Purchased Gear Fake SIN</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>7dd1b557-ebc7-47a4-b55f-5b2a18905f8e</objectid>
+        <qty>1.0</qty>
         <extra />
       </undo>
     </expense>
