@@ -66,3 +66,4 @@ Post Session:
     - Add boat to spreadsheet
     - Add behicle ett to spreadsheet
     - 18k nuyen, 5 karma WFTN (10k), 1 karma, KS Security Procedures, chip on Riku Honda
+    - Retconned boat (Riku is Air Trait)
