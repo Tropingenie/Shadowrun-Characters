@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>454013338</settingshashcode>
+  <settingshashcode>1381944934</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -83,7 +83,7 @@
     <priorityskill>Counterspelling</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
-  <name />
+  <name>Four Drops (四掉)</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
   <gender />
