@@ -1120,7 +1120,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1180,7 +1180,7 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
