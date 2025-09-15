@@ -79,7 +79,7 @@
   <priorityresources>B</priorityresources>
   <prioritytalent>Mystic Adept</prioritytalent>
   <priorityskills>
-    <priorityskill>Banishing</priorityskill>
+    <priorityskill>Assensing</priorityskill>
     <priorityskill>Counterspelling</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
@@ -341,7 +341,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>a69d5f6b-70e6-4e5e-a93c-6aaaf033dd83</guid>
+        <guid>8cd780be-da9d-4bb2-b999-69e40ebdb7f0</guid>
         <suid>fc89344f-daa6-438e-b61d-23f10dd13e44</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -416,7 +416,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>ec247eb0-a92b-42d7-b09f-59c38ba166ea</guid>
+        <guid>1fd5bc21-6196-45f6-8d7b-9f03d1409ac9</guid>
         <suid>955d9376-3066-469d-8670-5170c1d59020</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -446,7 +446,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>b1ad99b7-05c0-4d62-906c-a92d797788f6</guid>
+        <guid>efa193cb-6cd6-4919-8f9f-4ebc50f0f433</guid>
         <suid>59318078-e071-411b-9194-7222560e9f4a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -459,17 +459,9 @@
         <notesColor>#E3813C</notesColor>
         <name>Assensing</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>9e979047-c645-4373-88be-85c9f7ed187d</guid>
-            <name>Auras</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
       </skill>
       <skill>
-        <guid>4c861241-2a66-4f0a-ac66-5bb2624830a2</guid>
+        <guid>b3987059-f8b0-44a5-b140-6b1f08105197</guid>
         <suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -522,7 +514,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>187337cf-bcb8-4675-a976-9d2b21fe5b0c</guid>
+        <guid>9edd8e89-9d69-4a02-aecb-5edb11262c18</guid>
         <suid>9a2d9175-d445-45ca-842d-90223ad13f05</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -535,9 +527,17 @@
         <notesColor>#E3813C</notesColor>
         <name>Banishing</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>d3a291c5-2e77-4401-88b8-9429d85dc2b5</guid>
+            <name>Auras (skill bugged should be Assensing)</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
-        <guid>eba73a0f-d5d0-4322-814f-d49aa441b43c</guid>
+        <guid>45e15ec0-94d2-4747-b5bb-e2aea5d363dd</guid>
         <suid>dfba7c09-3d95-43fd-be75-39b3e8b22cd3</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -642,7 +642,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>cebc1fc9-a15e-4c56-aa6f-4f9c7ff55d75</guid>
+        <guid>11681101-9aee-482c-800f-fe9cdc8cd0e3</guid>
         <suid>3db81bcc-264b-47e1-847c-06bdacd88973</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -702,7 +702,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>2200e28d-f890-4be8-8b13-4b408565801d</guid>
+        <guid>4cba8eb8-b4c3-4033-b179-2ad9ffeb380e</guid>
         <suid>a9d9b686-bc4a-4347-b011-ff8f41455965</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -1243,7 +1243,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>7a997f8c-3610-4eef-b26f-bd77cf395f65</guid>
+        <guid>a7d3ca1a-27db-46c5-901e-50bf9fe77100</guid>
         <suid>a6287e62-6a3b-43ce-b6e0-20f3655910e2</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -1303,7 +1303,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>fc7bec6f-54b7-455a-8350-e69586ba579b</guid>
+        <guid>67d4bebb-0511-4b28-b872-21b72369f71d</guid>
         <suid>c4367a39-4065-4b1d-aa62-e9dce377e452</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -1318,7 +1318,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>87aa34a3-5362-4cff-84d9-54ffdb80ee93</guid>
+        <guid>3e67f16e-6ff0-4620-861d-4be9d25761b3</guid>
         <suid>51e34c6c-b07f-45f4-8a5e-8f2b617ed32f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -1418,7 +1418,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>3</base>
+        <base>4</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Cantonese</name>
@@ -1443,12 +1443,45 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>2</base>
+        <base>3</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Corporation: Wuxing, Inc.</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>abe4f8b3-3408-4e83-930c-76dcf1bebb86</guid>
+            <name>Seattle Operations</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
         <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>83720ebd-a32a-4892-a77a-d94344ad2f56</guid>
+        <suid>f876953e-a14e-4ca5-b454-b0090907da28</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Japanese</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>5f73f0e0-4fbc-418a-8d40-8ec0681cfa89</guid>
+            <name>Read/Write</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Language</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
@@ -1460,7 +1493,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>2</base>
+        <base>3</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Magical Law</name>
@@ -1477,11 +1510,19 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>2</base>
+        <base>4</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Magical Security</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>866bafb9-cd7f-4a87-b4e4-62031fc02c30</guid>
+            <name>Wuxing</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
         <type>Street</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
@@ -1536,7 +1577,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>3</base>
+        <base>4</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Triads</name>
@@ -1545,6 +1586,31 @@
           <spec>
             <guid>00356b45-0491-48b6-a12c-3bc256fb7e44</guid>
             <name>Organizations</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>b3679b1b-4922-4f0f-ac10-3aef2bce529f</guid>
+        <suid>e216aad1-15fa-48c5-9d0e-0c6a92e819e0</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>3</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Yakuza</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>fa116139-1343-4324-bef3-9e9125c890a1</guid>
+            <name>Turf</name>
             <free>False</free>
             <expertise>False</expertise>
           </spec>
@@ -1847,16 +1913,7 @@
   <martialarts />
   <limitmodifiers>
     <limitmodifier>
-      <guid>45c09917-53c0-48ee-afdd-b116b90765ee</guid>
-      <name>Zoé: Executive Suite</name>
-      <limit>Social</limit>
-      <bonus>1</bonus>
-      <condition>LimitCondition_Visible</condition>
-      <candelete>False</candelete>
-      <notes />
-    </limitmodifier>
-    <limitmodifier>
-      <guid>77045f2d-53b6-4928-af31-2552963aec52</guid>
+      <guid>4841662b-9022-400c-aeab-390a5e5afec4</guid>
       <name>Custom Ballistic Mask</name>
       <limit>Social</limit>
       <bonus>2</bonus>
@@ -1865,7 +1922,7 @@
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>02a47176-9c3c-4ba4-b797-30f09cf58166</guid>
+      <guid>95fa3938-ea36-4ca9-968e-54fc526251bf</guid>
       <name>Audio Enhancement</name>
       <limit>Mental</limit>
       <bonus>1</bonus>
@@ -10120,6 +10177,30 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
+      <improvedname>Banishing</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>5</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillBase</improvementttype>
+      <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>WIL</improvedname>
       <sourcename>6d7c75ac-88ca-4f25-8842-bf8ca868884f</sourcename>
       <min>0</min>
@@ -10131,6 +10212,31 @@ Compartments can have shielding installed on them to make the compartment diffic
       <exclude />
       <condition />
       <improvementttype>Seeker</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>c698c3e3-fc29-41ac-98c9-50b0c47e3a1a</unique>
+      <target />
+      <improvedname>WIL</improvedname>
+      <sourcename>SEEKER_WIL</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
       <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10155,6 +10261,273 @@ Compartments can have shielding installed on them to make the compartment diffic
       <exclude />
       <condition />
       <improvementttype>CyberwareEssCost</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAGAdept</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>RES</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>DEP</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Lin Da Fong - Wuxing</improvedname>
+      <sourcename>4653a9d8-5c6c-4656-9041-235a98abb6e5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Street</improvedname>
+      <sourcename>cf074082-de9b-431e-abd3-620385740d30</sourcename>
+      <min>3</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition>career</condition>
+      <improvementttype>SkillCategoryKarmaCost</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Street</improvedname>
+      <sourcename>cf074082-de9b-431e-abd3-620385740d30</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>50</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillCategoryPointCostMultiplier</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Magician</improvedname>
+      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
       <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10193,6 +10566,30 @@ Compartments can have shielding installed on them to make the compartment diffic
     <improvement>
       <target />
       <improvedname />
+      <sourcename>c46b88a4-ca86-4413-ad59-ced01c472fc2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
       <sourcename>08f6379b-4446-4f4d-81fb-04b3524ccd5f</sourcename>
       <min>0</min>
       <max>0</max>
@@ -10216,43 +10613,18 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
-      <improvedname>Lin Da Fong - Wuxing</improvedname>
-      <sourcename>4653a9d8-5c6c-4656-9041-235a98abb6e5</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>smartlink</unique>
-      <target />
       <improvedname />
-      <sourcename>717b99c0-c3d0-435d-abc7-1351ef6938e5</sourcename>
+      <sourcename>57f9771f-d162-4cbc-a499-420d0e26b327</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>2</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Smartlink</improvementttype>
-      <improvementsource>Gear</improvementsource>
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -10361,17 +10733,17 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>c46b88a4-ca86-4413-ad59-ced01c472fc2</sourcename>
+      <improvedname>Celerity</improvedname>
+      <sourcename>890bf81f-41f9-46b3-968e-2117f069526b</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Armor</improvementttype>
+      <improvementttype>DisableQuality</improvementttype>
       <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10386,47 +10758,119 @@ Compartments can have shielding installed on them to make the compartment diffic
     <improvement>
       <target />
       <improvedname />
-      <sourcename>57f9771f-d162-4cbc-a499-420d0e26b327</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>45c09917-53c0-48ee-afdd-b116b90765ee</improvedname>
-      <sourcename>182aefc0-b166-4c71-add5-869474ccb2f2</sourcename>
+      <sourcename>890bf81f-41f9-46b3-968e-2117f069526b</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>1</val>
-      <rating>0</rating>
+      <rating>1</rating>
       <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
+      <condition />
+      <improvementttype>PhysicalCM</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>bf7c2fc5-d749-487b-ac10-0f8f123e3220</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Celerity</improvedname>
+      <sourcename>37f96da2-1428-4b64-afa9-0774423d9bde</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>37f96da2-1428-4b64-afa9-0774423d9bde</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalCM</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>e34dd46c-a2ac-4cd0-9601-3d35dbfbd3ac</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -10457,284 +10901,20 @@ Compartments can have shielding installed on them to make the compartment diffic
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>Local Grid</improvedname>
-      <sourcename>cacc9db5-6def-449e-af25-a82a13c5d8b0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Public Grid</improvedname>
-      <sourcename>2fa1aced-47a5-425c-9933-16205b56aaeb</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Magical Lodge</improvedname>
-      <sourcename>82a15c1c-aa0a-4009-95b1-c87b419907a2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
+      <unique>nonconductivity</unique>
       <target />
       <improvedname />
-      <sourcename>8ecfcb46-6893-4f43-883d-fb413a231b2e</sourcename>
+      <sourcename>353c79f4-c315-4ee1-be0f-49a973e1a17a</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>2</val>
+      <val>5</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>RadiationResist</improvementttype>
+      <improvementttype>ElectricityArmor</improvementttype>
       <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>3f9c60ad-1da4-4f46-8303-61316793cf84</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinInhalationImmune</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>3f9c60ad-1da4-4f46-8303-61316793cf84</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenInhalationImmune</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>77045f2d-53b6-4928-af31-2552963aec52</improvedname>
-      <sourcename>f801ec34-9695-418b-b6e5-37ea81ffb6d9</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_IntimidationVisible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>smartlink</unique>
-      <target />
-      <improvedname />
-      <sourcename>f9e54caa-d4c7-4708-8122-0f8308c11413</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Smartlink</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Lin Da Fong - Wuxing</improvedname>
-      <sourcename>318dffd5-0882-4397-8eb6-b1f4cb607426</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Mage License</improvedname>
-      <sourcename>18ee5a91-02af-4d78-bdad-0b8f23039c9e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Restricted</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Street</improvedname>
-      <sourcename>cf074082-de9b-431e-abd3-620385740d30</sourcename>
-      <min>3</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>SkillCategoryKarmaCost</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Street</improvedname>
-      <sourcename>cf074082-de9b-431e-abd3-620385740d30</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>50</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SkillCategoryPointCostMultiplier</improvementttype>
-      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -10796,19 +10976,18 @@ Compartments can have shielding installed on them to make the compartment diffic
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <unique>nonconductivity</unique>
       <target />
       <improvedname />
-      <sourcename>353c79f4-c315-4ee1-be0f-49a973e1a17a</sourcename>
+      <sourcename>8ecfcb46-6893-4f43-883d-fb413a231b2e</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>5</val>
+      <val>2</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementttype>RadiationResist</improvementttype>
       <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10822,17 +11001,67 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
-      <improvedname>02a47176-9c3c-4ba4-b797-30f09cf58166</improvedname>
-      <sourcename>967fe95e-de77-4b26-975d-a384020cf6ab</sourcename>
+      <improvedname>4841662b-9022-400c-aeab-390a5e5afec4</improvedname>
+      <sourcename>f801ec34-9695-418b-b6e5-37ea81ffb6d9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_IntimidationVisible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>smartlink</unique>
+      <target />
+      <improvedname />
+      <sourcename>f9e54caa-d4c7-4708-8122-0f8308c11413</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>1</val>
-      <rating>0</rating>
+      <rating>1</rating>
       <exclude />
-      <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
-      <improvementttype>LimitModifier</improvementttype>
+      <condition />
+      <improvementttype>Smartlink</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>smartlink</unique>
+      <target />
+      <improvedname />
+      <sourcename>717b99c0-c3d0-435d-abc7-1351ef6938e5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Smartlink</improvementttype>
       <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10846,8 +11075,8 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
-      <improvedname>Buddhism</improvedname>
-      <sourcename>dbb2cb27-9e96-4076-8f43-6132bf8cd2a9</sourcename>
+      <improvedname />
+      <sourcename>3f9c60ad-1da4-4f46-8303-61316793cf84</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -10856,7 +11085,79 @@ Compartments can have shielding installed on them to make the compartment diffic
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Tradition</improvementttype>
+      <improvementttype>ToxinInhalationImmune</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>3f9c60ad-1da4-4f46-8303-61316793cf84</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationImmune</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Lin Da Fong - Wuxing</improvedname>
+      <sourcename>318dffd5-0882-4397-8eb6-b1f4cb607426</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Mage License</improvedname>
+      <sourcename>18ee5a91-02af-4d78-bdad-0b8f23039c9e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
       <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
@@ -11085,70 +11386,19 @@ Compartments can have shielding installed on them to make the compartment diffic
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <unique>enableattribute</unique>
       <target />
-      <improvedname>MAG</improvedname>
-      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <improvedname>95fa3938-ea36-4ca9-968e-54fc526251bf</improvedname>
+      <sourcename>967fe95e-de77-4b26-975d-a384020cf6ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>0</val>
+      <val>1</val>
       <rating>0</rating>
       <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enabletab</unique>
-      <target />
-      <improvedname>Magician</improvedname>
-      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialTab</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enabletab</unique>
-      <target />
-      <improvedname>Adept</improvedname>
-      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialTab</improvementttype>
-      <improvementsource>Quality</improvementsource>
+      <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -11161,8 +11411,8 @@ Compartments can have shielding installed on them to make the compartment diffic
     </improvement>
     <improvement>
       <target />
-      <improvedname>Magician</improvedname>
-      <sourcename>69c7dc32-bd1f-4cae-8ab8-76c821ec8d7d</sourcename>
+      <improvedname>Buddhism</improvedname>
+      <sourcename>dbb2cb27-9e96-4076-8f43-6132bf8cd2a9</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -11171,297 +11421,8 @@ Compartments can have shielding installed on them to make the compartment diffic
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>SpecialSkills</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Banishing</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>5</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SkillBase</improvementttype>
-      <improvementsource>Heritage</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Celerity</improvedname>
-      <sourcename>890bf81f-41f9-46b3-968e-2117f069526b</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>890bf81f-41f9-46b3-968e-2117f069526b</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PhysicalCM</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>2e50c697-74ae-452d-8233-163ca347dc2f</unique>
-      <target />
-      <improvedname>WIL</improvedname>
-      <sourcename>SEEKER_WIL</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Celerity</improvedname>
-      <sourcename>37f96da2-1428-4b64-afa9-0774423d9bde</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>37f96da2-1428-4b64-afa9-0774423d9bde</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PhysicalCM</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>bf7c2fc5-d749-487b-ac10-0f8f123e3220</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>MAG</improvedname>
-      <sourcename />
-      <min>-3</min>
-      <max>-3</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>MAGAdept</improvedname>
-      <sourcename />
-      <min>-3</min>
-      <max>-3</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>RES</improvedname>
-      <sourcename />
-      <min>-3</min>
-      <max>-3</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>DEP</improvedname>
-      <sourcename />
-      <min>-3</min>
-      <max>-3</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>e34dd46c-a2ac-4cd0-9601-3d35dbfbd3ac</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
+      <improvementttype>Tradition</improvementttype>
+      <improvementsource>Gear</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
