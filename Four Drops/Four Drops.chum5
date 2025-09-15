@@ -138,7 +138,7 @@
   <created>False</created>
   <nuyen>275000</nuyen>
   <startingnuyen>275000</startingnuyen>
-  <nuyenbp>6</nuyenbp>
+  <nuyenbp>3</nuyenbp>
   <adept>True</adept>
   <magician>True</magician>
   <technomancer>False</technomancer>
@@ -298,7 +298,7 @@
   <groupname />
   <groupnotes />
   <totaless>3.00</totaless>
-  <magsplitadept>2</magsplitadept>
+  <magsplitadept>3</magsplitadept>
   <magsplitmagician>0</magsplitmagician>
   <tradition>
     <sourceid>0cd0412c-cba4-4417-bc8f-f785fa5b821d</sourceid>
@@ -454,15 +454,15 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Assensing</name>
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>1b427554-3ca0-4ae2-aee1-d87c1ce8e2d1</guid>
-            <name>Astral Signatures</name>
+            <guid>9e979047-c645-4373-88be-85c9f7ed187d</guid>
+            <name>Auras</name>
             <free>False</free>
             <expertise>False</expertise>
           </spec>
@@ -650,7 +650,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Counterspelling</name>
@@ -1122,12 +1122,20 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
-        <base>0</base>
+        <karma>0</karma>
+        <base>3</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Perception</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>96fb6a2c-fad3-481c-9739-eece1c6e5ab6</guid>
+            <name>Numinous Perception</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>e5e03432-a382-4c8b-a764-940efa2a9a8c</guid>
@@ -1278,14 +1286,6 @@
         <notesColor>#E3813C</notesColor>
         <name>Sneaking</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>e2536ce3-bd42-4ecb-9d66-3f67ead100d1</guid>
-            <name>Astral</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
       </skill>
       <skill>
         <guid>8c0d37f5-26f0-4273-9c3b-57e61d6329b7</guid>
@@ -1316,14 +1316,6 @@
         <notesColor>#E3813C</notesColor>
         <name>Spellcasting</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>db6e7225-841d-4ef8-939f-e9a8f071fc07</guid>
-            <name>Detection</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
       </skill>
       <skill>
         <guid>87aa34a3-5362-4cff-84d9-54ffdb80ee93</guid>
