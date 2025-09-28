@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>883947016</settingshashcode>
+  <settingshashcode>834966992</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -112,8 +112,8 @@
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>50</basecarrylimit>
-  <baseliftlimit>75</baseliftlimit>
+  <basecarrylimit>70</basecarrylimit>
+  <baseliftlimit>105</baseliftlimit>
   <totalcarriedweight>0</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -180,10 +180,10 @@
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>3</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -193,7 +193,7 @@
       <base>5</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -240,10 +240,10 @@
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>3</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -253,7 +253,7 @@
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -1521,7 +1521,7 @@ Cost: 0.5 PP per level Combat Sense provides an instinctive sense of any potenti
       <pointsperlevel>1</pointsperlevel>
       <adeptway>0.5</adeptway>
       <action />
-      <rating>0</rating>
+      <rating>1</rating>
       <extrapointcost>0</extrapointcost>
       <levels>True</levels>
       <maxlevels>0</maxlevels>
@@ -1554,6 +1554,36 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
       <notesColor>#E3813C</notesColor>
     </power>
     <power>
+      <sourceid>1ac890d7-5152-40a8-80e8-73d342571a33</sourceid>
+      <guid>f2b1e390-7d9c-4bc2-9b84-cf8ec5d717ab</guid>
+      <name>Mystic Aptitude</name>
+      <extra />
+      <pointsperlevel>0.75</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action>Simple</action>
+      <rating>3</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>3</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>BTB</source>
+      <page>159</page>
+      <bonus>
+      </bonus>
+      <adeptwayrequires>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>MYSTIC APTITUDE
+Cost: 0.75 PP per level Activation: Simple Action You call upon inner mana strength to perform amazing physical feats beyond your normal abilities.
+When you activate this power via a Simple Action, you substitute your Magic + (Rank in this power) for any one Physical Attribute (choose when activated).This affects dice pools, limits, Strengthbased damage values and Initiative ratings.
+The boost lasts for a number of Combat Turns equal to your Magic rating. When the boost runs out, you take Drain equal to (rank of this power x 2).
+At Rank 1, this power can be used once per thirty minutes; at Rank 2, once per fifteen minutes, at Rank 3, once per minute. It does not stack with Attribute Boost or Supernatural Prowess. Power foci do not increase your Magic when determining the effect of this power. This power may be taken up to three times.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
       <sourceid>da5f9389-a5fd-48ed-8825-8852ff5c56a8</sourceid>
       <guid>2da8ec10-f874-4f0c-a437-1fc9638b3d62</guid>
       <name>Mystic Armor</name>
@@ -1561,7 +1591,7 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
       <pointsperlevel>0.5</pointsperlevel>
       <adeptway>0.25</adeptway>
       <action />
-      <rating>3</rating>
+      <rating>1</rating>
       <extrapointcost>0</extrapointcost>
       <levels>True</levels>
       <maxlevels>0</maxlevels>
@@ -1588,31 +1618,73 @@ Cost: 0.5 PP per level This power protects you from physical attacks. For every 
       <notesColor>#E3813C</notesColor>
     </power>
     <power>
-      <sourceid>1ac890d7-5152-40a8-80e8-73d342571a33</sourceid>
-      <guid>f2b1e390-7d9c-4bc2-9b84-cf8ec5d717ab</guid>
-      <name>Mystic Aptitude</name>
-      <extra />
-      <pointsperlevel>0.75</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action>Simple</action>
-      <rating>2</rating>
+      <sourceid>e009da31-0301-4604-b13f-49b071aa25a1</sourceid>
+      <guid>253c79d0-c9a0-4302-9ca1-5db96b44394f</guid>
+      <name>Enhanced Accuracy (skill)</name>
+      <extra>Blades</extra>
+      <pointsperlevel>0.25</pointsperlevel>
+      <adeptway>0</adeptway>
+      <action />
+      <rating>1</rating>
       <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>3</maxlevels>
+      <levels>False</levels>
+      <maxlevels>0</maxlevels>
       <discounted>False</discounted>
       <discountedgeas>False</discountedgeas>
       <bonussource />
       <freepoints>0</freepoints>
-      <source>BTB</source>
-      <page>159</page>
-      <bonus />
+      <source>SR5</source>
+      <page>309</page>
+      <bonus>
+        <weaponskillaccuracy>
+          <selectskill skillcategory="Combat Active" excludeskill="Unarmed Combat" />
+          <value>1</value>
+        </weaponskillaccuracy>
+      </bonus>
       <adeptwayrequires />
       <enhancements />
-      <notes>MYSTIC APTITUDE
-Cost: 0.75 PP per level Activation: Simple Action You call upon inner mana strength to perform amazing physical feats beyond your normal abilities.
-When you activate this power via a Simple Action, you substitute your Magic + (Rank in this power) for any one Physical Attribute (choose when activated).This affects dice pools, limits, Strengthbased damage values and Initiative ratings.
-The boost lasts for a number of Combat Turns equal to your Magic rating. When the boost runs out, you take Drain equal to (rank of this power x 2).
-At Rank 1, this power can be used once per thirty minutes; at Rank 2, once per fifteen minutes, at Rank 3, once per minute. It does not stack with Attribute Boost or Supernatural Prowess. Power foci do not increase your Magic when determining the effect of this power. This power may be taken up to three times.</notes>
+      <notes>ENHANCED ACCURACY (SKILL)
+Cost: 0.25 PP A weapon in your hands becomes an extension of your body. When you buy this power, choose a Combat Skill (Pistols, Clubs, Heavy Weapons, etc.). When you use the skill, add 1 to the Accuracy of the weapon you’re using. This power cannot be used with Unarmed Combat, but it can be purchased multiple times with a different skill each time.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
+      <sourceid>901d2af5-246a-447a-a8e2-b2e8c10593df</sourceid>
+      <guid>ef3079a2-d0f0-48b5-a548-7e5a7b41834c</guid>
+      <name>Improved Physical Attribute</name>
+      <extra>STR</extra>
+      <pointsperlevel>1</pointsperlevel>
+      <adeptway>0.5</adeptway>
+      <action />
+      <rating>2</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus>
+        <selectattribute>
+          <attribute>BOD</attribute>
+          <attribute>AGI</attribute>
+          <attribute>REA</attribute>
+          <attribute>STR</attribute>
+          <val>Rating</val>
+        </selectattribute>
+      </bonus>
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Athlete's Way</quality>
+            <quality>The Spiritual Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>IMPROVED PHYSICAL ATTRIBUTE
+Cost: 1 PP per level This power allows you to increase a physical attribute (Body, Agility, Reaction, and Strength). This augments your attribute, so your Physical limit may also increase with the new Attribute rating. This power allows you to exceed your natural Attribute maximum, up to your augmented maximum.</notes>
       <notesColor>#E3813C</notesColor>
     </power>
   </powers>
@@ -2196,6 +2268,90 @@ This quality is only available to characters that possess a Magic attribute rati
           <min>6</min>
           <condition>career</condition>
         </knowledgeskillkarmacost>
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>e3b3345a-17b0-4f07-ac73-008db013ff02</sourceid>
+      <guid>4e43352c-a879-43f0-830f-fe5467bd573f</guid>
+      <name>Pure Adept</name>
+      <extra />
+      <bp>0</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>FA</source>
+      <page>182</page>
+      <sourcename />
+      <bonus>
+        <adeptpowerpoints>1</adeptpowerpoints>
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>e3b3345a-17b0-4f07-ac73-008db013ff02</sourceid>
+      <guid>558bc1cc-4ea9-4f21-9610-9dc34221594c</guid>
+      <name>Pure Adept</name>
+      <extra />
+      <bp>0</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>FA</source>
+      <page>182</page>
+      <sourcename />
+      <bonus>
+        <adeptpowerpoints>1</adeptpowerpoints>
+      </bonus>
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>e3b3345a-17b0-4f07-ac73-008db013ff02</sourceid>
+      <guid>86cfa34a-761f-4efc-89e1-6fd7efc62ba0</guid>
+      <name>Pure Adept</name>
+      <extra />
+      <bp>0</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>FA</source>
+      <page>182</page>
+      <sourcename />
+      <bonus>
+        <adeptpowerpoints>1</adeptpowerpoints>
       </bonus>
       <firstlevelbonus />
       <naturalweapons />
@@ -3552,12 +3708,156 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     <improvement>
       <target />
       <improvedname />
+      <sourcename>4e43352c-a879-43f0-830f-fe5467bd573f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>AdeptPowerPoints</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>558bc1cc-4ea9-4f21-9610-9dc34221594c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>AdeptPowerPoints</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>86cfa34a-761f-4efc-89e1-6fd7efc62ba0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>AdeptPowerPoints</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>253c79d0-c9a0-4302-9ca1-5db96b44394f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>WeaponSkillAccuracy</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>ef3079a2-d0f0-48b5-a548-7e5a7b41834c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>91811fb1-b958-4c91-b813-90cb8d149adf</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
       <sourcename>2da8ec10-f874-4f0c-a437-1fc9638b3d62</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>3</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -3616,7 +3916,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     <physicalcm>11</physicalcm>
     <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
     <physicalcmoverflow>6</physicalcmoverflow>
-    <stuncm>10</stuncm>
+    <stuncm>11</stuncm>
     <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
