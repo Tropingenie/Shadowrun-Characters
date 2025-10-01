@@ -5,7 +5,7 @@
   <appversion>5.225.884</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-2126176516</settingshashcode>
+  <settingshashcode>-1026655554</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1515,9 +1515,7 @@ Narco: +1 to each stat, half crash time, 2 less crash damage, +-2 to addiction t
       <type>Contact</type>
       <file />
       <relative />
-      <notes>3 chips
-
-Physical Description: A middle-aged man, it is clear that Komon has kept up with his physical training, as is common for specialists in the Yakuza. Still, as a fixer it isn't his strong suit, so anyone who knows him might suspect the involvement of bioware or well-concealed cyberware is what's really keeping him in peak physical condition.
+      <notes>Physical Description: A middle-aged man, it is clear that Komon has kept up with his physical training, as is common for specialists in the Yakuza. Still, as a fixer it isn't his strong suit, so anyone who knows him might suspect the involvement of bioware or well-concealed cyberware is what's really keeping him in peak physical condition.
 
 Backstory: Komon--his title, not name, but to Flintlock all the same--was Flintlock's handler after he escaped to Seattle. He wasn't given a choice; the Yakuza demanded more work out of him as additional payment for services rendered. Eventually, the Yakuza considered the debt paid, but Flintlock continues to accept work from Komon when available, maintaining a business relationship with this well-connected colleague.
 
@@ -1614,9 +1612,7 @@ Backstory: Jade has always skulked around elves, never quite to the degree of th
       <type>Contact</type>
       <file />
       <relative />
-      <notes>2 chips
-
-Physical Description: This 3 meter tall troll towers over most. His rippling muscles are barely contained within his white business-casual shirt, yet he moves with a fluidity and grace through his shop that betrays he is not to be underestimated.
+      <notes>Physical Description: This 3 meter tall troll towers over most. His rippling muscles are barely contained within his white business-casual shirt, yet he moves with a fluidity and grace through his shop that betrays he is not to be underestimated.
 
 Backstory: Mash, of Bangers n' Mash Gun Emporium, knows when a person who has never bought a gun from him regularly purchases ammunition under two different names, he isn't to ask questions. Still, one can't help but be curious, and when the client is an elf shopping at a Troll's store in Seattle, that must be some good tea. So when that customer starts asking for some heavier firepower, well, starting a rapport with her is inevitable. So long as this chick who calls herself Flintlock doesn't bring trouble, well, he can turn a blind eye to her green motorcycle. And who knows, maybe if he or someone he knows gets in above their head with Humanis, that commlink code she gave him might actually come in handy.</notes>
       <notesColor>Chocolate</notesColor>
