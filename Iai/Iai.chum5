@@ -2,10 +2,10 @@
 <character>
   <createdversion>5.225.884</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.225.884</appversion>
+  <appversion>5.225.1021</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>834966992</settingshashcode>
+  <settingshashcode>-1169902419</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -93,10 +93,34 @@
   <skin />
   <hair />
   <description />
-  <background />
+  <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 What happens when a childish training regime actually works?\par
+\par
+Iaijustu is the result of that.\par
+\par
+What started out as a game between friends quickly became the weaker of the two's way of living vicariously. Out in the forest, with his dubious teachings, a sensei and disciple were born. But more than that, these two children who should have never met, and been exact opposites, found common ground and became good friends.\par
+\par
+And yet, it was never meant to be. The untamed wilds of Seattle were never safe, and the day came that the two were accosted by a foul beast. Iaijustu threw himself in the beast's path, slicing cleanly into it with the katana his friend gifted him, while taking an equally devastating blow. His consciousness faded, as he spat blood and stood standing, facing down the beast. His vision clouded, and was replaced by a white glow.\par
+\par
+"You have taken the blow, not meant for yourself," spoke an unearthly voice. "Very well. His time was meant to come, but it shall be no longer. The boy may live. Yet, the law of equivalent exchange must be maintained: Your life, in place of his."\par
+\par
+Iaijustu came to to the barrel of a DocWagon gun, hazily analyzing his surroundings.\par
+\par
+"Hands off the sword, kid. We're medics, don't start trouble you dun' hafta."\par
+\par
+Shaking, he realized his katana was still clutched in his grasp. He didn't have the wherewithal to clean and sheath it; it instead took all his willpower to unclench those white knuckles. The HTR man relaxed at that.\par
+\par
+"You're not on the contract, but your 'friend' over there paid me the resucitation fee. But getting you up is all I can do for you, we've got a quota to meet. Good luck, kid."\par
+\par
+With that, the DocWagon HTR took off into the sky, and with him, Iaijustu's one and only friend.\par
+\par
+He never did figure out if the voice was a hallucination or dream, but held in his heart that his days were numbered. He vowed to never release his sword unceremoniously again. And he prayed that, one day, before his early death, that he may yet meet his friend, wherever they may have ended up.\par
+}</background>
   <concept />
   <notes />
-  <alias />
+  <alias>Iai</alias>
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
@@ -112,8 +136,8 @@
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>70</basecarrylimit>
-  <baseliftlimit>105</baseliftlimit>
+  <basecarrylimit>60</basecarrylimit>
+  <baseliftlimit>90</baseliftlimit>
   <totalcarriedweight>0</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -136,6 +160,16 @@
   <prototypetranshuman>0</prototypetranshuman>
   <attributes>
     <attribute>
+      <name>STR</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>4</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>6</totalvalue>
+    </attribute>
+    <attribute>
       <name>DEP</name>
       <metatypemin>1</metatypemin>
       <metatypemax>1</metatypemax>
@@ -144,16 +178,6 @@
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
       <totalvalue>1</totalvalue>
-    </attribute>
-    <attribute>
-      <name>INT</name>
-      <metatypemin>1</metatypemin>
-      <metatypemax>6</metatypemax>
-      <metatypeaugmax>10</metatypeaugmax>
-      <base>4</base>
-      <karma>0</karma>
-      <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -176,14 +200,14 @@
       <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
-      <name>REA</name>
+      <name>INT</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>2</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -193,27 +217,17 @@
       <base>5</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
-    </attribute>
-    <attribute>
-      <name>MAG</name>
-      <metatypemin>6</metatypemin>
-      <metatypemax>6</metatypemax>
-      <metatypeaugmax>6</metatypeaugmax>
-      <base>0</base>
-      <karma>0</karma>
-      <metatypecategory>Special</metatypecategory>
       <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
-      <name>EDG</name>
-      <metatypemin>2</metatypemin>
-      <metatypemax>7</metatypemax>
-      <metatypeaugmax>7</metatypeaugmax>
-      <base>6</base>
+      <name>REA</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>2</base>
       <karma>0</karma>
-      <metatypecategory>Special</metatypecategory>
-      <totalvalue>8</totalvalue>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -236,24 +250,24 @@
       <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
-      <name>WIL</name>
-      <metatypemin>1</metatypemin>
-      <metatypemax>6</metatypemax>
-      <metatypeaugmax>10</metatypeaugmax>
-      <base>4</base>
+      <name>EDG</name>
+      <metatypemin>2</metatypemin>
+      <metatypemax>7</metatypemax>
+      <metatypeaugmax>7</metatypeaugmax>
+      <base>6</base>
       <karma>0</karma>
-      <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>8</totalvalue>
     </attribute>
     <attribute>
-      <name>STR</name>
-      <metatypemin>1</metatypemin>
+      <name>MAG</name>
+      <metatypemin>6</metatypemin>
       <metatypemax>6</metatypemax>
-      <metatypeaugmax>10</metatypeaugmax>
-      <base>4</base>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>0</base>
       <karma>0</karma>
-      <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -267,6 +281,16 @@
     </attribute>
     <attribute>
       <name>BOD</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>4</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>5</totalvalue>
+    </attribute>
+    <attribute>
+      <name>WIL</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
@@ -431,7 +455,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>b116942e-7dd6-4a4e-a22d-b21661ad4234</guid>
+        <guid>bdb869f8-9018-4b03-9b7e-0c9abb5f4f0a</guid>
         <suid>59318078-e071-411b-9194-7222560e9f4a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -446,7 +470,7 @@
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>4e80bd00-1fbd-44a3-9413-0793d8b2b903</guid>
+        <guid>0399d10e-207d-4ed0-89c7-da7f298e050f</guid>
         <suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -582,7 +606,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Clubs</name>
@@ -1478,6 +1502,64 @@
   <stackedfoci />
   <powers>
     <power>
+      <sourceid>ddcca815-d6fe-41ed-b174-2e7255320f17</sourceid>
+      <guid>a87c68e2-97ae-48ad-8b8c-cad6506cd909</guid>
+      <name>Attribute Boost</name>
+      <extra>AGI</extra>
+      <pointsperlevel>0.25</pointsperlevel>
+      <adeptway>0</adeptway>
+      <action>Simple</action>
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus />
+      <adeptwayrequires>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>ATTRIBUTE BOOST
+(ATTRIBUTE)
+Cost: 0.25 PP per level Activation: Simple Action You call upon inner strength to perform amazing physical feats beyond their normal abilities. Attribute Boost must be purchased for a specific Physical Attribute (Agility, Body, Reaction, or Strength); separate Attribute Boost powers may be bought for different attributes. This power cannot be purchased for a Mental or Special Attribute.
+When you activate this power, make a Magic + Attribute Boost Rating Test. Each hit on this test boosts your attribute rating by 1, up to your augmented Attribute maximum. This only affects your dice pools; your Physical limit and Initiative ratings don’t change with Attribute Boost. The boost lasts for a number of Combat Turns equal to twice the number of hits you get.
+When the boost runs out, you take Drain equal to the level of this power.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
+      <sourceid>ddcca815-d6fe-41ed-b174-2e7255320f17</sourceid>
+      <guid>361b0375-eedb-4ede-bc60-30a5385d5b38</guid>
+      <name>Attribute Boost</name>
+      <extra>BOD</extra>
+      <pointsperlevel>0.25</pointsperlevel>
+      <adeptway>0</adeptway>
+      <action>Simple</action>
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus />
+      <adeptwayrequires>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>ATTRIBUTE BOOST
+(ATTRIBUTE)
+Cost: 0.25 PP per level Activation: Simple Action You call upon inner strength to perform amazing physical feats beyond their normal abilities. Attribute Boost must be purchased for a specific Physical Attribute (Agility, Body, Reaction, or Strength); separate Attribute Boost powers may be bought for different attributes. This power cannot be purchased for a Mental or Special Attribute.
+When you activate this power, make a Magic + Attribute Boost Rating Test. Each hit on this test boosts your attribute rating by 1, up to your augmented Attribute maximum. This only affects your dice pools; your Physical limit and Initiative ratings don’t change with Attribute Boost. The boost lasts for a number of Combat Turns equal to twice the number of hits you get.
+When the boost runs out, you take Drain equal to the level of this power.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
       <sourceid>76337564-7688-497f-84f9-302c6ece10fe</sourceid>
       <guid>7ace7392-d1d5-4788-96f5-724227739842</guid>
       <name>Combat Sense</name>
@@ -1495,9 +1577,7 @@
       <freepoints>0</freepoints>
       <source>SR5</source>
       <page>309</page>
-      <bonus>
-        <dodge>Rating</dodge>
-      </bonus>
+      <bonus />
       <adeptwayrequires>
         <required>
           <oneof>
@@ -1514,10 +1594,72 @@ Cost: 0.5 PP per level Combat Sense provides an instinctive sense of any potenti
       <notesColor>#E3813C</notesColor>
     </power>
     <power>
+      <sourceid>e009da31-0301-4604-b13f-49b071aa25a1</sourceid>
+      <guid>a6743ff8-036a-475a-b60c-d21d007342ac</guid>
+      <name>Enhanced Accuracy (skill)</name>
+      <extra>Blades</extra>
+      <pointsperlevel>0.25</pointsperlevel>
+      <adeptway>0</adeptway>
+      <action />
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>False</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus />
+      <adeptwayrequires>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>ENHANCED ACCURACY (SKILL)
+Cost: 0.25 PP A weapon in your hands becomes an extension of your body. When you buy this power, choose a Combat Skill (Pistols, Clubs, Heavy Weapons, etc.). When you use the skill, add 1 to the Accuracy of the weapon you’re using. This power cannot be used with Unarmed Combat, but it can be purchased multiple times with a different skill each time.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
+      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
+      <guid>19ce68b7-4c14-4002-8e7d-c22c660d4d2d</guid>
+      <name>Improved Ability (skill)</name>
+      <extra>Blades</extra>
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action />
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>True</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus />
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Artisan's Way</quality>
+            <quality>The Artist's Way</quality>
+            <quality>The Athlete's Way</quality>
+            <quality>The Speaker's Way</quality>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>IMPROVED ABILITY (SKILL)
+Cost: 0.5 PP per level This power increases the Rating of a specific Combat, Physical, Social, Technical, or Vehicle skill per level of the power. You need to know the skill in order to buy this power for it, and you can’t buy it for skill groups. The maximum improvement possible is your current skill level x 1.5 (rounded up).</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
       <sourceid>901d2af5-246a-447a-a8e2-b2e8c10593df</sourceid>
-      <guid>91811fb1-b958-4c91-b813-90cb8d149adf</guid>
+      <guid>a06bed67-955d-453f-bde0-49c3646db0ba</guid>
       <name>Improved Physical Attribute</name>
-      <extra>AGI</extra>
+      <extra>STR</extra>
       <pointsperlevel>1</pointsperlevel>
       <adeptway>0.5</adeptway>
       <action />
@@ -1531,15 +1673,7 @@ Cost: 0.5 PP per level Combat Sense provides an instinctive sense of any potenti
       <freepoints>0</freepoints>
       <source>SR5</source>
       <page>309</page>
-      <bonus>
-        <selectattribute>
-          <attribute>BOD</attribute>
-          <attribute>AGI</attribute>
-          <attribute>REA</attribute>
-          <attribute>STR</attribute>
-          <val>Rating</val>
-        </selectattribute>
-      </bonus>
+      <bonus />
       <adeptwayrequires>
         <required>
           <oneof>
@@ -1571,8 +1705,7 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
       <freepoints>0</freepoints>
       <source>BTB</source>
       <page>159</page>
-      <bonus>
-      </bonus>
+      <bonus />
       <adeptwayrequires>
       </adeptwayrequires>
       <enhancements />
@@ -1601,9 +1734,7 @@ At Rank 1, this power can be used once per thirty minutes; at Rank 2, once per f
       <freepoints>0</freepoints>
       <source>SR5</source>
       <page>310</page>
-      <bonus>
-        <armor>Rating</armor>
-      </bonus>
+      <bonus />
       <adeptwayrequires>
         <required>
           <oneof>
@@ -1618,12 +1749,45 @@ Cost: 0.5 PP per level This power protects you from physical attacks. For every 
       <notesColor>#E3813C</notesColor>
     </power>
     <power>
-      <sourceid>e009da31-0301-4604-b13f-49b071aa25a1</sourceid>
-      <guid>253c79d0-c9a0-4302-9ca1-5db96b44394f</guid>
-      <name>Enhanced Accuracy (skill)</name>
+      <sourceid>832a418d-4d55-433c-8230-4b04f05ba6d9</sourceid>
+      <guid>0ba0b24c-4d9e-4823-a702-9c332e2d1104</guid>
+      <name>Rapid Draw</name>
+      <extra />
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action />
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>False</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SG</source>
+      <page>173</page>
+      <bonus />
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>RAPID DRAW
+COST: 0.5 PP
+No longer limited to pistols, the Rapid Draw power can be used by the adept to rapidly and more easily employ a variety of weapons in combat. Any weapon that is properly holstered can be quick-drawn; this includes blades,</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
+      <sourceid>dbf16604-164c-485c-96c8-fe3136cd5caa</sourceid>
+      <guid>edbd6152-5528-482b-98fb-b5f1de458759</guid>
+      <name>Critical Strike</name>
       <extra>Blades</extra>
-      <pointsperlevel>0.25</pointsperlevel>
-      <adeptway>0</adeptway>
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
       <action />
       <rating>1</rating>
       <extrapointcost>0</extrapointcost>
@@ -1635,56 +1799,21 @@ Cost: 0.5 PP per level This power protects you from physical attacks. For every 
       <freepoints>0</freepoints>
       <source>SR5</source>
       <page>309</page>
-      <bonus>
-        <weaponskillaccuracy>
-          <selectskill skillcategory="Combat Active" excludeskill="Unarmed Combat" />
-          <value>1</value>
-        </weaponskillaccuracy>
-      </bonus>
-      <adeptwayrequires />
-      <enhancements />
-      <notes>ENHANCED ACCURACY (SKILL)
-Cost: 0.25 PP A weapon in your hands becomes an extension of your body. When you buy this power, choose a Combat Skill (Pistols, Clubs, Heavy Weapons, etc.). When you use the skill, add 1 to the Accuracy of the weapon you’re using. This power cannot be used with Unarmed Combat, but it can be purchased multiple times with a different skill each time.</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-    <power>
-      <sourceid>901d2af5-246a-447a-a8e2-b2e8c10593df</sourceid>
-      <guid>ef3079a2-d0f0-48b5-a548-7e5a7b41834c</guid>
-      <name>Improved Physical Attribute</name>
-      <extra>STR</extra>
-      <pointsperlevel>1</pointsperlevel>
-      <adeptway>0.5</adeptway>
-      <action />
-      <rating>2</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus>
-        <selectattribute>
-          <attribute>BOD</attribute>
-          <attribute>AGI</attribute>
-          <attribute>REA</attribute>
-          <attribute>STR</attribute>
-          <val>Rating</val>
-        </selectattribute>
-      </bonus>
+      <bonus />
       <adeptwayrequires>
         <required>
           <oneof>
-            <quality>The Athlete's Way</quality>
+            <quality>The Invisible Way</quality>
             <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
           </oneof>
         </required>
       </adeptwayrequires>
       <enhancements />
-      <notes>IMPROVED PHYSICAL ATTRIBUTE
-Cost: 1 PP per level This power allows you to increase a physical attribute (Body, Agility, Reaction, and Strength). This augments your attribute, so your Physical limit may also increase with the new Attribute rating. This power allows you to exceed your natural Attribute maximum, up to your augmented maximum.</notes>
+      <notes>CRITICAL STRIKE
+(SKILL)
+Cost: 0.5 PP This power improves a specific melee skill: either Unarmed Combat, Clubs, Blades, Astral Combat, or a particular Exotic Melee weapon skill. The specific skill is chosen when you buy the power. Increase the DV of your attacks with the selected skill by 1. Critical Strike is compatible with weapons and other adept powers.
+The power may be selected multiple times, each time for a different melee skill.</notes>
       <notesColor>#E3813C</notesColor>
     </power>
   </powers>
@@ -1694,13 +1823,24 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
   <martialarts />
   <limitmodifiers>
     <limitmodifier>
-      <guid>ae83c89c-a44c-4038-8c53-4f360518e006</guid>
+      <guid>32f756f1-772f-4f3c-96b1-af5aecbee48f</guid>
       <name>Ballistic Mask</name>
       <limit>Social</limit>
       <bonus>1</bonus>
       <condition>LimitCondition_IntimidationVisible</condition>
       <candelete>False</candelete>
       <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>41c4cb1b-7a2e-4fad-a6a1-121e350eb2fe</guid>
+      <name>Securetech PPP: Legs Kit</name>
+      <limit>Social</limit>
+      <bonus>-1</bonus>
+      <condition>LimitCondition_Visible</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
     </limitmodifier>
   </limitmodifiers>
   <armors>
@@ -1745,7 +1885,7 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
       <maxrating>0</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
       <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
+      <encumbrance>True</encumbrance>
       <armormods />
       <bonus />
       <wirelessbonus />
@@ -1796,7 +1936,7 @@ Cost: 1 PP per level This power allows you to increase a physical attribute (Bod
       <maxrating>0</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
       <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
+      <encumbrance>True</encumbrance>
       <armormods />
       <bonus>
         <limitmodifier>
@@ -1856,7 +1996,7 @@ Custom jobs are, naturally, more expensive.</notes>
       <maxrating>0</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
       <stolen>False</stolen>
-      <emcumbrance>True</emcumbrance>
+      <encumbrance>True</encumbrance>
       <armormods />
       <bonus />
       <wirelessbonus />
@@ -1872,6 +2012,119 @@ Their use is simple—use them to block melee attacks, especially blades, turnin
 &gt; Bull &gt; No, I mean commlink. I keep my ‘deck in my new bag.
 See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns and sparkles? Kill me now.
 &gt; Bull</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>9bf19d62-ff32-49df-8e70-f1b1f8e8d769</sourceid>
+      <guid>3a99862f-6ab2-4acf-953b-ba16ac894088</guid>
+      <name>Securetech PPP: Legs Kit</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>1</armorcapacity>
+      <avail>6</avail>
+      <cost>300</cost>
+      <weight />
+      <source>RG</source>
+      <page>70</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating>0</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>-1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus />
+      <location />
+      <notes>SECURETECH PPP
+Not a suit in itself, this innovative little AAS, or Armor Augmentation System, is hot for those who like to be able to add a little extra protection to almost anything.
+Arm, Leg, and Vitals kits are each sold separately, and they augment the protective measures already in place on those areas. The pieces are designed to be taken on and off quickly and worn over existing clothing.
+&gt; These pieces are great for a little added protection that can be pulled from a duffel or even a backpack. Runners can avoid drawing attention to their excess of armor, then when trouble comes, pull a few added pieces from the bag and get into the scrape.
+&gt; Frosty &gt; I prefer keeping a few kits tucked into a vent before the real action starts. I’ve actually left more of these things behind than used. I consider it a point of my success to know there are 64 sets of this tucked into bathroom and storage closet vents around the world.
+&gt; Ma’fan</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>fd6e194b-89ea-4030-9203-87341442eadb</sourceid>
+      <guid>c5457637-f495-48b6-ae95-cac8e7a4492d</guid>
+      <name>Helmet</name>
+      <category>Armor</category>
+      <armor>+2</armor>
+      <armoroverride />
+      <armorcapacity>6</armorcapacity>
+      <avail>2</avail>
+      <cost>100</cost>
+      <weight />
+      <source>SR5</source>
+      <page>438</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating>0</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes>Helmet: Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity 6 for being tricked out with accessories like trode nets and vision enhancements.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
@@ -1957,13 +2210,14 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
       <wirelessbonus />
+      <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
     </weapon>
     <weapon>
       <sourceid>8f266b4c-4035-4ba3-aa89-3289d0f42ce1</sourceid>
-      <guid>2062ae9b-bc55-45ca-9278-e06e5c65b052</guid>
+      <guid>4db37fbf-cb61-430e-ba40-06e40c675b6b</guid>
       <name>Katana</name>
       <category>Blades</category>
       <type>Melee</type>
@@ -2016,6 +2270,63 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <mount />
       <stolen>False</stolen>
       <extramount />
+      <accessories>
+        <accessory>
+          <sourceid>85b01b5c-c788-4b43-8190-9e0c18391436</sourceid>
+          <guid>3c7c24f5-d456-4278-8725-d7fc2f2678fb</guid>
+          <name>Personalized Grip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>100</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>182</page>
+          <accuracy>1</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>PERSONALIZED GRIP
+This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+      </accessories>
       <location />
       <notes>Katana: The legendary two-handed sword of the samurai. The katana has become synonymous not just with street samurai, but with shadowrunners in general, at least in the trids; they’ve got everyone packing a ka- tana, from the decker to the mage. But being a silly cli- ché doesn’t make this blade any less dangerous, or less helpful in a fight.</notes>
       <notesColor>#E3813C</notesColor>
@@ -2040,6 +2351,7 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
       <wirelessbonus />
+      <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
@@ -2067,13 +2379,7 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <source>SR5</source>
       <page>76</page>
       <sourcename />
-      <bonus>
-        <notoriety>-1</notoriety>
-        <specificattribute>
-          <name>EDG</name>
-          <max>1</max>
-        </specificattribute>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes>LUCKY
@@ -2131,9 +2437,7 @@ When their number’s up (and not before), the character must burn all their cur
       <source>SR5</source>
       <page>79</page>
       <sourcename />
-      <bonus>
-        <notoriety>1</notoriety>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes>BAD LUCK
@@ -2162,9 +2466,7 @@ On a result of 1, the point of Edge is spent, but it has the exact opposite effe
       <source>SR5</source>
       <page>76</page>
       <sourcename />
-      <bonus>
-        <selectmentorspirit />
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes>MENTOR SPIRIT
@@ -2194,17 +2496,7 @@ This quality is only available to characters that possess a Magic attribute rati
       <source>SR5</source>
       <page>69</page>
       <sourcename />
-      <bonus>
-        <blockspelldescriptor>Spell</blockspelldescriptor>
-        <enableattribute>
-          <name>MAG</name>
-        </enableattribute>
-        <enabletab>
-          <name>adept</name>
-        </enabletab>
-        <limitspellcategory>Rituals</limitspellcategory>
-        <unlockskills>Adept</unlockskills>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes>ADEPTS
@@ -2237,38 +2529,7 @@ This quality is only available to characters that possess a Magic attribute rati
       <source>RF</source>
       <page>147</page>
       <sourcename />
-      <bonus>
-        <activeskillkarmacost>
-          <name />
-          <val>-1</val>
-          <max>5</max>
-          <condition>career</condition>
-        </activeskillkarmacost>
-        <activeskillkarmacost>
-          <name />
-          <val>2</val>
-          <min>6</min>
-          <condition>career</condition>
-        </activeskillkarmacost>
-        <knowledgeskillkarmacostmin>
-          <name />
-          <val>1</val>
-          <max>5</max>
-          <condition>career</condition>
-        </knowledgeskillkarmacostmin>
-        <knowledgeskillkarmacost>
-          <name />
-          <val>-1</val>
-          <max>5</max>
-          <condition>career</condition>
-        </knowledgeskillkarmacost>
-        <knowledgeskillkarmacost>
-          <name />
-          <val>2</val>
-          <min>6</min>
-          <condition>career</condition>
-        </knowledgeskillkarmacost>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes />
@@ -2294,9 +2555,7 @@ This quality is only available to characters that possess a Magic attribute rati
       <source>FA</source>
       <page>182</page>
       <sourcename />
-      <bonus>
-        <adeptpowerpoints>1</adeptpowerpoints>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes />
@@ -2322,9 +2581,7 @@ This quality is only available to characters that possess a Magic attribute rati
       <source>FA</source>
       <page>182</page>
       <sourcename />
-      <bonus>
-        <adeptpowerpoints>1</adeptpowerpoints>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes />
@@ -2350,9 +2607,7 @@ This quality is only available to characters that possess a Magic attribute rati
       <source>FA</source>
       <page>182</page>
       <sourcename />
-      <bonus>
-        <adeptpowerpoints>1</adeptpowerpoints>
-      </bonus>
+      <bonus />
       <firstlevelbonus />
       <naturalweapons />
       <notes />
@@ -2422,8 +2677,7 @@ This quality is only available to characters that possess a Magic attribute rati
           <source>RF</source>
           <page>222</page>
           <allowed>Medium,High,Luxury</allowed>
-          <bonus>
-          </bonus>
+          <bonus />
           <notes>GRID SUBSCRIPTION
 Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
 Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
@@ -3248,6 +3502,30 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
   <improvements>
     <improvement>
       <target />
+      <improvedname>Aeronautics Mechanic</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>4</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillBase</improvementttype>
+      <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname />
       <sourcename>e320d310-029e-41fc-9e16-410ffb206941</sourcename>
       <min>0</min>
@@ -3320,32 +3598,8 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>ae83c89c-a44c-4038-8c53-4f360518e006</improvedname>
-      <sourcename>dc0903b5-b497-4e16-8318-5db28aaecc10</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_IntimidationVisible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Running</improvedname>
-      <sourcename>11c78601-e405-42dd-88bf-5e88afc36ef4</sourcename>
+      <sourcename>d09e3d7a-eb8d-411a-a414-6507113fd413</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -3369,7 +3623,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     <improvement>
       <unique>9ca5be05-1420-4592-81a5-1b59bb93545d</unique>
       <target />
-      <improvedname>11c78601-e405-42dd-88bf-5e88afc36ef4</improvedname>
+      <improvedname>d09e3d7a-eb8d-411a-a414-6507113fd413</improvedname>
       <sourcename>411103f7-e0a4-4339-8fd4-f093c64b5a90</sourcename>
       <min>0</min>
       <max>0</max>
@@ -3380,54 +3634,6 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <exclude />
       <condition />
       <improvementttype>MentorSpirit</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>7ace7392-d1d5-4788-96f5-724227739842</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Dodge</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Public Grid</improvedname>
-      <sourcename>ac31eeb3-53b4-4d5c-93ee-f63d25e71e8c</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
       <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
@@ -3551,30 +3757,6 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <condition />
       <improvementttype>SpecialSkills</improvementttype>
       <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Aeronautics Mechanic</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SkillBase</improvementttype>
-      <improvementsource>Heritage</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -3779,8 +3961,104 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
+      <improvedname>32f756f1-772f-4f3c-96b1-af5aecbee48f</improvedname>
+      <sourcename>dc0903b5-b497-4e16-8318-5db28aaecc10</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_IntimidationVisible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>41c4cb1b-7a2e-4fad-a6a1-121e350eb2fe</improvedname>
+      <sourcename>3a99862f-6ab2-4acf-953b-ba16ac894088</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>a87c68e2-97ae-48ad-8b8c-cad6506cd909</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>BOD</improvedname>
+      <sourcename>361b0375-eedb-4ede-bc60-30a5385d5b38</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>Blades</improvedname>
-      <sourcename>253c79d0-c9a0-4302-9ca1-5db96b44394f</sourcename>
+      <sourcename>a6743ff8-036a-475a-b60c-d21d007342ac</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -3803,17 +4081,17 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>STR</improvedname>
-      <sourcename>ef3079a2-d0f0-48b5-a548-7e5a7b41834c</sourcename>
+      <improvedname />
+      <sourcename>7ace7392-d1d5-4788-96f5-724227739842</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>2</aug>
+      <aug>0</aug>
       <augmax>0</augmax>
-      <val>0</val>
+      <val>6</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Attribute</improvementttype>
+      <improvementttype>Dodge</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -3827,8 +4105,32 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>AGI</improvedname>
-      <sourcename>91811fb1-b958-4c91-b813-90cb8d149adf</sourcename>
+      <improvedname>Blades</improvedname>
+      <sourcename>19ce68b7-4c14-4002-8e7d-c22c660d4d2d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>a06bed67-955d-453f-bde0-49c3646db0ba</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>1</aug>
@@ -3873,13 +4175,37 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>edbd6152-5528-482b-98fb-b5f1de458759</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>WeaponCategoryDV</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
   <mentorspirits>
     <mentorspirit>
       <sourceid>9ca5be05-1420-4592-81a5-1b59bb93545d</sourceid>
-      <guid>11c78601-e405-42dd-88bf-5e88afc36ef4</guid>
+      <guid>d09e3d7a-eb8d-411a-a414-6507113fd413</guid>
       <name>Horse</name>
       <mentortype>MentorSpirit</mentortype>
       <extra />
@@ -3890,16 +4216,9 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <advantage>All: +2 dice to Running or Pilot Ground Craft tests (choose one)</advantage>
       <disadvantage>Followers of the Horse can't sit still for long nor be confined indoors. They must spend at least four hours a day outside and be able to run or drive around (any method of travel faster than walking). If followers are not able to meet this condition, they suffer –1 die to all action skill tests. This penalty is cumulative, meaning if the follower is stuck at a desk all day (indoors and not moving around) for two days in a a row, they suffer –2 to all actions until they get that free time in.</disadvantage>
       <mentormask>False</mentormask>
-      <bonus>
-      </bonus>
-      <choice1>
-        <specificskill>
-          <name>Running</name>
-          <bonus>2</bonus>
-        </specificskill>
-      </choice1>
-      <choice2>
-      </choice2>
+      <bonus />
+      <choice1 />
+      <choice2 />
       <notesColor>#E3813C</notesColor>
       <notes />
       <id>9ca5be05-1420-4592-81a5-1b59bb93545d</id>
