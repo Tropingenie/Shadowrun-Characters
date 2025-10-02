@@ -5,7 +5,7 @@
   <appversion>5.225.1021</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-1169902419</settingshashcode>
+  <settingshashcode>-1766610781</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -79,7 +79,7 @@
   <priorityresources>E</priorityresources>
   <prioritytalent>Adept</prioritytalent>
   <priorityskills>
-    <priorityskill>Aeronautics Mechanic</priorityskill>
+    <priorityskill>Blades</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
   <name />
@@ -129,7 +129,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
   <totalspecial>7</totalspecial>
   <totalattributes>24</totalattributes>
   <edgeused>0</edgeused>
-  <contactpoints>6</contactpoints>
+  <contactpoints>9</contactpoints>
   <spelllimit>0</spelllimit>
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
@@ -149,7 +149,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
   <created>False</created>
   <nuyen>6000</nuyen>
   <startingnuyen>6000</startingnuyen>
-  <nuyenbp>0</nuyenbp>
+  <nuyenbp>1</nuyenbp>
   <adept>True</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -194,10 +194,10 @@ He never did figure out if the voice was a hallucination or dream, but held in h
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>1</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>INT</name>
@@ -224,10 +224,10 @@ He never did figure out if the voice was a hallucination or dream, but held in h
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>2</base>
+      <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -350,21 +350,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>47bd73e5-a0ff-47b9-b9fd-9fd6d47efc21</guid>
-        <suid>fc89344f-daa6-438e-b61d-23f10dd13e44</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Alchemy</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
         <guid>0badd106-db36-4b3b-aaef-e2b93a9a4caf</guid>
         <suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
         <isknowledge>False</isknowledge>
@@ -425,21 +410,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>ef8336d6-581a-4233-8827-cb9d74ddfa71</guid>
-        <suid>955d9376-3066-469d-8670-5170c1d59020</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Artificing</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
         <guid>b109ed24-6be1-4e85-be5b-07edaf5f0c07</guid>
         <suid>2f4c706f-5ac5-4774-8a45-3b4667989a20</suid>
         <isknowledge>False</isknowledge>
@@ -455,7 +425,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>bdb869f8-9018-4b03-9b7e-0c9abb5f4f0a</guid>
+        <guid>0d7f8bb1-753c-466b-a6ae-01833407f04e</guid>
         <suid>59318078-e071-411b-9194-7222560e9f4a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -470,7 +440,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>0399d10e-207d-4ed0-89c7-da7f298e050f</guid>
+        <guid>c68c3bb5-2ccf-4063-85df-2420082e171b</guid>
         <suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -515,36 +485,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>3bfeae67-eabe-4c5b-87a9-e4abb12f048d</guid>
-        <suid>9a2d9175-d445-45ca-842d-90223ad13f05</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Banishing</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>7014e488-7d1b-46d2-b84a-15d2722cc018</guid>
-        <suid>dfba7c09-3d95-43fd-be75-39b3e8b22cd3</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Binding</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
         <guid>3fb45ca3-cd6e-4d1d-b5d5-468cd9103dab</guid>
         <suid>ba624682-a5c0-4cf5-b47b-1021e6a1800d</suid>
         <isknowledge>False</isknowledge>
@@ -568,7 +508,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>2</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Blades</name>
@@ -606,7 +546,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Clubs</name>
@@ -640,21 +580,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Con</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>902f2058-2c58-4358-b7d7-b77a7cc120ca</guid>
-        <suid>3db81bcc-264b-47e1-847c-06bdacd88973</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Counterspelling</name>
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
@@ -700,21 +625,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Demolitions</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>5ff6782d-1cb9-43bb-9ced-7b9f80d0b0f9</guid>
-        <suid>a9d9b686-bc4a-4347-b011-ff8f41455965</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Disenchanting</name>
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
@@ -785,7 +695,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -876,11 +786,19 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>6</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Gymnastics</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>ef5df160-aea0-4ea3-8aa6-5fea80202a44</guid>
+            <name>Climbing</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>71bb2dda-edc8-4e94-a3b9-49684fa5cbf0</guid>
@@ -1116,11 +1034,19 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>6</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Perception</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>73f84afd-bd1c-47df-8bcf-55fd65ee917b</guid>
+            <name>Hearing</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>6689e73a-d6e7-4a5b-b829-8c607b280284</guid>
@@ -1228,21 +1154,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
-        <guid>b39b0b43-bc98-4f49-8258-3b8bd4eceec5</guid>
-        <suid>a6287e62-6a3b-43ce-b6e0-20f3655910e2</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Ritual Spellcasting</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
         <guid>1c62dd63-6e36-4cbc-abf9-c2e4b48d36e4</guid>
         <suid>1531b2d8-6116-4be4-87b0-232dba1fc447</suid>
         <isknowledge>False</isknowledge>
@@ -1251,7 +1162,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Running</name>
@@ -1265,7 +1176,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>2</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1285,36 +1196,6 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Software</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>99f50b0d-59c4-4a52-9fe0-8a1b14ae75bf</guid>
-        <suid>c4367a39-4065-4b1d-aa62-e9dce377e452</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Spellcasting</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>e1a5e0d2-8704-45cc-8e03-66d056f1437a</guid>
-        <suid>51e34c6c-b07f-45f4-8a5e-8f2b617ed32f</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Summoning</name>
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
@@ -1594,6 +1475,41 @@ Cost: 0.5 PP per level Combat Sense provides an instinctive sense of any potenti
       <notesColor>#E3813C</notesColor>
     </power>
     <power>
+      <sourceid>dbf16604-164c-485c-96c8-fe3136cd5caa</sourceid>
+      <guid>edbd6152-5528-482b-98fb-b5f1de458759</guid>
+      <name>Critical Strike</name>
+      <extra />
+      <pointsperlevel>0.5</pointsperlevel>
+      <adeptway>0.25</adeptway>
+      <action />
+      <rating>1</rating>
+      <extrapointcost>0</extrapointcost>
+      <levels>False</levels>
+      <maxlevels>0</maxlevels>
+      <discounted>False</discounted>
+      <discountedgeas>False</discountedgeas>
+      <bonussource />
+      <freepoints>0</freepoints>
+      <source>SR5</source>
+      <page>309</page>
+      <bonus />
+      <adeptwayrequires>
+        <required>
+          <oneof>
+            <quality>The Invisible Way</quality>
+            <quality>The Spiritual Way</quality>
+            <quality>The Warrior's Way</quality>
+          </oneof>
+        </required>
+      </adeptwayrequires>
+      <enhancements />
+      <notes>CRITICAL STRIKE
+(SKILL)
+Cost: 0.5 PP This power improves a specific melee skill: either Unarmed Combat, Clubs, Blades, Astral Combat, or a particular Exotic Melee weapon skill. The specific skill is chosen when you buy the power. Increase the DV of your attacks with the selected skill by 1. Critical Strike is compatible with weapons and other adept powers.
+The power may be selected multiple times, each time for a different melee skill.</notes>
+      <notesColor>#E3813C</notesColor>
+    </power>
+    <power>
       <sourceid>e009da31-0301-4604-b13f-49b071aa25a1</sourceid>
       <guid>a6743ff8-036a-475a-b60c-d21d007342ac</guid>
       <name>Enhanced Accuracy (skill)</name>
@@ -1781,49 +1697,48 @@ COST: 0.5 PP
 No longer limited to pistols, the Rapid Draw power can be used by the adept to rapidly and more easily employ a variety of weapons in combat. Any weapon that is properly holstered can be quick-drawn; this includes blades,</notes>
       <notesColor>#E3813C</notesColor>
     </power>
-    <power>
-      <sourceid>dbf16604-164c-485c-96c8-fe3136cd5caa</sourceid>
-      <guid>edbd6152-5528-482b-98fb-b5f1de458759</guid>
-      <name>Critical Strike</name>
-      <extra>Blades</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>1</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>False</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Invisible Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>CRITICAL STRIKE
-(SKILL)
-Cost: 0.5 PP This power improves a specific melee skill: either Unarmed Combat, Clubs, Blades, Astral Combat, or a particular Exotic Melee weapon skill. The specific skill is chosen when you buy the power. Increase the DV of your attacks with the selected skill by 1. Critical Strike is compatible with weapons and other adept powers.
-The power may be selected multiple times, each time for a different melee skill.</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
   </powers>
   <spirits />
   <complexforms />
   <aiprograms />
-  <martialarts />
+  <martialarts>
+    <martialart>
+      <name>Pentjak-Silat</name>
+      <sourceid>0b792f6c-c12e-4e93-b830-1f201e267bbc</sourceid>
+      <guid>7fbaec1d-f211-4e21-aa2c-05b11348efe1</guid>
+      <source>RG</source>
+      <page>133</page>
+      <cost>7</cost>
+      <isquality>False</isquality>
+      <martialarttechniques>
+        <martialarttechnique>
+          <sourceid>8a457d21-cc45-4f60-b9d3-0891f0c47c10</sourceid>
+          <guid>ac04737b-68e7-4499-9337-f4545c755f83</guid>
+          <name>Jiao Di (Charge)</name>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <source>RG</source>
+          <page>138</page>
+        </martialarttechnique>
+        <martialarttechnique>
+          <sourceid>2747d8d5-022d-4477-a7ce-43d88806bb35</sourceid>
+          <guid>ff0cc839-d808-4099-a2cb-bc40fbad0e8d</guid>
+          <name>Randori (Vitals)</name>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <source>RG</source>
+          <page>140</page>
+        </martialarttechnique>
+      </martialarttechniques>
+      <notes>PENTJAK-SILAT
+An ancient martial art from Indonesia that is over a thousand years old, Pentjak-Silat is actually an umbrella term for several techniques. It teaches the use of several weapons such as the kris and focuses on striking vital points of the opponent. It is predominantly practiced in Indonesia. Adepts have discovered that this style is effective and potent when used with weapon foci.
+Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Charge), Randori (Vitals), Silken Storm</notes>
+      <notesColor>#E3813C</notesColor>
+    </martialart>
+  </martialarts>
   <limitmodifiers>
     <limitmodifier>
-      <guid>32f756f1-772f-4f3c-96b1-af5aecbee48f</guid>
+      <guid>86b5d95e-101e-4f8f-811b-95dddb4cca59</guid>
       <name>Ballistic Mask</name>
       <limit>Social</limit>
       <bonus>1</bonus>
@@ -1833,7 +1748,7 @@ The power may be selected multiple times, each time for a different melee skill.
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>41c4cb1b-7a2e-4fad-a6a1-121e350eb2fe</guid>
+      <guid>0eb2e0e1-2a19-4760-a710-726371bbcbdd</guid>
       <name>Securetech PPP: Legs Kit</name>
       <limit>Social</limit>
       <bonus>-1</bonus>
@@ -2356,6 +2271,203 @@ This modification allows a weapon’s owner to customize a weapon to fit the siz
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
     </weapon>
+    <weapon>
+      <sourceid>656906d8-b6a4-47a2-9554-de365097eba0</sourceid>
+      <guid>86b836c8-0c29-4fc6-9a65-7e32c8d3f1ba</guid>
+      <name>Combat Knife</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <spec>Knives</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>6</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>4</avail>
+      <cost>300</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid />
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>6</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <accessories>
+        <accessory>
+          <sourceid>85b01b5c-c788-4b43-8190-9e0c18391436</sourceid>
+          <guid>0cafecbf-0638-4379-9df0-6dffedf0461f</guid>
+          <name>Personalized Grip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>100</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>182</page>
+          <accuracy>1</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>PERSONALIZED GRIP
+This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>18e18bbc-f287-4455-bedf-ba349779a4cb</sourceid>
+          <guid>6706135e-762f-44e6-9659-57f583fee365</guid>
+          <name>Quick-Draw Holster</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>4</avail>
+          <cost>175</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>432</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the threshold for quick-drawing the holstered weapon by 1 (see Quick Draw, p. 165).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+      </accessories>
+      <location />
+      <notes>Combat knife: A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor.
+
+This one is a Tanto tho :)</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>melee</weapontype>
+    </weapon>
   </weapons>
   <cyberwares />
   <qualities>
@@ -2477,39 +2589,6 @@ This quality is only available to characters that possess a Magic attribute rati
       <notesColor>#E3813C</notesColor>
     </quality>
     <quality>
-      <sourceid>55247bdc-c313-4614-ae15-5012308096ff</sourceid>
-      <guid>b41b4079-c923-42c9-8291-b3324118c7df</guid>
-      <name>Adept</name>
-      <extra />
-      <bp>20</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>False</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Heritage</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>69</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes>ADEPTS
-• Adepts channel mana into their own bodies to enhance their natural abilities, making their talents and skills much more potent.
-• Adepts never astrally project (p. 313).
-• Adepts only perceive astral space by purchasing the Astral Perception power (p. 312).
-• Adepts can learn the Assensing skill only if they have the Astral Perception power.
-• Adepts cannot use skills from any magic-related skill groups (Sorcery, Conjuring, or Enchanting).
-• Adepts can follow mentor spirits (p. 320).
-• Adepts gain Adept Powers that are purchased with Power Points. Adepts receive a number of Power Points equal to their Magic rating.</notes>
-      <notesColor>#E3813C</notesColor>
-    </quality>
-    <quality>
       <sourceid>624fa943-c0a1-44ee-8cd8-3aef4bea3f4b</sourceid>
       <guid>49ca04ff-f36b-43ba-99c4-0cf68506e647</guid>
       <name>Jack of All Trades Master of None</name>
@@ -2611,6 +2690,67 @@ This quality is only available to characters that possess a Magic attribute rati
       <firstlevelbonus />
       <naturalweapons />
       <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>fd78fa11-5ab6-40db-bdb8-9fd722b08054</sourceid>
+      <guid>73ed4c81-3a2a-4ee4-94da-e737c6825e49</guid>
+      <name>Perfect Time</name>
+      <extra />
+      <bp>5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>148</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>PERFECT TIME
+COST: 5 KARMA
+Who needs a watch when you’re around? The character with this quality always knows the time, down to the minute, and has a perfect sense of rhythm and timing. This perfect sense can only be obstructed through prolonged isolation, unconsciousness, or distortion of temporal perception through drugs, chips, or an extended period in the Matrix. This quality provides two game benefits: a +1 dice pool modifier for Performance Tests involving timing and rhythm, along with an additional Free Action during every Action Phase.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>55247bdc-c313-4614-ae15-5012308096ff</sourceid>
+      <guid>878515e3-9aca-4cb4-85b1-790e1f1d3040</guid>
+      <name>Adept</name>
+      <extra />
+      <bp>20</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>False</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Heritage</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>69</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>ADEPTS
+• Adepts channel mana into their own bodies to enhance their natural abilities, making their talents and skills much more potent.
+• Adepts never astrally project (p. 313).
+• Adepts only perceive astral space by purchasing the Astral Perception power (p. 312).
+• Adepts can learn the Assensing skill only if they have the Astral Perception power.
+• Adepts cannot use skills from any magic-related skill groups (Sorcery, Conjuring, or Enchanting).
+• Adepts can follow mentor spirits (p. 320).
+• Adepts gain Adept Powers that are purchased with Power Points. Adepts receive a number of Power Points equal to their Magic rating.</notes>
       <notesColor>#E3813C</notesColor>
     </quality>
   </qualities>
@@ -2874,7 +3014,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>1</sortorder>
             </gear>
             <gear>
               <sourceid>b19f022c-c854-4a3f-8b7a-d2a2532a2680</sourceid>
@@ -2931,7 +3071,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>2</sortorder>
             </gear>
             <gear>
               <sourceid>fa6fa434-107b-4f36-a138-f98b044dae76</sourceid>
@@ -2988,7 +3128,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>3</sortorder>
             </gear>
             <gear>
               <sourceid>5146abd2-6ab2-4aee-b523-a63d5c5ab93b</sourceid>
@@ -3045,7 +3185,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>4</sortorder>
             </gear>
             <gear>
               <sourceid>82946de2-876c-46d8-a6ec-744a38257668</sourceid>
@@ -3102,7 +3242,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>5</sortorder>
             </gear>
             <gear>
               <sourceid>f9995732-7d00-496c-8407-a3dc0e1a82ff</sourceid>
@@ -3159,7 +3299,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>6</sortorder>
             </gear>
             <gear>
               <sourceid>1d6f985e-5cf0-463d-a445-fafdd387f301</sourceid>
@@ -3216,7 +3356,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>7</sortorder>
             </gear>
             <gear>
               <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -3273,7 +3413,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>8</sortorder>
             </gear>
             <gear>
               <sourceid>786682fb-cbd5-4ee8-969a-233484004df7</sourceid>
@@ -3330,7 +3470,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>9</sortorder>
             </gear>
           </children>
           <location />
@@ -3377,9 +3517,9 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <sortorder>0</sortorder>
     </gear>
     <gear>
-      <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
-      <guid>e904ec1f-8455-4930-b6ad-9716cc8eb66e</guid>
-      <name>Psyche</name>
+      <sourceid>929c4835-1754-4999-9215-9859e8ec5384</sourceid>
+      <guid>0a7c1d90-25ec-4791-b667-e59306339901</guid>
+      <name>Jazz</name>
       <category>Drugs</category>
       <capacity />
       <armorcapacity />
@@ -3387,8 +3527,8 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <maxrating />
       <rating>0</rating>
       <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>200</cost>
+      <avail>2R</avail>
+      <cost>75</cost>
       <weight />
       <extra />
       <bonded>False</bonded>
@@ -3400,9 +3540,9 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <weaponbonus />
       <flechetteweaponbonus />
       <source>SR5</source>
-      <page>412</page>
+      <page>411</page>
       <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
+      <ammoforweapontype>spraypen</ammoforweapontype>
       <canformpersona />
       <devicerating />
       <gearname />
@@ -3414,7 +3554,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <children>
         <gear>
           <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
-          <guid>2c6503e3-def9-4f35-9ced-bd7d25077eec</guid>
+          <guid>712e7907-e554-498a-a142-253ea2890c03</guid>
           <name>Pharmaceutical</name>
           <category>Drug Grades</category>
           <capacity>0</capacity>
@@ -3470,9 +3610,363 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>943b989e-8c32-4377-903d-c033c8bb3952</location>
+      <notes>JAZZ
+Vector: Inhalation Speed: Immediate Duration: 10 x 1D6 minutes.
+Addiction Type: Both Effect: +1 Reaction, +1 Physical limit, +2D6 Initiative Dice Jazz is a stimulant designed to better the odds for run-of-the-mill law-enforcement officers who run up against augmented street samurai. It’s usually taken from a single-dose inhaler (or “popper”).
+When jazz wears off, the user crashes and is flooded with despondent and miserable emotions, suffering the effects of Disorientation (p. 409) for a duration equal to the duration of the initial effect.
+While cram makes people hyper and twitchy, jazz makes people jumpy and hyper as caffeinated two-yearolds. Role-playing a jazz user means turning it up a notch, portraying someone with too much energy to burn.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>6e219091-8e3c-4a65-bb1d-78a351d8bf54</sourceid>
+      <guid>7ae3309e-60c8-4efc-8351-075f2af72cca</guid>
+      <name>NoPaint</name>
+      <category>Drugs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>3</avail>
+      <cost>15</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CF</source>
+      <page>182</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
+          <guid>2afb9d14-8cb9-45af-8b00-50de72cb412d</guid>
+          <name>Pharmaceutical</name>
+          <category>Drug Grades</category>
+          <capacity>0</capacity>
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>Parent Cost</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>CF</source>
+          <page>190</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Pharmaceutical: High-end controls used to mini- mize impurities and standardize effects. Costs are dou- bled. Any crash effects are halved in time duration. The Addiction Threshold is reduced by 1. Pharmaceutical grade is the minimum grade for customized drugs.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>943b989e-8c32-4377-903d-c033c8bb3952</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
+      <guid>001ae938-9286-409e-b785-d74d93c44e34</guid>
+      <name>Psyche</name>
+      <category>Drugs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>412</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
+          <guid>747a1c70-2c79-4eb4-a834-978dca031893</guid>
+          <name>Pharmaceutical</name>
+          <category>Drug Grades</category>
+          <capacity>0</capacity>
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>Parent Cost</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>CF</source>
+          <page>190</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Pharmaceutical: High-end controls used to mini- mize impurities and standardize effects. Costs are dou- bled. Any crash effects are halved in time duration. The Addiction Threshold is reduced by 1. Pharmaceutical grade is the minimum grade for customized drugs.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>943b989e-8c32-4377-903d-c033c8bb3952</location>
       <notes>PSYCHE
 Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 hour Addiction Type: Psychological Effect: +1 Intuition, +1 Logic, +1 Mental limit This designer stimulant is especially prized by magicians and technomancers alike. In addition to the effects noted above, Awakened users also only suffer a –1 dice pool modifier for each sustained spell (rather than the standard –2). Psyche users are simultaneously hyper-aware and detached, easily absorbed by detail and obsessive about certain facts or problems.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>c153d7ec-af89-4c6f-a31d-fc3a6a490de4</sourceid>
+      <guid>c7dcd78a-06d6-415c-a716-a0e172379939</guid>
+      <name>Infiltrator</name>
+      <category>BTLs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>8F</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CF</source>
+      <page>193</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>943b989e-8c32-4377-903d-c033c8bb3952</location>
+      <notes>INFILTRATOR
+Effect: Agility + 2, Strength + 1, Charisma – 2, Gymnastics 2, Locksmith 2, Palming 1 Greed: The user must make a Willpower (3) Test to resist the urge to steal a valuable item left unattended.
+Thrill of the Heist: The user must make a Willpower (2) Test to stop in the middle of a job.
+If the user’s Charisma is reduced below 1, the character gains the Uncouth quality (p. 85, SR5) if they regain consciousness while the program is still running. The quality goes away when the p-fix program is stopped.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d1d0bbce-a2a2-4d92-b54c-b1152befb96f</sourceid>
+      <guid>364401d4-8699-4d7e-aeaf-bb049c08906a</guid>
+      <name>Trode Patch</name>
+      <category>Electronics Accessories</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4</avail>
+      <cost>1250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>KC</source>
+      <page>60</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>4</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>TRODE PATCH
+Are you sick of hiding your trodes in your hats or having that gelly goop getting stuck in your hair?
+Well, then, it’s time to rejoice with MCT’s latest design for virtual access with minimal hassle. The full trode rig will soon be a relic of the past, and getting a hole drilled in your skull for a datajack just won’t be necessary anymore with the ultra-sleek trode patch.
+About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter for those unfamiliar with ancient UCAS coins, the trode patch allows the same level of DNI interface as a full rig, but rather than needing a full net or headband of them, it’s a single small piece. It requires direct skin contact near the brain, so a small patch of bare skin on the cranium is needed, but that’s better than a hole in the head any day. Many models even come with a custom exterior that can match your hair, or you can get one with any number of logos or designs.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -3502,7 +3996,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
   <improvements>
     <improvement>
       <target />
-      <improvedname>Aeronautics Mechanic</improvedname>
+      <improvedname>Blades</improvedname>
       <sourcename />
       <min>0</min>
       <max>0</max>
@@ -3599,7 +4093,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     <improvement>
       <target />
       <improvedname>Running</improvedname>
-      <sourcename>d09e3d7a-eb8d-411a-a414-6507113fd413</sourcename>
+      <sourcename>a3d7c636-ca37-44a6-a975-53dec80bda78</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -3623,7 +4117,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     <improvement>
       <unique>9ca5be05-1420-4592-81a5-1b59bb93545d</unique>
       <target />
-      <improvedname>d09e3d7a-eb8d-411a-a414-6507113fd413</improvedname>
+      <improvedname>a3d7c636-ca37-44a6-a975-53dec80bda78</improvedname>
       <sourcename>411103f7-e0a4-4339-8fd4-f093c64b5a90</sourcename>
       <min>0</min>
       <max>0</max>
@@ -3634,128 +4128,6 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <exclude />
       <condition />
       <improvementttype>MentorSpirit</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Spell</improvedname>
-      <sourcename>b41b4079-c923-42c9-8291-b3324118c7df</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>BlockSpellDescriptor</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enableattribute</unique>
-      <target />
-      <improvedname>MAG</improvedname>
-      <sourcename>b41b4079-c923-42c9-8291-b3324118c7df</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enabletab</unique>
-      <target />
-      <improvedname>Adept</improvedname>
-      <sourcename>b41b4079-c923-42c9-8291-b3324118c7df</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialTab</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Rituals</improvedname>
-      <sourcename>b41b4079-c923-42c9-8291-b3324118c7df</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>LimitSpellCategory</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Adept</improvedname>
-      <sourcename>b41b4079-c923-42c9-8291-b3324118c7df</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialSkills</improvementttype>
       <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
@@ -3961,18 +4333,68 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>32f756f1-772f-4f3c-96b1-af5aecbee48f</improvedname>
-      <sourcename>dc0903b5-b497-4e16-8318-5db28aaecc10</sourcename>
+      <improvedname>Spell</improvedname>
+      <sourcename>878515e3-9aca-4cb4-85b1-790e1f1d3040</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>BlockSpellDescriptor</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename>878515e3-9aca-4cb4-85b1-790e1f1d3040</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
       <rating>0</rating>
       <exclude />
-      <condition>LimitCondition_IntimidationVisible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>878515e3-9aca-4cb4-85b1-790e1f1d3040</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -3985,18 +4407,67 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>41c4cb1b-7a2e-4fad-a6a1-121e350eb2fe</improvedname>
-      <sourcename>3a99862f-6ab2-4acf-953b-ba16ac894088</sourcename>
+      <improvedname>Rituals</improvedname>
+      <sourcename>878515e3-9aca-4cb4-85b1-790e1f1d3040</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
+      <val>0</val>
+      <rating>1</rating>
       <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
+      <condition />
+      <improvementttype>LimitSpellCategory</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Adept</improvedname>
+      <sourcename>878515e3-9aca-4cb4-85b1-790e1f1d3040</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>Pentjak-Silat</unique>
+      <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>7fbaec1d-f211-4e21-aa2c-05b11348efe1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillSpecializationOption</improvementttype>
+      <improvementsource>MartialArt</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -4057,17 +4528,17 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>Blades</improvedname>
-      <sourcename>a6743ff8-036a-475a-b60c-d21d007342ac</sourcename>
+      <improvedname />
+      <sourcename>7ace7392-d1d5-4788-96f5-724227739842</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>6</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>WeaponSkillAccuracy</improvementttype>
+      <improvementttype>Dodge</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -4081,17 +4552,41 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>7ace7392-d1d5-4788-96f5-724227739842</sourcename>
+      <improvedname>Blades</improvedname>
+      <sourcename>edbd6152-5528-482b-98fb-b5f1de458759</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>6</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Dodge</improvementttype>
+      <improvementttype>WeaponCategoryDV</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>a6743ff8-036a-475a-b60c-d21d007342ac</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>WeaponSkillAccuracy</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -4177,18 +4672,42 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </improvement>
     <improvement>
       <target />
-      <improvedname>Blades</improvedname>
-      <sourcename>edbd6152-5528-482b-98fb-b5f1de458759</sourcename>
+      <improvedname>86b5d95e-101e-4f8f-811b-95dddb4cca59</improvedname>
+      <sourcename>dc0903b5-b497-4e16-8318-5db28aaecc10</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>1</val>
-      <rating>1</rating>
+      <rating>0</rating>
       <exclude />
-      <condition />
-      <improvementttype>WeaponCategoryDV</improvementttype>
-      <improvementsource>Power</improvementsource>
+      <condition>LimitCondition_IntimidationVisible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>0eb2e0e1-2a19-4760-a710-726371bbcbdd</improvedname>
+      <sourcename>3a99862f-6ab2-4acf-953b-ba16ac894088</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -4205,7 +4724,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
   <mentorspirits>
     <mentorspirit>
       <sourceid>9ca5be05-1420-4592-81a5-1b59bb93545d</sourceid>
-      <guid>d09e3d7a-eb8d-411a-a414-6507113fd413</guid>
+      <guid>a3d7c636-ca37-44a6-a975-53dec80bda78</guid>
       <name>Horse</name>
       <mentortype>MentorSpirit</mentortype>
       <extra />
@@ -4225,7 +4744,15 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
     </mentorspirit>
   </mentorspirits>
   <expenses />
-  <gearlocations />
+  <gearlocations>
+    <location>
+      <guid>943b989e-8c32-4377-903d-c033c8bb3952</guid>
+      <name>Performance Enhancers</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>1</sortorder>
+    </location>
+  </gearlocations>
   <armorlocations />
   <vehiclelocations />
   <weaponlocations />
