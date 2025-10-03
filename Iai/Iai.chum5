@@ -5,7 +5,7 @@
   <appversion>5.225.1021</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>-1766610781</settingshashcode>
+  <settingshashcode>203947607</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -82,17 +82,21 @@
     <priorityskill>Blades</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
-  <name />
+  <name>Reiji</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
-  <gender />
-  <age />
-  <eyes />
-  <height />
-  <weight />
-  <skin />
-  <hair />
-  <description />
+  <gender>femboy</gender>
+  <age>18</age>
+  <eyes>Red</eyes>
+  <height>180.5 (5' 11')</height>
+  <weight>56</weight>
+  <skin>Pale</skin>
+  <hair>White</hair>
+  <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Lucky Bad Luck Borrowed Time Pure Adept Quickdraw Femboy Street Sam\par
+}</description>
   <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
@@ -1018,7 +1022,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1146,7 +1150,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1161,12 +1165,20 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>True</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>1</base>
+        <karma>1</karma>
+        <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Running</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>e2dd58ae-a5fb-4a33-a259-87d4f9941d34</guid>
+            <name>Urban</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>0ceb5263-aa08-446b-bc3f-ea8917d8b8d5</guid>
@@ -1176,7 +1188,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>2</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1266,7 +1278,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1377,7 +1389,80 @@ He never did figure out if the voice was a hallucination or dream, but held in h
       </group>
     </groups>
   </newskills>
-  <contacts />
+  <contacts>
+    <contact>
+      <name>John Docwagon</name>
+      <role>AMRP (DocWagon, Cyberware)</role>
+      <location>Docwagon city</location>
+      <connection>2</connection>
+      <loyalty>3</loyalty>
+      <metatype>Elf</metatype>
+      <gender>Male</gender>
+      <age>Unknown</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife>None of Your Damn Business</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Carries himself like a grizzled old captain, despite looking younger than most of his detail. Lean and lithe, he carries himself with a military posture, and the synthetic tobacco cigar often in his mouth would be complemented well with a big beard he simply cannot grow.
+
+It was a normal job. Corp kid's biomonitor triggered an alert. Kid had probably gotten on the wrong bus, and ended up in Pullayup instead of Touristville. HTR was scrambled as a matter of course, but what wasn't part of their archetypical day was what they found: Crazy Sam kid fighting a New Boar. And sort of winning. Both the Sam and the boar collapsed at the same time, and John ordered a few rounds be put through its skull for good measure as the paramedics deployed. Their client had a head wound, but woke up shortly after they secured him to a stretcher for transport, offering a credstick and begging them to save the Sam girl. Cursing his bleeding heart, John obliged, taking what time he had to patch her up and slapping a stim patch so she could limp her way to a street doc.
+
+But that was all he could do for her. Barrens kid like that probably wouldn't last long anyway. So put her out of your mind, and use the cred to buy the team a nice dinner, some drinks. To forget. But he couldn't, and found himself venturing out the next morning, just to see.
+
+That was the day a man, single all his life, gained a... son? It was also the day John learned that you truly never know what life will throw at you.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>5c70f6d2-563b-430c-8c92-31ec02b34b12</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Francesca Bellora</name>
+      <role>SIN Forger</role>
+      <location>Brazil</location>
+      <connection>4</connection>
+      <loyalty>1</loyalty>
+      <metatype>Ork (Ogre)</metatype>
+      <gender>Female</gender>
+      <age>Middle-Aged</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife>Widowed</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Broad shouldered ogre lady who leads her clan of blood descendants with an iron fist. With 12 kids, she considered herself fortunate that her husband only died after most of them were old enough to help out around the compound. His death was what pushed her to learn some new tricks.
+
+Their SINs had been just good enough for the coyote to move them out of Amazonia, through the Panama Canal, and into Seattle, where they hoped to be safe from further Aztlan incursions, and were sold on the lie of a better life. Francesca and her husband were still able to carve out their niche in the Pullayup barrens, using brute strength from both of them and her guile to gain standing in the orc community. Still, the low quality, and lack of SINs for her many children to come left them trapped in Pullayup even after hearing rumor of the Orc Underground.
+
+It all came to a head when a Lone Star patrol chanced upon her husband, choosing to "kill the cannibal bastard" for sport. He had been chewing on a chunk of a mutant beast he had hunted, but after his SIN was flagged they had the casus belli to do whatever they wanted. Nobody really saw what happened, but even the most detached ork in their community joined in the effort to ensure those officers never left Pullayup.
+
+After this, Francesca knew she couldn't trust another SIN forger, and learned the craft herself. Between that and the influence of her "clan," she became a small pillar of the community that made their home in the ravaged lands.
+
+She met Iai shortly before he joined the Hub, back when he went by the handle "Ronin." He had been ingratiating himself in the community at the advice of John Docwagon (temp name), and being the acting boss of the area Francesca was who he ended up talking with.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>1d48ccba-2557-4c89-8c66-a3268ed5da35</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+  </contacts>
   <spells />
   <foci />
   <stackedfoci />
