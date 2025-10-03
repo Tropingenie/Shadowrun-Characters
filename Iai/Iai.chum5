@@ -1393,7 +1393,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
     <contact>
       <name>John Adams</name>
       <role>AMRP (DocWagon, Cyberware)</role>
-      <location>Docwagon post in Pullayup</location>
+      <location>Docwagon post near McChord AFB</location>
       <connection>2</connection>
       <loyalty>3</loyalty>
       <metatype>Elf</metatype>
@@ -1428,7 +1428,7 @@ That was the day a man, single all his life, gained a... son? It was also the da
     <contact>
       <name>Francesca Bellora</name>
       <role>SIN Forger</role>
-      <location>Z zone near Pullayup</location>
+      <location>Carbonado</location>
       <connection>4</connection>
       <loyalty>3</loyalty>
       <metatype>Ork (Ogre)</metatype>
@@ -1465,7 +1465,7 @@ She met Iai shortly before he joined the Hub, back when he went by the handle "R
     <contact>
       <name>Boss</name>
       <role>Fixer</role>
-      <location />
+      <location>Near McMillin Reservoir</location>
       <connection>4</connection>
       <loyalty>1</loyalty>
       <metatype>Troll (Giant)</metatype>
