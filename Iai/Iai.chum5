@@ -1391,9 +1391,9 @@ He never did figure out if the voice was a hallucination or dream, but held in h
   </newskills>
   <contacts>
     <contact>
-      <name>John Docwagon</name>
+      <name>John Adams</name>
       <role>AMRP (DocWagon, Cyberware)</role>
-      <location>Docwagon city</location>
+      <location>Docwagon post in Pullayup</location>
       <connection>2</connection>
       <loyalty>3</loyalty>
       <metatype>Elf</metatype>
@@ -1428,9 +1428,9 @@ That was the day a man, single all his life, gained a... son? It was also the da
     <contact>
       <name>Francesca Bellora</name>
       <role>SIN Forger</role>
-      <location>Brazil</location>
+      <location>Z zone near Pullayup</location>
       <connection>4</connection>
-      <loyalty>1</loyalty>
+      <loyalty>3</loyalty>
       <metatype>Ork (Ogre)</metatype>
       <gender>Female</gender>
       <age>Middle-Aged</age>
@@ -1449,7 +1449,7 @@ It all came to a head when a Lone Star patrol chanced upon her husband, choosing
 
 After this, Francesca knew she couldn't trust another SIN forger, and learned the craft herself. Between that and the influence of her "clan," she became a small pillar of the community that made their home in the ravaged lands.
 
-She met Iai shortly before he joined the Hub, back when he went by the handle "Ronin." He had been ingratiating himself in the community at the advice of John Docwagon (temp name), and being the acting boss of the area Francesca was who he ended up talking with.</notes>
+She met Iai shortly before he joined the Hub, back when he went by the handle "Ronin." He had been ingratiating himself in the community at the advice of John Docwagon (temp name), and being the acting boss of the area Francesca was who he ended up talking with. A bit of a fool, but a tough fool nontheless, she took him under her wing, gaining a (much smaller) "daughter" in the process.</notes>
       <notesColor>#E3813C</notesColor>
       <groupname />
       <colour>0</colour>
@@ -1459,6 +1459,39 @@ She met Iai shortly before he joined the Hub, back when he went by the handle "R
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>1d48ccba-2557-4c89-8c66-a3268ed5da35</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Boss</name>
+      <role>Fixer</role>
+      <location />
+      <connection>4</connection>
+      <loyalty>1</loyalty>
+      <metatype>Troll (Giant)</metatype>
+      <gender>Unknown</gender>
+      <age>Middle-Aged</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Boss is your two way ticket in and out of the Pullayup barrens, or so the saying goes. The big Swede towers at 4m tall, an imposing presence that lead to him being simply known as "Boss" even before he held any sway. His soft spoken manner comes with a slight growl, lending to the air of intimidation surrounding him, but it is when his voice booms in a rage that those around him know he is not to be trifled with.
+
+Though he doesn't have any forces or a gang of his own, per-se, people have generally always listened to him. This allowed him to pursue his passion in networking; though his charisma perhaps came through differently to those around him, it achieved the desired result. Once he had a matrix connection, however, his guile was unstoppable, though the many men he drew into the shadows all eventually had to face an unfortunate truth: The beautiful elf or human they had imagined was, in fact, doing a bit of trolling.
+
+Though matrix connections granted him access to wider Seattle, Boss still maintained his many local connections, finding them more valuable--pretending to be a sexy older lady was only a passtime of his, not his day job. He was introduced to Iai, a promising street sam looking for more work than the barrens gangs could offer, through the SIN Forger Francesca Bellora, and quickly connected him to the RunnerHub datahaven.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>b9a49623-48c5-4912-a7dd-8e8e90810712</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
@@ -2691,32 +2724,6 @@ COST: 5 KARMA
 Everyone needs some help in life, even if it comes from someone relatively filmy and insubstantial. Mentor Spirit means the character follows a patron spirit (see Mentor Spirits, p. 320) that guides him in his practice of magic and provides certain advantages and disadvantages to his natural abilities. A character may change mentor spirits, but he may have only one mentor spirit at a time. To change mentor spirits, the character must first buy off the current mentor spirit as if it were a Negative quality. He can then purchase the quality again to follow a different mentor spirit. This cost represents the toll of divorcing from one mentor spirit and bonding with a new one.
 Each tradition has a different name for a mentor spirit. Hermetic mages prefer the term “mentor spirit,” while shamans use the word “totem” for the spirit that they follow. While the names may vary, the way the mentor works is consistent.
 This quality is only available to characters that possess a Magic attribute rating.</notes>
-      <notesColor>#E3813C</notesColor>
-    </quality>
-    <quality>
-      <sourceid>624fa943-c0a1-44ee-8cd8-3aef4bea3f4b</sourceid>
-      <guid>49ca04ff-f36b-43ba-99c4-0cf68506e647</guid>
-      <name>Jack of All Trades Master of None</name>
-      <extra />
-      <bp>2</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RF</source>
-      <page>147</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes />
       <notesColor>#E3813C</notesColor>
     </quality>
     <quality>
@@ -4577,126 +4584,6 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <exclude />
       <condition />
       <improvementttype>MentorSpirit</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>49ca04ff-f36b-43ba-99c4-0cf68506e647</sourcename>
-      <min>0</min>
-      <max>5</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>ActiveSkillKarmaCost</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>49ca04ff-f36b-43ba-99c4-0cf68506e647</sourcename>
-      <min>6</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>ActiveSkillKarmaCost</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>49ca04ff-f36b-43ba-99c4-0cf68506e647</sourcename>
-      <min>0</min>
-      <max>5</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>KnowledgeSkillKarmaCostMinimum</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>49ca04ff-f36b-43ba-99c4-0cf68506e647</sourcename>
-      <min>0</min>
-      <max>5</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>KnowledgeSkillKarmaCost</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>49ca04ff-f36b-43ba-99c4-0cf68506e647</sourcename>
-      <min>6</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition>career</condition>
-      <improvementttype>KnowledgeSkillKarmaCost</improvementttype>
       <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
