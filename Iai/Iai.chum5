@@ -95,7 +95,7 @@
   <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1 \lang4105\fs16\f0 Lucky Bad Luck Borrowed Time Pure Adept Quickdraw Femboy Street Sam\par
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Lucky Bad Luck Borrowed Time JOAT Pure Adept Quickdraw Femboy Street Sam\par
 }</description>
   <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
@@ -153,7 +153,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
   <created>False</created>
   <nuyen>6000</nuyen>
   <startingnuyen>6000</startingnuyen>
-  <nuyenbp>1</nuyenbp>
+  <nuyenbp>2</nuyenbp>
   <adept>True</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -1022,7 +1022,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1045,7 +1045,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>73f84afd-bd1c-47df-8bcf-55fd65ee917b</guid>
+            <guid>9124510e-c0a5-4bc0-8ec3-0b8419c91d67</guid>
             <name>Hearing</name>
             <free>False</free>
             <expertise>False</expertise>
@@ -1150,7 +1150,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1173,8 +1173,8 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>e2dd58ae-a5fb-4a33-a259-87d4f9941d34</guid>
-            <name>Urban</name>
+            <guid>39773aa9-7011-42ec-98cd-4cec5840e3a7</guid>
+            <name>Distance</name>
             <free>False</free>
             <expertise>False</expertise>
           </spec>
@@ -1278,7 +1278,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1838,6 +1838,26 @@ Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Char
       <limit>Social</limit>
       <bonus>-1</bonus>
       <condition>LimitCondition_Visible</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>da985005-46f2-415c-a692-4aabf900e4e9</guid>
+      <name>Audio Enhancement</name>
+      <limit>Mental</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>ed4bb75d-2951-4ea7-95b6-bc4c1fc1d50d</guid>
+      <name>Vision Enhancement</name>
+      <limit>Mental</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_SkillsActivePerceptionVisual</condition>
       <candelete>False</candelete>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -4071,6 +4091,350 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <homenode>False</homenode>
       <sortorder>0</sortorder>
     </gear>
+    <gear>
+      <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
+      <guid>e8f6fd9d-e072-48b7-b4d7-f71274b59cb3</guid>
+      <name>Glasses</name>
+      <category>Vision Devices</category>
+      <capacity>Rating</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating>4</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>Rating * 100</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>443</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>588c3193-4298-4a73-b45a-c5f8fd175133</sourceid>
+          <guid>0c712081-8bc8-4443-8c8d-25011074c4d0</guid>
+          <name>Vision Enhancement</name>
+          <category>Vision Enhancements</category>
+          <capacity>[Rating]</capacity>
+          <armorcapacity>[Rating]</armorcapacity>
+          <minrating />
+          <maxrating>3</maxrating>
+          <rating>1</rating>
+          <qty>1.0</qty>
+          <avail>+(Rating *2)</avail>
+          <cost>Rating * 500</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>444</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Vision enhancement: This sharpens a character’s vi- sion at all ranges, providing visual acuity closer to that of the average hawk than that of the average metahuman. It adds its Rating as a positive modifier to your limit on visual Perception Tests.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>7fc23c2f-b41a-46b0-9ed7-9dc93986fab3</sourceid>
+          <guid>10f67a8e-dd3b-4f5b-bb36-f6c3e8956fdd</guid>
+          <name>Flare Compensation</name>
+          <category>Vision Enhancements</category>
+          <capacity>[1]</capacity>
+          <armorcapacity>[1]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>+1</avail>
+          <cost>250</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>444</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Flare compensation: This protects you from blinding flashes of light as well as simple glare. It mitigates the vision modifiers for glare and reduces the penalty from flashing lights, like from a flash-pak.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>287c6d58-2217-48b2-9e14-6ba23584939a</sourceid>
+          <guid>12cbb391-e1ca-42cf-b6b0-ed1e9bc8628f</guid>
+          <name>Low Light</name>
+          <category>Vision Enhancements</category>
+          <capacity>[1]</capacity>
+          <armorcapacity>[1]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>+4</avail>
+          <cost>500</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>444</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</location>
+      <notes>Glasses: Glasses are lenses contained in light- weight frames worn on the bridge of the nose; numer- ous cosmetic styles are available, and vision-enhance- ment-equipped glasses are hard to distinguish from prescription glasses or sunglasses at a glance.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
+      <guid>0f00e778-dffa-43dd-b89c-9c7a619f5d16</guid>
+      <name>Earbuds</name>
+      <category>Audio Devices</category>
+      <capacity>Rating</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating>3</maxrating>
+      <rating>1</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>Rating * 50</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>445</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>eced7e9a-0959-4c4a-a67f-66abc0dd5228</sourceid>
+          <guid>125d53a4-4876-46a1-89d2-9d4653bfc10b</guid>
+          <name>Audio Enhancement</name>
+          <category>Audio Enhancements</category>
+          <capacity>[Rating]</capacity>
+          <armorcapacity>[Rating]</armorcapacity>
+          <minrating />
+          <maxrating>3</maxrating>
+          <rating>1</rating>
+          <qty>1.0</qty>
+          <avail>+(Rating *2)</avail>
+          <cost>Rating * 500</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>445</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Audio enhancement: Audio enhancement allows the user to hear a broader spectrum of audio frequen- cies, including high and low frequencies outside the normal metahuman audible spectrum. The user also experiences fine discrimination of nuances and can block out distracting background noise. Audio en- hancement adds its Rating to your limit in audio Per- ception Tests.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
   </gears>
   <vehicles />
   <metamagics />
@@ -4803,6 +5167,54 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>da985005-46f2-415c-a692-4aabf900e4e9</improvedname>
+      <sourcename>125d53a4-4876-46a1-89d2-9d4653bfc10b</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>ed4bb75d-2951-4ea7-95b6-bc4c1fc1d50d</improvedname>
+      <sourcename>0c712081-8bc8-4443-8c8d-25011074c4d0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_SkillsActivePerceptionVisual</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -4836,6 +5248,13 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <notes />
       <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
+    </location>
+    <location>
+      <guid>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</guid>
+      <name>AV</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>0</sortorder>
     </location>
   </gearlocations>
   <armorlocations />
