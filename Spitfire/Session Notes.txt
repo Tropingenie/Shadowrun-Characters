@@ -1,5 +1,4 @@
 - Need to roll Illness
-- Taxes
 
 ----
 
@@ -113,9 +112,9 @@ Post run notes:
     - Need to pay lifestyle costs (done)
     - Need to roll Illness check next session
     - Refill ammo
-    - Remember to reboot more often
+    - Remember to reboot more often (complex action)
     - -1 Cereprax (done)
-    - For sure need that new deck
+    - For sure need that new RCC
     - Review in greater detail what devices need to be wireless on/slaved to RCC
     - -10 APDS (done)
     - Helo really needs some weapons tbh, action economy really isn't working
