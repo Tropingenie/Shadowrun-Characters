@@ -1,14 +1,129 @@
+- Need to roll Illness
+- Taxes
+
+----
+
 Game 4: [CSR] You Can Lead a Boat to water
 2025-10-04
 GM: swimmer117
 Players:
-@Angel (Chevalier) (littleangel) as Svafa the Human Cyber Viking Muscle
-@Penne (Astel, Euclase) (penny42) as Euclase the Human Technomancer
-@Defective_Gh0st as Keen the Human Investigator Mage
+Angel (littleangel) as Svafa the Human Cyber Viking Muscle
+Penne (penny42) as Euclase the Human Technomancer
+Defective_Gh0st as Keen the Human Investigator Mage
+
+The morning of, IIb was preparing her helo and drones for the job. Low on SNS, she loaded a magazine with APDS for her roto, then moved to wiring the Blight grenade Tlaloc had recommended her to have in case of spirits. It still wasn't quite the level of a professional Coyote, but the turret could come later.
+
+The team rolled up, and 2b tried to make a quick escape to get her mask on, but Svafa caught her and lifted her out of the wheelchair in a bear hug. Spitfire had to quickly activate her voice changer, totally concealing her feminine voice from the rest of the team.
+
+"Yeah, we totally got that is your real voice..." sniped Euclase.
+
+Spitfire lead them to a secure trid room, and slotted the holodisk he had from Tlaloc. He spoke of a Nightrunner that had been recently confiscated by CFS authorities, and was being held in a facility near the PCC border. The location was near Marycopa. Tlaloc would help with the insertion.
+
+The team discussed some basics with Spitfire's limited knowledge, and they agreed to the contract. He pulled out the second data disk and tossed the data disk at Euclase, who was closest to the trid projector. It bounced off her chest, since her hands were in her pockets, so Spitfire flew a drone over to insert it.
+
+This second disk gave them the exact impound lot/station/barracks of the Californian Rangers, southwest of Bakersfield. Around 10 rangers could be expected. The boat had been picked up at an abandoned pier north of Faria Beach, jsut off the 101. Another contact's commcode was provided, to tell them more about the boat itself, and a warning of the CFS/PCC tension.
+
+Spitfire thought back to the comm call he had with Tlaloc to see if there was any other relevant information for the team that had been left out of the two disks. The urgency in his voice came to mind, and Spitfire suspected higher ups were pressuring him, and told the team about the time limit.
+
+He began pre-flight checks, and the team boarded. Svafa gave a very abbreviated explanation of the parachutes at Spitfire's request, and Euclase plugged into an exposed data port to get her machine sprite. Spitfire submitted her flight plan to Tlaloc, which he managed to get through.
+
+Tlaloc also gave Spitfire the locations of some stops along the way for refueling, as the weather wouldn't be playing nice causing a single tank to not last the entire flight. Two were in the Tir, which the team figured wasn't the best place to land with a helicopter full of humans, and so opted for the base near Eureka.
+
+She flew them out of Seattle, into international waters, and turned south towards Cali Free State. Turning in near the contested zone between the Tir and CFS, Spitfire spotted an active border skirmish over the water. Drones were dogfighting in the air, as coast guard-style craft fired deck guns at each other. The craft flying Tir colours had the upper hand. Meanwhile, the burnt-out coastal town on the shore had ground combat, flashes of gunfire and artillery making their way south as the CFS were pushed out.
+
+Keen, at Euclase's request, rightly cast invisibility, as more vessels joined the fight. Svafa noticed that Keen had gone pale, and asked him what he saw. He described to the team a great magic mountain to the east, watching them.
+
+Spitfire landed at the base northeast of Eureka, in Blue Lake. Because of the border tensions, the town was completely abandoned. She buttered the bread on the landing zone Tlaloc had marked, near an old brewery and transportation yard. The nearby shed opened, and drones emerged to pull the helo into the shed.
+
+In the meantime, Euclase finished her matrix search, giving the team info on their target.
+
+"So, team? How do we want to do this?"
+
+"Well, I fly over, shoot rockets, we grab the boat, and leave."
+
+"...so we go loud?"
+
+"...is what I would do if I had rockets. Instead, that's why I have you all."
+
+As they flew over, Euclase began cracking the host to try and gather more intel. Spitfire asked about potential landing sites, while Keen wondered about camera placement and response times. She entered the host.
+
+"Wow, they styled it like an old saloon. Where do you think the landing logs would be stored? The saloon?"
+
+"Mayor's office?"
+
+After some hits, and a couple breaks, Euclase got into a file that let them make note that the rangers had sold the boat as surplus to the State of Seattle, and Keen would be picking it up on Seattle's behalf. The team began discussing how to transport the boat to the water, with Spitfire ruling out just airlifting it immediately due to the size difference.
+
+Instead, she called Flore Carras, the contact in California Tlaloc had given them a commcode for. There was a brief attack on his Meta Link, which Spitfire resisted, then received a call from the number. Spitfire answered to a tirade of Aztlaner Spanish. Asking for a vehicle, she mentioned a slight problem: She was on the wrong side of the border.
+
+Keen took over negotiations from there, seeing as Spitfire's bluntness was never going to get through. With Svafa translating, he managed to strike a deal: Save Flore's friend, Acosador.
+
+"I'll do it for you, but I'm sticking my neck out crossing the border again! So you better get him out. You understand, gringo?!"
+
+They agreed to the deal, deciding to get the boat out first, then rescue Acosador. Flore agreed to meet them just across the border, on the Cali Free side. Keen got the keys, and Flore pulled him close, reminding him of the deal. Spitfire handed Keen her roto to put in the back, just in case, and he was off.
+
+Spitfire, jumped into the Roto, and Keen pulled up to the Rangers facility, seeing their flag, and a couple sports cars, at around 8 p.m. The two rangers out front played ro-sham-bo, and the loser walked up to the truck, grabbing his hat off the car and gesturing for Keen to roll down the window, hopping on the running board.
+
+"Evening. We're closed up for the night."
+
+"I'm here to pick up a boat. If you just let me get that hooked up, I'll be out of your hair."
+
+The ranger got a chirp on his comm.
+
+"Victor Wu, then..."
+
+He scanned Keen's SIN, gave him a long once-over. Keen blinked first, and the ranger asked him to step outside.
+
+"Officer, I understand it's very late. If you see that everything's in order, let's move things along quickly."
+
+The ranger glanced at the SIN scanner, which came up as a match.
+
+"All right then, Mr. Wu. Why don't you come on in."
+
+The truck entered the impound lot, an Victor "activated" the roto to begin helping hook up the trailer. They rolled past a few vehicles: More two seater cruisers, muscle cars with machine guns sticking out of the hood, then into the impound lot proper which had around a hundred vehicles, everything from Jackrabbits and Harleys to GMC Step Vans and a MACK Hellhound.
+
+A pair of orc rangers were on hand to observe the transfer, and spot the trailer. Spitfire took off to help hook up the hitch as Keen controlled the pickup truck's autopilot to back it up. They got the boat out without too much trouble.
+
+As they exited the facility, they saw an unmarked black step van, with a prisoner being transported by another two rangers.
+
+"Soo... What are the odds that that's the guy?"
+
+At that moment, a message came over DNI from Euclase:
+
+"Comms compromized."
+
+At that point, the ranger who was with Keen pulled a gun, citing suspicion with the drone. Keen deflected, saying that it was just given to him by his employer, and they would need to bring any issues up with the Seattle government.
+
+Spitfire began rapidly rebooting everything slaved to her RCC, as Svafa shot down the drone, then shot a round through the cab of Keen's truck. The fire fight continued, and four engines roared around the rear of the compound.
+
+Spitfire gave up on rebooting, launching their drone and mag dumping one of the rangers who were beating on Acosador. As the truck pulled away, Acosador made a break for it, diving into the back, and Spitfire landed her drone next to him before jumping back into her helo.
+
+He told his agent to start analyzing threats as he switched his RCC wireless off, and began dodging the incoming hail of bullets from the rangers' HMGs. Svafa dove for cover as a hail pinged off the armour, while Euclase leveraged her reputation and access to their host to negotiate them to back down.
+
+Acosador made his way into the cab of the truck, and after some tense negotiations involving a gun, he told Keen about a better location to launch the boat from.
+
+Despite his best efforts, bullets pierced the armour of the helo, shocking Spitfire to her core as she was hit by biofeedback for the first time. Still, the rangers backed down, and they made their extraction, taking Acosador to Seattle with them in the boat.
+
+Only Svafa and Acosudor on the boat. He asked to be dropped off at the Aztechnology Pyramid, making a call near arrival. When they arrived, he handing off some sort of hydroponic plant to a group of bodyguards and execs.
+
+When Spitfire got there, he took a long look at the pyramid.
+
+"It was only the boat."
 
 Post run notes:
-    - Need to pay lifestyle costs
+    - Need to pay lifestyle costs (done)
     - Need to roll Illness check next session
+    - Refill ammo
+    - Remember to reboot more often
+    - -1 Cereprax (done)
+    - For sure need that new deck
+    - Review in greater detail what devices need to be wireless on/slaved to RCC
+    - -10 APDS (done)
+    - Helo really needs some weapons tbh, action economy really isn't working
+    - Run rewards:
+        - BOAT
+        - 6 karma
+        - 2 influence
+    
 
 ----
 
