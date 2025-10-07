@@ -1,0 +1,5220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character>
+  <createdversion>5.225.1021</createdversion>
+  <minimumappversion>5.214.1</minimumappversion>
+  <appversion>5.225.1021</appversion>
+  <gameedition>SR5</gameedition>
+  <settings>Runnerhub Create Rules 2025.xml</settings>
+  <settingshashcode>-1192321673</settingshashcode>
+  <buildmethod>SumtoTen</buildmethod>
+  <sources>
+    <source>AP</source>
+    <source>GH3</source>
+    <source>RG</source>
+    <source>SR5</source>
+    <source>SG</source>
+    <source>SGE</source>
+    <source>BB</source>
+    <source>SASS</source>
+    <source>SS</source>
+    <source>RF</source>
+    <source>SSP</source>
+    <source>NP</source>
+    <source>DT</source>
+    <source>CF</source>
+    <source>HT</source>
+    <source>BLB</source>
+    <source>R5</source>
+    <source>HS</source>
+    <source>TVG</source>
+    <source>SPS</source>
+    <source>SFB</source>
+    <source>LCD</source>
+    <source>SFM</source>
+    <source>SFME</source>
+    <source>CA</source>
+    <source>BOTL</source>
+    <source>FA</source>
+    <source>SAG</source>
+    <source>TCT</source>
+    <source>SFCC</source>
+    <source>DTR</source>
+    <source>TSG</source>
+    <source>SL</source>
+    <source>KC</source>
+    <source>BTB</source>
+    <source>AET</source>
+    <source>NF</source>
+    <source>KK</source>
+  </sources>
+  <customdatadirectorynames>
+    <directoryname>Helmets Are Mods, SWAT and MilSpec Are FBA</directoryname>
+    <directoryname>Herolab Vehicle Ram Plate Stats</directoryname>
+    <directoryname>Legal SIN and Licenses</directoryname>
+    <directoryname>Morrissey Alta Availability</directoryname>
+    <directoryname>Rainforest Carbine Missions Errata</directoryname>
+    <directoryname>Ranger Sliver Has Standard Crossbow Ammo Capacity</directoryname>
+    <directoryname>Shadowrun Missions Animal Prices</directoryname>
+    <directoryname>Unrestricted Kill Code Qualities</directoryname>
+    <directoryname>Combined Runnerhub Houserules</directoryname>
+  </customdatadirectorynames>
+  <metatype>Dwarf</metatype>
+  <metatypeid>08f2c9cc-f9f8-4f1a-9efb-63555af71788</metatypeid>
+  <metatypebp>0</metatypebp>
+  <metavariant />
+  <metavariantid>00000000-0000-0000-0000-000000000000</metavariantid>
+  <metatypecategory>Metahuman</metatypecategory>
+  <movement />
+  <walk>2/1/0</walk>
+  <run>4/0/0</run>
+  <sprint>2/1/0</sprint>
+  <walkalt>2/1/0</walkalt>
+  <runalt>4/0/0</runalt>
+  <sprintalt>2/1/0</sprintalt>
+  <initiativedice>1</initiativedice>
+  <prioritymetatype>B</prioritymetatype>
+  <priorityattributes>C</priorityattributes>
+  <priorityspecial>C</priorityspecial>
+  <priorityskills>E</priorityskills>
+  <priorityresources>B</priorityresources>
+  <prioritytalent>Technomancer</prioritytalent>
+  <priorityskills>
+    <priorityskill>Compiling</priorityskill>
+    <priorityskill>Computer</priorityskill>
+    <priorityskill>Electronic Warfare</priorityskill>
+  </priorityskills>
+  <essenceatspecialstart>6</essenceatspecialstart>
+  <name />
+  <mainmugshotindex>-1</mainmugshotindex>
+  <mugshots />
+  <gender />
+  <age />
+  <eyes />
+  <height />
+  <weight />
+  <skin />
+  <hair />
+  <description />
+  <background />
+  <concept />
+  <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Machine Sprite &gt; Diagnostics\par
+The Diagnostics power allows the sprite to evaluate the inner workings of an electronic device. The sprite can assist someone using or repairing the device with a Teamwork Test. The sprite makes a Simple Hardware + Level [Data Processing] test; if any hits are rolled, the character gets a +1 limit bonus, and each hit adds 1 die to the character's dice pool to use or repair the item. This power takes the sprite's entire attention; the bonus lasts until the sprite drops it or does something else. \par
+}</notes>
+  <alias>Techno Muscle Drone Rigger</alias>
+  <playername />
+  <gamenotes />
+  <primaryarm>Left</primaryarm>
+  <karma>0</karma>
+  <special>4</special>
+  <totalspecial>4</totalspecial>
+  <totalattributes>16</totalattributes>
+  <edgeused>0</edgeused>
+  <contactpoints>9</contactpoints>
+  <spelllimit>0</spelllimit>
+  <cfplimit>3</cfplimit>
+  <ainormalprogramlimit>0</ainormalprogramlimit>
+  <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
+  <currentcounterspellingdice>0</currentcounterspellingdice>
+  <currentliftcarryhits>0</currentliftcarryhits>
+  <basecarrylimit>50</basecarrylimit>
+  <baseliftlimit>75</baseliftlimit>
+  <totalcarriedweight>0</totalcarriedweight>
+  <encumbranceinterval>15</encumbranceinterval>
+  <streetcred>0</streetcred>
+  <notoriety>0</notoriety>
+  <publicawareness>0</publicawareness>
+  <burntstreetcred>0</burntstreetcred>
+  <baseastralreputation>0</baseastralreputation>
+  <basewildreputation>0</basewildreputation>
+  <created>False</created>
+  <nuyen>275000</nuyen>
+  <startingnuyen>275000</startingnuyen>
+  <nuyenbp>0</nuyenbp>
+  <adept>False</adept>
+  <magician>False</magician>
+  <technomancer>True</technomancer>
+  <ai>False</ai>
+  <cyberwaredisabled>False</cyberwaredisabled>
+  <initiationdisabled>False</initiationdisabled>
+  <critter>False</critter>
+  <prototypetranshuman>0</prototypetranshuman>
+  <attributes>
+    <attribute>
+      <name>STR</name>
+      <metatypemin>3</metatypemin>
+      <metatypemax>8</metatypemax>
+      <metatypeaugmax>12</metatypeaugmax>
+      <base>1</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>5</totalvalue>
+    </attribute>
+    <attribute>
+      <name>DEP</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>1</metatypemax>
+      <metatypeaugmax>1</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>0</totalvalue>
+    </attribute>
+    <attribute>
+      <name>MAGAdept</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>0</totalvalue>
+    </attribute>
+    <attribute>
+      <name>CHA</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>2</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>3</totalvalue>
+    </attribute>
+    <attribute>
+      <name>INT</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>5</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>6</totalvalue>
+    </attribute>
+    <attribute>
+      <name>AGI</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>5</totalvalue>
+    </attribute>
+    <attribute>
+      <name>REA</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>5</metatypemax>
+      <metatypeaugmax>9</metatypeaugmax>
+      <base>3</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>4</totalvalue>
+    </attribute>
+    <attribute>
+      <name>RES</name>
+      <metatypemin>3</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>3</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>3</totalvalue>
+    </attribute>
+    <attribute>
+      <name>ESS</name>
+      <metatypemin>0</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>1</totalvalue>
+    </attribute>
+    <attribute>
+      <name>EDG</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>1</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>2</totalvalue>
+    </attribute>
+    <attribute>
+      <name>MAG</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>6</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Special</metatypecategory>
+      <totalvalue>0</totalvalue>
+    </attribute>
+    <attribute>
+      <name>LOG</name>
+      <metatypemin>1</metatypemin>
+      <metatypemax>6</metatypemax>
+      <metatypeaugmax>10</metatypeaugmax>
+      <base>3</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>4</totalvalue>
+    </attribute>
+    <attribute>
+      <name>BOD</name>
+      <metatypemin>3</metatypemin>
+      <metatypemax>8</metatypemax>
+      <metatypeaugmax>12</metatypeaugmax>
+      <base>0</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>3</totalvalue>
+    </attribute>
+    <attribute>
+      <name>WIL</name>
+      <metatypemin>2</metatypemin>
+      <metatypemax>7</metatypemax>
+      <metatypeaugmax>11</metatypeaugmax>
+      <base>2</base>
+      <karma>0</karma>
+      <metatypecategory>Standard</metatypecategory>
+      <totalvalue>4</totalvalue>
+    </attribute>
+  </attributes>
+  <magenabled>False</magenabled>
+  <initiategrade>0</initiategrade>
+  <resenabled>True</resenabled>
+  <submersiongrade>0</submersiongrade>
+  <depenabled>False</depenabled>
+  <groupmember>False</groupmember>
+  <groupname />
+  <groupnotes />
+  <totaless>3.00</totaless>
+  <tradition>
+    <sourceid>7a3ecfbe-616e-425d-b204-329de37ffdbb</sourceid>
+    <guid>cdd02472-d850-451b-b817-4a33be4f463d</guid>
+    <traditiontype>RES</traditiontype>
+    <name>Default</name>
+    <extra />
+    <spiritform>Materialization</spiritform>
+    <drain>{WIL} + {RES}</drain>
+    <source>SR5</source>
+    <page>258</page>
+    <spiritcombat />
+    <spiritdetection />
+    <spirithealth />
+    <spiritillusion />
+    <spiritmanipulation />
+    <spirits>
+      <spirit>Courier Sprite</spirit>
+      <spirit>Crack Sprite</spirit>
+      <spirit>Data Sprite</spirit>
+      <spirit>Fault Sprite</spirit>
+      <spirit>Machine Sprite</spirit>
+      <spirit>Companion Sprite</spirit>
+      <spirit>Generalist Sprite</spirit>
+    </spirits>
+    <bonus />
+  </tradition>
+  <physicalcmfilled>0</physicalcmfilled>
+  <stuncmfilled>0</stuncmfilled>
+  <psyche>False</psyche>
+  <newskills>
+    <skillptsmax>18</skillptsmax>
+    <skillgrpsmax>0</skillgrpsmax>
+    <skills>
+      <skill>
+        <guid>33c91038-ef26-41a7-bfc8-38f340dce780</guid>
+        <suid>b52f7575-eebf-41c4-938d-df3397b5ee68</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Aeronautics Mechanic</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>6f0b395b-dcb2-48fd-a3d8-ef4c057860de</guid>
+        <suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Animal Handling</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>ff44b913-3e1a-4a59-bd8a-12daef515e2b</guid>
+        <suid>74a68a9e-8c5b-4998-8dbb-08c1e768afc3</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Pseudo-Magical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Arcana</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>0cfbe605-9d00-41d4-83b4-26d7e9221baf</guid>
+        <suid>1537ca5c-fa93-4c05-b073-a2a0eed91b8e</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Archery</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>3d13b801-4f04-4fe1-b9ad-569a2a569628</guid>
+        <suid>ada6d9b2-e451-4289-be45-7085fa34a51a</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Armorer</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>50cebcb9-fdaf-403e-abde-520615eb6e30</guid>
+        <suid>2f4c706f-5ac5-4774-8a45-3b4667989a20</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Artisan</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>9d0dd070-e0c9-4e5d-a03c-18902fa5b04f</guid>
+        <suid>788b387b-ee41-4e6a-bf22-481a8cc4cf9f</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>6</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Automatics</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>1f70f592-18db-4476-9864-49add0450c53</guid>
+            <name>Assault Rifles</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+      </skill>
+      <skill>
+        <guid>24b84b93-2ec8-4e25-b69b-b1c592062512</guid>
+        <suid>5e5f2f7f-f63b-4f65-a65d-91b3d4523c6f</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Automotive Mechanic</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>0cb25b8d-51f8-4500-b1d7-d9622b791929</guid>
+        <suid>ba624682-a5c0-4cf5-b47b-1021e6a1800d</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Biotechnology</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>e9dcd9e9-9d3e-4262-9969-53d110f9d470</guid>
+        <suid>48763fa5-4b89-48c7-80ff-d0a2761de4c0</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Blades</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>3dbd578d-9ca9-427a-9131-28065f8d76b6</guid>
+        <suid>bd4d977a-cbd4-4289-99bb-896caed6786a</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Chemistry</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>068c256a-4dbd-4492-a19c-5719b6fcd2c4</guid>
+        <suid>cd9f6bf7-fa48-464b-9a8f-c7ce26713a72</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Clubs</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>8fefb45f-ee93-4c6c-b9d5-7948562855c2</guid>
+        <suid>f338d383-ffd8-4ff8-b99b-cf4c2ed1b159</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Resonance Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Compiling</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>d5db45fe-2ef7-405b-b455-486ec66f4d57</guid>
+            <name>Machine</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+      </skill>
+      <skill>
+        <guid>562bdf76-9ac3-4d26-aba3-c657f859099a</guid>
+        <suid>1c14bf0d-cc69-4126-9a95-1f2429c11aa5</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Computer</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>3cbd61d9-0fcf-47aa-9c4b-ae4efd6548de</guid>
+        <suid>6d7f48d3-84a1-4fce-90d3-58d566f70fa6</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>1</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Con</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>7f147991-6014-4a14-817e-636b02d5f8f0</guid>
+        <suid>7143f979-aa48-4cc8-a29c-e010400e6e11</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Cybercombat</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>2ffe2423-92de-486a-8976-b69583944625</guid>
+        <suid>9b386fe5-83b3-436f-9035-efd1c0f7a680</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Cybertechnology</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>9561a35b-e976-4da7-985a-e3c312ddf00f</guid>
+        <suid>64eed2e9-e61c-4cba-81d4-18a612cf2df6</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Resonance Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Decompiling</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>544d81c5-ae44-467b-9367-d36105be5924</guid>
+        <suid>276877e1-5cdf-4e95-befd-13c1abb5ae02</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Demolitions</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>6cb76b4e-b7f8-4f57-b87e-3c3863faec1c</guid>
+        <suid>9b2416b2-3e2b-4dd6-ab9d-530f493c1c22</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Disguise</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>eb64255c-5395-4fd5-ac1f-841367486b09</guid>
+        <suid>23c3320c-5010-4b2e-ac46-76f0a86af0b9</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Diving</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>1f34c9ab-fbc8-42e5-8d55-8f2289a42555</guid>
+        <suid>2c8e5f20-e52d-4844-89e9-51b92dba47df</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Electronic Warfare</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>b01100d6-ca44-4058-9ccc-d64438a89305</guid>
+            <name>Sensor Operations</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+      </skill>
+      <skill>
+        <guid>e53c47b5-68c3-4f5f-801a-1d03e7de9013</guid>
+        <suid>3f93335c-49d6-4904-a97e-4c942ab05b59</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Escape Artist</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>f2c35452-b23c-4a83-9782-decdda6c3187</guid>
+        <suid>b20acd11-f102-40f3-a641-e3c420fbdb91</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Etiquette</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>7c565ee1-20d8-49f4-bc20-433cf4dc8749</guid>
+        <suid>47cb1e8b-c285-4c54-9aaa-75305ad6dd4f</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>First Aid</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>ee74c5ec-f835-4e28-93d0-ef40c954970c</guid>
+        <suid>27db6e2a-a49f-4232-b150-e676b8dacb52</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>True</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Flight</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>68c27ede-8d31-4ec1-ad08-102a50e77a9c</guid>
+        <suid>c9f52f97-a284-44a7-8af6-802dd3ed554f</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Forgery</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>a5a33d71-b2db-40bc-b663-09de25760404</guid>
+        <suid>f510ccc3-cf95-4461-b2f7-e966daaa5a91</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Free-Fall</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>6aa77604-70dc-4607-89ee-0e821a4391dd</guid>
+        <suid>58452cff-44ea-41c6-a554-28a869149b27</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Gunnery</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>68a9a990-5056-429a-90ec-8389e91d75b0</guid>
+        <suid>a9fa961d-07e5-46da-8edc-403ae3e6cc75</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Gymnastics</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>a6b559bf-cf18-4310-8ea8-5ddf151d6be2</guid>
+        <suid>c2bb65f5-4a6b-49bf-9925-ef6434cb6929</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Hacking</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>6e0e9cbc-10cf-4f7b-8d44-446e3b9c51f2</guid>
+        <suid>41e184e0-7273-403a-9300-fa29a1707bf0</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Hardware</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>46abab8e-0a86-4e66-9830-77dd4471f732</guid>
+        <suid>64841e6e-9487-4b63-80a1-dcad6eb78179</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Heavy Weapons</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>d878cfd6-72b0-4749-929a-3faeb3a86851</guid>
+        <suid>e7e5a43f-9762-4863-86dc-3fd7799e53a2</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Impersonation</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>48308142-c3db-4701-b08c-db82c496677b</guid>
+        <suid>935621c5-d384-42f2-a740-1fa349fa85a1</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Industrial Mechanic</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>eab6f9e8-5c05-4505-9780-00aece936106</guid>
+        <suid>3b34b209-00be-42b8-b4ac-cc7dea08af8a</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Instruction</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>136d7fee-96cb-4a86-8d60-78f4f0167c54</guid>
+        <suid>9de43fad-b365-4e73-bc06-91dd571b858a</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Intimidation</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>6d6797e4-9eba-4e45-bc0f-2a32f4dea353</guid>
+        <suid>963a548d-c629-4a13-a3e3-31b085a42e20</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Leadership</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>312b02a1-f383-48a4-9bf2-c587ae53f28a</guid>
+        <suid>09fbc992-9fad-4f2d-ab56-725bac943dc6</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Locksmith</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>9eba8acf-4617-49a7-bdff-df627fd24a58</guid>
+        <suid>64088b25-de37-4d71-8800-4a430fde08af</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Longarms</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>c335163d-b3fd-4e79-a195-904e19a80268</guid>
+        <suid>938be691-4b3d-49a2-a673-bbf9924ce8f0</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Medicine</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>06f82b69-5854-4887-8351-073e47423529</guid>
+        <suid>48cc79be-f75e-4fe6-8721-7864c9f231f6</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Nautical Mechanic</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>f7c47a6e-7e7d-4ff4-b5c9-46350ddd1890</guid>
+        <suid>f8037e7f-d48b-452b-8f66-2e0c36677fea</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Navigation</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>8c4074d1-bde8-4f42-8e45-1a32a2f3f812</guid>
+        <suid>729c9cee-ef8f-492d-aa7f-17ec1bc3816e</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Negotiation</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>cd8d9747-657e-49bf-b70c-3f2ab867b1fc</guid>
+        <suid>17fbaafa-8dbb-4f29-9244-5ae1cd4ac42f</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Palming</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>3b7bf71f-101d-44c3-9b83-2572deb33e2c</guid>
+        <suid>04e1eb3e-e82d-485b-a7fd-1e677df2a070</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Perception</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>8d82409d-0e3c-498a-955f-ccfab760c6ac</guid>
+        <suid>53f96d6a-363b-4c14-be1d-68e74930c67b</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Social Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Performance</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>8fb339bb-2b9c-4f40-9789-97142b9ea8a5</guid>
+        <suid>3ba9397e-f790-44ca-ae40-15a2356e348d</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pilot Aerospace</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>f7ffbccf-2585-400c-86da-903a5fe40df5</guid>
+        <suid>10d5c887-a1e5-4cca-8613-3a28f1aab810</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pilot Aircraft</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>48d6c910-b61c-44f2-badb-d9e50549f77d</guid>
+        <suid>ae91a8a6-80e7-4f52-b9eb-21725a5528a4</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pilot Ground Craft</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>78ef9c27-cd6b-4f42-bf17-139a6a7b9f17</guid>
+        <suid>b8a24d87-465a-4365-9948-038fe1ac62c4</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pilot Walker</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>33f285d5-d61d-4905-be50-fdae7bc0d37b</guid>
+        <suid>1579818e-af85-47cd-8c9f-2e86e9dc19da</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Vehicle Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pilot Watercraft</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>bf7567db-fafc-45f4-bd68-9496541e22ab</guid>
+        <suid>adf31a50-b228-4e09-a09c-46ab9f5e59a1</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Pistols</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>ad0cba12-361c-4993-929c-9aad18be71cb</guid>
+        <suid>3a38bbcf-38b0-435b-98f2-4ce8c50e8490</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Resonance Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Registering</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>4155d3c9-e373-4d46-a9e5-deb727742eb9</guid>
+        <suid>1531b2d8-6116-4be4-87b0-232dba1fc447</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>True</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Running</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>3e4d24d8-215c-4f79-b424-6c6f2fb0e3fa</guid>
+        <suid>9cff9aa7-d092-4f89-8b7b-3ab835818874</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>1</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Sneaking</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>1b5c5267-714c-4c64-9139-fa0aa69ef191</guid>
+        <suid>b693f3bf-48dc-4570-9743-d94d14ee698b</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Technical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Software</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>ba7435ea-02f3-4153-8393-f4fe881c871e</guid>
+        <suid>89ee1730-053a-400f-a13a-4fbadae015f0</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Survival</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>9eea6313-c72f-46f3-811d-4b3c6c106a07</guid>
+        <suid>0dbcb9cd-f824-4b5d-a387-90d33318b04c</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>True</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Swimming</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>79cdd083-e93c-4c9b-a5a4-7a8391ca6d90</guid>
+        <suid>867a6fa0-7d98-4cde-83a4-b33dd39de08e</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Throwing Weapons</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>c659c46b-e2a7-42a2-87ce-b509f1727408</guid>
+        <suid>7ed2f3e0-a791-4cb7-ba3e-ac785fdc3d7e</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Physical Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Tracking</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+      <skill>
+        <guid>0081fb26-f6b2-4a27-88d6-c33554781f36</guid>
+        <suid>4fcd40cb-4b02-4b7e-afcb-f44d46cd5706</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Combat Active</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Unarmed Combat</name>
+        <buywithkarma>False</buywithkarma>
+      </skill>
+    </skills>
+    <knoskills />
+    <skilljackknowledgeskills />
+    <groups>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>665f2869-82b7-4452-a441-1561fed5597e</id>
+        <name>Acting</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>546ca7a8-a4d6-40d7-ac70-c9af134f0993</id>
+        <name>Athletics</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>1c9f5a5f-65ba-4eb5-b1d2-8dfd18f2d810</id>
+        <name>Biotech</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>2e4fcc6b-0de0-4ccc-aa07-2b8c9434917c</id>
+        <name>Close Combat</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>d90706f4-8869-45b1-9060-8f17f451a202</id>
+        <name>Cracking</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>9aeebb39-736b-49f0-a136-9c02776c94cf</id>
+        <name>Electronics</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>0fab7cf7-c146-4ca8-a3a1-dcdc72e05b74</id>
+        <name>Engineering</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>56378ebd-3cb3-4abe-9b4c-ec1d489e6e19</id>
+        <name>Firearms</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>22553ca7-7db1-416a-89cb-07309bab97be</id>
+        <name>Influence</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>e63b03d4-c5ac-41fe-bc6a-48a40163370b</id>
+        <name>Outdoors</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>ecdc528d-a253-490d-af65-ed2038c8ed9a</id>
+        <name>Stealth</name>
+      </group>
+      <group>
+        <karma>0</karma>
+        <base>0</base>
+        <isbroken>False</isbroken>
+        <id>d95c44a8-df9e-4b23-9d61-a5b5a10843e6</id>
+        <name>Tasking</name>
+      </group>
+    </groups>
+  </newskills>
+  <contacts>
+    <contact>
+      <name>Katherine Francis</name>
+      <role>Programmer</role>
+      <location />
+      <connection>2</connection>
+      <loyalty>4</loyalty>
+      <metatype>Elf (Nocturna)</metatype>
+      <gender>Unknown</gender>
+      <age>Unknown</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice>I no longer wish to be horny, I want to be happy...</hobbiesvice>
+      <personallife>In Relationship</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>The dark furred elf, brooding in the corner of the bar... Was not Katherine--known as Kat by her friends, and Kitten by her lover (only in private!)--'s reputation at the Prancing Pony, a fantasy-themed dive bar frequented by mostly dwarves thanks to its oppresively low ceiling. Most people thought it was some reference to hobbits, but really it was only because the rent was cheap. Regardless, the energetic Nocturna Elf was an odd sight indeed, kneeling behind the bar serving stoic, bearded dwarves who were slightly red in the face--from alcohol, of course. There was certainly not a secret unspoken rule to protect this flower among regulars of the bar.
+
+Still, that unspoken rule was only among regulars, and only because of the social stigma that dwarves weren't "supposed" to get along with elves. That and most of the dwarves were pretty straight, but what is gender among friends anyway? Regardless, it all changed when the wandering ranger walked in that stormy night, leather jacket drenched and sleek ropers dribbling with soggy detrius. All eyes were on his chrome arms, and water dribbled from the brim of his hat as he wiped his boots at the door. The patrons could almost imagine the sound of spurs jingle-jangling as his leather soles clomped across the faux-wood floor to the bar. He tapped twice, to get the bartender's attention, and---
+
+"Haiiiiii! ~ &lt;3"
+
+--revealed a shocked look as he doffed his hat with a practiced hand. He was stunned silent, not the least because that greeting was out of place for any bar, let alone one with such gloomy theming, but because in that moment he felt something for the first time, something no dwarven woman had ever made him feel:
+
+Kat's bulge. She had pressed up against him, in a tight hug for some reason, and her french skirt had gotten tangled around her legs. The ranger flushed beet red, and with sympathetic looks the other patrons returned to their drinks.
+
+Still, somehow, they had chemistry. Rather than the maternal feelings of the other dwarves, as he got to know her, he wanted her to be happy. The closer he got, the more he feared, but she felt the same and pushed her way into his life, all while he tried to push her away--to keep her out of the shadows.
+
+Neither of them knew the other's secret until later, but learning a mutual love for technology and the matrix--he a technomancer, she a decker--was the impetus that finally broke through the blockade, and the rest is history. A history of lots of lovey-dovey dwarf-elf stuff that can't be said in a PG-13 backstory.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>4c5c9c39-3ee3-4854-ba9a-e2947b9d84f2</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+  </contacts>
+  <spells />
+  <foci />
+  <stackedfoci />
+  <powers />
+  <spirits />
+  <complexforms>
+    <complexform>
+      <sourceid>3bed693e-d9dd-4873-8d54-2cbe97202174</sourceid>
+      <guid>0c2c0a9e-6f43-465a-b71d-fb93f4d8c8f2</guid>
+      <name>LOTO</name>
+      <useskill />
+      <target>Device</target>
+      <duration>I</duration>
+      <fv>L-1</fv>
+      <extra />
+      <source>KC</source>
+      <page>90</page>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <grade>0</grade>
+    </complexform>
+    <complexform>
+      <sourceid>2abb9759-30b1-490f-9b42-0d6b7d282526</sourceid>
+      <guid>016195d1-eb9b-44f8-bfdf-bf8506e1a585</guid>
+      <name>Infusion of [Matrix Attribute]</name>
+      <useskill />
+      <target>Device</target>
+      <duration>S</duration>
+      <fv>L-2</fv>
+      <extra>Firewall</extra>
+      <source>SR5</source>
+      <page>252</page>
+      <notes>INFUSION OF [MATRIX ATTRIBUTE]
+Target: Device • Duration: S • FV: L + 1 This complex form entry is shorthand for four different complex forms, one for each Matrix attribute. Resonance floods the target device, boosting the specified attribute.
+The Level of the complex form must equal or exceed the value of the attribute being affected. The attribute is increased by the number of hits scored, up to twice the target’s normal rating (any hits that would increase the attribute beyond this maximum are ignored). Each attribute can only be affected by a single Infusion at a time. If an attribute boosted by this complex form is swapped in a Reconfigure action, this complex form ends.</notes>
+      <notesColor>#E3813C</notesColor>
+      <grade>0</grade>
+    </complexform>
+    <complexform>
+      <sourceid>2abb9759-30b1-490f-9b42-0d6b7d282526</sourceid>
+      <guid>ca37668f-76e4-4ecb-81fa-8a44eed7f58c</guid>
+      <name>Infusion of [Matrix Attribute]</name>
+      <useskill />
+      <target>Device</target>
+      <duration>S</duration>
+      <fv>L-2</fv>
+      <extra>Sleaze</extra>
+      <source>SR5</source>
+      <page>252</page>
+      <notes>INFUSION OF [MATRIX ATTRIBUTE]
+Target: Device • Duration: S • FV: L + 1 This complex form entry is shorthand for four different complex forms, one for each Matrix attribute. Resonance floods the target device, boosting the specified attribute.
+The Level of the complex form must equal or exceed the value of the attribute being affected. The attribute is increased by the number of hits scored, up to twice the target’s normal rating (any hits that would increase the attribute beyond this maximum are ignored). Each attribute can only be affected by a single Infusion at a time. If an attribute boosted by this complex form is swapped in a Reconfigure action, this complex form ends.</notes>
+      <notesColor>#E3813C</notesColor>
+      <grade>0</grade>
+    </complexform>
+  </complexforms>
+  <aiprograms />
+  <martialarts />
+  <limitmodifiers>
+    <limitmodifier>
+      <guid>6575e7f4-1522-436a-a8b5-2943ef32dab0</guid>
+      <name>Securetech PPP: Arms Kit</name>
+      <limit>Social</limit>
+      <bonus>-1</bonus>
+      <condition>LimitCondition_Visible</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>8d30f9ce-aed7-4817-9c4a-bd172207fd36</guid>
+      <name>Securetech PPP: Legs Kit</name>
+      <limit>Social</limit>
+      <bonus>-1</bonus>
+      <condition>LimitCondition_Visible</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>28242586-63c6-408d-9e55-7f636ddd7c25</guid>
+      <name>Skillwires</name>
+      <limit>Mental</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_Skillwires</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>f72680ac-524f-4882-9125-bdb672b15b06</guid>
+      <name>Skillwires</name>
+      <limit>Physical</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_Skillwires</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+    <limitmodifier>
+      <guid>9847446d-b366-4bfd-84db-48c207c5478a</guid>
+      <name>Skillwires</name>
+      <limit>Social</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_Skillwires</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
+  </limitmodifiers>
+  <armors>
+    <armor>
+      <sourceid>0997c43e-d59b-433f-b213-4de1cc5ab83a</sourceid>
+      <guid>cba9aab8-91cb-4fa3-8e62-97bbf8819437</guid>
+      <name>Securetech PPP: Arms Kit</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>1</armorcapacity>
+      <avail>6</avail>
+      <cost>250</cost>
+      <weight />
+      <source>RG</source>
+      <page>70</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>-1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus />
+      <location />
+      <notes>SECURETECH PPP
+Not a suit in itself, this innovative little AAS, or Armor Augmentation System, is hot for those who like to be able to add a little extra protection to almost anything.
+Arm, Leg, and Vitals kits are each sold separately, and they augment the protective measures already in place on those areas. The pieces are designed to be taken on and off quickly and worn over existing clothing.
+&gt; These pieces are great for a little added protection that can be pulled from a duffel or even a backpack. Runners can avoid drawing attention to their excess of armor, then when trouble comes, pull a few added pieces from the bag and get into the scrape.
+&gt; Frosty &gt; I prefer keeping a few kits tucked into a vent before the real action starts. I’ve actually left more of these things behind than used. I consider it a point of my success to know there are 64 sets of this tucked into bathroom and storage closet vents around the world.
+&gt; Ma’fan</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>9bf19d62-ff32-49df-8e70-f1b1f8e8d769</sourceid>
+      <guid>1b59bbc6-473f-4084-ba20-b63ee7776dfa</guid>
+      <name>Securetech PPP: Legs Kit</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>1</armorcapacity>
+      <avail>6</avail>
+      <cost>300</cost>
+      <weight />
+      <source>RG</source>
+      <page>70</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>-1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus />
+      <location />
+      <notes>SECURETECH PPP
+Not a suit in itself, this innovative little AAS, or Armor Augmentation System, is hot for those who like to be able to add a little extra protection to almost anything.
+Arm, Leg, and Vitals kits are each sold separately, and they augment the protective measures already in place on those areas. The pieces are designed to be taken on and off quickly and worn over existing clothing.
+&gt; These pieces are great for a little added protection that can be pulled from a duffel or even a backpack. Runners can avoid drawing attention to their excess of armor, then when trouble comes, pull a few added pieces from the bag and get into the scrape.
+&gt; Frosty &gt; I prefer keeping a few kits tucked into a vent before the real action starts. I’ve actually left more of these things behind than used. I consider it a point of my success to know there are 64 sets of this tucked into bathroom and storage closet vents around the world.
+&gt; Ma’fan</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>fd6e194b-89ea-4030-9203-87341442eadb</sourceid>
+      <guid>b10f73c7-68a1-4cd1-b99d-3df420c17b94</guid>
+      <name>Helmet</name>
+      <category>Armor</category>
+      <armor>+2</armor>
+      <armoroverride />
+      <armorcapacity>6</armorcapacity>
+      <avail>2</avail>
+      <cost>100</cost>
+      <weight />
+      <source>SR5</source>
+      <page>438</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes>Helmet: Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity 6 for being tricked out with accessories like trode nets and vision enhancements.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>a71e62ca-bf6f-43d0-bacf-454908d92fbb</sourceid>
+      <guid>5a26a51c-99b4-48c4-a7ab-e86aeeb8eb34</guid>
+      <name>Ares Victory: Big Game Hunter</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>14</armor>
+      <armoroverride />
+      <armorcapacity>12</armorcapacity>
+      <avail>12</avail>
+      <cost>5000</cost>
+      <weight />
+      <source>RG</source>
+      <page>64</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods>
+        <armormod>
+          <guid>c5069dac-f6fa-49ad-b710-debe7ed1793d</guid>
+          <sourceid>0cbf733c-1fd0-48ae-be2c-b3afe0036fd0</sourceid>
+          <name>Liner - Chemical Protection (6)</name>
+          <category>Custom Liners (Rating 6)</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus unique="chemicalprotection">
+            <toxincontactresist>6</toxincontactresist>
+            <pathogencontactresist>6</pathogencontactresist>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>37c8ec10-ba23-40cf-8b28-1292067be170</guid>
+          <sourceid>38168e21-833e-4ab3-8e5c-186468b70ef9</sourceid>
+          <name>Custom Fit</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>CUSTOM FIT
+Items that are Custom Fit were measured for a specific person.
+They are specially designed for that person and don’t fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual’s Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test.
+The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>c6b79c73-4cd2-47d7-9f01-426c930b2034</guid>
+          <sourceid>6a4274bb-307d-433d-a1a7-75be52eacb93</sourceid>
+          <name>Gear Access</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>GEAR ACCESS
+This feature allows items to be retrieved from the piece of armor with more ease than usual. This means drawing or retrieving items that are set up on the armor takes one lower action. Complex becomes Simple, and Simple becomes Free. Free stays Free, but gamemasters can consider allowing an extra Free Action for the Action Phase.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>995c34b8-11bd-46cd-84a3-66f7652ce5ac</guid>
+          <sourceid>851f226f-2116-4001-8937-408d4570396e</sourceid>
+          <name>AR Fashion</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>50</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>CA</source>
+          <page>138</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>AR FASHION
+This enhancement enables your armor and clothing to display a wide variety of AR overlays. Due to the ubiquity of AR-enabled vision devices, most people will see the look you choose to display and not the clothes you are actually wearing. This can serve as useful social camouflage. Even when you aren’t wearing the right outfit for a situation, you can look like you are. Creating your own AR clothing can be done with an Artisan + Intuition Extended Test (30 minutes) with a threshold set by the gamemaster based on the complexity and specificity of the overlay you are attempting to create (per Extended Test Threshold Table, p. 48, SR5).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>51d68b70-5798-444a-bee1-c220925efe08</guid>
+          <sourceid>ed43ded4-1b2f-410a-9322-166c39306d03</sourceid>
+          <name>Gel Packs</name>
+          <category>General</category>
+          <armor>2</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>1500</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>85</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>GEL PACKS
+This stuff looks silly but can save your life. Gel packs look like a bunch of take-out soy sauce packets layered all over your clothes or armor. They come in a variety of colors and can even be custom ordered with different colors in each packet to make a pattern or just add a little flare. The gel hardens for an instant to absorb some of the force of impact but then gets all squishy again if it isn’t punctured. If the gel makes contact with air it turns dusty and brittle immediately.
+&gt; Careful with the dust after a puncture. Some manufacturers add an isotope that can be identified and tracked for up to 48 hours. Intended as a way to locate wounded in the field, it has become a tool for the police services to track suspects after an altercation.
+&gt; Stone</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>05f92116-9aaa-439f-9e3b-9d6c1e2a106a</guid>
+          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
+          <name>Nonconductivity</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>4</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="nonconductivity">
+            <electricityarmor>Rating</electricityarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Nonconductivity: Electrical insulation and non-con- ductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
+      <gears>
+        <gear>
+          <sourceid>5977fb0b-b74e-4eb9-b433-9b7c9877b14f</sourceid>
+          <guid>1ce44f26-d0dc-4dd9-a6f4-8d99a11ce9c9</guid>
+          <name>Holster</name>
+          <category>Armor Enhancements</category>
+          <capacity>[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>2</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>431</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>5a26a51c-99b4-48c4-a7ab-e86aeeb8eb34</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <bonus />
+      <wirelessbonus>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </wirelessbonus>
+      <location />
+      <notes>ARES VICTORY
+NAME ARMOR RATING CAPACITY AVAIL COST
+Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clothing suited to a particular corporate environment), Gear Access Wireless Bonus: +1 dice pool bonus to Social Tests when worn within the appropriate corp.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>1c5f484a-996c-4518-bf23-677a506b2ea5</sourceid>
+      <guid>6bb7f365-a929-48e3-b732-8270fc1d8ff2</guid>
+      <name>Forearm Guards</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>3</armorcapacity>
+      <avail>6</avail>
+      <cost>300</cost>
+      <weight />
+      <source>RG</source>
+      <page>73</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes>FOREARM GUARDS
+Simple and rarely stylish, forearm guards are dermaplast (or, rarely, metallic) bracers fitted to a wearer.
+Their use is simple—use them to block melee attacks, especially blades, turning blows away without actually cutting into you.
+&gt; Despite what you see in old trideo footage, don’t try to block bullets with these. It ends badly.
+&gt; Butch &gt; Personal experience or after-surgery reports from the clinic?
+&gt; Sounder &gt; Yes.
+&gt; Butch &gt; The basic models are sparkly, but keep in mind that they have some room for modification. Pop-out blades, holdout guns, or, a personal favorite, a place to keep your commlink.
+&gt; /dev/grrl &gt; You mean cyberdeck.
+&gt; Bull &gt; No, I mean commlink. I keep my ‘deck in my new bag.
+See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns and sparkles? Kill me now.
+&gt; Bull</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>013b9f3f-533b-4545-aa51-c6cf8d50f3b6</sourceid>
+      <guid>ce1ee659-0ef7-4c56-9366-3170aac5d2a5</guid>
+      <name>Lined Coat</name>
+      <category>Armor</category>
+      <armor>9</armor>
+      <armoroverride />
+      <armorcapacity>9</armorcapacity>
+      <avail>4</avail>
+      <cost>900</cost>
+      <weight />
+      <source>SR5</source>
+      <page>437</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes>Lined coat: This Wild West style duster has been consistently popular on the mean streets of the world’s sprawls for the past thirty years. Besides its protective traits, the armored trenchcoat provides an additional –2 Concealability modifier to items hidden underneath.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+  </armors>
+  <weapons>
+    <weapon>
+      <sourceid>63dcfdb6-bbd9-4a58-bbf4-cd35f7614fdc</sourceid>
+      <guid>7747b396-3212-4b63-9a4e-51141502bb37</guid>
+      <name>Unarmed Attack</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <spec />
+      <spec2 />
+      <reach>0</reach>
+      <damage>({STR})S</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>0</conceal>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>132</page>
+      <parentid>7366757e-e7b8-4c1f-9038-2e01372cf95b</parentid>
+      <allowaccessory>False</allowaccessory>
+      <weaponname />
+      <included>True</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>melee</weapontype>
+    </weapon>
+  </weapons>
+  <cyberwares>
+    <cyberware>
+      <guid>17d4d3d8-fb24-4eff-aaf0-298869ebb714</guid>
+      <sourceid>df01eed6-a019-4198-b88d-4ba8f9aaefdf</sourceid>
+      <name>Obvious Full Arm</name>
+      <category>Cyberlimb</category>
+      <limbslot>arm</limbslot>
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>1</ess>
+      <capacity>15</capacity>
+      <avail>4</avail>
+      <cost>15000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>456</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems>Bodyware,Cosmetic Enhancement,Cyberlimb,Cyberlimb Enhancement,Cyberlimb Accessory,Cyber Implant Weapon,Headware,Nanocybernetics</subsystems>
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location>Left</location>
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Obvious Full Arm</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Obvious Full Arm</name>
+      </wirelesspairinclude>
+      <children>
+        <cyberware>
+          <guid>c7d63df4-e2ed-49e6-b980-5d28f3dadf88</guid>
+          <sourceid>7afb23c7-435f-450c-9d1c-f7a0e7e631a6</sourceid>
+          <name>Customized Agility</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>+Rating - MinRating + 1</avail>
+          <cost>(Rating - MinRating + 1) * 5000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>6</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating>{AGIMinimum}+1</minrating>
+          <maxrating>{AGIMaximum}</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Customized Agility</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Customized Agility</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>543e9c62-cbc9-48ba-be14-51c3659f8971</guid>
+          <sourceid>2c50d5c1-f2ff-4c7b-bf5e-46925e808648</sourceid>
+          <name>Enhanced Agility</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating * 1]</capacity>
+          <avail>(Rating * 3)R</avail>
+          <cost>Rating * 6500</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>3</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Enhanced Agility</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Enhanced Agility</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>5ce6997c-b4cf-48b0-9ef6-5f63ded6d482</guid>
+          <sourceid>8ea736c6-5a90-471c-9320-18432ec9aaf0</sourceid>
+          <name>Armor</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating]</capacity>
+          <avail>Rating * 5</avail>
+          <cost>Rating * 3000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>2</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus>
+            <armor>Rating</armor>
+          </bonus>
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Armor</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Armor</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>84ab97f0-d8d6-4a5d-ab51-163b46351f31</guid>
+          <sourceid>2a6ab1b1-f008-4c92-83d9-a298a5dad855</sourceid>
+          <name>Cyberlimb Optimization</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[2]</capacity>
+          <avail>+2</avail>
+          <cost>2000</cost>
+          <weight />
+          <source>CF</source>
+          <page>87</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra>Automatics</extra>
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus>
+            <weaponskillaccuracy>
+              <selectskill knowledgeskills="False" />
+              <value>1</value>
+            </weaponskillaccuracy>
+          </bonus>
+          <pairbonus>
+            <selectskill knowledgeskills="False">
+              <val>1</val>
+            </selectskill>
+          </pairbonus>
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Cyberlimb Optimization</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Cyberlimb Optimization</name>
+          </wirelesspairinclude>
+          <notes>CYBERLIMB OPTIMIZATION
+For decades, cyberlimbs have been modified and analyzed, producing results that are greater in one area at a small cost in other areas, a general tradeoff that’s been largely accepted in the name of efficiency. Primarily, this market is in the fields of sports or entertainment, but new arenas are always being explored.
+In each case, this requires a full cyberlimb dedicated to the cause, and they’re usually intended to be taken in pairs for maximum result. As you might imagine, a limb may only be optimized in one way.
+Optimized limbs raise the user’s applicable limit by +1 for each limb optimized in that skill. For each pair of limbs optimized for the skill, the user gains +1 to their applicable skill dice pool as well. While the list below showcases several examples, it is by no means exhaustive, and gamemasters are encouraged to come up with several of their own.
+Evo Atlantean: The first set of optimized limbs that had both matching arms and legs. Thanks, Evo! (Swimming) Fuchi Virtuoso: The line that started it all. Virtuoso allows musicians to achieve their dreams. (Performance) Kalenjin: A single name brings a legacy of unequaled supremacy in running to this Renraku brand, proudly constructed in Kenya to exacting specifications.
+(Running) Kuroko: One of the extremely rare optimized cyber skulls, Renraku’s Kuoko is fantastic for ease of redesign.
+(Disguise) Munden QuickDraw: A rare entry from Lone Star, the QuickDraw is both fast and accurate. (Pistols) Spinrad NeverRest: Rock climbing, Joel! Available for both arms and legs, these limbs come with thin digits and powerful grips that make climbing any surface a breeze. (Climbing) The Greatest: The fastest fists in piston power. Throw those punches in bunches! (Unarmed Combat) Yankee Pitcher: Major League approved, Major League sanctioned! (Throwing Weapons)</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>69b08456-47c4-4d62-b43b-121522cebd8d</guid>
+          <sourceid>7d61f860-0637-4214-914d-c68022361d24</sourceid>
+          <name>Customized Strength</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>+Rating - MinRating + 1</avail>
+          <cost>(Rating - MinRating + 1) * 5000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>4</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating>{STRMinimum}+1</minrating>
+          <maxrating>{STRMaximum}</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Customized Strength</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Customized Strength</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>dcdc003b-39a7-4e67-8349-2715f7f41800</guid>
+          <sourceid>a9f4efd4-b86c-4e90-b0f7-aefa32c3b9de</sourceid>
+          <name>Enhanced Strength</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating * 1]</capacity>
+          <avail>(Rating * 3)R</avail>
+          <cost>Rating * 6500</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>2</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Enhanced Strength</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Enhanced Strength</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+      </children>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>b0deea2c-b2ee-406b-ba25-5e6a381003fe</guid>
+      <sourceid>96e4809a-71e6-4b98-9740-c6c44bc33aa9</sourceid>
+      <name>Orthoskin</name>
+      <category>Basic</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)R</avail>
+      <cost>Rating * 6000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>459</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>3</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating>4</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Alphaware</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <armor group="0">Rating</armor>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Orthoskin</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Orthoskin</name>
+      </wirelesspairinclude>
+      <notes>Orthoskin: A web of biofibers in the skin provides the equivalent of personal armor while being virtually indis- tinguishable from natural skin. Orthoskin adds its Rating to your Armor Rating, and is cumulative with other Ar- mor. Orthoskin cannot be combined with skin augmenta- tions that give you Armor, including dermal plating.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>dae9e752-fe83-4b11-bb27-173dc5a84259</guid>
+      <sourceid>df01eed6-a019-4198-b88d-4ba8f9aaefdf</sourceid>
+      <name>Obvious Full Arm</name>
+      <category>Cyberlimb</category>
+      <limbslot>arm</limbslot>
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>1</ess>
+      <capacity>15</capacity>
+      <avail>4</avail>
+      <cost>15000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>456</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems>Bodyware,Cosmetic Enhancement,Cyberlimb,Cyberlimb Enhancement,Cyberlimb Accessory,Cyber Implant Weapon,Headware,Nanocybernetics</subsystems>
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location>Right</location>
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Obvious Full Arm</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Obvious Full Arm</name>
+      </wirelesspairinclude>
+      <children>
+        <cyberware>
+          <guid>492cc8da-1caf-4eb0-a483-71ca9b24b9f2</guid>
+          <sourceid>2a6ab1b1-f008-4c92-83d9-a298a5dad855</sourceid>
+          <name>Cyberlimb Optimization</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[2]</capacity>
+          <avail>+2</avail>
+          <cost>2000</cost>
+          <weight />
+          <source>CF</source>
+          <page>87</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra>Automatics</extra>
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus>
+            <weaponskillaccuracy>
+              <selectskill knowledgeskills="False" />
+              <value>1</value>
+            </weaponskillaccuracy>
+          </bonus>
+          <pairbonus>
+            <selectskill knowledgeskills="False">
+              <val>1</val>
+            </selectskill>
+          </pairbonus>
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Cyberlimb Optimization</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Cyberlimb Optimization</name>
+          </wirelesspairinclude>
+          <notes>CYBERLIMB OPTIMIZATION
+For decades, cyberlimbs have been modified and analyzed, producing results that are greater in one area at a small cost in other areas, a general tradeoff that’s been largely accepted in the name of efficiency. Primarily, this market is in the fields of sports or entertainment, but new arenas are always being explored.
+In each case, this requires a full cyberlimb dedicated to the cause, and they’re usually intended to be taken in pairs for maximum result. As you might imagine, a limb may only be optimized in one way.
+Optimized limbs raise the user’s applicable limit by +1 for each limb optimized in that skill. For each pair of limbs optimized for the skill, the user gains +1 to their applicable skill dice pool as well. While the list below showcases several examples, it is by no means exhaustive, and gamemasters are encouraged to come up with several of their own.
+Evo Atlantean: The first set of optimized limbs that had both matching arms and legs. Thanks, Evo! (Swimming) Fuchi Virtuoso: The line that started it all. Virtuoso allows musicians to achieve their dreams. (Performance) Kalenjin: A single name brings a legacy of unequaled supremacy in running to this Renraku brand, proudly constructed in Kenya to exacting specifications.
+(Running) Kuroko: One of the extremely rare optimized cyber skulls, Renraku’s Kuoko is fantastic for ease of redesign.
+(Disguise) Munden QuickDraw: A rare entry from Lone Star, the QuickDraw is both fast and accurate. (Pistols) Spinrad NeverRest: Rock climbing, Joel! Available for both arms and legs, these limbs come with thin digits and powerful grips that make climbing any surface a breeze. (Climbing) The Greatest: The fastest fists in piston power. Throw those punches in bunches! (Unarmed Combat) Yankee Pitcher: Major League approved, Major League sanctioned! (Throwing Weapons)</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>bc7a67cd-f677-49ed-a50f-8a89237fbe53</guid>
+          <sourceid>7afb23c7-435f-450c-9d1c-f7a0e7e631a6</sourceid>
+          <name>Customized Agility</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>+Rating - MinRating + 1</avail>
+          <cost>(Rating - MinRating + 1) * 5000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>6</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating>{AGIMinimum}+1</minrating>
+          <maxrating>{AGIMaximum}</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Customized Agility</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Customized Agility</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>d40ed29c-a4be-477e-b762-7ca4b0ca3286</guid>
+          <sourceid>2c50d5c1-f2ff-4c7b-bf5e-46925e808648</sourceid>
+          <name>Enhanced Agility</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating * 1]</capacity>
+          <avail>(Rating * 3)R</avail>
+          <cost>Rating * 6500</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>3</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Enhanced Agility</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Enhanced Agility</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>1e07b1ee-6238-42e6-a700-0a1802ba0df2</guid>
+          <sourceid>8ea736c6-5a90-471c-9320-18432ec9aaf0</sourceid>
+          <name>Armor</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating]</capacity>
+          <avail>Rating * 5</avail>
+          <cost>Rating * 3000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>2</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus>
+            <armor>Rating</armor>
+          </bonus>
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Armor</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Armor</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>e4ea110a-dc8e-4feb-aec1-85766339f6cc</guid>
+          <sourceid>7d61f860-0637-4214-914d-c68022361d24</sourceid>
+          <name>Customized Strength</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[0]</capacity>
+          <avail>+Rating - MinRating + 1</avail>
+          <cost>(Rating - MinRating + 1) * 5000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>4</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating>{STRMinimum}+1</minrating>
+          <maxrating>{STRMaximum}</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Customized Strength</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Customized Strength</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>cb6a9001-a57b-4966-bb7c-0aca5a989e02</guid>
+          <sourceid>a9f4efd4-b86c-4e90-b0f7-aefa32c3b9de</sourceid>
+          <name>Enhanced Strength</name>
+          <category>Cyberlimb Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>[Rating * 1]</capacity>
+          <avail>(Rating * 3)R</avail>
+          <cost>Rating * 6500</cost>
+          <weight />
+          <source>SR5</source>
+          <page>456</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>2</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>3</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Enhanced Strength</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Enhanced Strength</name>
+          </wirelesspairinclude>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+      </children>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>c8df50cf-cbf5-41ec-9d67-1653986dec42</guid>
+      <sourceid>d31497dd-2be9-4b8a-808f-3ced36287c0c</sourceid>
+      <name>Skilljack</name>
+      <category>Headware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>Rating * 2</avail>
+      <cost>Rating * 1000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>452</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>2</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating>6</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <skillsoftaccess precedence="0">Rating</skillsoftaccess>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Skilljack</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Skilljack</name>
+      </wirelesspairinclude>
+      <notes>Skilljack: This headware interprets knowsofts and lin- guasofts for your brain so you can use them as though they were your own. It can also run activesofts, but they only act as Knowledge Skills unless you have skillwires (p. 455). The total of all skills running on a skilljack can- not exceed its Rating x 2, and the maximum Rating for a skill is the skilljack’s Rating. Starting skills from storage and stopping skills is a Free Action. You can’t use Edge with skills you have through a skilljack. If you have more than one skilljack, only one of them can operate at a time.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>28d0fced-d3dc-4a64-ba39-01ff1f8bb8bb</guid>
+      <sourceid>60485c4e-042f-44f6-ad89-324003223f73</sourceid>
+      <name>Skillwires</name>
+      <category>Bodyware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 20000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>455</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>2</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating>6</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>True</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <skillwire precedence="0">Rating</skillwire>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus>
+        <limitmodifier>
+          <limit>Mental</limit>
+          <value>1</value>
+          <condition>LimitCondition_Skillwires</condition>
+        </limitmodifier>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>1</value>
+          <condition>LimitCondition_Skillwires</condition>
+        </limitmodifier>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Skillwires</condition>
+        </limitmodifier>
+      </wirelessbonus>
+      <wirelesspairbonus />
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Skillwires</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Skillwires</name>
+      </wirelesspairinclude>
+      <notes>Skillwires: Skillwires are a system of neuromuscular controllers that overlie the body’s natural nervous sys- tem; they are capable of aiding or completely overriding muscular movement, controlled by the “muscle mem- ory” played through a skilljack (p. 452). This system allows you to use activesofts with a rating up to your skillwire’s rating, but only if that activesoft is running on your implanted skilljack. Skillwires are incompatible with reflex recorder bioware.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>70fcb63c-bcaa-467f-a879-adee98e79759</guid>
+      <sourceid>857bbf66-3fab-466b-9c2c-f302340e3788</sourceid>
+      <name>Insulation</name>
+      <category>Orthoskin Upgrades</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>8000</cost>
+      <weight />
+      <source>CF</source>
+      <page>116</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <electricityarmor>2</electricityarmor>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Insulation</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Insulation</name>
+      </wirelesspairinclude>
+      <notes>INSULATION
+Use of non-conductive materials leaves the user more resistant against electrical discharges, keeping the vulnerable organs inside safer than before.
+The user gains +2 Body for resisting electrical damage. This is not compatible with electroshock.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+  </cyberwares>
+  <qualities>
+    <quality>
+      <sourceid>02e76a38-304e-4a0e-93a3-ad2938306afc</sourceid>
+      <guid>340f79bf-db49-471a-9c02-6b6584eaaef0</guid>
+      <name>Thermographic Vision</name>
+      <extra />
+      <bp>3</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>False</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Metatype</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>66</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>139ca69c-e9d3-4540-a4c6-b8c778e70185</sourceid>
+      <guid>41710f24-343d-4efa-9fcb-bb35a42e97f1</guid>
+      <name>Resistance to Pathogens/Toxins</name>
+      <extra />
+      <bp>8</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>False</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Metatype</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>77</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>RESISTANCE TO PATHOGENS/TOXINS
+COST: 4 OR 8 KARMA
+A character with Resistance to Pathogens/Toxins can fight off diseases and drugs more easily than other characters and receives a +1 dice pool modifier to Resistance Tests. This quality comes at two levels: at 4 Karma the character is resistant to either pathogens or toxins, not both. If the character purchases this quality at 8 Karma, she receives the +1 modifier for resisting both.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>c4b35412-bd91-45b4-b428-29da7edd5ff4</sourceid>
+      <guid>f14d1e54-64d7-454d-8b45-5752510f81cd</guid>
+      <name>Technomancer</name>
+      <extra />
+      <bp>15</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>False</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Heritage</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>69</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>ffa26ef9-e2d3-47c2-8fb7-43ad27e85b62</sourceid>
+      <guid>35fbf753-ddbb-48ee-a372-27cca8c4111c</guid>
+      <name>Ninja Vanish</name>
+      <extra />
+      <bp>5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>DT</source>
+      <page>44</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>NINJA VANISH
+COST: 5 KARMA
+Even the best sometimes get clipped. Maybe you’re in a host, holding off some IC, but there are just too damn many of them. Maybe you’re in the middle of a firefight and the enemy hacker is getting the best of you, and you’re moments away from having your deck reformatted, when suddenly, the Matrix glitches. A little localized reset saves your bacon. Just like that. What are the odds, neh? Maybe GOD is on your side? That can’t be— you must just be that good.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>3c83d73e-7aa7-4fe5-8f03-6e983648e2eb</sourceid>
+      <guid>cd8d66b4-38c8-451a-a8a7-cfeec239c596</guid>
+      <name>One With the Matrix II</name>
+      <extra />
+      <bp>8</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>KC</source>
+      <page>97</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>ONE WITH THE MATRIX
+COST: 2, 8, OR 10 KARMA
+The Resonance is so ingrained in the character that they’ve begun to see it manifest in their everyday life. They have reached a point where they no longer need things that are necessary for everyone else to interact with the Matrix. They are one with the Matrix, and they process it on their own.
+At the 2 Karma level, the character’s living persona is innately able to join a PAN or WAN as a slave to another deck or commlink (though requisite authorizations must still be obtained).
+At 8 Karma, the character’s living persona can act as a master device of a PAN, with a maximum number of slaves equal to the Resonane rating x 3.
+At 10 Karma, characters receive both effects.
+Characters who had previously purchased one part of the quality may subsequently purchase the other.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>03d5c621-7883-492e-988b-5aafdebc855d</sourceid>
+      <guid>eb7733af-87d9-4767-bcf9-fe1b549bf18b</guid>
+      <name>Strive For Perfection</name>
+      <extra />
+      <bp>12</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>AP</source>
+      <page>17</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>STRIVE FOR PERFECTION
+(COST: 12 KARMA)
+Excellence in his craft is what this assassin aims for. It is not enough to take out the target; the job must be done efficiently, quickly, and without the slightest misstep. This is what separates the good assassins from the great ones in his mind, and he aims to be one of the greats.
+Advantages: The assassin has honed his skills with firearms to the point where shots that would be tough for most people are second nature to him. Halve the cost of all Called Shots, meaning they impose only a –2 dice pool penalty instead of –4. The Called Shot still costs a Free Action.
+Disadvantages: The standard “aiming for center mass” shots that most people take are beneath this sort of assassin.
+He seeks to make every shot count, regardless of how many bullets are in his magazine. The assassin must make Called Shots unless he is providing covering fire or acting in a similar capacity where Called Shots would not be practical.</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>cc857826-3bb2-466d-987b-7d56a337bc08</sourceid>
+      <guid>6bccad8a-6ee3-4d44-8d00-96bc770c1678</guid>
+      <name>Dependent (Inconvenience)</name>
+      <extra />
+      <bp>-6</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>80</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>Needy elf girl/boyfriend (he loves her tho &lt;3)</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
+  </qualities>
+  <lifestyles>
+    <lifestyle>
+      <sourceid>9cb0222c-14c1-4bea-bf83-055513a1f33e</sourceid>
+      <guid>cb9c1a39-f091-44ef-8289-1b9e9ec1ffc1</guid>
+      <name>GF's House</name>
+      <cost>5000</cost>
+      <dice>4</dice>
+      <lp>4</lp>
+      <baselifestyle>Medium</baselifestyle>
+      <multiplier>100</multiplier>
+      <months>1</months>
+      <roommates>0</roommates>
+      <percentage>100.0</percentage>
+      <area>0</area>
+      <comforts>0</comforts>
+      <security>1</security>
+      <basearea>4</basearea>
+      <basecomforts>3</basecomforts>
+      <basesecurity>3</basesecurity>
+      <maxarea>5</maxarea>
+      <maxcomforts>4</maxcomforts>
+      <maxsecurity>4</maxsecurity>
+      <costforearea>0</costforearea>
+      <costforcomforts>0</costforcomforts>
+      <costforsecurity>0</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
+      <source>SR5</source>
+      <page>369</page>
+      <trustfund>False</trustfund>
+      <splitcostwithroommates>False</splitcostwithroommates>
+      <type>Advanced</type>
+      <increment>Month</increment>
+      <sourceid>9cb0222c-14c1-4bea-bf83-055513a1f33e</sourceid>
+      <city>Seattle</city>
+      <district>Renton</district>
+      <borough>Renton</borough>
+      <lifestylequalities>
+        <lifestylequality>
+          <sourceid>b722458f-b0af-45c4-b5c7-b3c7e2ef48f6</sourceid>
+          <guid>3b57bf5a-1ac5-4092-84ea-5d1b59ae7820</guid>
+          <name>AR Fashion Subscription, Casual</name>
+          <category>Contracts</category>
+          <extra />
+          <cost>25</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>0</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Contracts</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>CA</source>
+          <page>138</page>
+          <allowed />
+          <bonus />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>fc4d530e-a832-4437-b022-cdf35a22fc78</sourceid>
+          <guid>a4416d07-8999-4be7-841b-6e967989e2f9</guid>
+          <name>AR Fashion Subscription, Business</name>
+          <category>Contracts</category>
+          <extra />
+          <cost>100</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>0</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Contracts</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>CA</source>
+          <page>138</page>
+          <allowed />
+          <bonus />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>1607bf0d-1a75-4582-8496-ffd92289f2b3</sourceid>
+          <guid>7bc149bc-e2ec-470c-b337-5dd58640782e</guid>
+          <name>AR Fashion Subscription, Formal</name>
+          <category>Contracts</category>
+          <extra />
+          <cost>500</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>0</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Contracts</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>CA</source>
+          <page>138</page>
+          <allowed />
+          <bonus />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>f9b5153b-c859-4491-9a06-8ed160d6ae30</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Local Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>True</free>
+          <isfreegrid>True</isfreegrid>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes>GRID SUBSCRIPTION
+Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
+Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>6a43dabc-b266-4692-9d27-118a49e8c561</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Public Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>True</free>
+          <isfreegrid>True</isfreegrid>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes>GRID SUBSCRIPTION
+Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
+Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+      </lifestylequalities>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>0</sortorder>
+    </lifestyle>
+  </lifestyles>
+  <gears>
+    <gear>
+      <sourceid>73b55822-dfb8-48f5-8ff8-37ef498ab9ef</sourceid>
+      <guid>52476b7f-3250-4e0e-8ae9-112ee7354b3c</guid>
+      <name>Living Persona</name>
+      <category>Commlinks</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>251</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona>Self</canformpersona>
+      <devicerating>{RES}</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid>f14d1e54-64d7-454d-8b45-5752510f81cd</parentid>
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>LIVING PERSONA
+You can reboot your living persona, if you want. Really, you’re just shutting yourself off from the Matrix for a time, but it operates with the same mechanics as the Reboot Device action (although it doesn’t count as a Matrix action). A lot of technomancers reboot their living persona before they go to sleep, using the reboot delay as a sort of built-in alarm clock; it keeps them safe from cyber-attacks while digital sugarplums dance in their heads.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack>{CHA}</attack>
+      <sleaze>{INT}</sleaze>
+      <dataprocessing>{LOG}</dataprocessing>
+      <firewall>{WIL}</firewall>
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>True</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+  </gears>
+  <vehicles />
+  <metamagics />
+  <arts />
+  <enhancements />
+  <critterpowers />
+  <initiationgrades />
+  <improvements>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>08f2c9cc-f9f8-4f1a-9efb-63555af71788</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>20</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>LifestyleCost</improvementttype>
+      <improvementsource>Metatype</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenIngestionResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInjectionResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinIngestionResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>41710f24-343d-4efa-9fcb-bb35a42e97f1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInjectionResist</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>52476b7f-3250-4e0e-8ae9-112ee7354b3c</improvedname>
+      <sourcename>f14d1e54-64d7-454d-8b45-5752510f81cd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Gear</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enableattribute</unique>
+      <target />
+      <improvedname>RES</improvedname>
+      <sourcename>f14d1e54-64d7-454d-8b45-5752510f81cd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>enabletab</unique>
+      <target />
+      <improvedname>Technomancer</improvedname>
+      <sourcename>f14d1e54-64d7-454d-8b45-5752510f81cd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialTab</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Technomancer</improvedname>
+      <sourcename>f14d1e54-64d7-454d-8b45-5752510f81cd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SpecialSkills</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Computer</improvedname>
+      <sourcename>f14d1e54-64d7-454d-8b45-5752510f81cd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition>Matrix Perception</condition>
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Compiling</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillBase</improvementttype>
+      <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Computer</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillBase</improvementttype>
+      <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Electronic Warfare</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillBase</improvementttype>
+      <improvementsource>Heritage</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>17d4d3d8-fb24-4eff-aaf0-298869ebb714</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalCM</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Firewall</improvedname>
+      <sourcename>016195d1-eb9b-44f8-bfdf-bf8506e1a585</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>ComplexForm</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Sleaze</improvedname>
+      <sourcename>ca37668f-76e4-4ecb-81fa-8a44eed7f58c</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>ComplexForm</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>5ce6997c-b4cf-48b0-9ef6-5f63ded6d482</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>6575e7f4-1522-436a-a8b5-2943ef32dab0</improvedname>
+      <sourcename>cba9aab8-91cb-4fa3-8e62-97bbf8819437</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>8d30f9ce-aed7-4817-9c4a-bd172207fd36</improvedname>
+      <sourcename>1b59bbc6-473f-4084-ba20-b63ee7776dfa</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>c5069dac-f6fa-49ad-b710-debe7ed1793d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>c5069dac-f6fa-49ad-b710-debe7ed1793d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Automatics</improvedname>
+      <sourcename>84ab97f0-d8d6-4a5d-ab51-163b46351f31</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>WeaponSkillAccuracy</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>dae9e752-fe83-4b11-bb27-173dc5a84259</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalCM</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Automatics</improvedname>
+      <sourcename>492cc8da-1caf-4eb0-a483-71ca9b24b9f2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>WeaponSkillAccuracy</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Automatics</improvedname>
+      <sourcename>492cc8da-1caf-4eb0-a483-71ca9b24b9f2Pair</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>1e07b1ee-6238-42e6-a700-0a1802ba0df2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>group0</unique>
+      <target />
+      <improvedname />
+      <sourcename>b0deea2c-b2ee-406b-ba25-5e6a381003fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname />
+      <sourcename>28d0fced-d3dc-4a64-ba39-01ff1f8bb8bb</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skillwire</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>28242586-63c6-408d-9e55-7f636ddd7c25</improvedname>
+      <sourcename>28d0fced-d3dc-4a64-ba39-01ff1f8bb8bb</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Skillwires</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>f72680ac-524f-4882-9125-bdb672b15b06</improvedname>
+      <sourcename>28d0fced-d3dc-4a64-ba39-01ff1f8bb8bb</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Skillwires</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>9847446d-b366-4bfd-84db-48c207c5478a</improvedname>
+      <sourcename>28d0fced-d3dc-4a64-ba39-01ff1f8bb8bb</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Skillwires</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>70fcb63c-bcaa-467f-a879-adee98e79759</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>nonconductivity</unique>
+      <target />
+      <improvedname />
+      <sourcename>05f92116-9aaa-439f-9e3b-9d6c1e2a106a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>4</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname />
+      <sourcename>c8df50cf-cbf5-41ec-9d67-1653986dec42</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillsoftAccess</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAGAdept</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>RES</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>DEP</improvedname>
+      <sourcename />
+      <min>-3</min>
+      <max>-3</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>6bccad8a-6ee3-4d44-8d00-96bc770c1678</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>20</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>LifestyleCost</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Local Grid</improvedname>
+      <sourcename>f9b5153b-c859-4491-9a06-8ed160d6ae30</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Public Grid</improvedname>
+      <sourcename>6a43dabc-b266-4692-9d27-118a49e8c561</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+  </improvements>
+  <sustainedobjects />
+  <drugs />
+  <mentorspirits />
+  <expenses />
+  <gearlocations />
+  <armorlocations />
+  <vehiclelocations />
+  <weaponlocations />
+  <improvementgroups />
+  <calendar />
+  <calculatedvalues>
+    <physicalcm>12</physicalcm>
+    <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
+    <physicalcmoverflow>4</physicalcmoverflow>
+    <stuncm>10</stuncm>
+    <stuncmthresholdoffset>0</stuncmthresholdoffset>
+  </calculatedvalues>
+</character>
