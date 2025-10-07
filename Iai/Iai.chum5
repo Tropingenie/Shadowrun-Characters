@@ -5,7 +5,7 @@
   <appversion>5.225.1021</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub_Create_Rules_2024.xml</settings>
-  <settingshashcode>203947607</settingshashcode>
+  <settingshashcode>-979269121</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -153,7 +153,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
   <created>False</created>
   <nuyen>6000</nuyen>
   <startingnuyen>6000</startingnuyen>
-  <nuyenbp>2</nuyenbp>
+  <nuyenbp>3</nuyenbp>
   <adept>True</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
@@ -790,7 +790,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Gymnastics</name>
@@ -828,7 +828,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Hardware</name>
@@ -993,7 +993,7 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Navigation</name>
@@ -1165,20 +1165,12 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>True</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
-        <base>0</base>
+        <karma>0</karma>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Running</name>
         <buywithkarma>False</buywithkarma>
-        <specs>
-          <spec>
-            <guid>39773aa9-7011-42ec-98cd-4cec5840e3a7</guid>
-            <name>Distance</name>
-            <free>False</free>
-            <expertise>False</expertise>
-          </spec>
-        </specs>
       </skill>
       <skill>
         <guid>0ceb5263-aa08-446b-bc3f-ea8917d8b8d5</guid>
@@ -1188,8 +1180,8 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>1</karma>
-        <base>0</base>
+        <karma>0</karma>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Sneaking</name>
@@ -1249,11 +1241,19 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Throwing Weapons</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>2df23d21-619a-4381-b5bf-969a402beed8</guid>
+            <name>Blades</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>c4d2833b-19d0-4e96-b35e-a318d2c0699a</guid>
@@ -1286,7 +1286,117 @@ He never did figure out if the voice was a hallucination or dream, but held in h
         <buywithkarma>False</buywithkarma>
       </skill>
     </skills>
-    <knoskills />
+    <knoskills>
+      <skill>
+        <guid>1579606b-965b-4c4f-b5b1-007deab33e29</guid>
+        <suid>822b059f-c132-45ee-8c0b-df6912d5c862</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Area Knowledge: Seattle</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>79aa60e3-4ff1-4554-ae13-eb97ad48d6e8</guid>
+            <name>Puyallup</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>46dec6ee-5426-4dbf-bf7a-c02ab3de0741</guid>
+        <suid>907a3a8f-2c40-4543-a5a9-891bcde41f6b</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>English</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>0801d2ed-333a-4536-af15-e60c7262ca71</guid>
+        <suid>f876953e-a14e-4ca5-b454-b0090907da28</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Japanese</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>True</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>ec29ebdf-c6a4-4a39-a767-d280a6f92b47</guid>
+        <suid>3057f850-d7d8-4c5d-9315-556ebb12f0e1</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Or'zet</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>5f55f1f8-c632-4d6d-bfb7-837264d8a092</guid>
+            <name>Street</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Language</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>f5752a3e-a82d-4ce1-8db3-90e9d50035c3</guid>
+        <suid>39f7b0cb-dd7c-4196-808b-8910119ea884</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Street Gangs: Seattle</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>f919efa3-075b-4725-aa87-635a6a2885a4</guid>
+            <name>Ancients</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+    </knoskills>
     <skilljackknowledgeskills />
     <groups>
       <group>
@@ -1441,7 +1551,7 @@ That was the day a man, single all his life, gained a... son? It was also the da
       <type>Contact</type>
       <file />
       <relative />
-      <notes>Broad shouldered ogre lady who leads her clan of blood descendants with an iron fist. With 12 kids, she considered herself fortunate that her husband only died after most of them were old enough to help out around the compound. His death was what pushed her to learn some new tricks.
+      <notes>Broad shouldered ogre lady who leads her clan of blood descendants, known as Bot'Bella (a portmanteau of the Or'zet word for "sons" and a shortening of Bellora's name that is often mistaken by outsiders for the Spanish word meaning "beautiful" despite her Portuguese background) with an iron fist. With 12 kids, she considered herself fortunate that her husband only died after most of them were old enough to help out around the compound. His death was what pushed her to learn some new tricks.
 
 Their SINs had been just good enough for the coyote to move them out of Amazonia, through the Panama Canal, and into Seattle, where they hoped to be safe from further Aztlan incursions, and were sold on the lie of a better life. Francesca and her husband were still able to carve out their niche in the Pullayup barrens, using brute strength from both of them and her guile to gain standing in the orc community. Still, the low quality, and lack of SINs for her many children to come left them trapped in Pullayup even after hearing rumor of the Orc Underground.
 
@@ -1466,7 +1576,7 @@ She met Iai shortly before he joined the Hub, back when he went by the handle "R
       <name>Boss</name>
       <role>Fixer</role>
       <location>Near McMillin Reservoir</location>
-      <connection>4</connection>
+      <connection>5</connection>
       <loyalty>1</loyalty>
       <metatype>Troll (Giant)</metatype>
       <gender>Unknown</gender>
@@ -2605,6 +2715,174 @@ This one is a Tanto tho :)</notes>
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>e3b33b2b-3cd4-408d-b579-3a9d73d387f7</sourceid>
+      <guid>ac498f36-bf44-4a0a-86a9-20ab64ab2b8f</guid>
+      <name>Shuriken</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Blades</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>4R</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Shuriken</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>424</page>
+      <parentid>3d954d63-1931-4f31-a7b2-ab01ab9e749a</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>184e07a0-fff1-4102-961c-02c8f53ac335</sourceid>
+      <guid>598073b3-6884-4b09-b71c-7c223ed13570</guid>
+      <name>Javelin</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Blades</spec>
+      <spec2>Non-Aerodynamic</spec2>
+      <reach>0</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>6</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Aerodynamic Grenade</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>RG</source>
+      <page>24</page>
+      <parentid>2130271b-0ef0-4cbb-aa18-6229b98b3950</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
     </weapon>
   </weapons>
   <cyberwares />
@@ -4074,7 +4352,7 @@ If the user’s Charisma is reduced below 1, the character gains the Uncouth qua
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</location>
       <notes>TRODE PATCH
 Are you sick of hiding your trodes in your hats or having that gelly goop getting stuck in your hair?
 Well, then, it’s time to rejoice with MCT’s latest design for virtual access with minimal hassle. The full trode rig will soon be a relic of the past, and getting a hole drilled in your skull for a datajack just won’t be necessary anymore with the ultra-sleek trode patch.
@@ -4096,7 +4374,7 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -4246,7 +4524,7 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
         <gear>
           <sourceid>287c6d58-2217-48b2-9e14-6ba23584939a</sourceid>
@@ -4303,7 +4581,7 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </gear>
       </children>
       <location>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</location>
@@ -4422,6 +4700,179 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
         </gear>
       </children>
       <location>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>b4bbdbd3-1f65-44e5-b196-6ccbee1cc182</sourceid>
+      <guid>3d954d63-1931-4f31-a7b2-ab01ab9e749a</guid>
+      <name>Shuriken</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>9</qty>
+      <avail>4R</avail>
+      <cost>25</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>ac498f36-bf44-4a0a-86a9-20ab64ab2b8f</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>424</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>a43e3465-dc57-4c3d-9306-daea80f5ee01</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>42404ae5-f203-4780-a575-a644d6443d20</sourceid>
+      <guid>2130271b-0ef0-4cbb-aa18-6229b98b3950</guid>
+      <name>Javelin</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>3</qty>
+      <avail>6</avail>
+      <cost>125</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>598073b3-6884-4b09-b71c-7c223ed13570</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>RG</source>
+      <page>24</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>a43e3465-dc57-4c3d-9306-daea80f5ee01</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
+      <guid>bc6cac3c-a376-4059-940b-284cc3556434</guid>
+      <name>Fake SIN</name>
+      <category>ID/Credsticks</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>1</rating>
+      <qty>1.0</qty>
+      <avail>(Rating * 3)F</avail>
+      <cost>0</cost>
+      <weight />
+      <extra>John Adams Jr. - DocWagon</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>True</allowrename>
+      <children />
+      <location />
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -5102,6 +5553,30 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>John Adams Jr. - DocWagon</improvedname>
+      <sourcename>bc6cac3c-a376-4059-940b-284cc3556434</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -5134,14 +5609,21 @@ About the size of an old-fashioned quarter, or about 2.5 centimeters in diameter
       <name>Performance Enhancers</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>76a74e8e-8b4b-4ce4-8b52-7f80667d444d</guid>
       <name>AV</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
+    </location>
+    <location>
+      <guid>a43e3465-dc57-4c3d-9306-daea80f5ee01</guid>
+      <name>Throwing Weapons</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>2</sortorder>
     </location>
   </gearlocations>
   <armorlocations />
