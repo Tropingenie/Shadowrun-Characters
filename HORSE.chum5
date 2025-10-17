@@ -592,7 +592,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>5</base>
+        <base>6</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Electronic Warfare</name>
@@ -742,8 +742,8 @@
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>a276acdc-9483-4ce3-bad8-24f06c2ab0ac</guid>
-            <name>Hosts</name>
+            <guid>bd2a002f-0a44-40e6-9c05-19d646bafef0</guid>
+            <name>HOTF</name>
             <free>False</free>
             <expertise>False</expertise>
           </spec>
@@ -763,6 +763,14 @@
         <notesColor>#E3813C</notesColor>
         <name>Hardware</name>
         <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>307d3f40-63d6-441e-af24-0c5224a44958</guid>
+            <name>Jack Out</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>802a550e-9668-4682-9ea2-8ba81dc17a99</guid>
@@ -1126,7 +1134,7 @@
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>3</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Software</name>
@@ -2605,6 +2613,168 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <sortorder>0</sortorder>
           <parentid />
         </accessory>
+        <accessory>
+          <sourceid>f27402fa-2845-4314-a97d-2747b3263e0d</sourceid>
+          <guid>efbecaca-26ee-429d-a83f-e8ae7d24b702</guid>
+          <name>Easy Breakdown (Powered)</name>
+          <mount>Side</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>10R</avail>
+          <cost>1250</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>180</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>4ed24342-276e-4455-acba-22b551e4d775</sourceid>
+          <guid>c66e83f3-0116-404b-aa3e-ece38143871d</guid>
+          <name>Spare Clip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>4</avail>
+          <cost>5</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>433</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>1</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>4ed24342-276e-4455-acba-22b551e4d775</sourceid>
+          <guid>c6e5012e-eac2-44fd-8b2e-9eca2a057d7d</guid>
+          <name>Spare Clip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>4</avail>
+          <cost>5</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>433</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>1</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
       </accessories>
       <location />
       <notes>MOSSBERG AM-CMDT
@@ -3296,82 +3466,6 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           </pairinclude>
           <wirelesspairinclude>
             <name>Customized Agility</name>
-          </wirelesspairinclude>
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <addtoparentess>False</addtoparentess>
-          <addtoparentcapacity>False</addtoparentcapacity>
-          <isgeneware>False</isgeneware>
-          <active>False</active>
-          <homenode>False</homenode>
-          <devicerating />
-          <programlimit />
-          <overclocked>None</overclocked>
-          <canformpersona />
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <sortorder>0</sortorder>
-        </cyberware>
-        <cyberware>
-          <guid>2fe1290b-061d-4137-83db-ac01c15a3010</guid>
-          <sourceid>2c50d5c1-f2ff-4c7b-bf5e-46925e808648</sourceid>
-          <name>Enhanced Agility</name>
-          <category>Cyberlimb Enhancement</category>
-          <limbslot />
-          <limbslotcount>1</limbslotcount>
-          <inheritattributes>False</inheritattributes>
-          <ess>0</ess>
-          <capacity>[Rating * 1]</capacity>
-          <avail>(Rating * 3)R</avail>
-          <cost>Rating * 6500</cost>
-          <weight />
-          <source>SR5</source>
-          <page>456</page>
-          <parentid />
-          <hasmodularmount />
-          <plugsintomodularmount />
-          <blocksmounts />
-          <forced />
-          <rating>3</rating>
-          <minagility>3</minagility>
-          <minstrength>3</minstrength>
-          <minrating />
-          <maxrating>3</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <subsystems />
-          <wirelesson>False</wirelesson>
-          <grade>Used</grade>
-          <location />
-          <extra />
-          <suite>False</suite>
-          <stolen>False</stolen>
-          <essdiscount>0</essdiscount>
-          <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-          <forcegrade />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <prototypetranshuman>False</prototypetranshuman>
-          <bonus />
-          <pairbonus />
-          <wirelessbonus />
-          <wirelesspairbonus />
-          <improvementsource>Cyberware</improvementsource>
-          <pairinclude>
-            <name>Enhanced Agility</name>
-          </pairinclude>
-          <wirelesspairinclude>
-            <name>Enhanced Agility</name>
           </wirelesspairinclude>
           <notes />
           <notesColor>#E3813C</notesColor>
@@ -5467,6 +5561,122 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <homenode>False</homenode>
       <sortorder>1</sortorder>
     </gear>
+    <gear>
+      <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
+      <guid>4979aae3-c645-4f57-94ea-0d5d3788a92b</guid>
+      <name>Ammo: Explosive Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>9F</avail>
+      <costfor>10</costfor>
+      <cost>80</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>8706c98d-b53b-4a29-b21b-a921030ae801</sourceid>
+      <guid>3d5b06ec-4c79-4a9b-bbcc-3917aa522369</guid>
+      <name>Multidimensional Coprocessor</name>
+      <category>Cyberdeck Modules</category>
+      <capacity />
+      <armorcapacity>[2]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>7R</avail>
+      <cost>1400</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>DT</source>
+      <page>65</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating>0</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>MULTIDIMENSIONAL COPROCESSOR
+This tongue-twister of a module speeds up Matrix signals and commands, granting the deck’s operator an additional +1D6 to Matrix Initiative (remember that you can never roll more than 5D6 worth of initiative dice).</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
   </gears>
   <vehicles />
   <metamagics />
@@ -6299,102 +6509,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>MAG</improvedname>
-      <sourcename />
-      <min>-4</min>
-      <max>-4</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>MAGAdept</improvedname>
-      <sourcename />
-      <min>-4</min>
-      <max>-4</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>RES</improvedname>
-      <sourcename />
-      <min>-4</min>
-      <max>-4</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>DEP</improvedname>
-      <sourcename />
-      <min>-4</min>
-      <max>-4</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <unique>precedence0</unique>
       <target />
       <improvedname>REA</improvedname>
@@ -6544,6 +6658,127 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <unique>matrixinitiativepass</unique>
+      <target />
+      <improvedname />
+      <sourcename>3d5b06ec-4c79-4a9b-bbcc-3917aa522369</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>MatrixInitiativeDice</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAG</improvedname>
+      <sourcename />
+      <min>-4</min>
+      <max>-4</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>MAGAdept</improvedname>
+      <sourcename />
+      <min>-4</min>
+      <max>-4</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>RES</improvedname>
+      <sourcename />
+      <min>-4</min>
+      <max>-4</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>DEP</improvedname>
+      <sourcename />
+      <min>-4</min>
+      <max>-4</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLossChargen</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -6556,6 +6791,13 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notes />
       <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
+    </location>
+    <location>
+      <guid>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</guid>
+      <name>Programs</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>0</sortorder>
     </location>
   </gearlocations>
   <armorlocations />
