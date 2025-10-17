@@ -191,7 +191,7 @@
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
@@ -282,7 +282,7 @@
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.17</totaless>
+  <totaless>1.87</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -2968,7 +2968,7 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>6</rating>
+          <rating>4</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating>{STRMinimum}+1</minrating>
@@ -3416,82 +3416,6 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <canswapattributes>False</canswapattributes>
           <sortorder>0</sortorder>
         </cyberware>
-        <cyberware>
-          <guid>9f3a5d4c-7564-46a9-b442-f294a66de19e</guid>
-          <sourceid>7afb23c7-435f-450c-9d1c-f7a0e7e631a6</sourceid>
-          <name>Customized Agility</name>
-          <category>Cyberlimb Enhancement</category>
-          <limbslot />
-          <limbslotcount>1</limbslotcount>
-          <inheritattributes>False</inheritattributes>
-          <ess>0</ess>
-          <capacity>[0]</capacity>
-          <avail>+Rating - MinRating + 1</avail>
-          <cost>(Rating - MinRating + 1) * 5000</cost>
-          <weight />
-          <source>SR5</source>
-          <page>456</page>
-          <parentid />
-          <hasmodularmount />
-          <plugsintomodularmount />
-          <blocksmounts />
-          <forced />
-          <rating>6</rating>
-          <minagility>3</minagility>
-          <minstrength>3</minstrength>
-          <minrating>{AGIMinimum}+1</minrating>
-          <maxrating>{AGIMaximum}</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <subsystems />
-          <wirelesson>False</wirelesson>
-          <grade>Used</grade>
-          <location />
-          <extra />
-          <suite>False</suite>
-          <stolen>False</stolen>
-          <essdiscount>0</essdiscount>
-          <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-          <forcegrade />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <prototypetranshuman>False</prototypetranshuman>
-          <bonus />
-          <pairbonus />
-          <wirelessbonus />
-          <wirelesspairbonus />
-          <improvementsource>Cyberware</improvementsource>
-          <pairinclude>
-            <name>Customized Agility</name>
-          </pairinclude>
-          <wirelesspairinclude>
-            <name>Customized Agility</name>
-          </wirelesspairinclude>
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <addtoparentess>False</addtoparentess>
-          <addtoparentcapacity>False</addtoparentcapacity>
-          <isgeneware>False</isgeneware>
-          <active>False</active>
-          <homenode>False</homenode>
-          <devicerating />
-          <programlimit />
-          <overclocked>None</overclocked>
-          <canformpersona />
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <sortorder>0</sortorder>
-        </cyberware>
       </children>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -3891,17 +3815,160 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <sortorder>0</sortorder>
     </cyberware>
     <cyberware>
-      <guid>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</guid>
-      <sourceid>8e414ade-2764-4dc7-bdc4-83bb4a086034</sourceid>
-      <name>Cybereyes Basic System</name>
-      <category>Eyeware</category>
+      <guid>e8955664-9856-4796-8a9b-36f886f1a334</guid>
+      <sourceid>8496afd6-ad34-4e73-b3f4-191ef11e121c</sourceid>
+      <name>Datajack Plus</name>
+      <category>Headware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.15</ess>
+      <capacity>0</capacity>
+      <avail>4</avail>
+      <cost>Rating*3500</cost>
+      <weight />
+      <source>KC</source>
+      <page>65</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>1</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating>3</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus />
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <allowgear>
+        <gearcategory>Common Programs</gearcategory>
+        <gearcategory>Hacking Programs</gearcategory>
+      </allowgear>
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Datajack Plus</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Datajack Plus</name>
+      </wirelesspairinclude>
+      <gears>
+        <gear>
+          <sourceid>a2f8d85c-99eb-44ed-b747-ac995f8fec89</sourceid>
+          <guid>17b1758d-d81d-491e-8435-7d61b20a5056</guid>
+          <name>Universal Connector Cord</name>
+          <category>Tools</category>
+          <capacity>[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating />
+          <maxrating>20000</maxrating>
+          <rating>1</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>RF</source>
+          <page>254</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>e8955664-9856-4796-8a9b-36f886f1a334</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <notes>DATAJACK PLUS
+Every corp is trying to innovate a little to get a bit more of the market share. And then another corp takes their idea, re-labels it, and eventually, every corp has an offering, too, with almost the exact same features. The datajack plus is the latest in these efforts to get everyone to upgrade or buy the newest tech. Its basic functionality is identical to a standard datajack, offering a DNI link to devices and a filter to handle some of the local interference, but the Plus offers a small cache of memory and a processor system that links up with your commlink (or cyberdeck) with the ability to run programs. The d-plus system comes in a variety of processor speeds and cache sizes to offer a variety of options for the executive with an eye on the top spot or the electronic security specialist that needs an edge because the shadows keep getting faster and more deadly.
+&gt; The jack-plus is becoming the crutch of wealthy wannabes, rather than the next step in the hacker evolution. T oo many punks trying to use the myriad of programs instead of a quality deck or genuine skills.
+&gt; Respec &gt; That’s one point of view. Using these advances isn’t a crutch for everyone who gets the plus. Some people just want to have that extra edge, and the plus offers a whole porcupine worth of edges.
+&gt; Pistons</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit>Rating</programlimit>
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>36d63181-dd2a-4987-9e76-06bc1905b597</guid>
+      <sourceid>2767fdaf-4f49-4403-a799-e91b9e6c8fa2</sourceid>
+      <name>Cyberears</name>
+      <category>Earware</category>
       <limbslot />
       <limbslotcount>1</limbslotcount>
       <inheritattributes>False</inheritattributes>
       <ess>(Rating * 0.1) + 0.1</ess>
-      <capacity>(Rating * 4)</capacity>
-      <avail>(Rating * 3)</avail>
-      <cost>4000 * Rating - 2000 * number(Rating &gt; 1)</cost>
+      <capacity>Rating * 4</capacity>
+      <avail>Rating * 3</avail>
+      <cost>3000 + 500 * ((Rating - 1) * (Rating + 1) + number(Rating &gt; 2))</cost>
       <weight />
       <source>SR5</source>
       <page>453</page>
@@ -3916,9 +3983,9 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating>1</minrating>
       <maxrating>4</maxrating>
       <ratinglabel>String_Rating</ratinglabel>
-      <subsystems>Eyeware</subsystems>
+      <subsystems>Earware</subsystems>
       <wirelesson>False</wirelesson>
-      <grade>Used</grade>
+      <grade>Standard</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -3930,15 +3997,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
       <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <disablequality>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</disablequality>
-        <disablequality>fd346177-3791-44c0-af8c-7cf176fc9aa3</disablequality>
-        <disablequality>02e76a38-304e-4a0e-93a3-ad2938306afc</disablequality>
-        <disablequality>7a468691-1362-439a-a096-76da6933b24c</disablequality>
-        <disablequality>2f080d13-92d7-4b16-9ee6-93b5a89206e4</disablequality>
-        <disablequality>210401d7-57fa-4260-9517-2725689a509e</disablequality>
-        <disablequality>4390735f-54fa-44a5-bce7-d23a67427f25</disablequality>
-      </bonus>
+      <bonus />
       <pairbonus />
       <wirelessbonus />
       <wirelesspairbonus />
@@ -3948,17 +4007,17 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       </allowgear>
       <improvementsource>Cyberware</improvementsource>
       <pairinclude>
-        <name>Cybereyes Basic System</name>
+        <name>Cyberears</name>
       </pairinclude>
       <wirelesspairinclude>
-        <name>Cybereyes Basic System</name>
+        <name>Cyberears</name>
       </wirelesspairinclude>
       <children>
         <cyberware>
-          <guid>2ba04bf6-cbe0-45d7-a4bf-3a90f25aed13</guid>
-          <sourceid>e03d454f-4a15-43ce-9cd0-db80e8600eae</sourceid>
-          <name>Image Link</name>
-          <category>Eyeware</category>
+          <guid>32e470bd-985d-48bc-8db1-0dbe9292740b</guid>
+          <sourceid>e0212e7e-e690-41d8-a461-4834a668d9c8</sourceid>
+          <name>Sound Link</name>
+          <category>Earware</category>
           <limbslot />
           <limbslotcount>1</limbslotcount>
           <inheritattributes>False</inheritattributes>
@@ -3968,8 +4027,8 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <cost>0</cost>
           <weight />
           <source>SR5</source>
-          <page>453</page>
-          <parentid>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</parentid>
+          <page>454</page>
+          <parentid>36d63181-dd2a-4987-9e76-06bc1905b597</parentid>
           <hasmodularmount />
           <plugsintomodularmount />
           <blocksmounts />
@@ -3982,7 +4041,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Used</grade>
+          <grade>Standard</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4000,12 +4059,12 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <wirelesspairbonus />
           <improvementsource>Cyberware</improvementsource>
           <pairinclude>
-            <name>Image Link</name>
+            <name>Sound Link</name>
           </pairinclude>
           <wirelesspairinclude>
-            <name>Image Link</name>
+            <name>Sound Link</name>
           </wirelesspairinclude>
-          <notes>Image link: An implanted version of the image link enhancement (p.</notes>
+          <notes>Sound link: The audio equivalent of image link, sound link can play audio (recordings, movie soundtracks, mu- sic, etc.) from linked sources within the user’s PAN (or headware memory, or datajack) directly into the user’s cy- berears. A sound link is a common com- ponent of immersive AR environments, adding a sonic component.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
@@ -4031,20 +4090,20 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <sortorder>0</sortorder>
         </cyberware>
         <cyberware>
-          <guid>fbdbdd18-4e64-4af2-9ed1-ed6ca5182f68</guid>
-          <sourceid>35dba0e2-1d3d-4386-a657-17fedca4622d</sourceid>
-          <name>Smartlink</name>
-          <category>Eyeware</category>
+          <guid>2457f023-b4e6-49ca-b0f7-2fd7ec1b1fd2</guid>
+          <sourceid>40830ce9-b279-4951-adf2-05a69dd41d77</sourceid>
+          <name>Antennae</name>
+          <category>Earware</category>
           <limbslot />
           <limbslotcount>1</limbslotcount>
           <inheritattributes>False</inheritattributes>
-          <ess>0.2</ess>
-          <capacity>[3]</capacity>
-          <avail>8R</avail>
-          <cost>4000</cost>
+          <ess>0.1</ess>
+          <capacity>[1]</capacity>
+          <avail>2</avail>
+          <cost>500</cost>
           <weight />
-          <source>SR5</source>
-          <page>453</page>
+          <source>CF</source>
+          <page>74</page>
           <parentid />
           <hasmodularmount />
           <plugsintomodularmount />
@@ -4058,7 +4117,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Used</grade>
+          <grade>Standard</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4070,20 +4129,176 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <matrixcmfilled>0</matrixcmfilled>
           <matrixcmbonus>0</matrixcmbonus>
           <prototypetranshuman>False</prototypetranshuman>
-          <bonus>
-            <smartlink>2</smartlink>
-          </bonus>
+          <bonus />
           <pairbonus />
           <wirelessbonus />
           <wirelesspairbonus />
           <improvementsource>Cyberware</improvementsource>
           <pairinclude>
-            <name>Smartlink</name>
+            <name>Antennae</name>
           </pairinclude>
           <wirelesspairinclude>
-            <name>Smartlink</name>
+            <name>Antennae</name>
           </wirelesspairinclude>
-          <notes>Smartlink: An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink in-</notes>
+          <notes>ANTENNAE
+With an extended antenna array, the user can send and receive wireless signals easier than without. Available in both retractable and fragile or non-retractable and sturdy options for the same cost, they are often, but not always, taken in pairs and come in a wide variety of designs, shapes, and colors. Shiawase MochiMecha are all the rage this year!
+Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only the user.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>644da0e4-004b-4201-8ffd-29ead4284c1d</guid>
+          <sourceid>40830ce9-b279-4951-adf2-05a69dd41d77</sourceid>
+          <name>Antennae</name>
+          <category>Earware</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0.1</ess>
+          <capacity>[1]</capacity>
+          <avail>2</avail>
+          <cost>500</cost>
+          <weight />
+          <source>CF</source>
+          <page>74</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Antennae</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Antennae</name>
+          </wirelesspairinclude>
+          <notes>ANTENNAE
+With an extended antenna array, the user can send and receive wireless signals easier than without. Available in both retractable and fragile or non-retractable and sturdy options for the same cost, they are often, but not always, taken in pairs and come in a wide variety of designs, shapes, and colors. Shiawase MochiMecha are all the rage this year!
+Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only the user.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>00802e40-7c1d-4cd1-8df8-3a57f997bf9a</guid>
+          <sourceid>40830ce9-b279-4951-adf2-05a69dd41d77</sourceid>
+          <name>Antennae</name>
+          <category>Earware</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0.1</ess>
+          <capacity>[1]</capacity>
+          <avail>2</avail>
+          <cost>500</cost>
+          <weight />
+          <source>CF</source>
+          <page>74</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Standard</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Antennae</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Antennae</name>
+          </wirelesspairinclude>
+          <notes>ANTENNAE
+With an extended antenna array, the user can send and receive wireless signals easier than without. Available in both retractable and fragile or non-retractable and sturdy options for the same cost, they are often, but not always, taken in pairs and come in a wide variety of designs, shapes, and colors. Shiawase MochiMecha are all the rage this year!
+Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only the user.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
@@ -4109,7 +4324,85 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
           <sortorder>0</sortorder>
         </cyberware>
       </children>
-      <notes />
+      <notes>Cyberears: Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>60a55168-2104-4fed-9d6a-a65f67359daa</guid>
+      <sourceid>35dba0e2-1d3d-4386-a657-17fedca4622d</sourceid>
+      <name>Smartlink</name>
+      <category>Eyeware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.2</ess>
+      <capacity>[3]</capacity>
+      <avail>8R</avail>
+      <cost>4000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>453</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <smartlink>2</smartlink>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Smartlink</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Smartlink</name>
+      </wirelesspairinclude>
+      <notes>Smartlink: An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink in-</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -4471,6 +4764,63 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
   </qualities>
   <lifestyles />
   <gears>
+    <gear>
+      <sourceid>314566c7-4ea1-4f8d-94cd-f213af1e0535</sourceid>
+      <guid>bd98f3f5-5756-4fe4-8289-c367ef7d7aed</guid>
+      <name>Fashion Respirator</name>
+      <category>Survival Gear</category>
+      <capacity>0</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>6</rating>
+      <qty>1.0</qty>
+      <avail>3</avail>
+      <cost>Rating * 75</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CA</source>
+      <page>141</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
     <gear>
       <sourceid>b9d996cd-b670-4bf4-a021-047a887891a2</sourceid>
       <guid>37e2a3dd-3fba-49e0-bec0-9140afadeaa3</guid>
@@ -5269,7 +5619,7 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
       <canswapattributes>True</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>f4eb63ce-c182-406c-b625-5699047e33a9</sourceid>
@@ -5443,7 +5793,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
@@ -5617,12 +5967,867 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>b3c0a6bd-e086-4971-be77-dc9a9cb2e174</sourceid>
+      <guid>2169f616-1871-4fe8-b126-336acc685b97</guid>
+      <name>Browse</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Browse: This handy browser and search engine cuts the time for a Matrix Search action in half.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d3bb1242-73b0-4b8a-89ab-27c272ebc900</sourceid>
+      <guid>dd2bd340-d909-49de-b404-97b97aae77ea</guid>
+      <name>Encryption</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Encryption: Activating the Encryption utility gives you a +1 bonus to your Firewall attribute.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>3</sortorder>
+    </gear>
+    <gear>
+      <sourceid>a0a5008f-deae-4d43-a714-5309b4d9c416</sourceid>
+      <guid>ec2db0ec-3444-45d4-b7af-21ca840c4758</guid>
+      <name>Search</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>DT</source>
+      <page>56</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Search: When loaded, this cyberprogram tailors the cy- berdeck’s search algorithms to match the specific iconogra- phy of the host, making the decker’s Matrix Search results more likely to contain the paydata he’s looking for. This is quite popular with Mr. Johnsons, who often provide copies with pre-loaded search requirements that are programmed to self-destruct after use, so that they can only be run once. The program provides 2 extra dice on a Matrix Search ac- tion when looking for specific data on a host that contains that data. There is no bonus is if the decker is searching for something that originates from outside the host.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1662e26b-7370-4ade-9d9d-c9b92b0d145b</sourceid>
+      <guid>c1759082-b270-4675-a869-796e21b72aff</guid>
+      <name>Signal Scrub</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Signal Scrub: By analyzing the background noise and incoming signals, Signal Scrub gives you Rating 2 noise reduction.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>5</sortorder>
+    </gear>
+    <gear>
+      <sourceid>cffae49c-30d1-42df-b47c-a407f3a86e7a</sourceid>
+      <guid>3044a710-d9e7-4490-9586-11d661165134</guid>
+      <name>Toolbox</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Toolbox: The memory management utilities in the Toolbox give you a +1 bonus to your Data Processing attribute.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>6</sortorder>
+    </gear>
+    <gear>
+      <sourceid>a1e4b783-0751-43eb-b5bd-ee00f84b7bb3</sourceid>
+      <guid>0b95988f-306f-45b1-9d99-6c84b3ff29ca</guid>
+      <name>Armor</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Armor: This program works with your firmware as a second firewall, giving you a +2 dice pool modifier to resist Matrix damage.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>7</sortorder>
+    </gear>
+    <gear>
+      <sourceid>a37b8000-495b-4ab8-a73b-16a36a6a410e</sourceid>
+      <guid>40b071ab-9f24-4eb8-8794-59b4e631a954</guid>
+      <name>Baby Monitor</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Baby Monitor: The Baby Monitor program uses al- gorithms stolen from the Grid Overwatch Division and keeps track of your movements in the Matrix, so you al- ways know your current Overwatch Score.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>8</sortorder>
+    </gear>
+    <gear>
+      <sourceid>7bc33fe3-96b0-4f3c-a459-7c85ede9f8c1</sourceid>
+      <guid>1c439915-cc55-4bee-9a45-4bc3a924d151</guid>
+      <name>Biofeedback Filter</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Biofeedback Filter: This program is like a firewall for your sim module, giving you a +2 dice pool modifier to resist biofeedback damage.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>9</sortorder>
+    </gear>
+    <gear>
+      <sourceid>168b8c61-9ea4-4816-8cf4-cb996067b6d6</sourceid>
+      <guid>ae521963-8766-45da-be5d-cd3f8ee8b435</guid>
+      <name>Defuse</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Defuse: This program creates predictive barriers be- tween you and a Data Bomb, giving you a +4 dice pool modifier to resist damage from one.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>10</sortorder>
+    </gear>
+    <gear>
+      <sourceid>67ea7c0c-1703-412b-80d3-9c23cc6d8291</sourceid>
+      <guid>5631b8e6-233a-4ed2-8b7d-098601d05e51</guid>
+      <name>Exploit</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Exploit: This program analyzes and scans a target for weaknesses in its Firewall. You receive a +2 bonus to your Sleaze attribute when attempting a Hack on the Fly action.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>11</sortorder>
+    </gear>
+    <gear>
+      <sourceid>69a87be8-6f05-453d-a344-b02d9fab055c</sourceid>
+      <guid>75f4b3d3-25b5-43ba-8c8d-9923d68c7b86</guid>
+      <name>Fork</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Fork: You can perform a single Matrix action on two targets with this program. You make a single test, with</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>12</sortorder>
+    </gear>
+    <gear>
+      <sourceid>ea3178a2-535f-43b7-8555-deca95ac837d</sourceid>
+      <guid>2f8f28e8-b02b-4162-8f8d-b78315e27722</guid>
+      <name>Guard</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>13</sortorder>
+    </gear>
+    <gear>
+      <sourceid>d5877f46-03e0-4603-b77a-f27e278202ab</sourceid>
+      <guid>da949032-6fb6-495a-8d0b-162d32cfecfe</guid>
+      <name>Stealth</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>246</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Stealth: This clever program gives you a +1 bonus to your Sleaze attribute.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>14</sortorder>
+    </gear>
+    <gear>
+      <sourceid>4a33f713-566b-4233-bdd2-985000097648</sourceid>
+      <guid>afdb9bbc-ccfb-4362-ba6f-b492172a8fb7</guid>
+      <name>Wrapper</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>246</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Wrapper: This program overrides the Matrix’s proto- cols for icons. While this program is running, your icons can be anything you want them to be when you use the Change Icon action. From the lens of the Matrix, your Hammer program could look like a music file, your Ares Predator icon could look like a credstick, and your own persona could look like a Mitsubishi Nightsky. Another persona can see what the disguised icon really is with a Matrix Perception Test, but they need to at least suspect enough to check (Matrix Perception, p. 241).</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>15</sortorder>
+    </gear>
+    <gear>
+      <sourceid>2d8396ff-a4a9-4382-ab69-70d198856e7f</sourceid>
+      <guid>393c3649-def0-465c-90d4-16f70a937659</guid>
+      <name>Agent</name>
+      <category>Software</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>4</rating>
+      <qty>1.0</qty>
+      <avail>Rating * 3</avail>
+      <cost>FixedValues(1000,2000,3000,8000,10000,12000)</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>246</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
       <sortorder>0</sortorder>
     </gear>
     <gear>
-      <sourceid>8706c98d-b53b-4a29-b21b-a921030ae801</sourceid>
-      <guid>3d5b06ec-4c79-4a9b-bbcc-3917aa522369</guid>
-      <name>Multidimensional Coprocessor</name>
+      <sourceid>b9b50b8f-de23-4953-b25d-45aaa6a9952f</sourceid>
+      <guid>1c6e7702-9a40-44ee-9397-ea4fea9e4971</guid>
+      <name>Hardening</name>
       <category>Cyberdeck Modules</category>
       <capacity />
       <armorcapacity>[2]</armorcapacity>
@@ -5630,8 +6835,8 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <maxrating />
       <rating>0</rating>
       <qty>1.0</qty>
-      <avail>7R</avail>
-      <cost>1400</cost>
+      <avail>3R</avail>
+      <cost>1500</cost>
       <weight />
       <extra />
       <bonded>False</bonded>
@@ -5651,13 +6856,469 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <gearname />
       <forcedvalue />
       <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
+      <matrixcmbonus>-3</matrixcmbonus>
       <parentid />
       <allowrename>False</allowrename>
       <children />
       <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
-      <notes>MULTIDIMENSIONAL COPROCESSOR
-This tongue-twister of a module speeds up Matrix signals and commands, granting the deck’s operator an additional +1D6 to Matrix Initiative (remember that you can never roll more than 5D6 worth of initiative dice).</notes>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>8f351e25-d734-4bd0-86da-80b68a4cae68</sourceid>
+      <guid>940eadd0-7428-4803-bf74-9760f7f3ddad</guid>
+      <name>Data Tap</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>5</qty>
+      <avail>6R</avail>
+      <cost>300</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>440</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Data Tap: You use this hacking tool by attaching it to a data cable. Once it’s clamped onto the cable, you can use it via universal data connector. Any device directly connected to the data tap also has a direct connection with the devices on either end of the cable (see Direct Connections, p. 232) and vice versa. The tap can be re- moved without damaging the cable.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
+      <guid>dc12478b-5321-4d5c-9667-ac0f516e9207</guid>
+      <name>Fake SIN</name>
+      <category>ID/Credsticks</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 2500</cost>
+      <weight />
+      <extra>McLovin - Hawaii</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>442</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>True</allowrename>
+      <children>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>810ee0d4-1929-4e0f-857d-87be3cc5200d</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Firearms</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>6ef58c13-790c-4166-b70b-ca4361b62c4e</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Matrix</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>452c5df0-d8e2-40fa-b8d8-67760963e51e</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Drones</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>143f1009-a0dc-4ffd-b04c-0a2bd0f4df3e</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Vocational</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>17118429-8458-44b7-ab38-5441be48b0b8</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Armour</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
+          <guid>8f5de66b-2c7f-40dc-b3a2-50a4d77c06db</guid>
+          <name>Fake License</name>
+          <category>ID/Credsticks</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <qty>1.0</qty>
+          <avail>(Rating * 3)F</avail>
+          <cost>Rating * 200</cost>
+          <weight />
+          <extra>Concealed Carry</extra>
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>443</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>True</allowrename>
+          <children />
+          <location />
+          <notes>Fake license: For those who can’t or won’t go through the standard legal channels, fake licenses are available for all kinds of restricted items and activities. Items with no letter next to their availability don’t require licenses. Items that are Forbidden have no license available. Licenses, therefore, are for Restricted items. Each type of item/ac- tivity permission requires a separate license. Things that require licenses include hunting (bow and rifle), posses- sion of a firearm, concealed carry of a firearm (separate license), spellcasting, and any Restricted gear or augmen- tations, etc. Just as SINs essentially exist on your com- mlink, fake licenses exist on your SIN and are linked to it. When you buy a fake concealed-carry license, you don’t buy it for Murderman the professional shadowrunner, you buy it for John Doe, one of Murderman’s fake SINs. Each license must be assigned to a particular (fake) SIN of the player’s choosing. Use the fake license’s rating against verification systems (Fake SIN, p. 367).</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location />
+      <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -5678,7 +7339,617 @@ This tongue-twister of a module speeds up Matrix signals and commands, granting 
       <sortorder>0</sortorder>
     </gear>
   </gears>
-  <vehicles />
+  <vehicles>
+    <vehicle>
+      <sourceid>a9077795-4ddf-498e-8ea2-a5cfadd69c37</sourceid>
+      <guid>9fea38c5-081e-4288-b16d-0ab2070894b1</guid>
+      <name>Medusa Extensions (Mini)</name>
+      <category>Drones: Mini</category>
+      <handling>1</handling>
+      <offroadhandling>1</offroadhandling>
+      <accel>0</accel>
+      <offroadaccel>0</offroadaccel>
+      <speed>0</speed>
+      <offroadspeed>0</offroadspeed>
+      <pilot>1</pilot>
+      <body>1</body>
+      <seats>0</seats>
+      <armor>0</armor>
+      <sensor>1</sensor>
+      <avail>7</avail>
+      <cost>600</cost>
+      <addslots>0</addslots>
+      <modslots>1</modslots>
+      <powertrainmodslots>0</powertrainmodslots>
+      <protectionmodslots>0</protectionmodslots>
+      <weaponmodslots>0</weaponmodslots>
+      <bodymodslots>0</bodymodslots>
+      <electromagneticmodslots>0</electromagneticmodslots>
+      <cosmeticmodslots>0</cosmeticmodslots>
+      <source>CA</source>
+      <page>147</page>
+      <parentid />
+      <sortorder>0</sortorder>
+      <stolen>False</stolen>
+      <physicalcmfilled>0</physicalcmfilled>
+      <matrixcmfilled>0</matrixcmfilled>
+      <vehiclename />
+      <mods>
+        <mod>
+          <sourceid>354bd92f-dafc-42a4-979c-e3631be6cf45</sourceid>
+          <guid>1b971b0c-6d77-4f6a-b0bf-c1f0b7b62397</guid>
+          <name>Rigger Interface</name>
+          <category>Cosmetic</category>
+          <limit />
+          <slots>0</slots>
+          <capacity />
+          <rating>0</rating>
+          <maxrating>0</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <conditionmonitor>0</conditionmonitor>
+          <avail>4</avail>
+          <cost>1000</cost>
+          <extra />
+          <source>SR5</source>
+          <page>461</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <subsystems />
+          <weaponmountcategories />
+          <ammobonus>0</ammobonus>
+          <ammobonuspercent>0</ammobonuspercent>
+          <ammoreplace />
+          <weapons />
+          <notes>Rigger interface: When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+          <stolen>False</stolen>
+        </mod>
+      </mods>
+      <weaponmounts />
+      <gears>
+        <gear>
+          <sourceid>2ca81a10-d0f7-4b39-ac93-a84f2f69f9d9</sourceid>
+          <guid>39049eb5-96c0-486f-a7f7-a2c7fb2ac848</guid>
+          <name>Sensor Array</name>
+          <category>Sensors</category>
+          <capacity>8/[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating>2</minrating>
+          <maxrating>8</maxrating>
+          <rating>2</rating>
+          <qty>1.0</qty>
+          <avail>7</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>445</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>9fea38c5-081e-4288-b16d-0ab2070894b1</parentid>
+          <allowrename>False</allowrename>
+          <children>
+            <gear>
+              <sourceid>c6f60201-524f-4e3f-adc7-727eace4c7bd</sourceid>
+              <guid>38e20d53-911a-453f-86b1-b7e7b3e0034c</guid>
+              <name>Cyberware Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Cyberware scanner: This millimeter-wave scanner is primarily intended to detect cyber-implants but can be used to identify other contraband as well. Maximum range 15 meters.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>d98f419f-7625-4228-9723-0217950d8155</sourceid>
+              <guid>375230b5-30c1-4e10-a100-0959a643d81a</guid>
+              <name>Geiger Counter</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Geiger counter: This sensor picks up the amount of radioactivity surrounding it.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>ff0f7ab6-ee55-47aa-bdec-0646acca4bff</sourceid>
+              <guid>6bcb5ed1-dbf7-43e0-a1e9-2fb4aa013a51</guid>
+              <name>MAD Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>MAD scanner: The MAD (Magnetic Anomaly Detec- tion) scanner is used to detect weapons and concentra- tions of metal. It has a maximum range of 5 meters.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>e853967a-a2b8-4d89-9a97-773034489a16</sourceid>
+              <guid>48b65565-66d8-44f1-8f31-52434773fe02</guid>
+              <name>Motion Sensor</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Motion sensor: This sensor uses a mix of ultrasound and low-power infrared to detect motion and drastic changes in the ambient temperature. Maximum range is 25 meters.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>c763fac2-8b08-4c61-8dc2-6291d905a2df</sourceid>
+              <guid>16425f41-28d2-482e-8180-d6cefabb76b1</guid>
+              <name>Olfactory Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Olfactory scanner: The olfactory sensor picks up and analyzes the molecules in the air. It works in the same way as the olfactory booster cyberware.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>0f13599a-2a4e-4b75-80e2-fab4405a7a87</sourceid>
+              <guid>baec2cb0-f222-4fd6-a70c-c9e22de4a27a</guid>
+              <name>Omni-directional Microphone</name>
+              <category>Sensor Functions</category>
+              <capacity>Rating/[1]</capacity>
+              <armorcapacity>Rating/[1]</armorcapacity>
+              <minrating />
+              <maxrating>{Parent Rating}</maxrating>
+              <rating>1</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>4d12e4a1-edd3-4abf-830f-aa95874b7531</sourceid>
+              <guid>7b8e6aaf-b94c-4ad6-bb23-c944f3722db5</guid>
+              <name>Radio Signal Scanner</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Radio signal scanner: This can be used as a bug scanner (p. 440).</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>3a79e046-8106-4089-a1ab-895eee956b86</sourceid>
+              <guid>acc246c0-b71a-422b-85fe-ab5fc7c153c3</guid>
+              <name>Laser Range Finder</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Laser range finder: This simple sensor emits a laser beam that is reflected off a target’s surface and picked up by a detector to calculate the exact distance to the target.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+          </children>
+          <location />
+          <notes>Sensor array: This sensor package includes up to eight functions listed under Sensor Functions.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <weapons />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <dealerconnection>False</dealerconnection>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </vehicle>
+  </vehicles>
   <metamagics />
   <arts />
   <enhancements />
@@ -6316,274 +8587,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>fd346177-3791-44c0-af8c-7cf176fc9aa3</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>02e76a38-304e-4a0e-93a3-ad2938306afc</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>7a468691-1362-439a-a096-76da6933b24c</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>2f080d13-92d7-4b16-9ee6-93b5a89206e4</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>210401d7-57fa-4260-9517-2725689a509e</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>4390735f-54fa-44a5-bce7-d23a67427f25</improvedname>
-      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DisableQuality</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>smartlink</unique>
-      <target />
-      <improvedname />
-      <sourcename>fbdbdd18-4e64-4af2-9ed1-ed6ca5182f68</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Smartlink</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence0</unique>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename>656ebb9d-2a5a-4f6c-b8aa-e87c8644df00</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <unique>nonconductivity</unique>
       <target />
       <improvedname />
@@ -6659,20 +8662,169 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <unique>matrixinitiativepass</unique>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename>656ebb9d-2a5a-4f6c-b8aa-e87c8644df00</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>respirator</unique>
       <target />
       <improvedname />
-      <sourcename>3d5b06ec-4c79-4a9b-bbcc-3917aa522369</sourcename>
+      <sourcename>bd98f3f5-5756-4fe4-8289-c367ef7d7aed</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>6</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>MatrixInitiativeDice</improvementttype>
+      <improvementttype>ToxinInhalationResist</improvementttype>
       <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>respirator</unique>
+      <target />
+      <improvedname />
+      <sourcename>bd98f3f5-5756-4fe4-8289-c367ef7d7aed</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationResist</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>McLovin - Hawaii</improvedname>
+      <sourcename>dc12478b-5321-4d5c-9667-ac0f516e9207</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence-1</unique>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>-1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>ArmorEncumbrance</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>precedence-1</unique>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>-1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>ArmorEncumbrance</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>smartlink</unique>
+      <target />
+      <improvedname />
+      <sourcename>60a55168-2104-4fed-9d6a-a65f67359daa</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Smartlink</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -6779,6 +8931,150 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Matrix</improvedname>
+      <sourcename>6ef58c13-790c-4166-b70b-ca4361b62c4e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Drones</improvedname>
+      <sourcename>452c5df0-d8e2-40fa-b8d8-67760963e51e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Vocational</improvedname>
+      <sourcename>143f1009-a0dc-4ffd-b04c-0a2bd0f4df3e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Armour</improvedname>
+      <sourcename>17118429-8458-44b7-ab38-5441be48b0b8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Concealed Carry</improvedname>
+      <sourcename>8f5de66b-2c7f-40dc-b3a2-50a4d77c06db</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Firearms</improvedname>
+      <sourcename>810ee0d4-1929-4e0f-857d-87be3cc5200d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Restricted</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -6790,14 +9086,14 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <name>Drugs</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>1</sortorder>
+      <sortorder>2</sortorder>
     </location>
     <location>
       <guid>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</guid>
       <name>Programs</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </location>
   </gearlocations>
   <armorlocations />
