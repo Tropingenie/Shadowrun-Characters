@@ -97,7 +97,7 @@
   <alias>HORSE</alias>
   <playername />
   <gamenotes />
-  <primaryarm>Right</primaryarm>
+  <primaryarm>Left</primaryarm>
   <karma>0</karma>
   <special>3</special>
   <totalspecial>3</totalspecial>
@@ -201,7 +201,7 @@
       <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -282,7 +282,7 @@
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>2.05</totaless>
+  <totaless>2.17</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -1435,6 +1435,99 @@ These items are the most recent incarnations of their corporate creators. That m
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
         </armormod>
+        <armormod>
+          <guid>0f385560-19db-4616-9573-6e34ff14b272</guid>
+          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
+          <name>Nonconductivity</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>4</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="nonconductivity">
+            <electricityarmor>Rating</electricityarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Nonconductivity: Electrical insulation and non-con- ductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>e0e7ad04-13df-4c46-bee5-e915c085ff89</guid>
+          <sourceid>cf8accf5-4117-4419-ab73-957489038ab9</sourceid>
+          <name>YNT Softweave Armor</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[-(Capacity * 0.5 + 0.5*(Capacity mod 2))]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>+4</avail>
+          <cost>Armor Cost</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>84</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>YNT SOFTWEAVE ARMOR
+SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the less common metavarients because it’s easier to mold and work into alternative designs than standard armor technologies. It works for the everyday Joe, and it also makes for lighter gear with more flexibility for modifications.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>22b4b75a-9981-42bb-b44d-476b5110f81e</guid>
+          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
+          <name>Chemical Protection</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>2</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="chemicalprotection">
+            <toxincontactresist>Rating</toxincontactresist>
+            <pathogencontactresist>Rating</pathogencontactresist>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Chemical protection: Water-resistant, non-porous, impermeable materials, and a coating of neutraliz- ing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs, p. 408). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
       </armormods>
       <bonus>
         <limitmodifier>
@@ -1515,6 +1608,57 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <weaponguid>e4529ca7-5e08-4e12-8fe4-1e2b1a9ecb1a</weaponguid>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>fc4074b5-b48a-43d4-8d9c-25a11da2a6a8</sourceid>
+      <guid>154879ff-a460-47d0-b70b-ac7325075ff4</guid>
+      <name>Designer Cloak</name>
+      <category>Cloaks</category>
+      <armor>0</armor>
+      <armoroverride />
+      <armorcapacity>Rating</armorcapacity>
+      <avail>1</avail>
+      <cost>(100 * Rating) + 300</cost>
+      <weight />
+      <source>HT</source>
+      <page>184</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>1</rating>
+      <maxrating>6</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
     </armor>
   </armors>
@@ -1684,7 +1828,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <wirelessbonus />
       <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
-      <sortorder>0</sortorder>
+      <sortorder>3</sortorder>
       <weapontype>quality</weapontype>
     </weapon>
     <weapon>
@@ -1768,7 +1912,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <wirelessbonus />
       <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
-      <sortorder>0</sortorder>
+      <sortorder>4</sortorder>
       <weapontype>melee</weapontype>
     </weapon>
     <weapon>
@@ -1852,41 +1996,41 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <wirelessbonus />
       <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
-      <sortorder>0</sortorder>
+      <sortorder>5</sortorder>
       <weapontype>melee</weapontype>
     </weapon>
     <weapon>
-      <sourceid>16be7eec-e3b9-4be1-8b69-843071198f35</sourceid>
-      <guid>46213e77-2bfa-4c3b-a10e-e83899372fb2</guid>
-      <name>HK 223C</name>
-      <category>Submachine Guns</category>
+      <sourceid>228a2a5d-01e5-4f58-90bf-1d61602ad1c5</sourceid>
+      <guid>91e69b63-4fea-4c85-8e4b-2732b636fd5f</guid>
+      <name>Mossberg AM-CMDT</name>
+      <category>Shotguns</category>
       <type>Ranged</type>
       <spec />
       <spec2 />
       <reach>0</reach>
-      <damage>8P</damage>
+      <damage>12P</damage>
       <ap>-1</ap>
       <mode>SA/BF/FA</mode>
       <rc>0</rc>
-      <ammo>30(c)</ammo>
+      <ammo>10(c)</ammo>
       <cyberware>False</cyberware>
-      <ammocategory>Assault Rifles</ammocategory>
+      <ammocategory />
       <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>DogBrain</firingmode>
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <accuracy>4</accuracy>
+      <accuracy>5</accuracy>
       <activeammoslot>1</activeammoslot>
-      <conceal>2</conceal>
-      <avail>9F</avail>
-      <cost>850</cost>
+      <conceal>6</conceal>
+      <avail>12F</avail>
+      <cost>1400</cost>
       <weight />
       <useskill />
       <useskillspec />
       <range />
-      <alternaterange />
+      <alternaterange>Shotguns (flechette)</alternaterange>
       <rangemultiply>1</rangemultiply>
       <singleshot>1</singleshot>
       <shortburst>3</shortburst>
@@ -1898,24 +2042,303 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <allowlongburst>True</allowlongburst>
       <allowfullburst>True</allowfullburst>
       <allowsuppressive>True</allowsuppressive>
-      <source>SAG</source>
-      <page>26</page>
+      <source>RG</source>
+      <page>41</page>
       <parentid />
       <allowaccessory>True</allowaccessory>
       <weaponname />
       <included>False</included>
       <equipped>True</equipped>
       <requireammo>True</requireammo>
-      <accuracy>4</accuracy>
+      <accuracy>5</accuracy>
       <mount />
       <stolen>False</stolen>
       <extramount />
       <accessories>
         <accessory>
-          <sourceid>f8090e1f-424a-4298-a5d9-f2e6d650ef39</sourceid>
-          <guid>bec4c54b-8e18-49c2-ba54-a7a3faa0afa2</guid>
-          <name>Folding Stock</name>
+          <sourceid>d57d2c64-1f61-4f5f-a465-8ce0dfacec6a</sourceid>
+          <guid>4ddc6784-08f1-4fa8-ac8c-3ebd12c6402a</guid>
+          <name>Smartgun System, Internal</name>
           <mount>Internal</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>+2R</avail>
+          <cost>Weapon Cost</cost>
+          <weight />
+          <included>True</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>433</page>
+          <accuracy>2</accuracy>
+          <gears>
+            <gear>
+              <sourceid>3a79e046-8106-4089-a1ab-895eee956b86</sourceid>
+              <guid>a16e7e3d-90a5-41ae-8dbd-826f0bd3d505</guid>
+              <name>Laser Range Finder</name>
+              <category>Sensor Functions</category>
+              <capacity>[1]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>446</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>4ddc6784-08f1-4fa8-ac8c-3ebd12c6402a</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Laser range finder: This simple sensor emits a laser beam that is reflected off a target’s surface and picked up by a detector to calculate the exact distance to the target.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+            <gear>
+              <sourceid>fa6fa434-107b-4f36-a138-f98b044dae76</sourceid>
+              <guid>a34cf115-05fc-4666-aa87-473bf7f4d0d6</guid>
+              <name>Camera, Micro</name>
+              <category>Vision Devices</category>
+              <capacity>1</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>SR5</source>
+              <page>443</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>4ddc6784-08f1-4fa8-ac8c-3ebd12c6402a</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>1</sortorder>
+            </gear>
+          </gears>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>d40d2fc6-3aad-4793-843d-20e3597b2365</sourceid>
+          <guid>ed0fea80-ee31-4f13-9ce2-9012ab02814e</guid>
+          <name>Extended Clip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>2</maxrating>
+          <rating>2</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal>Rating</conceal>
+          <avail>6R</avail>
+          <cost>35</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>180</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>EXTENDED CLIP
+Sometimes the job calls for the ability to fire more shots without taking time to reload. That is what an extended</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus>50 * Rating</ammobonus>
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>46596db4-6f25-4990-80cc-c4102eaf80f7</sourceid>
+          <guid>69d863a7-c11f-40d6-b647-e14772a94f1f</guid>
+          <name>Shock Pad</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc>1</rc>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>2</rcgroup>
+          <rcdeployable>True</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>50</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>432</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Shock pad: A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and pro- vides 1 point of recoil compensation.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>f8090e1f-424a-4298-a5d9-f2e6d650ef39</sourceid>
+          <guid>400c9943-fe7e-423b-88d2-6547faa55847</guid>
+          <name>Folding Stock</name>
+          <mount>Stock</mount>
           <extramount>None</extramount>
           <addmount />
           <rc>1</rc>
@@ -1929,7 +2352,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
           <avail>2</avail>
           <cost>30</cost>
           <weight />
-          <included>True</included>
+          <included>False</included>
           <equipped>True</equipped>
           <source>RG</source>
           <page>51</page>
@@ -1966,557 +2389,8 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
           <parentid />
         </accessory>
         <accessory>
-          <sourceid>de62b79f-2864-4023-a286-6c1f270aade3</sourceid>
-          <guid>45ef9792-70ef-45f2-85ad-2f278c6d922e</guid>
-          <name>Slide Mount</name>
-          <mount>Internal</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>4</avail>
-          <cost>500</cost>
-          <weight />
-          <included>True</included>
-          <equipped>True</equipped>
-          <source>RG</source>
-          <page>52</page>
-          <accuracy />
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>de62b79f-2864-4023-a286-6c1f270aade3</sourceid>
-          <guid>70ce5589-184b-45fb-942a-7e28cf358bde</guid>
-          <name>Slide Mount</name>
-          <mount>Internal</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>4</avail>
-          <cost>500</cost>
-          <weight />
-          <included>True</included>
-          <equipped>True</equipped>
-          <source>RG</source>
-          <page>52</page>
-          <accuracy />
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>04eedb80-cde8-4a87-bf31-b68b62513f33</sourceid>
-          <guid>76978724-5195-4b01-8595-03cab343a7b7</guid>
-          <name>HK 223C Colt Magazine</name>
-          <mount>None</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>0</avail>
-          <cost>0</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>SAG</source>
-          <page>26</page>
-          <accuracy />
-          <ammoreplace>40(c)</ammoreplace>
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>d57d2c64-1f61-4f5f-a465-8ce0dfacec6a</sourceid>
-          <guid>84c534cd-6694-4d21-954d-584c9a4a4945</guid>
-          <name>Smartgun System, Internal</name>
-          <mount>None</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>+2R</avail>
-          <cost>Weapon Cost</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>SR5</source>
-          <page>433</page>
-          <accuracy>2</accuracy>
-          <gears>
-            <gear>
-              <sourceid>3a79e046-8106-4089-a1ab-895eee956b86</sourceid>
-              <guid>d1f35f21-e8da-487f-a035-a1c589419a71</guid>
-              <name>Laser Range Finder</name>
-              <category>Sensor Functions</category>
-              <capacity>[1]</capacity>
-              <armorcapacity>[1]</armorcapacity>
-              <minrating />
-              <maxrating />
-              <rating>0</rating>
-              <qty>1.0</qty>
-              <avail>0</avail>
-              <cost>0</cost>
-              <weight />
-              <extra />
-              <bonded>False</bonded>
-              <equipped>True</equipped>
-              <wirelesson>False</wirelesson>
-              <stolen>False</stolen>
-              <bonus />
-              <wirelessbonus />
-              <weaponbonus />
-              <flechetteweaponbonus />
-              <source>SR5</source>
-              <page>446</page>
-              <isflechetteammo>False</isflechetteammo>
-              <ammoforweapontype />
-              <canformpersona />
-              <devicerating />
-              <gearname />
-              <forcedvalue />
-              <matrixcmfilled>0</matrixcmfilled>
-              <matrixcmbonus>0</matrixcmbonus>
-              <parentid>84c534cd-6694-4d21-954d-584c9a4a4945</parentid>
-              <allowrename>False</allowrename>
-              <children />
-              <location />
-              <notes>Laser range finder: This simple sensor emits a laser beam that is reflected off a target’s surface and picked up by a detector to calculate the exact distance to the target.</notes>
-              <notesColor>#E3813C</notesColor>
-              <discountedcost>False</discountedcost>
-              <programlimit />
-              <overclocked>None</overclocked>
-              <attack />
-              <sleaze />
-              <dataprocessing />
-              <firewall />
-              <attributearray />
-              <modattack />
-              <modsleaze />
-              <moddataprocessing />
-              <modfirewall />
-              <modattributearray />
-              <canswapattributes>False</canswapattributes>
-              <active>False</active>
-              <homenode>False</homenode>
-              <sortorder>0</sortorder>
-            </gear>
-            <gear>
-              <sourceid>fa6fa434-107b-4f36-a138-f98b044dae76</sourceid>
-              <guid>19cbe553-0819-4888-ad38-df4cb85871cb</guid>
-              <name>Camera, Micro</name>
-              <category>Vision Devices</category>
-              <capacity>1</capacity>
-              <armorcapacity>[1]</armorcapacity>
-              <minrating />
-              <maxrating />
-              <rating>0</rating>
-              <qty>1.0</qty>
-              <avail>0</avail>
-              <cost>0</cost>
-              <weight />
-              <extra />
-              <bonded>False</bonded>
-              <equipped>True</equipped>
-              <wirelesson>False</wirelesson>
-              <stolen>False</stolen>
-              <bonus />
-              <wirelessbonus />
-              <weaponbonus />
-              <flechetteweaponbonus />
-              <source>SR5</source>
-              <page>443</page>
-              <isflechetteammo>False</isflechetteammo>
-              <ammoforweapontype />
-              <canformpersona />
-              <devicerating />
-              <gearname />
-              <forcedvalue />
-              <matrixcmfilled>0</matrixcmfilled>
-              <matrixcmbonus>0</matrixcmbonus>
-              <parentid>84c534cd-6694-4d21-954d-584c9a4a4945</parentid>
-              <allowrename>False</allowrename>
-              <children />
-              <location />
-              <notes />
-              <notesColor>#E3813C</notesColor>
-              <discountedcost>False</discountedcost>
-              <programlimit />
-              <overclocked>None</overclocked>
-              <attack />
-              <sleaze />
-              <dataprocessing />
-              <firewall />
-              <attributearray />
-              <modattack />
-              <modsleaze />
-              <moddataprocessing />
-              <modfirewall />
-              <modattributearray />
-              <canswapattributes>False</canswapattributes>
-              <active>False</active>
-              <homenode>False</homenode>
-              <sortorder>0</sortorder>
-            </gear>
-          </gears>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>98c9ed33-2636-40bb-a455-334e8fb8e65f</sourceid>
-          <guid>eb70c2a6-db5f-415a-b9f8-829ac6704f61</guid>
-          <name>Chameleon Coating (Rifle)</name>
-          <mount>Side</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>-1</conceal>
-          <avail>10R</avail>
-          <cost>1000</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>180</page>
-          <accuracy />
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>88d0e08b-1ac2-442e-8f2f-dfaeb9cda9ab</sourceid>
-          <guid>2a625646-90cb-4602-b5d7-e2553658edb1</guid>
-          <name>Stock Removal</name>
-          <mount>Stock</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>-1</conceal>
-          <avail>2</avail>
-          <cost>20</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>182</page>
-          <accuracy />
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes>STOCK REMOVAL
-Removing the stock reduces both the recoil compensation and the Concealability of a gun by 1. Weapon modifications such as a shock pad or any other stock modifications cannot be applied. If combined with sawed off the Accuracy is also reduced by 1 in addition to the other benefits and penalties listed.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>d5abeadd-fba4-47f9-ac35-bfbb31ce34be</sourceid>
-          <guid>c7777ce2-92ce-4824-9695-daa77865e580</guid>
-          <name>Long Barrel</name>
-          <mount>None</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal>+1</conceal>
-          <avail>8R</avail>
-          <cost>Weapon Cost</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>HT</source>
-          <page>181</page>
-          <accuracy>1</accuracy>
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
-          <sourceid>21bc8b85-3fd7-4bde-ac8d-35e1fa099f21</sourceid>
-          <guid>f1527b8a-922c-484a-a25b-b10126a0e864</guid>
-          <name>Improved Range Finder</name>
-          <mount>Top</mount>
-          <extramount>None</extramount>
-          <addmount />
-          <rc />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <rcgroup>0</rcgroup>
-          <rcdeployable>False</rcdeployable>
-          <specialmodification>False</specialmodification>
-          <conceal />
-          <avail>6</avail>
-          <cost>2000</cost>
-          <weight />
-          <included>False</included>
-          <equipped>True</equipped>
-          <source>RG</source>
-          <page>52</page>
-          <accuracy />
-          <ammoreplace />
-          <ammoslots>0</ammoslots>
-          <modifyammocapacity />
-          <damagetype />
-          <damage />
-          <reach />
-          <damagereplace />
-          <firemode />
-          <firemodereplace />
-          <ap />
-          <apreplace />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <singleshot>0</singleshot>
-          <shortburst>0</shortburst>
-          <longburst>0</longburst>
-          <fullburst>0</fullburst>
-          <suppressive>0</suppressive>
-          <replacerange />
-          <rangebonus>0</rangebonus>
-          <rangemodifier>1</rangemodifier>
-          <extra />
-          <ammobonus />
-          <wirelesson>True</wirelesson>
-          <wirelessbonus />
-          <wirelessweaponbonus />
-          <stolen>False</stolen>
-          <sortorder>0</sortorder>
-          <parentid />
-        </accessory>
-        <accessory>
           <sourceid>2da4f104-cf0c-4e0c-a001-4a6da4c2b46b</sourceid>
-          <guid>9f2556b2-20a0-4a48-b624-d106f493be0f</guid>
+          <guid>7b095115-f8a4-46e4-9e61-111ca1a505c4</guid>
           <name>Electronic Firing</name>
           <mount>Internal</mount>
           <extramount>None</extramount>
@@ -2570,10 +2444,10 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <parentid />
         </accessory>
         <accessory>
-          <sourceid>a1865555-8ad5-43ec-a30e-b7d77e804fab</sourceid>
-          <guid>3ceacbc2-0e3b-4d6f-acad-b8b4c7e5a116</guid>
-          <name>Sling</name>
-          <mount>None</mount>
+          <sourceid>21bc8b85-3fd7-4bde-ac8d-35e1fa099f21</sourceid>
+          <guid>eca49329-4709-466d-818d-6e8a52f927a8</guid>
+          <name>Improved Range Finder</name>
+          <mount>Top</mount>
           <extramount>None</extramount>
           <addmount />
           <rc />
@@ -2584,8 +2458,8 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <rcdeployable>False</rcdeployable>
           <specialmodification>False</specialmodification>
           <conceal />
-          <avail>0</avail>
-          <cost>15</cost>
+          <avail>6</avail>
+          <cost>2000</cost>
           <weight />
           <included>False</included>
           <equipped>True</equipped>
@@ -2613,7 +2487,7 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <suppressive>0</suppressive>
           <replacerange />
           <rangebonus>0</rangebonus>
-          <rangemodifier>0</rangemodifier>
+          <rangemodifier>1</rangemodifier>
           <extra />
           <ammobonus />
           <wirelesson>True</wirelesson>
@@ -2625,7 +2499,7 @@ With this modification, most of the weapon’s moving parts are removed so that 
         </accessory>
         <accessory>
           <sourceid>0da6149e-982f-4051-825b-52c1b79c7e52</sourceid>
-          <guid>a23d4d26-170a-499f-a515-5c3ca40a58ca</guid>
+          <guid>839196b5-a29a-437d-ac61-a247acae6c0c</guid>
           <name>Silencer/Suppressor</name>
           <mount>Barrel</mount>
           <extramount>None</extramount>
@@ -2677,12 +2551,69 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <sortorder>0</sortorder>
           <parentid />
         </accessory>
+        <accessory>
+          <sourceid>a1865555-8ad5-43ec-a30e-b7d77e804fab</sourceid>
+          <guid>870c3b97-f1a1-487b-9268-cae7a9854725</guid>
+          <name>Sling</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>0</avail>
+          <cost>15</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>RG</source>
+          <page>52</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
       </accessories>
       <location />
-      <notes />
+      <notes>MOSSBERG AM-CMDT
+Shotguns aren’t known for their accuracy, but Mossberg hopes the latest version of their venerable AM-CMDT will change that. After merging their classic combat shotgun design with the latest in smartgun technology, Mossberg recently began a marketing campaign aimed at law enforcement and security agencies that declared the AM-CMDT a “perfect balance between accuracy and firepower.” While previous versions of the CMDT only used flechette ammunition, the current one is capable of accepting all standard shotgun rounds.
+&gt; The accuracy lives up to the hype, but the low ammo capacity doesn’t lend itself to full-auto use. With full ammo, you’ll get one, maybe two trigger pulls before reload is necessary. Best use for this weapon: pick a target and put it down.
+&gt; Hard Exit</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <weaponslots>Barrel/Top/Stock/Side</weaponslots>
+      <weaponslots>Stock/Side/Barrel/Top/Under</weaponslots>
       <doubledcostweaponslots />
       <active>False</active>
       <homenode>False</homenode>
@@ -2704,7 +2635,7 @@ With this modification, most of the weapon’s moving parts are removed so that 
       <wirelessbonus />
       <wirelessweaponbonus />
       <wirelesson>True</wirelesson>
-      <sortorder>0</sortorder>
+      <sortorder>6</sortorder>
       <weapontype>gun</weapontype>
     </weapon>
   </weapons>
@@ -3513,7 +3444,7 @@ With this modification, most of the weapon’s moving parts are removed so that 
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>3</rating>
+      <rating>2</rating>
       <minagility>3</minagility>
       <minstrength>3</minstrength>
       <minrating>1</minrating>
@@ -3841,6 +3772,250 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
         </gear>
       </gears>
       <notes>Bonus is for whether this is Internal Release or Gradual Release, not the cost of the chemical.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</guid>
+      <sourceid>8e414ade-2764-4dc7-bdc4-83bb4a086034</sourceid>
+      <name>Cybereyes Basic System</name>
+      <category>Eyeware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>(Rating * 0.1) + 0.1</ess>
+      <capacity>(Rating * 4)</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>4000 * Rating - 2000 * number(Rating &gt; 1)</cost>
+      <weight />
+      <source>SR5</source>
+      <page>453</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>1</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating>1</minrating>
+      <maxrating>4</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems>Eyeware</subsystems>
+      <wirelesson>False</wirelesson>
+      <grade>Used</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <disablequality>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</disablequality>
+        <disablequality>fd346177-3791-44c0-af8c-7cf176fc9aa3</disablequality>
+        <disablequality>02e76a38-304e-4a0e-93a3-ad2938306afc</disablequality>
+        <disablequality>7a468691-1362-439a-a096-76da6933b24c</disablequality>
+        <disablequality>2f080d13-92d7-4b16-9ee6-93b5a89206e4</disablequality>
+        <disablequality>210401d7-57fa-4260-9517-2725689a509e</disablequality>
+        <disablequality>4390735f-54fa-44a5-bce7-d23a67427f25</disablequality>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Cybereyes Basic System</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Cybereyes Basic System</name>
+      </wirelesspairinclude>
+      <children>
+        <cyberware>
+          <guid>2ba04bf6-cbe0-45d7-a4bf-3a90f25aed13</guid>
+          <sourceid>e03d454f-4a15-43ce-9cd0-db80e8600eae</sourceid>
+          <name>Image Link</name>
+          <category>Eyeware</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0.1</ess>
+          <capacity>[*]</capacity>
+          <avail>4</avail>
+          <cost>0</cost>
+          <weight />
+          <source>SR5</source>
+          <page>453</page>
+          <parentid>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</parentid>
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Used</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Image Link</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Image Link</name>
+          </wirelesspairinclude>
+          <notes>Image link: An implanted version of the image link enhancement (p.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>fbdbdd18-4e64-4af2-9ed1-ed6ca5182f68</guid>
+          <sourceid>35dba0e2-1d3d-4386-a657-17fedca4622d</sourceid>
+          <name>Smartlink</name>
+          <category>Eyeware</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0.2</ess>
+          <capacity>[3]</capacity>
+          <avail>8R</avail>
+          <cost>4000</cost>
+          <weight />
+          <source>SR5</source>
+          <page>453</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating />
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Used</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus>
+            <smartlink>2</smartlink>
+          </bonus>
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Smartlink</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Smartlink</name>
+          </wirelesspairinclude>
+          <notes>Smartlink: An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink in-</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+      </children>
+      <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -5883,31 +6058,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <unique>precedence0</unique>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename>656ebb9d-2a5a-4f6c-b8aa-e87c8644df00</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>3</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <target />
       <improvedname>f0f40d68-ec57-4554-99c0-2e1a919f616a</improvedname>
       <sourcename>61002d75-3700-486c-9ab9-aa356e08818e</sourcename>
@@ -5921,6 +6071,223 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition>LimitCondition_Visible</condition>
       <improvementttype>LimitModifier</improvementttype>
       <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>7833b5d9-357b-4167-973e-8636b399caae</improvedname>
+      <sourcename>377a0d1d-f48d-477a-9c6a-f1d6e90af468</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>fd346177-3791-44c0-af8c-7cf176fc9aa3</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>02e76a38-304e-4a0e-93a3-ad2938306afc</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>7a468691-1362-439a-a096-76da6933b24c</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>2f080d13-92d7-4b16-9ee6-93b5a89206e4</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>210401d7-57fa-4260-9517-2725689a509e</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>4390735f-54fa-44a5-bce7-d23a67427f25</improvedname>
+      <sourcename>61bb5d48-1a7f-48b3-8ab2-4155ca2c40e2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DisableQuality</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>smartlink</unique>
+      <target />
+      <improvedname />
+      <sourcename>fbdbdd18-4e64-4af2-9ed1-ed6ca5182f68</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Smartlink</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -6028,19 +6395,20 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
+      <unique>precedence0</unique>
       <target />
-      <improvedname>7833b5d9-357b-4167-973e-8636b399caae</improvedname>
-      <sourcename>377a0d1d-f48d-477a-9c6a-f1d6e90af468</sourcename>
+      <improvedname>REA</improvedname>
+      <sourcename>656ebb9d-2a5a-4f6c-b8aa-e87c8644df00</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>0</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
+      <val>0</val>
+      <rating>1</rating>
       <exclude />
-      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -6091,6 +6459,81 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition />
       <improvementttype>Attribute</improvementttype>
       <improvementsource>ArmorEncumbrance</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>nonconductivity</unique>
+      <target />
+      <improvedname />
+      <sourcename>0f385560-19db-4616-9573-6e34ff14b272</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>4</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>22b4b75a-9981-42bb-b44d-476b5110f81e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>22b4b75a-9981-42bb-b44d-476b5110f81e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
