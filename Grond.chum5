@@ -5,7 +5,7 @@
   <appversion>5.225.1021</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1592351309</settingshashcode>
+  <settingshashcode>355193359</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -249,9 +249,9 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>1</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -1204,7 +1204,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1416,12 +1416,12 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
     <contact>
       <name>Donovan Lombardi</name>
       <role>Fixer</role>
-      <location>Puyallup</location>
+      <location>Puyallup City</location>
       <connection>6</connection>
       <loyalty>1</loyalty>
       <metatype>Ork</metatype>
       <gender>Male</gender>
-      <age />
+      <age>Middle-Aged</age>
       <contacttype />
       <preferredpayment />
       <hobbiesvice />
@@ -1444,6 +1444,41 @@ Grond is a pet project of his--some cyberpsycho a team of Don's picked up on a j
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
+    <contact>
+      <name>Hank Killer</name>
+      <role>Sensei (Wrestling (Sport Style))</role>
+      <location>Tacoma side of Puyallup City</location>
+      <connection>1</connection>
+      <loyalty>1</loyalty>
+      <metatype>Human</metatype>
+      <gender>Male</gender>
+      <age>Old</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife>Widowed</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Hank runs a wrestling academy just off W Stewart and E Main, teaching his skills to anyone who will listen. He's far past his prime, and has no awards to his name, but his skills are the real deal.
+
+To put it frankly, though, he's old. Gray hair, gray eyes, and a gray outlook on life. "Killer" probably isn't even the name on his SIN, and it's almost certain the only way his 'business' is afloat is from a generous pension plan. Even with the "Puyallup discount." His once toned muscles hhave given way to a wiry frame, and though he still stands proud, in moments of weakness his students see him slouch. Those moments grow more frequent every day.
+
+Still, he proudly passes down his craft, with no prejudice for metatype or augmentation. His school rarely has more than one student at a time present anyway, so differences in physique when sparring isn't an issue. So, how fortunate did he think he was when a hulking troll knocked on his door, genuinely interested in his techniques; none of those plebian masses looking for entertainment wrestling, but someone who wanted to know how to grab, pin, and throw in a proper brawl. Imagine his disappointment when all the troll wanted to know was how to hold back his rippling physique and oversized chrome limbs from breaking everything he touched.
+
+Still, Killer taught Grond control first, in the back of his mind telling himself that it was all so he could better teach Grond. All the while, his mouth was weaving stories of his heyday, and the techniques Grond had yet to even begin learning, in hopes that the troll would return, and Killer could use his techniques vicariously.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>f1495f6f-6e5f-46f2-939e-6bd16728fda8</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
   </contacts>
   <spells />
   <foci />
@@ -1452,7 +1487,33 @@ Grond is a pet project of his--some cyberpsycho a team of Don's picked up on a j
   <spirits />
   <complexforms />
   <aiprograms />
-  <martialarts />
+  <martialarts>
+    <martialart>
+      <name>Wrestling (Sport Style)</name>
+      <sourceid>24ee13d8-9b6d-4fc0-908c-d9904db364c7</sourceid>
+      <guid>ddec05e0-5ed9-4209-ab09-30550562aed9</guid>
+      <source>RG</source>
+      <page>134</page>
+      <cost>7</cost>
+      <isquality>False</isquality>
+      <martialarttechniques>
+        <martialarttechnique>
+          <sourceid>5be9b72c-1de5-49ca-9e63-73c9c58c3cac</sourceid>
+          <guid>98e5f403-77c1-4ef0-87f8-6fc7a6995d23</guid>
+          <name>Sweep</name>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <source>RG</source>
+          <page>141</page>
+        </martialarttechnique>
+      </martialarttechniques>
+      <notes>WRESTLING (SPORT STYLE)
+This is the revered ancient art of throwing your opponent to the ground and holding him there till he cries “uncle.” Wrestling is one of the oldest forms of combat.
+Reportedly existing for some four thousand years, with more formal rules from all over the world. Grappling your opponent and subduing him is the key strategy with this style while throwing him to the ground is optional. Several folk wrestling styles including Mongolian Bökh and Cambodian Bok Cham Bab have similar rules to the Sport style of wrestling.
+Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmic Response, Sweep, Throw Person</notes>
+      <notesColor>#E3813C</notesColor>
+    </martialart>
+  </martialarts>
   <limitmodifiers>
     <limitmodifier>
       <guid>e5ad39ea-b955-4813-aeed-826d7fdbcba4</guid>
@@ -2530,6 +2591,118 @@ Steampunk 10 14 7 2,250¥ Features: Custom Fit Wireless Bonus: Increase Social L
       <mount />
       <stolen>False</stolen>
       <extramount />
+      <accessories>
+        <accessory>
+          <sourceid>85b01b5c-c788-4b43-8190-9e0c18391436</sourceid>
+          <guid>55b33f7c-a479-445e-af82-67538b9af248</guid>
+          <name>Personalized Grip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>100</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>182</page>
+          <accuracy>1</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>PERSONALIZED GRIP
+This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>d67f3194-61f3-4440-b02c-e5f173532b01</sourceid>
+          <guid>0c8f99bd-b412-4d0e-b2a9-b74f27298a3a</guid>
+          <name>Custom Look</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>300</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>180</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>CUSTOM LOOK
+Anyone can threaten someone with a gun, but some look more frightening than others. Some guns send the message that the wielder is no ordinary thug, and crossing them would be a bad idea. This modification can include a wide array of possible enhancements including filigree, engraving, grips made from exotic materials, and chrome or gold plating. Weapons with Custom Look grant a +1 dice pool bonus to Intimidation Tests. The downside is that guns like this stand out and people get a +1 on Memory Tests to recall seeing the wielder.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+      </accessories>
       <location />
       <notes>OSMIUM MACE
 There are all sorts of ways to make weapons more effective, but in the end, if you have a strong arm delivering the blow, all you really need in order to be effective is something with lots of mass and inertia that will pound a huge amount of force into the chest of whoever you’re hitting. The club does this job pretty well, but if you have the arm strength for it, having extra weight at the end of the shaft can really get momentum swinging, delivering a huge payload of kinetic energy to the target. Enter the osmium mace, which some say is over the top in terms of its pain-delivering mass, while others say that’s just the way they like it. Osmium is the most dense metal on earth, but its brittle nature makes it unsuitable for the construction of a weapon. It’s just fine, though, for a ball on the interior of a mace head, especially when it is alloyed to make it more durable and then surrounded by a titanium shell to help diffuse some of the shock of impact away from the core. The result is a weapon that is difficult for the average person to lift up, let alone swing. When you get up to ork or troll levels of strength, you can deliver devastating blows that make you look like a character straight out of mythology.
@@ -5669,6 +5842,87 @@ Pain is a fact of life in the Sixth World, and shadowrunners know that better th
 When a character with this quality is dealt Physical damage, they suffer a –1 penalty to combat dice pools until the enemy or obstacle that dealt the damage is overcome or destroyed.</notes>
       <notesColor>#E3813C</notesColor>
     </quality>
+    <quality>
+      <sourceid>3659b016-5511-4cdb-a9f3-ce2ecfba4513</sourceid>
+      <guid>99500216-ca03-4f31-b6ec-05cf49140f6f</guid>
+      <name>Phobia (Uncommon, Mild)</name>
+      <extra>Torture Devices</extra>
+      <bp>-5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>157</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>83e2a9b7-e06e-494e-95d3-c6e554d9928e</sourceid>
+      <guid>7852ab6a-3fdb-446a-94c0-d23d9d32e85b</guid>
+      <name>Poor Self Control (Combat Monster)</name>
+      <extra />
+      <bp>-10</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>158</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>ce01db25-465b-4d13-b091-055496f3a5c4</sourceid>
+      <guid>3e241278-5af7-4e38-878c-cb627863111a</guid>
+      <name>Records on File</name>
+      <extra>EVO</extra>
+      <bp>-1</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>158</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes>RECORDS ON FILE
+BONUS: 1 KARMA PER RATING
+(MAX RATING 10)
+For every point of Karma spent on this quality, one of the Big 10 megacorps possesses a relatively up-todate record of the character’s SIN, biometrics, person</notes>
+      <notesColor>#E3813C</notesColor>
+    </quality>
   </qualities>
   <lifestyles>
     <lifestyle>
@@ -8753,6 +9007,79 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <condition />
       <improvementttype>Hardwire</improvementttype>
       <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Torture Devices</improvedname>
+      <sourcename>99500216-ca03-4f31-b6ec-05cf49140f6f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>EVO</improvedname>
+      <sourcename>3e241278-5af7-4e38-878c-cb627863111a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>Wrestling (Sport Style)</unique>
+      <target />
+      <improvedname>Unarmed Combat</improvedname>
+      <sourcename>ddec05e0-5ed9-4209-ab09-30550562aed9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillSpecializationOption</improvementttype>
+      <improvementsource>MartialArt</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
