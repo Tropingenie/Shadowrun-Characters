@@ -1,4 +1,4 @@
-- Need to roll Illness
+- Spitfire failed Illness, -1 to ALL TESTS
 - Low ettiquette
 - Remember to reboot more often (complex action)
 - Remember to take Cereprax
@@ -9,10 +9,99 @@ Game 5: Rags are Riches
 2025-10-19
 GM: rabidanubis
 Players:
-drbraddock as Purple
-blt6409 as Jack Daniels
-penny42 as Euclase
+drbraddock (Twelve) as Purple, Prime Runner Super Spy
+penny42 as Euclase, Technomancer
 myself (_ponpon) as Spitfire
+
+with guest appearances:
+ - foreverjester as The Black Witch, Magical Girl
+ - blt6409 as Jack Daniels, Face with a Glue Bomb
+ - defective_gh0st as Boomslang, who had the easiest difficult job of his life
+
+Spitfire's chronic pain was flaring up that month. She woke up in a drek mood, but powered through. She also didn't know it, but she was distinctly the newest runner on the team. After a morning in pain, trying to distract herself through her drones, she got a message from Tlaloc at arount 11 a.m. to meet in an hour on a street corner in May Creek. She pulled the car into her living hangar, preparing to go.
+
+She received a DNI from Euclase as she rolled up to a Hyundai Equus waiting with its door open. With some help from her roto, the got out of her Mercedes, and got in the Hyundai.
+
+There was a hitch as a gridguide routine took over, and the front seats spun around to reveal a girl dressed as a vampire.
+
+"Grr! Happy Halloween!"
+
+The team quickly confirmed she wasn't an actual vampire, and though Spitfire didn't recognize her, this was the Johnson known as "Akuma," somewhat new, trustworthy, but also a playful type reputed for creative jobs. She described a company, "ScarySafe." The name rung a bell, but Spitfire's work was really in high fashion, not armoured costumes, so her knowledge wasn't much help. Akuma and Purple began discussing the company, and how she liked their work. A "person" was going to buy out the company, and her client wanted to know why the buyout was happening, and to grab a costume sample or whatever was being handed off.
+
+    - 6k each to grab a sample of the product or whatever makes them want to buy it
+    - 3k each find out why this person wants to purchase the company
+    - Secondary job once information in hand
+
+The team was dissatisfied with the base pay, so negotated better pay while Euclase and Spitfire discussed infiltration options. She gave a double or nothing offer of 10k each, and mentioned an expense account of 5k. Purple said 10k or the team walks, and she folded.
+
+Once a deal was made, she mentioned that Ares were the company taking interest, and the company was in Covington, Auburn. She mentioned a dinner party to celebrate the acquisition, and that the job needed to be done quickly. Danny Hart, an elf, was the negotiator, and would bring personal security--she explicitly mentioned to not do anything bad to him so as to not start a war with Ares. She also handed over a datachip with her dossier.
+
+After the negotiations, all Spitfire mentioned was to "not expect him to move any heavy equipment."
+
+Euclase did the Joker gun hand, the team discussed the poor pay, and Spitfire's Mercedes pulled up. As they drove around, Purple figured their best option was to hit the Host and have Spitfire send in a drone to physically scout. As they drove to the HQ, Euclase began hitting the host.
+
+Euclase informed the team she was under attack, and Spitfire dropped into VR to assist, though her skills were poor enough that the "help" was unwelcome. She eventually realized this, opting to jack out and focus on driving as more hackers poured in, fueled by their desire to meet a celebrity.
+
+Spitfire reached over to reboot Euclase's comm, and Euclase slapped his hand away.
+
+"Just get out of there, there's too many of them... Tabarnac... There's gonna be increased security."
+
+Euclase then informed the team that she had been traced; Spitfire stepped on it, changing their course then taking off down an alley. As they rounded the corner, Spitfire caught a drone on her camera. Then two. Then, she heard helicopter blades, recognizing a civilian audio signature, likely a news helicopter.
+
+Purple plugged in to a data port, letting Spitfire know that he and Euclase wanted to be let off at the nearest corner. He obliged. Euclase asked to be dropped off in Tukwila, Downtown. Spitfire obliged.
+
+With the team gone, Spitfire picked up a commcall to her fixer, Tlaloc.
+
+"How soon can you get a team off the Hub?"
+
+Tlaloc arranged, getting Boomslang, TBW, and Jack Daniels in the car. Pulling out her white noise generator, she descibed to the team the details of the job. They agreed, so Spitfire drove and began scouting with her Fly Spy. It seemed there was no increased alert; everyone was dressed in costume for the Halloween party at the Halloween company. Pizza and drinks were already open.
+
+Spitfire also spotted, on nearby roofs, someone hard to see--a sniper with an RPC. Four snipers, a few micro drones, all keeping their eyes on the facility. There was also a suspicious unmarked van.
+
+The team began investigating for blind spots, noting that the only blind spot of this Ares security team was inside the building.
+
+The team began discussing the approach. TBW suggested they approach as Wuxing, asking about the acquisition. Boomslang also mentioned they could approach as a nearby Wuxing factory's rep asking about the recent matrix hit.
+
+Spitfire also suggested two ways to get people in: Either fly the helicopter over, and hope one or more of the snipers would look at it, and TBW and Jack Daniels could invite themselves to the party under their Wuxing cover.
+
+As TBW acquired Wuxing SINs, Spitfire scouted inside with her Fly Spy. Searching for the costume in question, she noticed a new type of armoured fabric in one of the outfits being put in a box. They noted the serial number on the box, and its label.
+
+The team confirmed the details: Grab that costume, and the socials left to join the party, and hopefully get Danny drunk.
+
+TBW and Jack Daniels approached the building from a different direction. Spitfire watched them enter, and Jack Daniels went for a complementary costume. In the meantime, they discussed if they wanted to just grab the box. Boomslang noticed one of the snipers shift a little, prompting Spitfire to check for marks, but not finding anything. Boomslang slaved his Noizeqsquito to Spitfire's RCC to give her a look, but also couldn't make out what was agitating the sniper.
+
+TBW began conversing with a similarly costume factory worker, who told them about their advances in price point and generally their technology. The worker seemed willing to talk, but also unsure what they could share. She began pressing, saying she might be interested in the product, but pressed too far and the worker got suspicious.
+
+Jack Daniels intercepted, and managed to distract her from reporting to the higher ups, and started getting a tour from her. She began telling him about the types of fabrics corresponding to tapes. He asked about the white tape, that was on the box they were interested in, which got her talking about the new material. Jack played himself as a new materials scientist, so she introduced him to Joe who could better explain the new material.
+
+Despite another guy saying they shouldn't talk about it, Joe explained the new material: It was a one-time, super strong protection for stopping one bullet really well, following the principles of ablative armour. He gave a deeply technical conversation about a non-Newtonian fabric through Spitfire feeding him various terms from her experience with fashion armour. Joe only talked about the application to Halloween costumes, and Jack prodded him about other applications, causing Joe's face to assume an interesting expression as he realized what he had invented.
+
+Spitfire sent a transcript of what was said to Akuma immediately, as Joe tried to cut Jack in on a deal: Steal some boxes.
+
+Akuma got back to them, offering 6k to destroy the material, and another 6k to bring Joe back with them. Joe did all the diversionary work for them, and Jack helped load a car. They drove away, but the white van was tailing them.
+
+Meanwhile, TBW turned invisible and pulled the fire alarm. Spitfire flew with the full Docwagon procedure for flying in as a preemptive response for a company with a contract. Then a sniper round smashed through the drone.
+
+TBW said "I got the drone, don't worry" over DNI, then went off comms.
+
+Meanwhile, Jack threw a glue bomb, catching it in the axles of the van causing it to flip.
+
+Splitfire then went sicko mode. Over the PA, she screamed curses in French" Mon tabarnak j'vais te décâlisser la yeule, câlice!" Stick and shock flying everywhere, mag dumping the gun. Three of the four snipers went down as bullets flew everywhere, and Boomslang took out the fourth with his AK.
+
+Meanwhile, TBW used magic to get the broken Dustoff out, and threw it in the car. Spitfire peeled away, meeting up with Jack and Joe. Boomslang helped move the boxes of costumes into his car, while Spitfire rebooted and went over everything with a tag eraser.
+
+They met up with Akuma, who was a little confused at the extra runners, especially given the prime runners.
+
+"Prime runners just aren't what they used to be." was Spitfire's excuse, which Akemi took and agreed with.
+
+Post run notes:
+    - Failed illness roll
+    - +1 Inf (streaming) (done)
+    - -1 Cereprax (done)
+    - -1 Edge (done)
+    - -42 SNS (done)
+    - Chameleon coating on the Merc
+    - 22k Nuyen, 6 Karma, 4 Influence (done)
 
 ----
 
