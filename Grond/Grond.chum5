@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>1631786891</settingshashcode>
+  <settingshashcode>747437713</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -261,7 +261,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -5561,7 +5561,9 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
       </wirelesspairinclude>
       <notes>NANOTATTOOS
 Once injected, nanotattoo hard machines embed themselves as a lattice of liquid crystal microdisplays under the subject’s skin. A Rating 1 nanotattoo covers one limb or the face, Rating 2 covers half the body, and Rating 3 covers the whole body. A nanotattoo (or “nanotat”) can be reprogrammed to display any image the user wishes, including preprogrammed animation. They can also be programmed to be inactive and appear indistinguishable from your normal skin. Reprogramming nanotats in this manner does not reduce its rating.
-Nanotattoos can provide effective camouflage, if you have a full body treatment and you’re not wearing much, imposing a –1 dice pool modifier to Perception tests to detect you visually.</notes>
+Nanotattoos can provide effective camouflage, if you have a full body treatment and you’re not wearing much, imposing a –1 dice pool modifier to Perception tests to detect you visually.
+
+Typically a Yakuza-style tattoo across the chest and shoulders of a troll wearing a dragon's maw as a helm.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -5885,7 +5887,9 @@ BONUS: 5 KARMA
 A character with the Distinctive Style quality has at least one aspect of his appearance, mannerism, or personality that makes him inconveniently memorable. Choices for Distinctive Style include, but are by no means limited to: tattoos that cannot be easily concealed, an accent or atypical manner of speaking, bizarre fashion choices, scars, gang or prison signs, flashy custom augmentations, or non-metahuman modifications like a tail. Note that what’s distinctive in one culture or location may not be in another.
 Whatever Distinctive Style the player selects makes her character easy to remember. Anyone who attempts to identify, trace, or physically locate this character (or gain information about him via legwork) receives a +2 dice pool modifier for relevant tests. If an NPC makes a Memory Test (p. 152) to determine how much they recall about the character, reduce the Difficulty Threshold by 1, to a minimum of 1.
 This quality is physical in nature and does not apply to astral searches. This quality may only be taken once.
-This quality is incompatible with Blandness.</notes>
+This quality is incompatible with Blandness.
+
+Custom mace, Yakuza-style chest nanotat is rarely off, Yakuza-orksploitation fusion fits.</notes>
       <notesColor>#E3813C</notesColor>
     </quality>
     <quality>
