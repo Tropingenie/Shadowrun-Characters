@@ -2,10 +2,10 @@
 <character>
   <createdversion>5.225.1021</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.225.1021</appversion>
+  <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>355193359</settingshashcode>
+  <settingshashcode>1631786891</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -731,7 +731,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1091,7 +1091,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>True</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1174,7 +1174,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1341,7 +1341,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <name>Acting</name>
       </group>
       <group>
-        <karma>1</karma>
+        <karma>0</karma>
         <base>0</base>
         <isbroken>False</isbroken>
         <id>3b45d3d9-7e24-4a43-997c-47f4294d26bb</id>
@@ -2819,6 +2819,91 @@ Anarchy Weapon: Close Combat, DV (STR/2 + 3), Close OK, Near —, Far —</notes
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>011493be-12eb-47ba-a445-f0c8cf139d4f</sourceid>
+      <guid>5e8bff1b-34b1-4b47-a7d1-786f20e0cfc5</guid>
+      <name>Urban Tribe Tomahawk</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Blades</spec>
+      <spec2>Aerodynamic</spec2>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical+1</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>4</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Thrown Knife</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>RG</source>
+      <page>25</page>
+      <parentid>e6f43f37-06a5-4649-b878-caf9a029aedd</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical+1</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes>URBAN TRIBE TOMAHAWK
+This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -7757,6 +7842,65 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <notes>KAMIKAZE
 Vector: Inhalation Speed: Immediate Duration: 10 x 1D6 minutes Addiction Type: Physiological Effect: +1 Body, +1 Agility, +2 Strength, +1 Willpower, +2 Physical limit, +2D6 Initiative Dice, High Pain Tolerance 3 (p. 74) Kamikaze is a tailored combat stimulant. When kamikaze wears off, the user crashes and suffers –1 Reaction, –1 Willpower, and –2 to all Limits for a duration equal to that of the initial effect. He also suffers 6 Stun damage (unresisted).
 The repeated use of kamikaze has a destructive effect on the user’s metabolism. Large doses can cause excitement, tremors, momentary euphoria, and dilated pupils. Excess doses (bordering on overdose level) cause anxiety, hallucinations, and uncontrolled muscular movements. Even higher dosages lead to death. Kamikaze users are near-crazed, filled with a feeling of imperviousness and invincibility, exhibiting almost no regard for their own well-being. They can be entertaining to watch, as long as you’re not in front of them.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>48c4b8ed-80cd-4744-83b8-06842fd917aa</sourceid>
+      <guid>e6f43f37-06a5-4649-b878-caf9a029aedd</guid>
+      <name>Urban Tribe Tomahawk</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>4</qty>
+      <avail>4</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>5e8bff1b-34b1-4b47-a7d1-786f20e0cfc5</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>RG</source>
+      <page>25</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>URBAN TRIBE TOMAHAWK
+This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
