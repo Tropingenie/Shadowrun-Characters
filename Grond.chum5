@@ -258,7 +258,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
-      <base>2</base>
+      <base>0</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
       <totalvalue>3</totalvalue>
@@ -1516,7 +1516,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
   </martialarts>
   <limitmodifiers>
     <limitmodifier>
-      <guid>e5ad39ea-b955-4813-aeed-826d7fdbcba4</guid>
+      <guid>58eb11b5-da98-487a-ae8a-a3e33fa58003</guid>
       <name>Securetech PPP: Arms Kit</name>
       <limit>Social</limit>
       <bonus>-1</bonus>
@@ -1526,7 +1526,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>431adc55-fe3a-45e4-ba42-6ed885993bff</guid>
+      <guid>d4a2c482-a2e3-4c3c-8a48-d0d1f8e4e2e6</guid>
       <name>Securetech PPP: Legs Kit</name>
       <limit>Social</limit>
       <bonus>-1</bonus>
@@ -1536,7 +1536,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>3ae02f7b-ec86-4845-ab5b-062fa3440a7a</guid>
+      <guid>3ac1ba09-645a-4244-86ae-657fde9c497e</guid>
       <name>Securetech PPP: Vitals Kit</name>
       <limit>Social</limit>
       <bonus>-1</bonus>
@@ -1546,7 +1546,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>234f4cd7-a870-487d-a4b0-0d46683a8582</guid>
+      <guid>b048fb3c-6a3c-4efc-a336-939f5e32d80a</guid>
       <name>Custom Ballistic Mask</name>
       <limit>Social</limit>
       <bonus>2</bonus>
@@ -1556,17 +1556,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>8e09bf47-8634-4e6d-9d17-daf7cfac0e91</guid>
-      <name>Ballistic Shield</name>
-      <limit>Physical</limit>
-      <bonus>-1</bonus>
-      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
-      <candelete>False</candelete>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </limitmodifier>
-    <limitmodifier>
-      <guid>0cdc35f6-013a-4dbc-8388-1abbc7265339</guid>
+      <guid>50e1af70-0e85-4ba8-a296-abdaa75ed88c</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <bonus>2</bonus>
@@ -1576,7 +1566,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>de866669-0910-47cd-ba6e-d4e5c91a0730</guid>
+      <guid>8f449f30-fa1c-445b-b399-dfb1e0c7fdca</guid>
       <name>Audio Enhancement</name>
       <limit>Mental</limit>
       <bonus>2</bonus>
@@ -8004,6 +7994,274 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     <improvement>
       <target />
       <improvedname />
+      <sourcename>da4ef85f-f7a8-476f-93df-ad818c8f9a8e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>24</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>RestrictedGear</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c94d6ab0-8aff-4ca0-8a54-f19310d1d078</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>90</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CyberwareEssCost</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Seeker</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Seeker</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>BOX</improvedname>
+      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>0</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Seeker</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>406e1942-2eef-4c10-a7dd-421fb94b813b</unique>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>SEEKER_AGI</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>55ee6edb-79ad-45cd-9b85-a861ce82a74a</unique>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>SEEKER_STR</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>a40c5e1c-aea6-4887-9635-8d37f174e570</unique>
+      <target />
+      <improvedname>BOX</improvedname>
+      <sourcename>SEEKER_BOX</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalCM</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Torture Devices</improvedname>
+      <sourcename>99500216-ca03-4f31-b6ec-05cf49140f6f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>EVO</improvedname>
+      <sourcename>3e241278-5af7-4e38-878c-cb627863111a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>Wrestling (Sport Style)</unique>
+      <target />
+      <improvedname>Unarmed Combat</improvedname>
+      <sourcename>ddec05e0-5ed9-4209-ab09-30550562aed9</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillSpecializationOption</improvementttype>
+      <improvementsource>MartialArt</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
       <sourcename>8274117c-6186-4fb0-bcd1-8245f8f51e3c</sourcename>
       <min>0</min>
       <max>0</max>
@@ -8338,237 +8596,20 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>Clubs</improvedname>
-      <sourcename>66aa09b6-6d83-4203-aff8-736b1d159980Pair</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Clubs</improvedname>
-      <sourcename>706d344d-34e6-4bdc-990f-8b85510a7c91Pair</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
+      <unique>group0</unique>
       <target />
       <improvedname />
-      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>e5ad39ea-b955-4813-aeed-826d7fdbcba4</improvedname>
-      <sourcename>3732f27b-067b-4374-88e4-1709053f003d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>431adc55-fe3a-45e4-ba42-6ed885993bff</improvedname>
-      <sourcename>994a69ae-5030-4dd3-82b9-07644a4a24d2</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>3ae02f7b-ec86-4845-ab5b-062fa3440a7a</improvedname>
-      <sourcename>a8614ec3-c586-4e55-8308-f54dbecdfda1</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>234f4cd7-a870-487d-a4b0-0d46683a8582</improvedname>
-      <sourcename>63906050-063a-4f66-85ed-74738f4a1330</sourcename>
+      <sourcename>61c68b11-6e19-41db-930b-08e387534580</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>2</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_IntimidationVisible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>8e09bf47-8634-4e6d-9d17-daf7cfac0e91</improvedname>
-      <sourcename>5cde4428-9844-44e3-b66c-7e0313a3e0aa</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>0</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>c94d6ab0-8aff-4ca0-8a54-f19310d1d078</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>90</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>CyberwareEssCost</improvementttype>
-      <improvementsource>Quality</improvementsource>
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Bioware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -8676,19 +8717,239 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
+      <unique>Con</unique>
       <target />
-      <improvedname>Bracelet</improvedname>
-      <sourcename>7b29a9bd-039c-41a7-8ea3-301799dad76a</sourcename>
+      <improvedname>Con</improvedname>
+      <sourcename>97cb628c-6efe-4b23-90db-fcccba493edf</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>0</val>
+      <val>1</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Gear</improvementsource>
+      <improvementttype>Hardwire</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>Etiquette</unique>
+      <target />
+      <improvedname>Etiquette</improvedname>
+      <sourcename>6aed1900-f455-4d40-9df6-635ea3c32381</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Hardwire</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Clubs</improvedname>
+      <sourcename>66aa09b6-6d83-4203-aff8-736b1d159980Pair</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Clubs</improvedname>
+      <sourcename>706d344d-34e6-4bdc-990f-8b85510a7c91Pair</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>58eb11b5-da98-487a-ae8a-a3e33fa58003</improvedname>
+      <sourcename>3732f27b-067b-4374-88e4-1709053f003d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>d4a2c482-a2e3-4c3c-8a48-d0d1f8e4e2e6</improvedname>
+      <sourcename>994a69ae-5030-4dd3-82b9-07644a4a24d2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>3ac1ba09-645a-4244-86ae-657fde9c497e</improvedname>
+      <sourcename>a8614ec3-c586-4e55-8308-f54dbecdfda1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>b048fb3c-6a3c-4efc-a336-939f5e32d80a</improvedname>
+      <sourcename>63906050-063a-4f66-85ed-74738f4a1330</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_IntimidationVisible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -8845,7 +9106,31 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     </improvement>
     <improvement>
       <target />
-      <improvedname>0cdc35f6-013a-4dbc-8388-1abbc7265339</improvedname>
+      <improvedname>Bracelet</improvedname>
+      <sourcename>7b29a9bd-039c-41a7-8ea3-301799dad76a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>50e1af70-0e85-4ba8-a296-abdaa75ed88c</improvedname>
       <sourcename>86fedca9-6b90-4a64-8a9d-7079d11354c3</sourcename>
       <min>0</min>
       <max>0</max>
@@ -8869,7 +9154,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     </improvement>
     <improvement>
       <target />
-      <improvedname>de866669-0910-47cd-ba6e-d4e5c91a0730</improvedname>
+      <improvedname>8f449f30-fa1c-445b-b399-dfb1e0c7fdca</improvedname>
       <sourcename>008daa82-6699-46ab-b477-c2ac370ac44a</sourcename>
       <min>0</min>
       <max>0</max>
@@ -8881,349 +9166,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
       <improvementttype>LimitModifier</improvementttype>
       <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Public Grid</improvedname>
-      <sourcename>73df14e8-8073-48be-a314-3b8e3cfe7a63</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>da4ef85f-f7a8-476f-93df-ad818c8f9a8e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>24</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>RestrictedGear</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Seeker</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Seeker</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>BOX</improvedname>
-      <sourcename>b18fdc15-cd12-4bca-bd20-3e300580eef0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Seeker</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>ed0593d5-94f8-4959-9a59-65380384a84b</unique>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename>SEEKER_AGI</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>82778177-33cf-4db5-a3e8-aaadbf66cecb</unique>
-      <target />
-      <improvedname>STR</improvedname>
-      <sourcename>SEEKER_STR</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>5c43288c-35c7-4f50-9529-1e45f935d44e</unique>
-      <target />
-      <improvedname>BOX</improvedname>
-      <sourcename>SEEKER_BOX</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PhysicalCM</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>group0</unique>
-      <target />
-      <improvedname />
-      <sourcename>61c68b11-6e19-41db-930b-08e387534580</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>Con</unique>
-      <target />
-      <improvedname>Con</improvedname>
-      <sourcename>97cb628c-6efe-4b23-90db-fcccba493edf</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Hardwire</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>Etiquette</unique>
-      <target />
-      <improvedname>Etiquette</improvedname>
-      <sourcename>6aed1900-f455-4d40-9df6-635ea3c32381</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Hardwire</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Torture Devices</improvedname>
-      <sourcename>99500216-ca03-4f31-b6ec-05cf49140f6f</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>EVO</improvedname>
-      <sourcename>3e241278-5af7-4e38-878c-cb627863111a</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>Wrestling (Sport Style)</unique>
-      <target />
-      <improvedname>Unarmed Combat</improvedname>
-      <sourcename>ddec05e0-5ed9-4209-ab09-30550562aed9</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SkillSpecializationOption</improvementttype>
-      <improvementsource>MartialArt</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
