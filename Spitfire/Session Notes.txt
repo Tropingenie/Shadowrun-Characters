@@ -1,4 +1,5 @@
 - Spitfire failed Illness, -1 to ALL TESTS
+- Nitro addiction test (Both, R9, T2)
 - Low ettiquette
 - Remember to reboot more often (complex action)
 - Remember to take Cereprax
@@ -10,6 +11,51 @@ Players:
 drbraddock (Twelve) as Purple, Prime runner super spy
 thibbledorfpwen as Avicenna, Medic decker alchemist
 myself (_ponpon) as Spitfire, Quebecois rigger
+
+The team were contacted by the Johnson, told to meet in about 4 hours in the evening at the club in Penumbra. They agreed to meet beforehand, to arrive at the same time. Spitfire was a little disappointed, sending "Oh Marde," to the DNI upon seeing Purple.
+
+Purple posted up at a parking lot, with Avicenna pulling up on their Segway Terrier and Spitfire in their Mercedes. Spitfire's fashion senses tingled, telling her to dress better than usual to meet dress code and changed out of his overalls before leaving.
+
+The other team dressed upper middle class, nice shirts and shoes. Spitfire attempted the same, but his shirt was oversized and the casually open tie made him look frumpy and unkempt, and his ballistic mask clashed.
+
+Purple had some warnings about Avicenna regardling the Matrix mess on the previous job, and Spitfire mentioned that he would prefer to not deal with four snipers in RPC this time.
+
+Spitfire tried to sneak her drone past the bouncer, but the bouncer flagged him down saying no heavy weapons in the club. Light and sound assaulted them as they made their way to room #2 to meet Ms. Johnson. Purple's head was on a swivel, clocking colleagues but not mentioning anything of note.
+
+Inside was a fashionably dressed lady. Closing the door, the white noise generator kicked in and the faraday cage sealed. Spitfire pulled into the space open for their wheelchair. Purple matched pace, knowing that the Johnson's paid for the amenities.
+
+She mentioned they needed to "place something" to "exploit security holes." They needed to plant an object within the next 36 hours in a relatively secure facility with armed guards. She already had 18k nuyen ready for each of them, a location, and the device to plant. Purple confirmed the details.
+
+    - Stealth not optional--target cannot know the object has been planted
+    - Target not extraterritorial or zero-zero, but also generally not publicly accessible
+    - Unlikely to encounter retribution from syndicates or gangs
+
+Negotiating an up front payment and expense account, the Johnson began explaining the locaton in detail. It was a SFC government facility, up on a hill in a less developed part of Downtown Seattle. She had a secure closet in the building she needed a modified data tap attached to. She also gave them a data chip, in response to Purple's question about building layout and security.
+
+The hill the building was on was surrounded by a fence. Though public access was allowed on the first floor, it was only during business hours. Spitfire agreed to be the team bus, as expected, though mentioned their car might be hot in Auburn still. Avicenna sourced some reagents and began performing a Matrix search on the target as they began legwork. Purple's contact gave them the down low on weak points, that there would be a guy on the roof but otherwise air traffic around Seattle meant they couldn't keep a solid eye on the sky.
+
+Spitfire was pleased; she could fly Purple in using the Dustoff, but Avicenna suggested a social infiltration during business hours the next morning. Purple trusted Jack of Hearts' advice, preferring the rooftop approach especially given the top floor was the location of the networking closet. Avicenna and Purple put their heads together, thinking about possible security details, expecting 10 guards, a watcher, and various ground-based drones and Fly-Spys.
+
+Spitfire parked a few km away and did a flyover with his fly-spy. Their ultrasound sensor caught plenty of active scanning, and they picked up two metahuman shapes on the roof, and a strong layout of the drones on the radio signal scanner. The place was kept in darkness, oddly, but Spitfire still deduced two rotos, and a collection of mini or micro drones watching the air.
+
+With legwork done, the team broke for the day, and reconvened the next evening. Avicenna began to hit the host, quickly gaining control of the sensors, while Spitfire expertly navigated his Dustoff through the blind spots in the security net. He dropped Purple off at a good time, when two guards had just passed and were facing away. Purple hopped out and got to work, as Spitfire flew to a more subtle location and, now that opfor ultrasound was down, flicked the Dustoff's ultrasound sensor on to track the guards.
+
+Avicenna opened the door and overflowed a toilet, and Purple entered the facility. Spitfire and Avicenna kept their respective selves hidden as Purple navigated the facility, making his way to the closet. There was a minor hiccup when Purple found some employees getting intimate in the closet, asking Avicenna to cause a distraction.
+
+They hacked a mark one of the employees' commlinks, and found an org chart on the host. With the org chart, they found the employees' were a superior and a report. Finding an HR comm code, they also quickly marked the commlink and one more on the supervisor's.
+
+Purple and Spitfire put their heads together and drafted a scathing HR email in full corporate language regarding inappropriate workplace relationships, and Avicenna sent it from the HR commlink to the supervisor's.
+
+The employee's quickly left, rapidly arranging themselves in a panic. Purple slipped in, running his autopicker on the tumbler on the wiring panel within, and mounting the MacGuffin. He sent a DNI that the objective was complete and to prep for exfil. Spitfire maneuvered the Dustoff into position, and Purple dashed quietly out of the building into it in a gap in the guards' patrol.
+
+Spitfire started peeling away, and searchlights started popping on, scanning the sky. Spitfire deftly navigated out of the airspace, barely scraping past the searchlights. Avicenna did one last cursory search, then derezzed.
+
+The team drove to a bar to celebrate such a clean job over drinks, Spitfire explanining to Purple what happened after he walked on the last job, and both of them attempting to teach Avicenna some French despite the differences between France and Quebec.
+
+To do:
+    - -2 cereprax
+    - Fix the drone's cams
+    - 18k nuyen, 7 karma, +2 inf, -1 inf KS Government Procedures
 
 ----
 
