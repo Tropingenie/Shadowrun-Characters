@@ -1575,6 +1575,16 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notes />
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
+    <limitmodifier>
+      <guid>4d97eb07-49cc-4ba5-941f-c09544507acb</guid>
+      <name>Medkit</name>
+      <limit>Mental</limit>
+      <bonus>4</bonus>
+      <condition>LimitCondition_SkillsActiveFirstAidMedicine</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
   </limitmodifiers>
   <armors>
     <armor>
@@ -7829,7 +7839,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>1.0</qty>
+      <qty>3.0</qty>
       <avail>4R</avail>
       <cost>100</cost>
       <weight />
@@ -7946,7 +7956,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>2.0</qty>
+      <qty>4.0</qty>
       <avail>4</avail>
       <cost>200</cost>
       <weight />
@@ -7976,6 +7986,177 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <location />
       <notes>URBAN TRIBE TOMAHAWK
 This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>320bd9e3-e261-4a45-aa03-c740b6855e73</sourceid>
+      <guid>c275c554-fab9-4cbb-b992-07fb4cbf3859</guid>
+      <name>Slap Patch, Stim Patch</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>6</rating>
+      <qty>4</qty>
+      <avail>Rating * 2</avail>
+      <cost>Rating * 25</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>451</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
+      <guid>6da3edcb-2193-4096-9604-036937410140</guid>
+      <name>Slap Patch, Trauma Patch</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>3.0</qty>
+      <avail>6</avail>
+      <cost>500</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>451</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</sourceid>
+      <guid>064dea03-8df8-409a-b38d-d200c56da7fe</guid>
+      <name>Medkit</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity>[5]</armorcapacity>
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>4</rating>
+      <qty>1.0</qty>
+      <avail>Rating</avail>
+      <cost>Rating * 250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>450</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Medkit: The medkit includes drug supplies, bandages, tools, and a (talkative) doctor expert system that can ad- vise the user on techniques to handle most typical medical emergencies (including fractures, gunshot wounds, chem- ical wounds, and poisoning, as well as offering advice for the treating of shock, handling blood loss, and of course performing resuscitations). Add the medkit’s rating to your limit on First Aid tests. A medkit of Rating 3 or lower fits in a pocket; at Rating 4+ it’s a handheld case. The medkit needs to be restocked after every (Rating) uses.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -9225,6 +9406,30 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <rating>0</rating>
       <exclude />
       <condition>LimitCondition_SkillsActivePerceptionHearing</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>4d97eb07-49cc-4ba5-941f-c09544507acb</improvedname>
+      <sourcename>064dea03-8df8-409a-b38d-d200c56da7fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>4</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_SkillsActiveFirstAidMedicine</condition>
       <improvementttype>LimitModifier</improvementttype>
       <improvementsource>Gear</improvementsource>
       <custom>False</custom>
