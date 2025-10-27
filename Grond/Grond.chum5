@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>747437713</settingshashcode>
+  <settingshashcode>-1065906575</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -491,7 +491,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>940da457-8b75-44dd-bd69-22679886fbd5</guid>
+            <guid>d69ac81e-3ccc-4b0b-bfc0-de8fe9318fdf</guid>
             <name>Osmium Mace</name>
             <free>False</free>
             <expertise>False</expertise>
@@ -1591,7 +1591,7 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <source>RG</source>
       <page>64</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -2154,7 +2154,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>RG</source>
       <page>61</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -2352,6 +2352,67 @@ NAME
 ARMOR
 RATING CAPACITY AVAIL COST
 Steampunk 10 14 7 2,250¥ Features: Custom Fit Wireless Bonus: Increase Social Limit by 1 Synergist Business Line 9 5 8 1,500¥ Features: Custom Fit, Holster (concealed) Wireless Bonus: Increase Social Limit by 1 Synergist Business Line Longcoat</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>1c5f484a-996c-4518-bf23-677a506b2ea5</sourceid>
+      <guid>4c3577cf-54fe-4fca-ba85-703b59b23ec1</guid>
+      <name>Forearm Guards</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>3</armorcapacity>
+      <avail>6</avail>
+      <cost>300</cost>
+      <weight />
+      <source>RG</source>
+      <page>73</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes>FOREARM GUARDS
+Simple and rarely stylish, forearm guards are dermaplast (or, rarely, metallic) bracers fitted to a wearer.
+Their use is simple—use them to block melee attacks, especially blades, turning blows away without actually cutting into you.
+&gt; Despite what you see in old trideo footage, don’t try to block bullets with these. It ends badly.
+&gt; Butch &gt; Personal experience or after-surgery reports from the clinic?
+&gt; Sounder &gt; Yes.
+&gt; Butch &gt; The basic models are sparkly, but keep in mind that they have some room for modification. Pop-out blades, holdout guns, or, a personal favorite, a place to keep your commlink.
+&gt; /dev/grrl &gt; You mean cyberdeck.
+&gt; Bull &gt; No, I mean commlink. I keep my ‘deck in my new bag.
+See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns and sparkles? Kill me now.
+&gt; Bull</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
@@ -7865,7 +7926,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>4</qty>
+      <qty>2.0</qty>
       <avail>4</avail>
       <cost>200</cost>
       <weight />
