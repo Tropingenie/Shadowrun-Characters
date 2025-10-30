@@ -1417,7 +1417,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <name>Donovan Lombardi</name>
       <role>Fixer</role>
       <location>Puyallup City</location>
-      <connection>6</connection>
+      <connection>5</connection>
       <loyalty>1</loyalty>
       <metatype>Ork</metatype>
       <gender>Male</gender>
@@ -1441,41 +1441,6 @@ Grond is a pet project of his--some cyberpsycho a team of Don's picked up on a j
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>5a48f600-4ce2-4055-ab9d-60aab3be05cd</guid>
-      <mainmugshotindex>-1</mainmugshotindex>
-      <mugshots />
-    </contact>
-    <contact>
-      <name>Hank Killer</name>
-      <role>Sensei (Wrestling (Sport Style))</role>
-      <location>Tacoma side of Puyallup City</location>
-      <connection>1</connection>
-      <loyalty>1</loyalty>
-      <metatype>Human</metatype>
-      <gender>Male</gender>
-      <age>Old</age>
-      <contacttype />
-      <preferredpayment />
-      <hobbiesvice />
-      <personallife>Widowed</personallife>
-      <type>Contact</type>
-      <file />
-      <relative />
-      <notes>Hank runs a wrestling academy just off W Stewart and E Main, teaching his skills to anyone who will listen. He's far past his prime, and has no awards to his name, but his skills are the real deal.
-
-To put it frankly, though, he's old. Gray hair, gray eyes, and a gray outlook on life. "Killer" probably isn't even the name on his SIN, and it's almost certain the only way his 'business' is afloat is from a generous pension plan. Even with the "Puyallup discount." His once toned muscles hhave given way to a wiry frame, and though he still stands proud, in moments of weakness his students see him slouch. Those moments grow more frequent every day.
-
-Still, he proudly passes down his craft, with no prejudice for metatype or augmentation. His school rarely has more than one student at a time present anyway, so differences in physique when sparring isn't an issue. So, how fortunate did he think he was when a hulking troll knocked on his door, genuinely interested in his techniques; none of those plebian masses looking for entertainment wrestling, but someone who wanted to know how to grab, pin, and throw in a proper brawl. Imagine his disappointment when all the troll wanted to know was how to hold back his rippling physique and oversized chrome limbs from breaking everything he touched.
-
-Still, Killer taught Grond control first, in the back of his mind telling himself that it was all so he could better teach Grond. All the while, his mouth was weaving stories of his heyday, and the techniques Grond had yet to even begin learning, in hopes that the troll would return, and Killer could use his techniques vicariously.</notes>
-      <notesColor>#E3813C</notesColor>
-      <groupname />
-      <colour>0</colour>
-      <group>False</group>
-      <family>False</family>
-      <blackmail>False</blackmail>
-      <free>False</free>
-      <groupenabled>True</groupenabled>
-      <guid>f1495f6f-6e5f-46f2-939e-6bd16728fda8</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
@@ -2460,91 +2425,6 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
       <weapontype>melee</weapontype>
     </weapon>
     <weapon>
-      <sourceid>011493be-12eb-47ba-a445-f0c8cf139d4f</sourceid>
-      <guid>5e8bff1b-34b1-4b47-a7d1-786f20e0cfc5</guid>
-      <name>Urban Tribe Tomahawk</name>
-      <category>Gear</category>
-      <type>Ranged</type>
-      <spec>Blades</spec>
-      <spec2>Aerodynamic</spec2>
-      <reach>0</reach>
-      <damage>({STR}+2)P</damage>
-      <ap>-1</ap>
-      <mode>0</mode>
-      <rc>0</rc>
-      <ammo>1</ammo>
-      <cyberware>False</cyberware>
-      <ammocategory />
-      <ammoslots>1</ammoslots>
-      <sizecategory />
-      <firingmode>DogBrain</firingmode>
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <accuracy>Physical+1</accuracy>
-      <activeammoslot>1</activeammoslot>
-      <conceal>-2</conceal>
-      <avail>4</avail>
-      <cost>0</cost>
-      <weight />
-      <useskill>Throwing Weapons</useskill>
-      <useskillspec />
-      <range>Thrown Knife</range>
-      <alternaterange />
-      <rangemultiply>1</rangemultiply>
-      <singleshot>1</singleshot>
-      <shortburst>3</shortburst>
-      <longburst>6</longburst>
-      <fullburst>10</fullburst>
-      <suppressive>20</suppressive>
-      <allowsingleshot>True</allowsingleshot>
-      <allowshortburst>True</allowshortburst>
-      <allowlongburst>True</allowlongburst>
-      <allowfullburst>True</allowfullburst>
-      <allowsuppressive>True</allowsuppressive>
-      <source>RG</source>
-      <page>25</page>
-      <parentid>e6f43f37-06a5-4649-b878-caf9a029aedd</parentid>
-      <allowaccessory>True</allowaccessory>
-      <weaponname />
-      <included>False</included>
-      <equipped>True</equipped>
-      <requireammo>True</requireammo>
-      <accuracy>Physical+1</accuracy>
-      <mount />
-      <stolen>False</stolen>
-      <extramount />
-      <location />
-      <notes>URBAN TRIBE TOMAHAWK
-This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <weaponslots />
-      <doubledcostweaponslots />
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <wirelessbonus />
-      <wirelessweaponbonus />
-      <wirelesson>True</wirelesson>
-      <sortorder>0</sortorder>
-      <weapontype>gear</weapontype>
-    </weapon>
-    <weapon>
       <sourceid>dda1f2ae-2fb7-4c99-abbb-bc1c5ec1e3ae</sourceid>
       <guid>bdabf2cc-0bb8-4fcb-a72d-b9b4d5bf6697</guid>
       <name>Fluid-Motion Mace</name>
@@ -2740,6 +2620,343 @@ A large, somewhat unwieldy two-handed weapon, the fluid-motion mace contains a h
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>aecfccf7-d22e-4ead-abf9-e29f6dbf8550</sourceid>
+      <guid>23ebdb05-e7d0-4a10-b284-1f0a25996a2c</guid>
+      <name>Grenade: Gas</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Non-Aerodynamic</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>Chemical (10m Radius)</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>0</conceal>
+      <avail>4R</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Standard Grenade</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>435</page>
+      <parentid>4b21fbbc-47e1-486b-a7b3-37f8d0a26b2a</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>cbe5694e-9da3-4aad-a0a0-036087dbab55</sourceid>
+      <guid>49ac58c0-7cc7-4300-9ac7-283e5385d0af</guid>
+      <name>Grenade: High Explosive</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Non-Aerodynamic</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>16P (-2/m)</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>0</conceal>
+      <avail>11F</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Standard Grenade</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>435</page>
+      <parentid>aa13c7d2-21f1-4bc3-a234-575c48e48b10</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>aab70ade-8586-4539-a184-99cb63e7bfab</sourceid>
+      <guid>978fdc01-1b50-4cd0-bb40-7cc1d85132c5</guid>
+      <name>Grenade: Smoke</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Non-Aerodynamic</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>(10m Radius)</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>0</conceal>
+      <avail>4R</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Standard Grenade</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>435</page>
+      <parentid>fa66f82e-bb14-4e18-b4a3-e232a16c94ce</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>011493be-12eb-47ba-a445-f0c8cf139d4f</sourceid>
+      <guid>d5fb79ca-7ae1-4e43-bd57-36b9db463ffd</guid>
+      <name>Urban Tribe Tomahawk</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <spec>Blades</spec>
+      <spec2>Aerodynamic</spec2>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>Physical+1</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>4</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill>Throwing Weapons</useskill>
+      <useskillspec />
+      <range>Thrown Knife</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>RG</source>
+      <page>25</page>
+      <parentid>514c01d3-d654-45be-9431-8869c96359cf</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>Physical+1</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes>URBAN TRIBE TOMAHAWK
+This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>gear</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -6018,7 +6235,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -6075,7 +6292,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -6132,7 +6349,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -6189,7 +6406,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
         </gear>
       </children>
       <location />
@@ -6454,7 +6671,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>1</sortorder>
             </gear>
             <gear>
               <sourceid>b19f022c-c854-4a3f-8b7a-d2a2532a2680</sourceid>
@@ -6511,7 +6728,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>2</sortorder>
             </gear>
             <gear>
               <sourceid>fa6fa434-107b-4f36-a138-f98b044dae76</sourceid>
@@ -6568,7 +6785,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>3</sortorder>
             </gear>
             <gear>
               <sourceid>5146abd2-6ab2-4aee-b523-a63d5c5ab93b</sourceid>
@@ -6625,7 +6842,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>4</sortorder>
             </gear>
             <gear>
               <sourceid>82946de2-876c-46d8-a6ec-744a38257668</sourceid>
@@ -6682,7 +6899,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>5</sortorder>
             </gear>
             <gear>
               <sourceid>f9995732-7d00-496c-8407-a3dc0e1a82ff</sourceid>
@@ -6739,7 +6956,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>6</sortorder>
             </gear>
             <gear>
               <sourceid>1d6f985e-5cf0-463d-a445-fafdd387f301</sourceid>
@@ -6796,7 +7013,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>7</sortorder>
             </gear>
             <gear>
               <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -6853,7 +7070,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>8</sortorder>
             </gear>
             <gear>
               <sourceid>786682fb-cbd5-4ee8-969a-233484004df7</sourceid>
@@ -6910,7 +7127,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
               <canswapattributes>False</canswapattributes>
               <active>False</active>
               <homenode>False</homenode>
-              <sortorder>0</sortorder>
+              <sortorder>9</sortorder>
             </gear>
           </children>
           <location />
@@ -6932,7 +7149,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
       </children>
       <location />
@@ -6955,7 +7172,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>d1fca845-ae01-4b39-a176-1506da699e0e</sourceid>
@@ -7012,7 +7229,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -7162,7 +7379,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
         <gear>
           <sourceid>588c3193-4298-4a73-b45a-c5f8fd175133</sourceid>
@@ -7219,7 +7436,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </gear>
       </children>
       <location />
@@ -7241,7 +7458,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -7391,7 +7608,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
       </children>
       <location />
@@ -7413,7 +7630,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>692da465-f98f-4da5-86fe-1dd2a5ead742</sourceid>
@@ -7470,7 +7687,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>429fbdba-2818-43db-948a-e138b6bf49f9</sourceid>
@@ -7527,7 +7744,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -7644,66 +7861,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
-    </gear>
-    <gear>
-      <sourceid>48c4b8ed-80cd-4744-83b8-06842fd917aa</sourceid>
-      <guid>e6f43f37-06a5-4649-b878-caf9a029aedd</guid>
-      <name>Urban Tribe Tomahawk</name>
-      <category>Ammunition</category>
-      <capacity />
-      <armorcapacity />
-      <minrating />
-      <maxrating />
-      <rating>0</rating>
-      <qty>3.0</qty>
-      <avail>4</avail>
-      <cost>200</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <weaponguid>5e8bff1b-34b1-4b47-a7d1-786f20e0cfc5</weaponguid>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>RG</source>
-      <page>25</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location />
-      <notes>URBAN TRIBE TOMAHAWK
-This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>320bd9e3-e261-4a45-aa03-c740b6855e73</sourceid>
@@ -7760,7 +7918,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
@@ -7800,6 +7958,297 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <children />
       <location />
       <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>9</sortorder>
+    </gear>
+    <gear>
+      <sourceid>06798b15-40bb-4464-b6a8-a01466ee9b9e</sourceid>
+      <guid>4b21fbbc-47e1-486b-a7b3-37f8d0a26b2a</guid>
+      <name>Grenade: Gas</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>2.0</qty>
+      <avail>4R</avail>
+      <cost>40</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>23ebdb05-e7d0-4a10-b284-1f0a25996a2c</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>435</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>24e87c73-22be-480d-bb79-978277672a1d</sourceid>
+          <guid>8f2a6174-fba9-4f36-8250-c1f96706d376</guid>
+          <name>Neuro-Stun VIII</name>
+          <category>Toxins</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>12R</avail>
+          <cost>60</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>410</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype>spraypen</ammoforweapontype>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>fdaf87dc-aa15-42a7-bfbe-00310281ab81</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>e61c5487-2074-4fc8-8da0-9891b15482e7</sourceid>
+      <guid>aa13c7d2-21f1-4bc3-a234-575c48e48b10</guid>
+      <name>Grenade: High Explosive</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>11F</avail>
+      <cost>100</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>49ac58c0-7cc7-4300-9ac7-283e5385d0af</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>435</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>fdaf87dc-aa15-42a7-bfbe-00310281ab81</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>84c6921e-dfa0-42ca-a01f-87c459ffc000</sourceid>
+      <guid>fa66f82e-bb14-4e18-b4a3-e232a16c94ce</guid>
+      <name>Grenade: Smoke</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>2</qty>
+      <avail>4R</avail>
+      <cost>40</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>978fdc01-1b50-4cd0-bb40-7cc1d85132c5</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>435</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>fdaf87dc-aa15-42a7-bfbe-00310281ab81</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>48c4b8ed-80cd-4744-83b8-06842fd917aa</sourceid>
+      <guid>514c01d3-d654-45be-9431-8869c96359cf</guid>
+      <name>Urban Tribe Tomahawk</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>4</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>d5fb79ca-7ae1-4e43-bd57-36b9db463ffd</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>RG</source>
+      <page>25</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>URBAN TRIBE TOMAHAWK
+This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -8990,7 +9439,15 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
   <drugs />
   <mentorspirits />
   <expenses />
-  <gearlocations />
+  <gearlocations>
+    <location>
+      <guid>fdaf87dc-aa15-42a7-bfbe-00310281ab81</guid>
+      <name>'Nade Pouch</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>1</sortorder>
+    </location>
+  </gearlocations>
   <armorlocations />
   <vehiclelocations />
   <weaponlocations />
