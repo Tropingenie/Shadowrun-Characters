@@ -93,7 +93,7 @@
   <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
-\pard\sl-240\slmult1 \lang4105\fs16\f0 Giant beefcake of a troll. Bro's got fucking aura. Around the barrens he's usually in full combat gear, the classic Big Game Hunter + addons combo. Not that he needs it. He may look like a knight, but that big fuck-off osmium mace and SWAT shield aren't just for show, though you could probably tell by how he effotlessly hefts with a single hand something most people can't even lift. If you catch him with something more casual, he's a fan of open-breast orksploitation suits styled like some wannabe Yak, showing off his chrome and a tattoo of a troll wearing a dragon's maw as a helm across his chest. Usually white, of course.\par
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Giant beefcake of a troll. Bro's got fucking aura. Around the barrens he's usually in full combat gear, helmet, PPP, you get it. Not that he needs it. He may look like a knight, but that big fuck-off osmium mace and SWAT shield aren't just for show, though you could probably tell by how he effotlessly hefts with a single hand something most people can't even lift. If you catch him with something more casual, he's a fan of open-breast orksploitation suits styled like some wannabe Yak, showing off his chrome and a tattoo of a troll wearing a dragon's maw as a helm across his chest. Usually white, of course.\par
 }</description>
   <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
 {\colortbl;}
@@ -8161,7 +8161,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>2</qty>
+      <qty>2.0</qty>
       <avail>4R</avail>
       <cost>40</cost>
       <weight />
