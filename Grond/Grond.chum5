@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-517436043</settingshashcode>
+  <settingshashcode>-673536481</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -5959,32 +5959,6 @@ When a character with this quality is dealt Physical damage, they suffer a –1 
       <notesColor>#E3813C</notesColor>
     </quality>
     <quality>
-      <sourceid>3659b016-5511-4cdb-a9f3-ce2ecfba4513</sourceid>
-      <guid>99500216-ca03-4f31-b6ec-05cf49140f6f</guid>
-      <name>Phobia (Uncommon, Mild)</name>
-      <extra>Torture Devices</extra>
-      <bp>-5</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Negative</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RF</source>
-      <page>157</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </quality>
-    <quality>
       <sourceid>83e2a9b7-e06e-494e-95d3-c6e554d9928e</sourceid>
       <guid>7852ab6a-3fdb-446a-94c0-d23d9d32e85b</guid>
       <name>Poor Self Control (Combat Monster)</name>
@@ -6086,6 +6060,32 @@ Who needs a watch when you’re around? The character with this quality always k
       <mutant>False</mutant>
       <source>RG</source>
       <page>127</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
+    <quality>
+      <sourceid>3659b016-5511-4cdb-a9f3-ce2ecfba4513</sourceid>
+      <guid>70bccb6c-21ae-4ab6-a5f4-fb7750434dad</guid>
+      <name>Phobia (Uncommon, Mild)</name>
+      <extra>Medical and Torture Devices</extra>
+      <bp>-5</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>157</page>
       <sourcename />
       <bonus />
       <firstlevelbonus />
@@ -8430,30 +8430,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     </improvement>
     <improvement>
       <target />
-      <improvedname>Torture Devices</improvedname>
-      <sourcename>99500216-ca03-4f31-b6ec-05cf49140f6f</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>EVO</improvedname>
       <sourcename>3e241278-5af7-4e38-878c-cb627863111a</sourcename>
       <min>0</min>
@@ -9432,6 +9408,30 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <condition>LimitCondition_SkillsActiveFirstAidMedicine</condition>
       <improvementttype>LimitModifier</improvementttype>
       <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Medical and Torture Devices</improvedname>
+      <sourcename>70bccb6c-21ae-4ab6-a5f4-fb7750434dad</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
