@@ -302,7 +302,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>0.01</totaless>
+  <totaless>0.09</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -641,7 +641,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -5656,164 +5656,6 @@ Typically a Yakuza-style tattoo across the chest and shoulders of a troll wearin
       <canswapattributes>False</canswapattributes>
       <sortorder>0</sortorder>
     </cyberware>
-    <cyberware>
-      <guid>97cb628c-6efe-4b23-90db-fcccba493edf</guid>
-      <sourceid>b330ed31-20d4-4e5a-823b-4ef6d6270685</sourceid>
-      <name>Active Hardwires</name>
-      <category>Bodyware</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>Rating * 0.05</ess>
-      <capacity>0</capacity>
-      <avail>(Rating * 2)</avail>
-      <cost>Rating * 4000</cost>
-      <weight />
-      <source>CF</source>
-      <page>81</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>1</rating>
-      <minagility>3</minagility>
-      <minstrength>3</minstrength>
-      <minrating />
-      <maxrating>6</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Alphaware</grade>
-      <location />
-      <extra>Con</extra>
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <hardwires excludecategory="Magical Active,Resonance Active">Rating</hardwires>
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Cyberware</improvementsource>
-      <pairinclude>
-        <name>Active Hardwires</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Active Hardwires</name>
-      </wirelesspairinclude>
-      <notes>ACTIVE HARDWIRES
-Programmed with a single, unchangeable, active skill, active hardwires are a dedicated skillwire system that holds only a single skill. While this skill may not be changed, multiple active hardwires may be implanted into a person, each granting one active skill. Note that the active hardwire system includes its own processor, meaning that no skilljack is needed to operate it.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
-    <cyberware>
-      <guid>6aed1900-f455-4d40-9df6-635ea3c32381</guid>
-      <sourceid>b330ed31-20d4-4e5a-823b-4ef6d6270685</sourceid>
-      <name>Active Hardwires</name>
-      <category>Bodyware</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>Rating * 0.05</ess>
-      <capacity>0</capacity>
-      <avail>(Rating * 2)</avail>
-      <cost>Rating * 4000</cost>
-      <weight />
-      <source>CF</source>
-      <page>81</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>1</rating>
-      <minagility>3</minagility>
-      <minstrength>3</minstrength>
-      <minrating />
-      <maxrating>6</maxrating>
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Alphaware</grade>
-      <location />
-      <extra>Etiquette</extra>
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <hardwires excludecategory="Magical Active,Resonance Active">Rating</hardwires>
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Cyberware</improvementsource>
-      <pairinclude>
-        <name>Active Hardwires</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Active Hardwires</name>
-      </wirelesspairinclude>
-      <notes>ACTIVE HARDWIRES
-Programmed with a single, unchangeable, active skill, active hardwires are a dedicated skillwire system that holds only a single skill. While this skill may not be changed, multiple active hardwires may be implanted into a person, each granting one active skill. Note that the active hardwire system includes its own processor, meaning that no skilljack is needed to operate it.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
   </cyberwares>
   <qualities>
     <quality>
@@ -6391,7 +6233,7 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
           <avail>(Rating * 3)F</avail>
           <cost>Rating * 200</cost>
           <weight />
-          <extra>Vocational</extra>
+          <extra>Vocational: Security Guard</extra>
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
@@ -8923,56 +8765,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <exclude />
       <condition />
       <improvementttype>UnarmedDVPhysical</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>Con</unique>
-      <target />
-      <improvedname>Con</improvedname>
-      <sourcename>97cb628c-6efe-4b23-90db-fcccba493edf</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Hardwire</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>Etiquette</unique>
-      <target />
-      <improvedname>Etiquette</improvedname>
-      <sourcename>6aed1900-f455-4d40-9df6-635ea3c32381</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Hardwire</improvementttype>
       <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
