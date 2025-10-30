@@ -302,7 +302,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>0.09</totaless>
+  <totaless>0.01</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -1575,230 +1575,8 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notes />
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
-    <limitmodifier>
-      <guid>4d97eb07-49cc-4ba5-941f-c09544507acb</guid>
-      <name>Medkit</name>
-      <limit>Mental</limit>
-      <bonus>4</bonus>
-      <condition>LimitCondition_SkillsActiveFirstAidMedicine</condition>
-      <candelete>False</candelete>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </limitmodifier>
   </limitmodifiers>
   <armors>
-    <armor>
-      <sourceid>a71e62ca-bf6f-43d0-bacf-454908d92fbb</sourceid>
-      <guid>9e6e12e5-2273-481a-a684-2d7e7df271f4</guid>
-      <name>Ares Victory: Big Game Hunter</name>
-      <category>High-Fashion Armor Clothing</category>
-      <armor>14</armor>
-      <armoroverride />
-      <armorcapacity>12</armorcapacity>
-      <avail>12</avail>
-      <cost>5000</cost>
-      <weight />
-      <source>RG</source>
-      <page>64</page>
-      <armorname />
-      <equipped>True</equipped>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <wirelesson>False</wirelesson>
-      <canformpersona />
-      <extra />
-      <damage>0</damage>
-      <rating>0</rating>
-      <maxrating />
-      <ratinglabel>String_Rating</ratinglabel>
-      <stolen>False</stolen>
-      <encumbrance>True</encumbrance>
-      <armormods>
-        <armormod>
-          <guid>70f1712b-5870-4980-a1d4-f95c419b031d</guid>
-          <sourceid>0cbf733c-1fd0-48ae-be2c-b3afe0036fd0</sourceid>
-          <name>Liner - Chemical Protection (6)</name>
-          <category>Custom Liners (Rating 6)</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>0</avail>
-          <cost>0</cost>
-          <weight />
-          <bonus unique="chemicalprotection">
-            <toxincontactresist>6</toxincontactresist>
-            <pathogencontactresist>6</pathogencontactresist>
-          </bonus>
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>SR5</source>
-          <page>437</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <extra />
-          <encumbrance>True</encumbrance>
-          <stolen>False</stolen>
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>763c15e6-2af9-4329-86ce-005f2e1dbd29</guid>
-          <sourceid>38168e21-833e-4ab3-8e5c-186468b70ef9</sourceid>
-          <name>Custom Fit</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>0</avail>
-          <cost>0</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>RG</source>
-          <page>59</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <extra />
-          <encumbrance>True</encumbrance>
-          <stolen>False</stolen>
-          <notes>CUSTOM FIT
-Items that are Custom Fit were measured for a specific person.
-They are specially designed for that person and don’t fit well on anyone else, therefore conferring none of the positive Social Limit adjustments to the character. When an item is Custom Fit, any changes to an individual’s Physical Attributes, whether through Karma advancement or augmentation (but not through magic), require the suit to be refit. The refit process requires an Armorer shop and an Armorer + Logic [Mental] (10, 1 hour) Extended Test.
-The owner can also use their Contacts to help them get the job done, requiring loss of the armor for one week and a payment of 25 percent of the initial armor cost.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-        <armormod>
-          <guid>2ab6a15c-7baf-4368-8f18-48ca99f34cab</guid>
-          <sourceid>6a4274bb-307d-433d-a1a7-75be52eacb93</sourceid>
-          <name>Gear Access</name>
-          <category>General</category>
-          <armor>0</armor>
-          <armorcapacity>[0]</armorcapacity>
-          <gearcapacity />
-          <maxrating>0</maxrating>
-          <rating>0</rating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <avail>0</avail>
-          <cost>0</cost>
-          <weight />
-          <bonus />
-          <wirelessbonus />
-          <wirelesson>True</wirelesson>
-          <source>RG</source>
-          <page>59</page>
-          <included>True</included>
-          <equipped>True</equipped>
-          <extra />
-          <encumbrance>True</encumbrance>
-          <stolen>False</stolen>
-          <notes>GEAR ACCESS
-This feature allows items to be retrieved from the piece of armor with more ease than usual. This means drawing or retrieving items that are set up on the armor takes one lower action. Complex becomes Simple, and Simple becomes Free. Free stays Free, but gamemasters can consider allowing an extra Free Action for the Action Phase.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
-        </armormod>
-      </armormods>
-      <gears>
-        <gear>
-          <sourceid>5977fb0b-b74e-4eb9-b433-9b7c9877b14f</sourceid>
-          <guid>0c736b0f-749c-4de0-95e7-2b698d8efefb</guid>
-          <name>Holster</name>
-          <category>Armor Enhancements</category>
-          <capacity>[0]</capacity>
-          <armorcapacity>[0]</armorcapacity>
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>2</avail>
-          <cost>0</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>SR5</source>
-          <page>431</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype />
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid>9e6e12e5-2273-481a-a684-2d7e7df271f4</parentid>
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>0</sortorder>
-        </gear>
-      </gears>
-      <bonus />
-      <wirelessbonus>
-        <specificskill>
-          <name>Survival</name>
-          <bonus>1</bonus>
-        </specificskill>
-      </wirelessbonus>
-      <location />
-      <notes>ARES VICTORY
-NAME ARMOR RATING CAPACITY AVAIL COST
-Industrious 9 6 6 1,100¥ Features: Increase Social Limit by 1 (when wearing clothing suited to a particular corporate environment), Gear Access Wireless Bonus: +1 dice pool bonus to Social Tests when worn within the appropriate corp.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
-    </armor>
     <armor>
       <sourceid>fd6e194b-89ea-4030-9203-87341442eadb</sourceid>
       <guid>483169d1-6174-44d9-a456-2713ab87fd4b</guid>
@@ -5656,6 +5434,86 @@ Typically a Yakuza-style tattoo across the chest and shoulders of a troll wearin
       <canswapattributes>False</canswapattributes>
       <sortorder>0</sortorder>
     </cyberware>
+    <cyberware>
+      <guid>e276819f-671e-4f76-b2e4-05d4ed305485</guid>
+      <sourceid>17a6ba49-c21c-461b-9830-3beae8a237fc</sourceid>
+      <name>Reflex Recorder</name>
+      <category>Cultured</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>10</avail>
+      <cost>14000</cost>
+      <weight />
+      <source>SR5</source>
+      <page>460</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Alphaware</grade>
+      <location />
+      <extra>Clubs</extra>
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <selectskill limittoattribute="BOD,AGI,REA,STR">
+          <val>1</val>
+        </selectskill>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Reflex Recorder</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Reflex Recorder</name>
+      </wirelesspairinclude>
+      <notes>Reflex recorder: The first step in this particular reci- pe is growing some extra neural material in a small clus- ter. When that’s fully cooked, you drop it in the skull and attach it to the nerves for motor reflexes. Then boom, you’ve got a metahuman with better muscle memory. The reflex recorder adds 1 to the Rating of a specific skill linked to a Physical attribute. Multiple recorders may be taken for multiple skills, but you can’t implant two reflex recorders for the same skill. Reflex recorder bioware is in- compatible with skillwires cyberware.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
   </cyberwares>
   <qualities>
     <quality>
@@ -7798,7 +7656,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>4.0</qty>
+      <qty>3.0</qty>
       <avail>4</avail>
       <cost>200</cost>
       <weight />
@@ -7857,7 +7715,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <minrating />
       <maxrating>6</maxrating>
       <rating>6</rating>
-      <qty>4</qty>
+      <qty>2.0</qty>
       <avail>Rating * 2</avail>
       <cost>Rating * 25</cost>
       <weight />
@@ -7914,7 +7772,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>3.0</qty>
+      <qty>2.0</qty>
       <avail>6</avail>
       <cost>500</cost>
       <weight />
@@ -7942,63 +7800,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <children />
       <location />
       <notes />
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
-      <sortorder>0</sortorder>
-    </gear>
-    <gear>
-      <sourceid>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</sourceid>
-      <guid>064dea03-8df8-409a-b38d-d200c56da7fe</guid>
-      <name>Medkit</name>
-      <category>Biotech</category>
-      <capacity />
-      <armorcapacity>[5]</armorcapacity>
-      <minrating />
-      <maxrating>6</maxrating>
-      <rating>4</rating>
-      <qty>1.0</qty>
-      <avail>Rating</avail>
-      <cost>Rating * 250</cost>
-      <weight />
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <stolen>False</stolen>
-      <bonus />
-      <wirelessbonus />
-      <weaponbonus />
-      <flechetteweaponbonus />
-      <source>SR5</source>
-      <page>450</page>
-      <isflechetteammo>False</isflechetteammo>
-      <ammoforweapontype />
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children />
-      <location />
-      <notes>Medkit: The medkit includes drug supplies, bandages, tools, and a (talkative) doctor expert system that can ad- vise the user on techniques to handle most typical medical emergencies (including fractures, gunshot wounds, chem- ical wounds, and poisoning, as well as offering advice for the treating of shock, handling blood loss, and of course performing resuscitations). Add the medkit’s rating to your limit on First Aid tests. A medkit of Rating 3 or lower fits in a pocket; at Rating 4+ it’s a handheld case. The medkit needs to be restocked after every (Rating) uses.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -8656,31 +8457,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <unique>group0</unique>
-      <target />
-      <improvedname />
-      <sourcename>61c68b11-6e19-41db-930b-08e387534580</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <target />
       <improvedname />
       <sourcename>aff12d55-61cc-4bc8-b5a8-e6f77975a165</sourcename>
@@ -8814,56 +8590,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <condition />
       <improvementttype>Skill</improvementttype>
       <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>ToxinContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>chemicalprotection</unique>
-      <target />
-      <improvedname />
-      <sourcename>70f1712b-5870-4980-a1d4-f95c419b031d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>6</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>PathogenContactResist</improvementttype>
-      <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -9188,30 +8914,6 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     </improvement>
     <improvement>
       <target />
-      <improvedname>4d97eb07-49cc-4ba5-941f-c09544507acb</improvedname>
-      <sourcename>064dea03-8df8-409a-b38d-d200c56da7fe</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>4</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_SkillsActiveFirstAidMedicine</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Medical and Torture Devices</improvedname>
       <sourcename>70bccb6c-21ae-4ab6-a5f4-fb7750434dad</sourcename>
       <min>0</min>
@@ -9224,6 +8926,55 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <condition />
       <improvementttype>Text</improvementttype>
       <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>group0</unique>
+      <target />
+      <improvedname />
+      <sourcename>61c68b11-6e19-41db-930b-08e387534580</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Clubs</improvedname>
+      <sourcename>e276819f-671e-4f76-b2e4-05d4ed305485</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Bioware</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
