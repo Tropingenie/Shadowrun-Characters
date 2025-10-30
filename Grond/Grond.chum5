@@ -123,7 +123,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
   <edgeused>0</edgeused>
-  <contactpoints>9</contactpoints>
+  <contactpoints>6</contactpoints>
   <spelllimit>0</spelllimit>
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
@@ -188,10 +188,10 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>1</metatypemin>
       <metatypemax>4</metatypemax>
       <metatypeaugmax>8</metatypeaugmax>
-      <base>2</base>
+      <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>INT</name>
@@ -288,10 +288,10 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>3</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
   </attributes>
   <magenabled>False</magenabled>
@@ -9000,7 +9000,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     <physicalcm>9</physicalcm>
     <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
     <physicalcmoverflow>6</physicalcmoverflow>
-    <stuncm>10</stuncm>
+    <stuncm>11</stuncm>
     <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
