@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-673536481</settingshashcode>
+  <settingshashcode>-1431348411</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -86,9 +86,9 @@
   <gender>Male</gender>
   <age>21</age>
   <eyes>Brown</eyes>
-  <height />
-  <weight />
-  <skin />
+  <height>220</height>
+  <weight>441</weight>
+  <skin>Auburn</skin>
   <hair>Black</hair>
   <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
@@ -123,7 +123,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
   <edgeused>0</edgeused>
-  <contactpoints>6</contactpoints>
+  <contactpoints>12</contactpoints>
   <spelllimit>0</spelllimit>
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
@@ -158,7 +158,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>5</metatypemin>
       <metatypemax>10</metatypemax>
       <metatypeaugmax>14</metatypeaugmax>
-      <base>5</base>
+      <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>14</totalvalue>
@@ -188,10 +188,10 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>1</metatypemin>
       <metatypemax>4</metatypemax>
       <metatypeaugmax>8</metatypeaugmax>
-      <base>1</base>
+      <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>INT</name>
@@ -208,7 +208,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>1</metatypemin>
       <metatypemax>5</metatypemax>
       <metatypeaugmax>9</metatypeaugmax>
-      <base>3</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>9</totalvalue>
@@ -278,10 +278,10 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <metatypemin>5</metatypemin>
       <metatypemax>10</metatypemax>
       <metatypeaugmax>14</metatypeaugmax>
-      <base>0</base>
+      <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>WIL</name>
@@ -1417,7 +1417,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <name>Donovan Lombardi</name>
       <role>Fixer</role>
       <location>Puyallup City</location>
-      <connection>5</connection>
+      <connection>6</connection>
       <loyalty>1</loyalty>
       <metatype>Ork</metatype>
       <gender>Male</gender>
@@ -1441,6 +1441,41 @@ Grond is a pet project of his--some cyberpsycho a team of Don's picked up on a j
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>5a48f600-4ce2-4055-ab9d-60aab3be05cd</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Simone Bartoli</name>
+      <role>Tailor</role>
+      <location>Orc Underground</location>
+      <connection>2</connection>
+      <loyalty>3</loyalty>
+      <metatype>Ork</metatype>
+      <gender>Male</gender>
+      <age>Middle-Aged</age>
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Bartoli runs a clothing store in the Ork Underground, specializing in home-grown Orksploitation clothing. It's all well made, but he doesn't stock name-brand stuff though he can get it in on special order. Sleeping Tiger's especially, and he has a bit of a reputation among Ork runners for being an easy in.
+
+Bartoli is also a designer himself, and a bt of an eccentric one at that. His designs lean far into the outlandish, and are often the worst-selling. This reflects his bardic personality, replete with sweeping hand gestures and an odd emphasis on sylabbles in his speech.
+
+Regardless, that's how Grond got ahold of Bartoli. He was looking for something standout that he could wear on the job, but it's hard to find anything that fits a 2-meter tall troll. Bartoli was more than happy to put a Sleeping Tiger to the blade, though Grond held him back from anything too outlandish.
+
+Once the design was complete, Bartoli welcomed Grond to visit again, even for just a soykaf. At first, it was just because consumer traffic increased and the Skraacha suddenly stopped minding a couple missed payments while the Sleeping Tiger-clad troll was around, but as Grond took him up on the offer they became fast friends.</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>14daade1-3239-446f-babc-f36660b972a5</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
@@ -9456,7 +9491,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
   <calculatedvalues>
     <physicalcm>9</physicalcm>
     <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
-    <physicalcmoverflow>6</physicalcmoverflow>
+    <physicalcmoverflow>7</physicalcmoverflow>
     <stuncm>11</stuncm>
     <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
