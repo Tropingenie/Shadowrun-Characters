@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1431348411</settingshashcode>
+  <settingshashcode>362530313</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1575,6 +1575,16 @@ Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmi
       <notes />
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
+    <limitmodifier>
+      <guid>7c853407-8f15-41ea-bec2-a7e92231e2b7</guid>
+      <name>Vision Enhancement</name>
+      <limit>Mental</limit>
+      <bonus>1</bonus>
+      <condition>LimitCondition_SkillsActivePerceptionVisual</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
   </limitmodifiers>
   <armors>
     <armor>
@@ -2062,6 +2072,98 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
 &gt; The low-grade software/sensor package for this stuff is virtually useless unless you are standing completely still and wearing a full suit. On the other hand the high-end packages can make your armor jacket seem invisible at a full sprint. It’s all a matter of body coverage and sensor/ software efficiency.
 &gt; Bull &gt; Don’t get caught with this stuff. In ‘74 a kid got tossed into a ruthenium bag during a snatch and grab. The ork hauling the kid took a bullet to the brainpan and went down on the street outside the Seattle AZT Pyramid. Knight-Errant cordoned the scene and figured one of the other runners snagged the kid. An hour later they opened the scene to traffic again, and GridGuide rolled a bus over the kid who was still out cold in the street, lying in the bag. Whole thing led to a huge legal ruckus, and this stuff if purely mil-spec now. No civilian usage.
 &gt; Stone</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>195e6101-f0d4-4ec6-875f-e497849b66d0</guid>
+          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
+          <name>Nonconductivity</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>5</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="nonconductivity">
+            <electricityarmor>Rating</electricityarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Nonconductivity: Electrical insulation and non-con- ductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>6b0be8c4-a9c5-485e-87cd-23014fe8998d</guid>
+          <sourceid>480b7c5d-758b-4833-8bfd-9487e2455f7d</sourceid>
+          <name>Chemical Protection</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>5</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="chemicalprotection">
+            <toxincontactresist>Rating</toxincontactresist>
+            <pathogencontactresist>Rating</pathogencontactresist>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Chemical protection: Water-resistant, non-porous, impermeable materials, and a coating of neutraliz- ing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs, p. 408). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>29c59e2e-083c-4954-a683-dd20757a5047</guid>
+          <sourceid>9ee8e6ad-2472-485d-ae42-d1978749b456</sourceid>
+          <name>Electrochromic Clothing</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>+2</avail>
+          <cost>500</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
@@ -3151,7 +3253,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -3227,7 +3329,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -3865,7 +3967,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -3941,7 +4043,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -4349,7 +4451,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -4592,7 +4694,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -4985,7 +5087,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -5061,7 +5163,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -5340,7 +5442,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems />
       <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
+      <grade>Alphaware</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -5418,7 +5520,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems />
       <wirelesson>False</wirelesson>
-      <grade>Used</grade>
+      <grade>Alphaware</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -5742,6 +5844,179 @@ Typically a Yakuza-style tattoo across the chest and shoulders of a troll wearin
         <name>Reflex Recorder</name>
       </wirelesspairinclude>
       <notes>Reflex recorder: The first step in this particular reci- pe is growing some extra neural material in a small clus- ter. When that’s fully cooked, you drop it in the skull and attach it to the nerves for motor reflexes. Then boom, you’ve got a metahuman with better muscle memory. The reflex recorder adds 1 to the Rating of a specific skill linked to a Physical attribute. Multiple recorders may be taken for multiple skills, but you can’t implant two reflex recorders for the same skill. Reflex recorder bioware is in- compatible with skillwires cyberware.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>41c23358-f51a-494e-ba26-a02ab72aed5c</guid>
+      <sourceid>89d6f0e2-f618-4a5f-b24f-e42603100fc3</sourceid>
+      <name>Synch</name>
+      <category>Transgenics</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>14000</cost>
+      <weight />
+      <source>CF</source>
+      <page>162</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>None</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade>None</forcegrade>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Synch</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Synch</name>
+      </wirelesspairinclude>
+      <notes>SYNCH
+Synch is a nootropic protein that affects cognitive abilities in the brain cells of the visual cortex. This enhances intuitive comprehension and pattern recognition abilities. Characters receive a +1 dice pool on all Perception tests. In addition, recipients accustomed to combat situations develop a battle awareness based on moves, which allows them respond and adapt quickly to their opponent’s fighting style. When in combat the character receives +1 dice pool modifier on combat tests against each opponent after the enemy’s first attack. This enhancement is incompatible with dynomitan.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>True</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</guid>
+      <sourceid>4f3f0651-6e1b-4dc3-b25a-33f62874cba8</sourceid>
+      <name>Nephritic screen</name>
+      <category>Basic</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>Rating * 0.05</ess>
+      <capacity>0</capacity>
+      <avail>Rating * 2</avail>
+      <cost>Rating * 4000</cost>
+      <weight />
+      <source>CF</source>
+      <page>113</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>1</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating>6</maxrating>
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Alphaware</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <physiologicaladdictionfirsttime>Rating</physiologicaladdictionfirsttime>
+        <psychologicaladdictionfirsttime>Rating</psychologicaladdictionfirsttime>
+        <physiologicaladdictionalreadyaddicted>Rating</physiologicaladdictionalreadyaddicted>
+        <psychologicaladdictionalreadyaddicted>Rating</psychologicaladdictionalreadyaddicted>
+        <toxincontactresist>Rating</toxincontactresist>
+        <toxiningestionresist>Rating</toxiningestionresist>
+        <toxininhalationresist>Rating</toxininhalationresist>
+        <toxininjectionresist>Rating</toxininjectionresist>
+        <pathogencontactresist>Rating</pathogencontactresist>
+        <pathogeningestionresist>Rating</pathogeningestionresist>
+        <pathogeninhalationresist>Rating</pathogeninhalationresist>
+        <pathogeninjectionresist>Rating</pathogeninjectionresist>
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Nephritic screen</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Nephritic screen</name>
+      </wirelesspairinclude>
+      <notes>NEPHRITIC SCREEN
+Essentially an up-gunned kidney, the nephritic screen improves both blood filtration, removing harmful toxins from the bloodstream, and blood screening, keeping more useful materials in while removing the less-useful. The overall effect is a general increase in the user’s health and wellbeing, while also making the user far less likely to become drunk or enjoy recreational pharmacology. Depending on one’s point of view, that can be a drawback or an additional bonus.
+Add the nephritic screen’s Rating to the user’s Willpower for all drug addiction tests (p. 414, SR5), and also add its Rating as a dice pool bonus to Toxin Resistance or Disease Resistance tests. In addition, reduce the duration of any drug by the nephritic screen’s Rating, using whatever time increments the duration is measured in (that is, if duration is measured in hours, the nephritic screen reduces the duration by [Rating] hours).</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -7207,7 +7482,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>d1fca845-ae01-4b39-a176-1506da699e0e</sourceid>
@@ -7264,7 +7539,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -7493,7 +7768,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -7665,7 +7940,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>692da465-f98f-4da5-86fe-1dd2a5ead742</sourceid>
@@ -7722,7 +7997,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>429fbdba-2818-43db-948a-e138b6bf49f9</sourceid>
@@ -7779,7 +8054,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -7875,7 +8150,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
           <sortorder>0</sortorder>
         </gear>
       </children>
-      <location />
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
       <notes>KAMIKAZE
 Vector: Inhalation Speed: Immediate Duration: 10 x 1D6 minutes Addiction Type: Physiological Effect: +1 Body, +1 Agility, +2 Strength, +1 Willpower, +2 Physical limit, +2D6 Initiative Dice, High Pain Tolerance 3 (p. 74) Kamikaze is a tailored combat stimulant. When kamikaze wears off, the user crashes and suffers –1 Reaction, –1 Willpower, and –2 to all Limits for a duration equal to that of the initial effect. He also suffers 6 Stun damage (unresisted).
 The repeated use of kamikaze has a destructive effect on the user’s metabolism. Large doses can cause excitement, tremors, momentary euphoria, and dilated pupils. Excess doses (bordering on overdose level) cause anxiety, hallucinations, and uncontrolled muscular movements. Even higher dosages lead to death. Kamikaze users are near-crazed, filled with a feeling of imperviousness and invincibility, exhibiting almost no regard for their own well-being. They can be entertaining to watch, as long as you’re not in front of them.</notes>
@@ -7896,7 +8171,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <sourceid>320bd9e3-e261-4a45-aa03-c740b6855e73</sourceid>
@@ -7934,7 +8209,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -7953,7 +8228,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
@@ -7991,7 +8266,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -8010,7 +8285,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>06798b15-40bb-4464-b6a8-a01466ee9b9e</sourceid>
@@ -8184,7 +8459,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>84c6921e-dfa0-42ca-a01f-87c459ffc000</sourceid>
@@ -8242,7 +8517,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>48c4b8ed-80cd-4744-83b8-06842fd917aa</sourceid>
@@ -8254,7 +8529,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>1</qty>
+      <qty>4.0</qty>
       <avail>4</avail>
       <cost>200</cost>
       <weight />
@@ -8284,6 +8559,351 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <location />
       <notes>URBAN TRIBE TOMAHAWK
 This is not your grandfather’s tomahawk. Made from modern composites and balanced for throwing, this modern take on the classic Native American weapon gives as much respect to its predecessors as it can while moving into the 21st century. Popular among the urban tribal street gangs, especially the First Nations in Seattle, these finely crafted killing tools can also be found on the belts of Salish Rangers and Sioux Wildcats.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>314566c7-4ea1-4f8d-94cd-f213af1e0535</sourceid>
+      <guid>fa571369-df76-4093-9b61-03bfe7c7233e</guid>
+      <name>Fashion Respirator</name>
+      <category>Survival Gear</category>
+      <capacity>0</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating>6</maxrating>
+      <rating>6</rating>
+      <qty>1.0</qty>
+      <avail>3</avail>
+      <cost>Rating * 75</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CA</source>
+      <page>141</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>4752d8ab-4393-4fd6-a3c6-c85f65d01281</sourceid>
+      <guid>f25148a8-8513-46d3-8790-d7ab743eb0ab</guid>
+      <name>Savior Medkit</name>
+      <category>Nanogear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>3</qty>
+      <avail>6</avail>
+      <cost>2000</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CF</source>
+      <page>154</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
+      <notes>SAVIOR MEDKIT
+Originally developed by Shiawase Biotech but now available from several corps, these advanced medkits combine cutting-edge nanotech and advanced expert systems. When activated, the medkit injects enough nanites to last five minutes into its subject. The savior then acts as a Rating 6 medkit and follows all the normal rules for medkits (p. 450, SR5). If the patient is bleeding out, the savior’s nanites act as a trauma control system (p. 148) for the duration. The savior’s supply of nanites is limited, and it must be restocked every time it is used.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>4</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1673b6fb-ead9-44bb-b6dd-5430026f2428</sourceid>
+      <guid>ec341088-e758-49c9-850d-ec9802848669</guid>
+      <name>Lion's Roar</name>
+      <category>Tailored Perfume/Cologne</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>2</qty>
+      <avail>4</avail>
+      <cost>75</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CA</source>
+      <page>143</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
+    </gear>
+    <gear>
+      <sourceid>acbff7a4-5382-45de-ab00-880ac6b82276</sourceid>
+      <guid>6924736d-3977-4320-9fe8-3be7fe530679</guid>
+      <name>Periscope Cam</name>
+      <category>Tools of the Trade</category>
+      <capacity>Rating</capacity>
+      <armorcapacity />
+      <minrating />
+      <maxrating>3</maxrating>
+      <rating>3</rating>
+      <qty>1.0</qty>
+      <avail>10R</avail>
+      <cost>Rating * 600</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>RG</source>
+      <page>103</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>2886d77a-1321-4a29-aec8-8040b9c5776f</sourceid>
+          <guid>989a0dc7-828b-44da-ab41-33ce8b480c67</guid>
+          <name>Image Link</name>
+          <category>Vision Enhancements</category>
+          <capacity>[0]</capacity>
+          <armorcapacity>[1]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>+0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>444</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>6924736d-3977-4320-9fe8-3be7fe530679</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Image link: A standard upgrade, this lets you display visual information (text, pictures, movies, the current time, etc.) in your field of vision. This is usually AROs, but you can display pretty much whatever you want on it. You and your team can use it to share tactical and sit- uational info in real time. An image link is what you need to truly “see” AR and participate in the modern world.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>588c3193-4298-4a73-b45a-c5f8fd175133</sourceid>
+          <guid>d59a2b96-f284-4ad1-8984-25053b5e237e</guid>
+          <name>Vision Enhancement</name>
+          <category>Vision Enhancements</category>
+          <capacity>[Rating]</capacity>
+          <armorcapacity>[Rating]</armorcapacity>
+          <minrating />
+          <maxrating>3</maxrating>
+          <rating>1</rating>
+          <qty>1.0</qty>
+          <avail>+(Rating *2)</avail>
+          <cost>Rating * 500</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>444</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Vision enhancement: This sharpens a character’s vi- sion at all ranges, providing visual acuity closer to that of the average hawk than that of the average metahuman. It adds its Rating as a positive modifier to your limit on visual Perception Tests.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location />
+      <notes>PERISCOPE CAM
+An inexpensive, hand-held sensor package used to look around corners or over top of obstacles. Image link is standard and it comes with limited upgrading capabilities. It can be accessed wirelessly or viewed directly through a small viewfinder at the base.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <programlimit />
@@ -9421,6 +10041,30 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
+      <target />
+      <improvedname>Clubs</improvedname>
+      <sourcename>e276819f-671e-4f76-b2e4-05d4ed305485</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
       <unique>group0</unique>
       <target />
       <improvedname />
@@ -9447,8 +10091,8 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     </improvement>
     <improvement>
       <target />
-      <improvedname>Clubs</improvedname>
-      <sourcename>e276819f-671e-4f76-b2e4-05d4ed305485</sourcename>
+      <improvedname>Perception</improvedname>
+      <sourcename>41c23358-f51a-494e-ba26-a02ab72aed5c</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -9469,6 +10113,443 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysiologicalAddictionFirstTime</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PsychologicalAddictionFirstTime</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysiologicalAddictionAlreadyAddicted</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PsychologicalAddictionAlreadyAddicted</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinIngestionResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInjectionResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenIngestionResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>31e6e3ba-b2c1-4d3d-9e02-e341417b07f3</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInjectionResist</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>respirator</unique>
+      <target />
+      <improvedname />
+      <sourcename>fa571369-df76-4093-9b61-03bfe7c7233e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinInhalationResist</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>respirator</unique>
+      <target />
+      <improvedname />
+      <sourcename>fa571369-df76-4093-9b61-03bfe7c7233e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenInhalationResist</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>nonconductivity</unique>
+      <target />
+      <improvedname />
+      <sourcename>195e6101-f0d4-4ec6-875f-e497849b66d0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>5</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>6b0be8c4-a9c5-485e-87cd-23014fe8998d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>5</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ToxinContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>chemicalprotection</unique>
+      <target />
+      <improvedname />
+      <sourcename>6b0be8c4-a9c5-485e-87cd-23014fe8998d</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>5</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PathogenContactResist</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>7c853407-8f15-41ea-bec2-a7e92231e2b7</improvedname>
+      <sourcename>d59a2b96-f284-4ad1-8984-25053b5e237e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_SkillsActivePerceptionVisual</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -9478,6 +10559,13 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
     <location>
       <guid>fdaf87dc-aa15-42a7-bfbe-00310281ab81</guid>
       <name>'Nade Pouch</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</guid>
+      <name>Pharma</name>
       <notes />
       <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
