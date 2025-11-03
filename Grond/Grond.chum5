@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>1631786891</settingshashcode>
+  <settingshashcode>-1431348411</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -140,8 +140,8 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <burntstreetcred>0</burntstreetcred>
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
-  <created>False</created>
-  <nuyen>450000</nuyen>
+  <created>True</created>
+  <nuyen>5075.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -323,7 +323,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Aeronautics Mechanic</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>618b7cb4-0948-4193-9ea9-b00a4fc24b98</guid>
@@ -338,7 +337,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Animal Handling</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9cb0cd0b-d135-4ab1-b140-87a467b1b00b</guid>
@@ -353,7 +351,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Arcana</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>e0fffc5f-33bc-451f-ada5-f87ae9bc06fb</guid>
@@ -368,7 +365,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Archery</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>57bf2c50-834a-46cc-ab9e-bc4545aa59b5</guid>
@@ -383,7 +379,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Armorer</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9602ae21-86f1-4fab-b176-6b646241be43</guid>
@@ -398,7 +393,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Artisan</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9e0e815e-5a31-405e-80c7-bc4d1ac45bb6</guid>
@@ -413,7 +407,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Automatics</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>a19d8079-ed9c-4c95-84b2-9ac94e4cdda4</guid>
@@ -428,7 +421,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Automotive Mechanic</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>4de6abc7-d0bb-439f-8a2a-359010ee9ccb</guid>
@@ -443,7 +435,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Biotechnology</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>b7ebbf9c-01a6-4eb2-aaaa-6224eba1e6ad</guid>
@@ -458,7 +449,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Blades</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>5f6138ba-2b83-4010-84d0-4e08024989c6</guid>
@@ -473,7 +463,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Chemistry</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>40113a0a-b3fa-461f-8a9b-20d028486a14</guid>
@@ -488,7 +477,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Clubs</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>4b7c8b5c-cb04-4adf-b9ae-fce558251aad</guid>
@@ -511,7 +499,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Computer</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>3b2f2d59-850c-46ba-a325-f14dca4535a3</guid>
@@ -521,12 +508,11 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Con</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>b2cd3cf0-62bc-4fac-9dcc-290a70b7374d</guid>
@@ -541,7 +527,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Cybercombat</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>a2625aba-027c-4d0b-9d51-32fad9835ad5</guid>
@@ -556,7 +541,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Cybertechnology</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>2b822cf6-b608-4a66-a2aa-bc70f6287ac3</guid>
@@ -571,7 +555,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Demolitions</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>31262f8a-fcd1-4ec0-808b-8a64cd648614</guid>
@@ -586,7 +569,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Disguise</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>3fda1e14-ffe0-4ddf-9410-65ffa10d2beb</guid>
@@ -601,7 +583,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Diving</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>a828a406-550a-4070-862e-63ee0cff4ebe</guid>
@@ -616,7 +597,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Electronic Warfare</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>bfb0a853-8cfb-426c-be2e-52a8671e8f4d</guid>
@@ -631,7 +611,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Escape Artist</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>15614eef-2cb7-4f01-a800-38f8d1adf066</guid>
@@ -646,7 +625,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Etiquette</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>5e59781e-2d26-4b44-bfde-2e8fbd99e3cc</guid>
@@ -661,7 +639,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>First Aid</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9b14bcf0-7fd7-45c4-9cbe-36b46b85984a</guid>
@@ -676,7 +653,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Flight</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>ad2db1fa-35d6-48f4-aeed-d63085474fdf</guid>
@@ -691,7 +667,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Forgery</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>96993383-47a2-438b-8cf0-2db7cd7fff1a</guid>
@@ -706,7 +681,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Free-Fall</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>05b2602f-b486-4811-8dfe-3be9efac8827</guid>
@@ -721,7 +695,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Gunnery</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>09fa820f-7d2d-4068-a98a-4dd96347154b</guid>
@@ -736,7 +709,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Gymnastics</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>3aff75da-8524-42e0-b6a7-c9f11c163043</guid>
@@ -751,7 +723,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Hacking</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>d6e52cb2-43b3-47bc-801a-d695f7b25102</guid>
@@ -766,7 +737,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Hardware</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>32cee52b-3fc7-403f-800a-e250ee80a596</guid>
@@ -781,7 +751,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Heavy Weapons</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>ddcd110f-103d-48a8-9322-aeaa6ab64c6d</guid>
@@ -796,7 +765,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Impersonation</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>f1b6c80a-cea0-44ea-849d-a4d49ff18ab7</guid>
@@ -811,7 +779,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Industrial Mechanic</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>8ad6b694-861a-4f96-a29e-7c0163ca50c4</guid>
@@ -826,7 +793,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Instruction</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>4a47e5d4-0aa1-4f9c-ad66-4eaf1997e092</guid>
@@ -841,7 +807,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Intimidation</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>1822766d-b55d-4810-a69a-a431210abcff</guid>
@@ -856,7 +821,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Leadership</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>15dae4e1-0b54-429b-a422-8e2dbb590031</guid>
@@ -871,7 +835,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Locksmith</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>d8d4cf70-aac5-48ee-804b-f8303a960129</guid>
@@ -886,7 +849,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Longarms</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>656d635d-6bdb-4df8-aa7d-2d8b51b1dd2f</guid>
@@ -901,7 +863,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Medicine</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>6c6af79e-43f6-442e-a54d-701dd179e56d</guid>
@@ -916,7 +877,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Nautical Mechanic</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>c84b4a66-56a1-4631-85cb-c2576b92deee</guid>
@@ -931,7 +891,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Navigation</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>8b15ecd3-3924-4cc7-8ddc-bf665dbf595d</guid>
@@ -946,7 +905,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Negotiation</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>721fabb4-a372-414d-9ae6-70b38bc90230</guid>
@@ -961,7 +919,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Palming</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>ceaf3e26-9c19-42ad-9fa9-99209cecca45</guid>
@@ -976,7 +933,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Perception</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9c7f9133-60b9-4484-9d97-b7a721b30332</guid>
@@ -991,7 +947,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Performance</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>5ffc2788-2654-486b-a3b6-740108a3eb94</guid>
@@ -1006,7 +961,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pilot Aerospace</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>268c3141-5edd-4363-a935-dd1bad5cd6bc</guid>
@@ -1021,7 +975,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pilot Aircraft</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>9d8f9bcb-e59c-4b3f-b659-001b1a99a622</guid>
@@ -1036,7 +989,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pilot Ground Craft</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>b4742ce0-5180-4e7b-9748-84d06b34f877</guid>
@@ -1051,7 +1003,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pilot Walker</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>052dd237-d67d-489d-a8b7-2854312a861e</guid>
@@ -1066,7 +1017,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pilot Watercraft</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>fdebca65-518a-451e-9fa0-8dacaefe902d</guid>
@@ -1081,7 +1031,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Pistols</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>92aa486d-29cf-4ede-8140-f3c0a75a7e94</guid>
@@ -1096,7 +1045,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Running</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>3ffb7401-6395-4d37-8c33-d1e751a6143a</guid>
@@ -1111,7 +1059,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Sneaking</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>8abcb23d-8bd9-42b1-be08-142b1fbad58b</guid>
@@ -1134,7 +1081,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Software</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>7d644d23-e5e8-4cae-a778-f201a7468e67</guid>
@@ -1149,7 +1095,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Survival</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>baa9bcb6-9ea1-4f5f-a771-193defcca543</guid>
@@ -1164,7 +1109,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Swimming</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>e3a8c4b3-77a0-4562-bf1a-260ff465072e</guid>
@@ -1179,7 +1123,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Throwing Weapons</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>ea9c2376-e7ef-4ed0-a6ba-ba4355976978</guid>
@@ -1194,7 +1137,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Tracking</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
         <guid>113638e7-52f3-406a-bc20-60147dc156d3</guid>
@@ -1209,7 +1151,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Unarmed Combat</name>
-        <buywithkarma>False</buywithkarma>
       </skill>
     </skills>
     <knoskills>
@@ -1226,7 +1167,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>English</name>
-        <buywithkarma>False</buywithkarma>
         <type>Language</type>
         <isnativelanguage>True</isnativelanguage>
       </skill>
@@ -1243,7 +1183,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Hotels and Motels</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>c354ea5e-96f3-410c-b42d-e53c0aed7a8c</guid>
@@ -1268,7 +1207,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Italian</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>9a211b0c-7580-438e-9aea-5fdc03f4f0a8</guid>
@@ -1293,7 +1231,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Mafia</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>cc8b767f-bbc2-433e-b31e-c01600cf531f</guid>
@@ -1318,7 +1255,6 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Or'zet</name>
-        <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
             <guid>b49cef08-947f-4036-b65e-28db5918b461</guid>
@@ -1336,7 +1272,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>5a644a70-f72b-432e-9565-531a0535ab05</id>
         <name>Acting</name>
       </group>
@@ -5743,7 +5679,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
       <forcegrade>None</forcegrade>
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -5903,7 +5839,7 @@ Typically a Yakuza-style tattoo across the chest and shoulders of a troll wearin
       <stolen>False</stolen>
       <essdiscount>0</essdiscount>
       <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <extraessmultiplicativemultiplier>1.0</extraessmultiplicativemultiplier>
       <forcegrade>None</forcegrade>
       <matrixcmfilled>0</matrixcmfilled>
       <matrixcmbonus>0</matrixcmbonus>
@@ -10725,7 +10661,56 @@ An inexpensive, hand-held sensor package used to look around corners or over top
   <sustainedobjects />
   <drugs />
   <mentorspirits />
-  <expenses />
+  <expenses>
+    <expense>
+      <guid>9b56550a-1b17-4849-9947-2ccf3252fbc4</guid>
+      <date>2025-11-03T15:47:18</date>
+      <amount>5075.000</amount>
+      <reason>Starting Nuyen</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>5d98c00e-8983-46c9-a657-b7a1d94e62c6</guid>
+      <date>2025-11-03T15:47:39</date>
+      <amount>2</amount>
+      <reason>Martial Art</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>4f695bc6-7fbe-42f0-ba58-d001e84130ee</guid>
+      <date>2025-11-03T15:48:44</date>
+      <amount>-2</amount>
+      <reason>Active Skill Con 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>3b2f2d59-850c-46ba-a325-f14dca4535a3</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+  </expenses>
   <gearlocations>
     <location>
       <guid>fdaf87dc-aa15-42a7-bfbe-00310281ab81</guid>
