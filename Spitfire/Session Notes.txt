@@ -7,6 +7,8 @@
 
 Game 7: Plan F
 2025-11-06
+GM: Solon (solonisonomia)
+Players:
 kifaru (Kifaru_KE_1964) as Chef, the... chef. Also Ork Adept.
 Gregg (pariahic) as Pinky Violence, Smoking Hot FLR Shotgun Muscle.
 Defective_Gh0st as Boomslang, who will not be dressed as a vampire.
@@ -80,6 +82,7 @@ Todo:
 
 Game 6: Rat in the Pipes
 2025-10-26
+GM: Solon (solonisonomia)
 Players:
 drbraddock (Twelve) as Purple, Prime runner super spy
 thibbledorfpwen as Avicenna, Medic decker alchemist
