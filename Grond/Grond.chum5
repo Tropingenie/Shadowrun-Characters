@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1431348411</settingshashcode>
+  <settingshashcode>311567727</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -1279,7 +1279,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>3b45d3d9-7e24-4a43-997c-47f4294d26bb</id>
         <name>Athletics</name>
       </group>
@@ -1293,7 +1293,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>4b891a57-51a2-4926-a037-a8875c8d66a4</id>
         <name>Close Combat</name>
       </group>
@@ -1328,7 +1328,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>0437b2a6-0967-4352-8a09-3098acbd1d06</id>
         <name>Influence</name>
       </group>
@@ -1342,7 +1342,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>49b89cb6-b5b5-49e8-b2b1-8e5f09b6d0c6</id>
         <name>Stealth</name>
       </group>
@@ -1831,7 +1831,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>SR5</source>
       <page>438</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1888,7 +1888,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>RG</source>
       <page>61</page>
       <armorname />
-      <equipped>False</equipped>
+      <equipped>True</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -4687,7 +4687,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <sortorder>0</sortorder>
         </cyberware>
         <cyberware>
-          <guid>495e2a54-5ef5-4f13-bd8e-06cd86c20716</guid>
+          <guid>a229b9e2-7541-4dc0-9e16-08cc7cdc4c63</guid>
           <sourceid>8ea736c6-5a90-471c-9320-18432ec9aaf0</sourceid>
           <name>Armor</name>
           <category>Cyberlimb Enhancement</category>
@@ -4697,7 +4697,7 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
           <ess>0</ess>
           <capacity>[Rating]</capacity>
           <avail>Rating * 5</avail>
-          <cost>Rating * 3000</cost>
+          <cost>0</cost>
           <weight />
           <source>SR5</source>
           <page>456</page>
@@ -5564,87 +5564,6 @@ Evo Atlantean: The first set of optimized limbs that had both matching arms and 
       <sortorder>0</sortorder>
     </cyberware>
     <cyberware>
-      <guid>aff12d55-61cc-4bc8-b5a8-e6f77975a165</guid>
-      <sourceid>76523da7-271d-459a-9502-3f7c8d54be6a</sourceid>
-      <name>Bone Lacing (Aluminum)</name>
-      <category>Bodyware</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>1</ess>
-      <capacity>0</capacity>
-      <avail>12R</avail>
-      <cost>18000</cost>
-      <weight />
-      <source>SR5</source>
-      <page>454</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>0</rating>
-      <minagility>3</minagility>
-      <minstrength>3</minstrength>
-      <minrating />
-      <maxrating />
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems />
-      <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
-      <location />
-      <extra />
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <armor>2</armor>
-        <damageresistance>2</damageresistance>
-        <unarmeddv>2</unarmeddv>
-        <unarmeddvphysical />
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <improvementsource>Cyberware</improvementsource>
-      <pairinclude>
-        <name>Bone Lacing (Aluminum)</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Bone Lacing (Aluminum)</name>
-      </wirelesspairinclude>
-      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
-    <cyberware>
       <guid>9a54ced0-1b84-4387-95e9-9befd5919506</guid>
       <sourceid>dac0f054-1594-493b-8a2d-a4c7145eb02e</sourceid>
       <name>Nanotattoos</name>
@@ -5953,6 +5872,87 @@ Synch is a nootropic protein that affects cognitive abilities in the brain cells
       <notes>NEPHRITIC SCREEN
 Essentially an up-gunned kidney, the nephritic screen improves both blood filtration, removing harmful toxins from the bloodstream, and blood screening, keeping more useful materials in while removing the less-useful. The overall effect is a general increase in the user’s health and wellbeing, while also making the user far less likely to become drunk or enjoy recreational pharmacology. Depending on one’s point of view, that can be a drawback or an additional bonus.
 Add the nephritic screen’s Rating to the user’s Willpower for all drug addiction tests (p. 414, SR5), and also add its Rating as a dice pool bonus to Toxin Resistance or Disease Resistance tests. In addition, reduce the duration of any drug by the nephritic screen’s Rating, using whatever time increments the duration is measured in (that is, if duration is measured in hours, the nephritic screen reduces the duration by [Rating] hours).</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>1d475df8-08db-4c95-ac67-fcc390a841fe</guid>
+      <sourceid>76523da7-271d-459a-9502-3f7c8d54be6a</sourceid>
+      <name>Bone Lacing (Aluminum)</name>
+      <category>Bodyware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>1</ess>
+      <capacity>0</capacity>
+      <avail>12R</avail>
+      <cost>0</cost>
+      <weight />
+      <source>SR5</source>
+      <page>454</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Standard</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <armor>2</armor>
+        <damageresistance>2</damageresistance>
+        <unarmeddv>2</unarmeddv>
+        <unarmeddvphysical />
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Bone Lacing (Aluminum)</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Bone Lacing (Aluminum)</name>
+      </wirelesspairinclude>
+      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -9549,30 +9549,6 @@ An inexpensive, hand-held sensor package used to look around corners or over top
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>495e2a54-5ef5-4f13-bd8e-06cd86c20716</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>3</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Celerity</improvedname>
       <sourcename>e36e864f-b56e-4a3a-bfc5-0f48cea3291f</sourcename>
       <min>0</min>
@@ -9656,102 +9632,6 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <exclude />
       <condition />
       <improvementttype>WeaponSkillAccuracy</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>aff12d55-61cc-4bc8-b5a8-e6f77975a165</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Armor</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>aff12d55-61cc-4bc8-b5a8-e6f77975a165</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>DamageResistance</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>aff12d55-61cc-4bc8-b5a8-e6f77975a165</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>UnarmedDV</improvementttype>
-      <improvementsource>Cyberware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>aff12d55-61cc-4bc8-b5a8-e6f77975a165</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>UnarmedDVPhysical</improvementttype>
       <improvementsource>Cyberware</improvementsource>
       <custom>False</custom>
       <customname />
@@ -10657,6 +10537,294 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>BOD</improvedname>
+      <sourcename>64ca89c3-dd11-4e7c-b3df-163cef2e84fd</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 BOD</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>AGI</improvedname>
+      <sourcename>79c3bfeb-a679-4456-862e-8b59794dd41b</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 AGI</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>STR</improvedname>
+      <sourcename>51cfdc61-b159-4da5-95b1-fe38963d6d3a</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>2</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 STR</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>WIL</improvedname>
+      <sourcename>e96f1e20-0e22-4808-b7db-ae332b488d87</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 WIL</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Physical</improvedname>
+      <sourcename>231d7196-c52f-4901-be07-11e3ae0eb212</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalLimit</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Physlim</customname>
+      <customid>physicallimit</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>c279fbe2-34de-4f3c-9f54-86ae346658ca</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>InitiativeDiceAdd</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+2 Init Dice</customname>
+      <customid>initiativediceadd</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>dfdeb288-417a-4409-bab0-6844bd3085c1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CMThresholdOffset</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>High Pain Tolerance 3</customname>
+      <customid>conditionmonitoroffset</customid>
+      <customgroup>Kamikaze</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>1d475df8-08db-4c95-ac67-fcc390a841fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>1d475df8-08db-4c95-ac67-fcc390a841fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DamageResistance</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>1d475df8-08db-4c95-ac67-fcc390a841fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>UnarmedDV</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>1d475df8-08db-4c95-ac67-fcc390a841fe</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>UnarmedDVPhysical</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>a229b9e2-7541-4dc0-9e16-08cc7cdc4c63</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Armor</improvementttype>
+      <improvementsource>Cyberware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -10710,6 +10878,38 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>7c286f8f-ffcc-47c0-b651-e365b8dec8e2</guid>
+      <date>2025-11-19T20:13:11</date>
+      <amount>0</amount>
+      <reason>Purchased Cyberware Bone Lacing (Aluminum)</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>1d475df8-08db-4c95-ac67-fcc390a841fe</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>df271190-0aed-4f21-ab0b-c8d21debefcc</guid>
+      <date>2025-11-19T20:13:34</date>
+      <amount>0</amount>
+      <reason>Purchased Cyberware Armor</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>a229b9e2-7541-4dc0-9e16-08cc7cdc4c63</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -10730,7 +10930,9 @@ An inexpensive, hand-held sensor package used to look around corners or over top
   <armorlocations />
   <vehiclelocations />
   <weaponlocations />
-  <improvementgroups />
+  <improvementgroups>
+    <improvementgroup>Kamikaze</improvementgroup>
+  </improvementgroups>
   <calendar />
   <calculatedvalues>
     <physicalcm>9</physicalcm>
