@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>311567727</settingshashcode>
+  <settingshashcode>-1658798999</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -118,7 +118,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>6</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>5075.000</nuyen>
+  <nuyen>26075.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -8639,7 +8639,7 @@ Originally developed by Shiawase Biotech but now available from several corps, t
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>2</qty>
+      <qty>1</qty>
       <avail>4</avail>
       <cost>75</cost>
       <weight />
@@ -10906,6 +10906,38 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddCyberware</nuyentype>
         <objectid>a229b9e2-7541-4dc0-9e16-08cc7cdc4c63</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>60c8ff6c-97a4-47d7-8ceb-83a204c3e882</guid>
+      <date>2025-11-20T21:34:02</date>
+      <amount>21000</amount>
+      <reason>Game 1: Overnight for 20 Nuyen More</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>381cce37-b8ba-498c-bd28-88be79f0c4fe</guid>
+      <date>2025-11-20T21:34:21</date>
+      <amount>6</amount>
+      <reason>Game 1: Overnight for 20 Nuyen More</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
