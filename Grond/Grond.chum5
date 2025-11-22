@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>504437335</settingshashcode>
+  <settingshashcode>2068583943</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>20175.000</nuyen>
+  <nuyen>19175.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -3202,6 +3202,60 @@ Anyone can threaten someone with a gun, but some look more frightening than othe
           <apreplace />
           <notes>PERSONALIZED GRIP
 This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>b78d830b-f2cc-4ec5-ae39-b0d204b66f57</sourceid>
+          <guid>2c6fb10e-8f47-49b8-97fd-5fc600455832</guid>
+          <name>Chameleon Coating (Two Handed Melee)</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal>-2</conceal>
+          <avail>10R</avail>
+          <cost>1000</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>180</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes />
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <singleshot>0</singleshot>
@@ -11299,6 +11353,22 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddWeaponAccessory</nuyentype>
         <objectid>2ef3ab4f-5e22-49c7-8e16-c16080325a07</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>4ad7d82e-b049-4323-9192-cfee5c3eb90c</guid>
+      <date>2025-11-21T23:51:43</date>
+      <amount>-1000</amount>
+      <reason>Purchased Weapon Accessory Chameleon Coating (Two Handed Melee)</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>2c6fb10e-8f47-49b8-97fd-5fc600455832</objectid>
         <qty>0</qty>
         <extra />
       </undo>
