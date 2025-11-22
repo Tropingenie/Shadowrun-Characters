@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-916686209</settingshashcode>
+  <settingshashcode>504437335</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>26075.000</nuyen>
+  <nuyen>20175.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -3054,6 +3054,206 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>gear</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>78beeb28-9ae6-418d-97bb-1d45ac19cee8</sourceid>
+      <guid>77a040c8-5945-4859-883b-5bdf379f5924</guid>
+      <name>Osmium Mace</name>
+      <category>Clubs</category>
+      <type>Melee</type>
+      <spec>Hammers</spec>
+      <spec2 />
+      <reach>2</reach>
+      <damage>({STR}+2+(2*number({STR} &gt;= 5))+(2*number({STR} &gt;= 7)))P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>3+number({STR} &gt;= 5)+number({STR} &gt;= 7)</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>0</conceal>
+      <avail>14R</avail>
+      <cost>5500</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>TCT</source>
+      <page>185</page>
+      <parentid />
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>3+number({STR} &gt;= 5)+number({STR} &gt;= 7)</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <accessories>
+        <accessory>
+          <sourceid>d67f3194-61f3-4440-b02c-e5f173532b01</sourceid>
+          <guid>274f940a-8069-47be-8be5-c0fa61688bc5</guid>
+          <name>Custom Look</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>300</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>180</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>CUSTOM LOOK
+Anyone can threaten someone with a gun, but some look more frightening than others. Some guns send the message that the wielder is no ordinary thug, and crossing them would be a bad idea. This modification can include a wide array of possible enhancements including filigree, engraving, grips made from exotic materials, and chrome or gold plating. Weapons with Custom Look grant a +1 dice pool bonus to Intimidation Tests. The downside is that guns like this stand out and people get a +1 on Memory Tests to recall seeing the wielder.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>85b01b5c-c788-4b43-8190-9e0c18391436</sourceid>
+          <guid>2ef3ab4f-5e22-49c7-8e16-c16080325a07</guid>
+          <name>Personalized Grip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>2</avail>
+          <cost>100</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>HT</source>
+          <page>182</page>
+          <accuracy>1</accuracy>
+          <ammoreplace />
+          <ammoslots>0</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>PERSONALIZED GRIP
+This modification allows a weapon’s owner to customize a weapon to fit the size and shape of their hand perfectly. This is particularly useful for metatypes at the high and low end of the bell curve for standard metahuman size. This modification increases a weapon’s Accuracy by 1.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+      </accessories>
+      <location />
+      <notes>OSMIUM MACE
+There are all sorts of ways to make weapons more effective, but in the end, if you have a strong arm delivering the blow, all you really need in order to be effective is something with lots of mass and inertia that will pound a huge amount of force into the chest of whoever you’re hitting. The club does this job pretty well, but if you have the arm strength for it, having extra weight at the end of the shaft can really get momentum swinging, delivering a huge payload of kinetic energy to the target. Enter the osmium mace, which some say is over the top in terms of its pain-delivering mass, while others say that’s just the way they like it. Osmium is the most dense metal on earth, but its brittle nature makes it unsuitable for the construction of a weapon. It’s just fine, though, for a ball on the interior of a mace head, especially when it is alloyed to make it more durable and then surrounded by a titanium shell to help diffuse some of the shock of impact away from the core. The result is a weapon that is difficult for the average person to lift up, let alone swing. When you get up to ork or troll levels of strength, you can deliver devastating blows that make you look like a character straight out of mythology.
+*Accuracy decreases to 3 when wielded by someone with Strength of 4 or lower and increases to 5 when wielded by someone with Strength of 7 or higher.
+DV changes to (STR+2)P when wielded by someone with Strength of 4 or lower and increases to (STR+6)P when wielded by someone with Strength of 7 or higher.
+Anarchy Weapon: Close Combat, DV (STR/2 + 3), Close OK, Near —, Far —</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>melee</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -11051,6 +11251,54 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <karmatype>ManualAdd</karmatype>
         <nuyentype>AddCyberware</nuyentype>
         <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>db148631-64e2-4ca5-8882-f749e2c57754</guid>
+      <date>2025-11-21T23:16:46</date>
+      <amount>-5500</amount>
+      <reason>Purchased Weapon Osmium Mace</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeapon</nuyentype>
+        <objectid>77a040c8-5945-4859-883b-5bdf379f5924</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>342fb915-f86b-4546-95b1-57782dc63904</guid>
+      <date>2025-11-21T23:18:00</date>
+      <amount>-300</amount>
+      <reason>Purchased Weapon Accessory Custom Look</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>274f940a-8069-47be-8be5-c0fa61688bc5</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d1f2bb6b-80fc-4695-b1e3-f1ff8eaf0c08</guid>
+      <date>2025-11-21T23:18:05</date>
+      <amount>-100</amount>
+      <reason>Purchased Weapon Accessory Personalized Grip</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeaponAccessory</nuyentype>
+        <objectid>2ef3ab4f-5e22-49c7-8e16-c16080325a07</objectid>
         <qty>0</qty>
         <extra />
       </undo>
