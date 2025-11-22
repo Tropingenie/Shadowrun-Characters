@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1658798999</settingshashcode>
+  <settingshashcode>-916686209</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -118,7 +118,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>6</karma>
+  <karma>5</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -1447,6 +1447,30 @@ Once the design was complete, Bartoli welcomed Grond to visit again, even for ju
 This is the revered ancient art of throwing your opponent to the ground and holding him there till he cries “uncle.” Wrestling is one of the oldest forms of combat.
 Reportedly existing for some four thousand years, with more formal rules from all over the world. Grappling your opponent and subduing him is the key strategy with this style while throwing him to the ground is optional. Several folk wrestling styles including Mongolian Bökh and Cambodian Bok Cham Bab have similar rules to the Sport style of wrestling.
 Available Techniques: Clinch, Constrictor’s Crush, Jiao Di (Knock Down), Karmic Response, Sweep, Throw Person</notes>
+      <notesColor>#E3813C</notesColor>
+    </martialart>
+    <martialart>
+      <name>Pentjak-Silat</name>
+      <sourceid>0b792f6c-c12e-4e93-b830-1f201e267bbc</sourceid>
+      <guid>4cb0ad47-57d1-48a5-a509-0a25019b7b4e</guid>
+      <source>RG</source>
+      <page>133</page>
+      <cost>7</cost>
+      <isquality>False</isquality>
+      <martialarttechniques>
+        <martialarttechnique>
+          <sourceid>8a457d21-cc45-4f60-b9d3-0891f0c47c10</sourceid>
+          <guid>4a87bbbe-186a-4101-bcc5-30df7a6da635</guid>
+          <name>Jiao Di (Charge)</name>
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <source>RG</source>
+          <page>138</page>
+        </martialarttechnique>
+      </martialarttechniques>
+      <notes>PENTJAK-SILAT
+An ancient martial art from Indonesia that is over a thousand years old, Pentjak-Silat is actually an umbrella term for several techniques. It teaches the use of several weapons such as the kris and focuses on striking vital points of the opponent. It is predominantly practiced in Indonesia. Adepts have discovered that this style is effective and potent when used with weapon foci.
+Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Charge), Randori (Vitals), Silken Storm</notes>
       <notesColor>#E3813C</notesColor>
     </martialart>
   </martialarts>
@@ -10825,6 +10849,31 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <unique>Pentjak-Silat</unique>
+      <target />
+      <improvedname>Blades</improvedname>
+      <sourcename>4cb0ad47-57d1-48a5-a509-0a25019b7b4e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>SkillSpecializationOption</improvementttype>
+      <improvementsource>MartialArt</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -10933,6 +10982,70 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <reason>Game 1: Overnight for 20 Nuyen More</reason>
       <type>Karma</type>
       <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>621bbe30-c68e-477a-a5b4-78ed2d92b8eb</guid>
+      <date>2025-11-21T22:57:10</date>
+      <amount>4</amount>
+      <reason>Influence</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>806f28a0-3557-4121-a84a-cba73ca61a5b</guid>
+      <date>2025-11-21T22:57:34</date>
+      <amount>-7</amount>
+      <reason>Learned Martial Art Pentjak-Silat</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddMartialArt</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>4cb0ad47-57d1-48a5-a509-0a25019b7b4e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>962d929f-19b0-4158-a38d-2685c35bc101</guid>
+      <date>2025-11-21T22:57:43</date>
+      <amount>0</amount>
+      <reason>Learned Technique Jiao Di (Charge)</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddMartialArtTechnique</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>4a87bbbe-186a-4101-bcc5-30df7a6da635</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>1742eea3-9a65-4ae1-b6fc-eced38be5edf</guid>
+      <date>2025-11-21T22:57:57</date>
+      <amount>2</amount>
+      <reason>Learned Martial Art</reason>
+      <type>Karma</type>
+      <refund>True</refund>
       <forcecareervisible>False</forcecareervisible>
       <undo>
         <karmatype>ManualAdd</karmatype>
