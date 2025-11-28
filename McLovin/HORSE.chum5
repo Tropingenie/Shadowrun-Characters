@@ -73,14 +73,12 @@
   <sprintalt>4/1/0</sprintalt>
   <initiativedice>1</initiativedice>
   <prioritymetatype>B</prioritymetatype>
-  <priorityattributes>E</priorityattributes>
-  <priorityspecial>C</priorityspecial>
-  <priorityskills>B</priorityskills>
+  <priorityattributes>B</priorityattributes>
+  <priorityspecial>E</priorityspecial>
+  <priorityskills>C</priorityskills>
   <priorityresources>C</priorityresources>
-  <prioritytalent>Adept</prioritytalent>
-  <priorityskills>
-    <priorityskill>Hacking</priorityskill>
-  </priorityskills>
+  <prioritytalent>Mundane</prioritytalent>
+  <priorityskills />
   <essenceatspecialstart>6</essenceatspecialstart>
   <name>McLovin</name>
   <mainmugshotindex>-1</mainmugshotindex>
@@ -154,7 +152,7 @@ Fill gaps in decking ability\f0 \par
   <karma>0</karma>
   <special>3</special>
   <totalspecial>3</totalspecial>
-  <totalattributes>12</totalattributes>
+  <totalattributes>20</totalattributes>
   <edgeused>0</edgeused>
   <contactpoints>3</contactpoints>
   <spelllimit>0</spelllimit>
@@ -177,7 +175,7 @@ Fill gaps in decking ability\f0 \par
   <nuyen>140000</nuyen>
   <startingnuyen>140000</startingnuyen>
   <nuyenbp>3</nuyenbp>
-  <adept>True</adept>
+  <adept>False</adept>
   <magician>False</magician>
   <technomancer>False</technomancer>
   <ai>False</ai>
@@ -241,20 +239,20 @@ Fill gaps in decking ability\f0 \par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>1</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>1</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -288,13 +286,13 @@ Fill gaps in decking ability\f0 \par
     </attribute>
     <attribute>
       <name>MAG</name>
-      <metatypemin>4</metatypemin>
+      <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>0</totalvalue>
     </attribute>
     <attribute>
       <name>LOG</name>
@@ -311,20 +309,20 @@ Fill gaps in decking ability\f0 \par
       <metatypemin>3</metatypemin>
       <metatypemax>8</metatypemax>
       <metatypeaugmax>12</metatypeaugmax>
-      <base>0</base>
+      <base>2</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>WIL</name>
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>2</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
   </attributes>
   <magenabled>True</magenabled>
@@ -340,8 +338,8 @@ Fill gaps in decking ability\f0 \par
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
   <newskills>
-    <skillptsmax>36</skillptsmax>
-    <skillgrpsmax>5</skillgrpsmax>
+    <skillptsmax>28</skillptsmax>
+    <skillgrpsmax>2</skillgrpsmax>
     <skills>
       <skill>
         <guid>5129de30-1754-4aac-a113-5ea409dba5b8</guid>
@@ -431,36 +429,6 @@ Fill gaps in decking ability\f0 \par
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Artisan</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>22faf35b-77f0-4e69-8e7b-7e773543ba2d</guid>
-        <suid>59318078-e071-411b-9194-7222560e9f4a</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Assensing</name>
-        <buywithkarma>False</buywithkarma>
-      </skill>
-      <skill>
-        <guid>3b6ac7fe-396d-4b99-9677-68f90facb875</guid>
-        <suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Magical Active</skillcategory>
-        <requiresgroundmovement>False</requiresgroundmovement>
-        <requiresswimmovement>False</requiresswimmovement>
-        <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <notesColor>#E3813C</notesColor>
-        <name>Astral Combat</name>
         <buywithkarma>False</buywithkarma>
       </skill>
       <skill>
@@ -953,7 +921,7 @@ Fill gaps in decking ability\f0 \par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>3</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Longarms</name>
@@ -1163,7 +1131,7 @@ Fill gaps in decking ability\f0 \par
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>6</base>
+        <base>1</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Running</name>
@@ -1450,7 +1418,7 @@ Fill gaps in decking ability\f0 \par
       </group>
       <group>
         <karma>0</karma>
-        <base>5</base>
+        <base>2</base>
         <isbroken>False</isbroken>
         <id>53fca68d-05d6-4f8e-8898-2587ed654e69</id>
         <name>Electronics</name>
@@ -1526,186 +1494,7 @@ Fill gaps in decking ability\f0 \par
   <spells />
   <foci />
   <stackedfoci />
-  <powers>
-    <power>
-      <sourceid>76337564-7688-497f-84f9-302c6ece10fe</sourceid>
-      <guid>1a37caa3-6d81-4670-9d96-e47f0db21353</guid>
-      <name>Combat Sense</name>
-      <extra />
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>2</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Beast's Way</quality>
-            <quality>The Invisible Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>COMBAT SENSE
-Cost: 0.5 PP per level Combat Sense provides an instinctive sense of any potential threats nearby. In defending against ranged and melee attacks, you get a +1 dice pool bonus to defense tests per level of this power. Adepts with this power are always allowed a Perception Test before a possible surprise situation, gaining the benefit of being alerted if the test is successful.</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-    <power>
-      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
-      <guid>5baf443b-c04d-44e8-8d62-073679b515a4</guid>
-      <name>Improved Ability (skill)</name>
-      <extra>Hacking</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>1</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Artisan's Way</quality>
-            <quality>The Artist's Way</quality>
-            <quality>The Athlete's Way</quality>
-            <quality>The Speaker's Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>IMPROVED ABILITY (SKILL)
-Cost: 0.5 PP per level This power increases the Rating of a specific Combat, Physical, Social, Technical, or Vehicle skill per level of the power. You need to know the skill in order to buy this power for it, and you can’t buy it for skill groups. The maximum improvement possible is your current skill level x 1.5 (rounded up).</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-    <power>
-      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
-      <guid>8f563203-5bb3-4083-913c-6d48e78e3cb4</guid>
-      <name>Improved Ability (skill)</name>
-      <extra>Computer</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>1</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Artisan's Way</quality>
-            <quality>The Artist's Way</quality>
-            <quality>The Athlete's Way</quality>
-            <quality>The Speaker's Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>IMPROVED ABILITY (SKILL)
-Cost: 0.5 PP per level This power increases the Rating of a specific Combat, Physical, Social, Technical, or Vehicle skill per level of the power. You need to know the skill in order to buy this power for it, and you can’t buy it for skill groups. The maximum improvement possible is your current skill level x 1.5 (rounded up).</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-    <power>
-      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
-      <guid>1af2aaa5-f50b-43ed-81a7-2c51a98e9c6d</guid>
-      <name>Improved Ability (skill)</name>
-      <extra>Hardware</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>1</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Artisan's Way</quality>
-            <quality>The Artist's Way</quality>
-            <quality>The Athlete's Way</quality>
-            <quality>The Speaker's Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>IMPROVED ABILITY (SKILL)
-Cost: 0.5 PP per level This power increases the Rating of a specific Combat, Physical, Social, Technical, or Vehicle skill per level of the power. You need to know the skill in order to buy this power for it, and you can’t buy it for skill groups. The maximum improvement possible is your current skill level x 1.5 (rounded up).</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-    <power>
-      <sourceid>75821fb7-a180-4012-aa16-daa92ac3bb63</sourceid>
-      <guid>12d4616d-4390-4868-bb35-8320d953c911</guid>
-      <name>Improved Ability (skill)</name>
-      <extra>Software</extra>
-      <pointsperlevel>0.5</pointsperlevel>
-      <adeptway>0.25</adeptway>
-      <action />
-      <rating>1</rating>
-      <extrapointcost>0</extrapointcost>
-      <levels>True</levels>
-      <maxlevels>0</maxlevels>
-      <discounted>False</discounted>
-      <discountedgeas>False</discountedgeas>
-      <bonussource />
-      <freepoints>0</freepoints>
-      <source>SR5</source>
-      <page>309</page>
-      <bonus />
-      <adeptwayrequires>
-        <required>
-          <oneof>
-            <quality>The Artisan's Way</quality>
-            <quality>The Artist's Way</quality>
-            <quality>The Athlete's Way</quality>
-            <quality>The Speaker's Way</quality>
-            <quality>The Spiritual Way</quality>
-            <quality>The Warrior's Way</quality>
-          </oneof>
-        </required>
-      </adeptwayrequires>
-      <enhancements />
-      <notes>IMPROVED ABILITY (SKILL)
-Cost: 0.5 PP per level This power increases the Rating of a specific Combat, Physical, Social, Technical, or Vehicle skill per level of the power. You need to know the skill in order to buy this power for it, and you can’t buy it for skill groups. The maximum improvement possible is your current skill level x 1.5 (rounded up).</notes>
-      <notesColor>#E3813C</notesColor>
-    </power>
-  </powers>
+  <powers />
   <spirits />
   <complexforms />
   <aiprograms />
@@ -3111,39 +2900,6 @@ Anything the character attempts to sabotage using only Gremlins will function fl
 BONUS: 2 KARMA
 The character has an obsession, something that drives them forward. Everything they do is designed to bring them one step closer to solving the enigma in their life.
 This can be finding a disappeared loved one, discovering a hidden truth about themselves, or even getting revenge on an old enemy. Whatever the cause, when faced with a clue or opportunity to advance their quest, the character must make a Willpower + Logic (4) Test to not immediately drop everything and pursue this new information. Unless the character succeeds, they will sacrifice anything and anyone to get closer to the truth. On the other hand, such single-minded obsession makes the character a tough nut to crack. As long as the character is actively working a lead, he gains +1 to his Willpower.</notes>
-      <notesColor>#E3813C</notesColor>
-    </quality>
-    <quality>
-      <sourceid>55247bdc-c313-4614-ae15-5012308096ff</sourceid>
-      <guid>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</guid>
-      <name>Adept</name>
-      <extra />
-      <bp>20</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>False</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Heritage</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>69</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes>ADEPTS
-• Adepts channel mana into their own bodies to enhance their natural abilities, making their talents and skills much more potent.
-• Adepts never astrally project (p. 313).
-• Adepts only perceive astral space by purchasing the Astral Perception power (p. 312).
-• Adepts can learn the Assensing skill only if they have the Astral Perception power.
-• Adepts cannot use skills from any magic-related skill groups (Sorcery, Conjuring, or Enchanting).
-• Adepts can follow mentor spirits (p. 320).
-• Adepts gain Adept Powers that are purchased with Power Points. Adepts receive a number of Power Points equal to their Magic rating.</notes>
       <notesColor>#E3813C</notesColor>
     </quality>
   </qualities>
@@ -7707,272 +7463,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
-    <improvement>
-      <target />
-      <improvedname>Spell</improvedname>
-      <sourcename>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>BlockSpellDescriptor</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enableattribute</unique>
-      <target />
-      <improvedname>MAG</improvedname>
-      <sourcename>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>enabletab</unique>
-      <target />
-      <improvedname>Adept</improvedname>
-      <sourcename>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>0</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialTab</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Rituals</improvedname>
-      <sourcename>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>LimitSpellCategory</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Adept</improvedname>
-      <sourcename>93a285d3-d7ce-49ef-91c1-2a4e78e1acab</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SpecialSkills</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Hacking</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>SkillBase</improvementttype>
-      <improvementsource>Heritage</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>1a37caa3-6d81-4670-9d96-e47f0db21353</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Dodge</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Hacking</improvedname>
-      <sourcename>5baf443b-c04d-44e8-8d62-073679b515a4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Computer</improvedname>
-      <sourcename>8f563203-5bb3-4083-913c-6d48e78e3cb4</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Hardware</improvedname>
-      <sourcename>1af2aaa5-f50b-43ed-81a7-2c51a98e9c6d</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Software</improvedname>
-      <sourcename>12d4616d-4390-4868-bb35-8320d953c911</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -8007,10 +7497,10 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
   <improvementgroups />
   <calendar />
   <calculatedvalues>
-    <physicalcm>10</physicalcm>
+    <physicalcm>11</physicalcm>
     <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
-    <physicalcmoverflow>4</physicalcmoverflow>
-    <stuncm>10</stuncm>
+    <physicalcmoverflow>6</physicalcmoverflow>
+    <stuncm>11</stuncm>
     <stuncmthresholdoffset>0</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
