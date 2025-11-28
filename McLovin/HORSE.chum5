@@ -2,10 +2,10 @@
 <character>
   <createdversion>5.225.1021</createdversion>
   <minimumappversion>5.214.1</minimumappversion>
-  <appversion>5.225.1021</appversion>
+  <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>186625379</settingshashcode>
+  <settingshashcode>362530313</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -80,21 +80,72 @@
   <prioritytalent>Mundane</prioritytalent>
   <priorityskills />
   <essenceatspecialstart>6</essenceatspecialstart>
-  <name />
+  <name>McLovin</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
-  <gender />
-  <age />
-  <eyes />
-  <height />
-  <weight />
-  <skin />
-  <hair />
-  <description />
-  <background />
+  <gender>F</gender>
+  <age>21</age>
+  <eyes>None</eyes>
+  <height>Yes</height>
+  <weight>Damn boy she thicc</weight>
+  <skin>None</skin>
+  <hair>haha ur bald</hair>
+  <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 McLovin' is a lesser centaur of European origin. Her human half appears to be of U.K. descent, while her lower half is Friesian, with a black coat. She has had extensive cybernetic augmentation, but keeps it covered with a designer suit and matching white gloves. Despite claiming otherwise, she has embraced the cybernetics, modifying them to appear as medieval armour, oft not seen due to the aforementioned suit.\par
+}</description>
+  <background>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 McLovin was cast out from her tribe at a young age, and was forced to attempt to integrate with the humans for survival. With no name, nor knowledge, it was all too easy for her to be captured by nefarious groups for nefarious means. She was smuggled to a facility in Aztlan, where she was experimented on as part of an attempt to create a technomancer. The scientists there thought that, perhaps, they could use an awakened metaspecies and pervert its magical talents into Matrix form.\par
+\par
+What they created was someone with a vendetta, and a little too much Matrix access. Perhaps through luck, or skill, they never noticed her using the 'locked down' cyberdeck they left in her cell to worm her way into their host. It started out small, keycards failing to unlock doors, camera feeds dropping a few seconds of footage, and other near imperceptible failures that flew under the radar. These were, of course, not coincidences: They were McLovin testing her access to the facility's systems.\par
+\par
+Over the next few months, eventually years, she gathered a dossier on the facility, and as many others she could find. When the time was ripe, she struck, posting it to as many pro-technomancy data havens on both sides of the shadows she could find, under the handle "McLovin," after a character from one of the flatvids "they" had given her, still thinking she was stuck to whatever intranet access they gave her. This triggered a series of Technoterrorist attacks, as global technomancer and pro-technomancer communities were enraged to the point of extremism. While Aztechnology managed to keep things under wraps, they still pushed the Corporate Court to designate "McLovin" as an international Matrix terrorist, believing the attack had originated from the outside.\par
+\par
+In the chaos, most of the technomancers in the blacksite McLovin was stored in, and McLovin themself, disappeared. The facility's systems went haywire, as the host itself turned against the occupants. Years of preparation and practice had given McLovin full control of the door and camera systems, and when the Technos spoofed it to invite them MARKs she made contact, waltzing past ICE like she owned the place--because at that point, she did. A single reboot wiped nearly a decade of progress, but the deed was done: McLovin was free.\par
+\par
+Still, she needed to wait for the heat to die down. She couldn't just dive back onto the Matrix in the middle of a GOD manhunt, but they didn't know her face. At the suggestion, and with the help, of the technomancers who saved her, she moved to Seattle. Its diversity and proximity to centaur settlements would help her blend into the crowd--as much as a literal horse could blend in, at least. The 'ware that had taken her magic from her came in useful here, allowing her to make it as a hired gun, though having never handled a firearm in her life meant she was a poor shot, relying mostly on her excessive physical capability to shoot straight. Still, with her magic gone, chrome was her way forward, her initiation. She had never learned magic, and so science became her centering.\par
+\par
+With limited skill and resources, life was hard, but at least she was free. Sure, sacrifices had to be made to pay the bills, but at least they were being paid. Azech's cover ups helped her more, as the incident didn't reach deep into the public eye, and was soon forgotten among all the other noise of the 6th world, and the time came where McLovin--now calling herself "Grand Guard"--picked up her deck that had been collecting dust, powered down so as to not be detected, and nearly forgotten in a small storage locker she rented.\par
+\par
+Thus, the rise of "Grand Guard" began, and McLovin prowled the Matrix once more. Her mostly-useless fixer somehow managed to get her into an elite datahaven, opening her up to more and better paying work, better aligned with her skillset. And all the better if she could meet a few other centaurs or make some more friends. It had been a lonely life until now, after all.\par
+}</background>
   <concept />
-  <notes />
-  <alias>HORSE</alias>
+  <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
+{\colortbl;}
+{\*\generator Wine Riched20 2.0;}
+\pard\sl-240\slmult1 \lang4105\fs16\f0 Off Muscle Defense:\par
+BOD: 5 + 2 (narcokami)\par
+Cyber Arms: Armour 6\par
+Armour: 12 (Zoe) + 6 (Shield) = 18\par
+31 soak w shield\par
+25 w/o\par
+\par
+6 (REA) + 4 (INT) = 10 dodge\par
+Beta: +5\par
+Psyche: +2\par
+Cere: +3\par
+\par
+DDD: 41 w/ shield, 35 w/o, no extra drugs\par
+\par
+41 DDD 'sober + shield' or 40 DDD 'no shield' -&gt; meets bare minimum\par
+\par
+\b\f1 Ortho 3, WR 3, RE 3, etc. to postgen\b0\f0 \par
+\par
+Off Muscle Offense:\par
+Shooting: AGI 8 arm + 2 Shooting - 2 One Hand = 8\par
+               AGI 6 arms + 2 shooting = 9\par
+\b\f1 High priority: Need to buy up shooting(/longarms + spec) for ~1 karma (with inf) and ~Y5000 into arm\par
+\par
+\b0 Also in general:\par
+Quick config\par
+Redliner? (augmax AGI)\par
+Specialize limbs\par
+Fill gaps in decking ability\f0 \par
+}</notes>
+  <alias>Grand Guard</alias>
   <playername />
   <gamenotes />
   <primaryarm>Left</primaryarm>
@@ -110,8 +161,8 @@
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
   <currentcounterspellingdice>0</currentcounterspellingdice>
   <currentliftcarryhits>0</currentliftcarryhits>
-  <basecarrylimit>40</basecarrylimit>
-  <baseliftlimit>60</baseliftlimit>
+  <basecarrylimit>30</basecarrylimit>
+  <baseliftlimit>45</baseliftlimit>
   <totalcarriedweight>0</totalcarriedweight>
   <encumbranceinterval>15</encumbranceinterval>
   <streetcred>0</streetcred>
@@ -141,7 +192,7 @@
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>DEP</name>
@@ -191,7 +242,7 @@
       <base>0</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>3</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
@@ -201,7 +252,7 @@
       <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>RES</name>
@@ -282,7 +333,7 @@
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>1.87</totaless>
+  <totaless>0.79</totaless>
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <psyche>False</psyche>
@@ -1224,7 +1275,142 @@
         <buywithkarma>False</buywithkarma>
       </skill>
     </skills>
-    <knoskills />
+    <knoskills>
+      <skill>
+        <guid>300d9a98-b0df-4708-81fe-466fa2374fa1</guid>
+        <suid>00000000-0000-0000-0000-000000000000</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory />
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Corporate Court</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>8d95b2c2-6428-4cce-b8b8-799054e4a0cd</guid>
+            <name>GOD</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type />
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>d766b577-e3ab-4763-a2d1-d6ba9a2da189</guid>
+        <suid>907a3a8f-2c40-4543-a5a9-891bcde41f6b</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Language</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>English</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>True</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>c0362853-4220-4d16-84c5-717a82aa69e6</guid>
+        <suid>f8a3a8da-e177-49c7-9b3d-2749fd3704cd</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Magic Traditions</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Academic</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>df199b45-41df-477b-b7b5-4896c800740e</guid>
+        <suid>9843709f-803a-4424-88a2-d972d3405955</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Magical Threats</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>27c9e82f-6bba-4167-97ed-7f2cea8a8433</guid>
+            <name>Insect Spirits</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Academic</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>bf158fe6-3fa9-4dce-a80a-1a31b695ebb6</guid>
+        <suid>d6304862-cfa6-4916-aee1-40789798b590</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Professional</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Matrix</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>5181911a-349c-4ebf-a116-97874ccb84df</guid>
+            <name>Host Design</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type>Professional</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>45c85cbe-c751-45f2-b1ab-339955d88b42</guid>
+        <suid>00000000-0000-0000-0000-000000000000</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory />
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Technomancy Groups</name>
+        <buywithkarma>False</buywithkarma>
+        <specs>
+          <spec>
+            <guid>ed4ba32d-45a3-48b0-ae60-6f3aaf59deb8</guid>
+            <name>Technoterrorists</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
+        <type />
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+    </knoskills>
     <skilljackknowledgeskills />
     <groups>
       <group>
@@ -1306,7 +1492,37 @@
       </group>
     </groups>
   </newskills>
-  <contacts />
+  <contacts>
+    <contact>
+      <name>Tom Bombadil</name>
+      <role />
+      <location />
+      <connection>1</connection>
+      <loyalty>2</loyalty>
+      <metatype />
+      <gender />
+      <age />
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>e0614711-5b91-44ad-81fd-7fd917da61bb</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+  </contacts>
   <spells />
   <foci />
   <stackedfoci />
@@ -1574,7 +1790,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <source>SR5</source>
       <page>438</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1615,7 +1831,6 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <notes>Ballistic shield: This large opaque shield is used by SWAT teams and in urban combat. It features a clear plastic window and a built-in ladder frame along the in- side so that it can be used to climb over small obstacles.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <weaponguid>e4529ca7-5e08-4e12-8fe4-1e2b1a9ecb1a</weaponguid>
       <sortorder>0</sortorder>
     </armor>
     <armor>
@@ -2775,6 +2990,114 @@ With this modification, most of the weapon’s moving parts are removed so that 
           <sortorder>0</sortorder>
           <parentid />
         </accessory>
+        <accessory>
+          <sourceid>4ed24342-276e-4455-acba-22b551e4d775</sourceid>
+          <guid>30682826-ac57-4b2d-82aa-6632b067d469</guid>
+          <name>Spare Clip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>4</avail>
+          <cost>5</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>433</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>1</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
+        <accessory>
+          <sourceid>4ed24342-276e-4455-acba-22b551e4d775</sourceid>
+          <guid>6ea242ea-b2de-40eb-827e-ebef77ade6ca</guid>
+          <name>Spare Clip</name>
+          <mount>None</mount>
+          <extramount>None</extramount>
+          <addmount />
+          <rc />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <rcgroup>0</rcgroup>
+          <rcdeployable>False</rcdeployable>
+          <specialmodification>False</specialmodification>
+          <conceal />
+          <avail>4</avail>
+          <cost>5</cost>
+          <weight />
+          <included>False</included>
+          <equipped>True</equipped>
+          <source>SR5</source>
+          <page>433</page>
+          <accuracy />
+          <ammoreplace />
+          <ammoslots>1</ammoslots>
+          <modifyammocapacity />
+          <damagetype />
+          <damage />
+          <reach />
+          <damagereplace />
+          <firemode />
+          <firemodereplace />
+          <ap />
+          <apreplace />
+          <notes>Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is spe- cific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box maga- zine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <singleshot>0</singleshot>
+          <shortburst>0</shortburst>
+          <longburst>0</longburst>
+          <fullburst>0</fullburst>
+          <suppressive>0</suppressive>
+          <replacerange />
+          <rangebonus>0</rangebonus>
+          <rangemodifier>0</rangemodifier>
+          <extra />
+          <ammobonus />
+          <wirelesson>True</wirelesson>
+          <wirelessbonus />
+          <wirelessweaponbonus />
+          <stolen>False</stolen>
+          <sortorder>0</sortorder>
+          <parentid />
+        </accessory>
       </accessories>
       <location />
       <notes>MOSSBERG AM-CMDT
@@ -2949,82 +3272,6 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <sortorder>0</sortorder>
         </cyberware>
         <cyberware>
-          <guid>8f7234b5-9f71-496c-9be9-023fbb07ad6e</guid>
-          <sourceid>7d61f860-0637-4214-914d-c68022361d24</sourceid>
-          <name>Customized Strength</name>
-          <category>Cyberlimb Enhancement</category>
-          <limbslot />
-          <limbslotcount>1</limbslotcount>
-          <inheritattributes>False</inheritattributes>
-          <ess>0</ess>
-          <capacity>[0]</capacity>
-          <avail>+Rating - MinRating + 1</avail>
-          <cost>(Rating - MinRating + 1) * 5000</cost>
-          <weight />
-          <source>SR5</source>
-          <page>456</page>
-          <parentid />
-          <hasmodularmount />
-          <plugsintomodularmount />
-          <blocksmounts />
-          <forced />
-          <rating>4</rating>
-          <minagility>3</minagility>
-          <minstrength>3</minstrength>
-          <minrating>{STRMinimum}+1</minrating>
-          <maxrating>{STRMaximum}</maxrating>
-          <ratinglabel>String_Rating</ratinglabel>
-          <subsystems />
-          <wirelesson>False</wirelesson>
-          <grade>Used</grade>
-          <location />
-          <extra />
-          <suite>False</suite>
-          <stolen>False</stolen>
-          <essdiscount>0</essdiscount>
-          <extraessadditivemultiplier>0</extraessadditivemultiplier>
-          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-          <forcegrade />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <prototypetranshuman>False</prototypetranshuman>
-          <bonus />
-          <pairbonus />
-          <wirelessbonus />
-          <wirelesspairbonus />
-          <improvementsource>Cyberware</improvementsource>
-          <pairinclude>
-            <name>Customized Strength</name>
-          </pairinclude>
-          <wirelesspairinclude>
-            <name>Customized Strength</name>
-          </wirelesspairinclude>
-          <notes />
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <addtoparentess>False</addtoparentess>
-          <addtoparentcapacity>False</addtoparentcapacity>
-          <isgeneware>False</isgeneware>
-          <active>False</active>
-          <homenode>False</homenode>
-          <devicerating />
-          <programlimit />
-          <overclocked>None</overclocked>
-          <canformpersona />
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <sortorder>0</sortorder>
-        </cyberware>
-        <cyberware>
           <guid>05e72d5e-c742-42ce-bddd-8507748c10b3</guid>
           <sourceid>7afb23c7-435f-450c-9d1c-f7a0e7e631a6</sourceid>
           <name>Customized Agility</name>
@@ -3120,7 +3367,7 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>3</rating>
+          <rating>2</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
           <minrating />
@@ -3152,6 +3399,83 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
             <name>Enhanced Agility</name>
           </wirelesspairinclude>
           <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <addtoparentess>False</addtoparentess>
+          <addtoparentcapacity>False</addtoparentcapacity>
+          <isgeneware>False</isgeneware>
+          <active>False</active>
+          <homenode>False</homenode>
+          <devicerating />
+          <programlimit />
+          <overclocked>None</overclocked>
+          <canformpersona />
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <sortorder>0</sortorder>
+        </cyberware>
+        <cyberware>
+          <guid>5c5d1129-bbcc-4e1c-a38c-a15ff3ceca34</guid>
+          <sourceid>8f5a6813-b87a-4915-ab91-1c416ef25b23</sourceid>
+          <name>Casemod</name>
+          <category>Cosmetic Enhancement</category>
+          <limbslot />
+          <limbslotcount>1</limbslotcount>
+          <inheritattributes>False</inheritattributes>
+          <ess>0</ess>
+          <capacity>0</capacity>
+          <avail>Rating</avail>
+          <cost>0</cost>
+          <weight />
+          <source>CF</source>
+          <page>72</page>
+          <parentid />
+          <hasmodularmount />
+          <plugsintomodularmount />
+          <blocksmounts />
+          <forced />
+          <rating>0</rating>
+          <minagility>3</minagility>
+          <minstrength>3</minstrength>
+          <minrating />
+          <maxrating>4</maxrating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <subsystems />
+          <wirelesson>False</wirelesson>
+          <grade>Used</grade>
+          <location />
+          <extra />
+          <suite>False</suite>
+          <stolen>False</stolen>
+          <essdiscount>0</essdiscount>
+          <extraessadditivemultiplier>0</extraessadditivemultiplier>
+          <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+          <forcegrade />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <prototypetranshuman>False</prototypetranshuman>
+          <bonus />
+          <pairbonus />
+          <wirelessbonus />
+          <wirelesspairbonus />
+          <improvementsource>Cyberware</improvementsource>
+          <pairinclude>
+            <name>Casemod</name>
+          </pairinclude>
+          <wirelesspairinclude>
+            <name>Casemod</name>
+          </wirelesspairinclude>
+          <notes>CASEMOD
+Plate Armour</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
@@ -3341,30 +3665,30 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <sortorder>0</sortorder>
         </cyberware>
         <cyberware>
-          <guid>a59560a9-1a4e-4a66-8540-f114dbf57d29</guid>
-          <sourceid>7d61f860-0637-4214-914d-c68022361d24</sourceid>
-          <name>Customized Strength</name>
-          <category>Cyberlimb Enhancement</category>
+          <guid>c7df9933-6f2a-4234-97ab-6db7894a04a1</guid>
+          <sourceid>8f5a6813-b87a-4915-ab91-1c416ef25b23</sourceid>
+          <name>Casemod</name>
+          <category>Cosmetic Enhancement</category>
           <limbslot />
           <limbslotcount>1</limbslotcount>
           <inheritattributes>False</inheritattributes>
           <ess>0</ess>
-          <capacity>[0]</capacity>
-          <avail>+Rating - MinRating + 1</avail>
-          <cost>(Rating - MinRating + 1) * 5000</cost>
+          <capacity>0</capacity>
+          <avail>Rating</avail>
+          <cost>0</cost>
           <weight />
-          <source>SR5</source>
-          <page>456</page>
+          <source>CF</source>
+          <page>72</page>
           <parentid />
           <hasmodularmount />
           <plugsintomodularmount />
           <blocksmounts />
           <forced />
-          <rating>6</rating>
+          <rating>0</rating>
           <minagility>3</minagility>
           <minstrength>3</minstrength>
-          <minrating>{STRMinimum}+1</minrating>
-          <maxrating>{STRMaximum}</maxrating>
+          <minrating />
+          <maxrating>4</maxrating>
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
@@ -3386,12 +3710,13 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
           <wirelesspairbonus />
           <improvementsource>Cyberware</improvementsource>
           <pairinclude>
-            <name>Customized Strength</name>
+            <name>Casemod</name>
           </pairinclude>
           <wirelesspairinclude>
-            <name>Customized Strength</name>
+            <name>Casemod</name>
           </wirelesspairinclude>
-          <notes />
+          <notes>CASEMOD
+Plate Armour</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
           <addtoparentess>False</addtoparentess>
@@ -3611,210 +3936,6 @@ This is a set of several minor genetic modifications that have the collective ef
       <sortorder>0</sortorder>
     </cyberware>
     <cyberware>
-      <guid>eaf83b6a-20a9-4c17-bbf1-574f668ce91a</guid>
-      <sourceid>abdbc210-c1fa-45f1-9840-4f78d9eb8867</sourceid>
-      <name>Chemical Gland (Internal Release or Gradual Release)</name>
-      <category>Basic</category>
-      <limbslot />
-      <limbslotcount>1</limbslotcount>
-      <inheritattributes>False</inheritattributes>
-      <ess>0.1</ess>
-      <capacity>0</capacity>
-      <avail>12R or Gear</avail>
-      <cost>20000 + (99 * Gear Cost)</cost>
-      <weight />
-      <source>CF</source>
-      <page>112</page>
-      <parentid />
-      <hasmodularmount />
-      <plugsintomodularmount />
-      <blocksmounts />
-      <forced />
-      <rating>0</rating>
-      <minagility>3</minagility>
-      <minstrength>3</minstrength>
-      <minrating />
-      <maxrating />
-      <ratinglabel>String_Rating</ratinglabel>
-      <subsystems>Chemical Gland Modifications</subsystems>
-      <wirelesson>False</wirelesson>
-      <grade>Used</grade>
-      <location />
-      <extra>Gradual Release</extra>
-      <suite>False</suite>
-      <stolen>False</stolen>
-      <essdiscount>0</essdiscount>
-      <extraessadditivemultiplier>0</extraessadditivemultiplier>
-      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
-      <forcegrade />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <prototypetranshuman>False</prototypetranshuman>
-      <bonus>
-        <selecttext />
-      </bonus>
-      <pairbonus />
-      <wirelessbonus />
-      <wirelesspairbonus />
-      <allowgear>
-        <gearcategory>Chemicals</gearcategory>
-        <gearcategory>Custom Drug</gearcategory>
-        <gearcategory>Drugs</gearcategory>
-        <gearcategory>Toxins</gearcategory>
-        <gearcategory>Custom</gearcategory>
-      </allowgear>
-      <improvementsource>Bioware</improvementsource>
-      <pairinclude>
-        <name>Chemical Gland (Internal Release or Gradual Release)</name>
-      </pairinclude>
-      <wirelesspairinclude>
-        <name>Chemical Gland (Internal Release or Gradual Release)</name>
-      </wirelesspairinclude>
-      <gears>
-        <gear>
-          <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
-          <guid>deb9c07a-c1fe-4ebe-a84f-312439b2adac</guid>
-          <name>Kamikaze</name>
-          <category>Drugs</category>
-          <capacity />
-          <armorcapacity />
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>4R</avail>
-          <cost>100</cost>
-          <weight />
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <stolen>False</stolen>
-          <bonus />
-          <wirelessbonus />
-          <weaponbonus />
-          <flechetteweaponbonus />
-          <source>SR5</source>
-          <page>412</page>
-          <isflechetteammo>False</isflechetteammo>
-          <ammoforweapontype>spraypen</ammoforweapontype>
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children>
-            <gear>
-              <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
-              <guid>8aa2e602-3106-49db-b886-dc9503a687e7</guid>
-              <name>Pharmaceutical</name>
-              <category>Drug Grades</category>
-              <capacity>0</capacity>
-              <armorcapacity />
-              <minrating />
-              <maxrating />
-              <rating>0</rating>
-              <qty>1.0</qty>
-              <avail>0</avail>
-              <cost>Parent Cost</cost>
-              <weight />
-              <extra />
-              <bonded>False</bonded>
-              <equipped>True</equipped>
-              <wirelesson>False</wirelesson>
-              <stolen>False</stolen>
-              <bonus />
-              <wirelessbonus />
-              <weaponbonus />
-              <flechetteweaponbonus />
-              <source>CF</source>
-              <page>190</page>
-              <isflechetteammo>False</isflechetteammo>
-              <ammoforweapontype />
-              <canformpersona />
-              <devicerating />
-              <gearname />
-              <forcedvalue />
-              <matrixcmfilled>0</matrixcmfilled>
-              <matrixcmbonus>0</matrixcmbonus>
-              <parentid />
-              <allowrename>False</allowrename>
-              <children />
-              <location />
-              <notes>Pharmaceutical: High-end controls used to mini- mize impurities and standardize effects. Costs are dou- bled. Any crash effects are halved in time duration. The Addiction Threshold is reduced by 1. Pharmaceutical grade is the minimum grade for customized drugs.</notes>
-              <notesColor>#E3813C</notesColor>
-              <discountedcost>False</discountedcost>
-              <programlimit />
-              <overclocked>None</overclocked>
-              <attack />
-              <sleaze />
-              <dataprocessing />
-              <firewall />
-              <attributearray />
-              <modattack />
-              <modsleaze />
-              <moddataprocessing />
-              <modfirewall />
-              <modattributearray />
-              <canswapattributes>False</canswapattributes>
-              <active>False</active>
-              <homenode>False</homenode>
-              <sortorder>0</sortorder>
-            </gear>
-          </children>
-          <location />
-          <notes>KAMIKAZE
-Vector: Inhalation Speed: Immediate Duration: 10 x 1D6 minutes Addiction Type: Physiological Effect: +1 Body, +1 Agility, +2 Strength, +1 Willpower, +2 Physical limit, +2D6 Initiative Dice, High Pain Tolerance 3 (p. 74) Kamikaze is a tailored combat stimulant. When kamikaze wears off, the user crashes and suffers –1 Reaction, –1 Willpower, and –2 to all Limits for a duration equal to that of the initial effect. He also suffers 6 Stun damage (unresisted).
-The repeated use of kamikaze has a destructive effect on the user’s metabolism. Large doses can cause excitement, tremors, momentary euphoria, and dilated pupils. Excess doses (bordering on overdose level) cause anxiety, hallucinations, and uncontrolled muscular movements. Even higher dosages lead to death. Kamikaze users are near-crazed, filled with a feeling of imperviousness and invincibility, exhibiting almost no regard for their own well-being. They can be entertaining to watch, as long as you’re not in front of them.</notes>
-          <notesColor>#E3813C</notesColor>
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-          <sortorder>0</sortorder>
-        </gear>
-      </gears>
-      <notes>Bonus is for whether this is Internal Release or Gradual Release, not the cost of the chemical.</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <addtoparentess>False</addtoparentess>
-      <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>False</isgeneware>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <canformpersona />
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <sortorder>0</sortorder>
-    </cyberware>
-    <cyberware>
       <guid>e8955664-9856-4796-8a9b-36f886f1a334</guid>
       <sourceid>8496afd6-ad34-4e73-b3f4-191ef11e121c</sourceid>
       <name>Datajack Plus</name>
@@ -3834,7 +3955,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <plugsintomodularmount />
       <blocksmounts />
       <forced />
-      <rating>1</rating>
+      <rating>2</rating>
       <minagility>3</minagility>
       <minstrength>3</minstrength>
       <minrating />
@@ -3842,7 +3963,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems />
       <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
+      <grade>Used</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -3985,7 +4106,7 @@ Every corp is trying to innovate a little to get a bit more of the market share.
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems>Earware</subsystems>
       <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
+      <grade>Used</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -4041,7 +4162,7 @@ Every corp is trying to innovate a little to get a bit more of the market share.
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Standard</grade>
+          <grade>Used</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4117,7 +4238,7 @@ Every corp is trying to innovate a little to get a bit more of the market share.
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Standard</grade>
+          <grade>Used</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4195,7 +4316,7 @@ Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only t
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Standard</grade>
+          <grade>Used</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4273,7 +4394,7 @@ Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only t
           <ratinglabel>String_Rating</ratinglabel>
           <subsystems />
           <wirelesson>False</wirelesson>
-          <grade>Standard</grade>
+          <grade>Used</grade>
           <location />
           <extra />
           <suite>False</suite>
@@ -4377,7 +4498,7 @@ Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only t
       <ratinglabel>String_Rating</ratinglabel>
       <subsystems />
       <wirelesson>False</wirelesson>
-      <grade>Standard</grade>
+      <grade>Used</grade>
       <location />
       <extra />
       <suite>False</suite>
@@ -4403,6 +4524,291 @@ Each antenna, to a maximum of three, reduces Noise by 1 for the user. And only t
         <name>Smartlink</name>
       </wirelesspairinclude>
       <notes>Smartlink: An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink in-</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>6583005b-b332-474f-ada1-ea2731daea99</guid>
+      <sourceid>d9a05e96-3913-4d40-ae1a-397da8a6f344</sourceid>
+      <name>Enhanced Augmented Reality Reflex System</name>
+      <category>Headware</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.75</ess>
+      <capacity>0</capacity>
+      <avail>10R</avail>
+      <cost>30000</cost>
+      <weight />
+      <source>KC</source>
+      <page>66</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems />
+      <wirelesson>False</wirelesson>
+      <grade>Used</grade>
+      <location />
+      <extra />
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus />
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <improvementsource>Cyberware</improvementsource>
+      <pairinclude>
+        <name>Enhanced Augmented Reality Reflex System</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Enhanced Augmented Reality Reflex System</name>
+      </wirelesspairinclude>
+      <notes>ENHANCED AUGMENTED REALITY REFLEX SYSTEM
+Can you hear me? Maybe you need a nice set of EARRS?! I’m so funny. The EARRS system is a unique blend of meat and Matrix, designed to allow faster Matrix activity without the need to fully immerse yourself in the virtual realm.
+Functioning as a bridge between your central nervous system and the Augmented Reality Matrix around you, EARRS allow you to process Matrix input at Matrix speeds while also letting you respond to it via physical actions combined with DNI and without the total nervous override of full ASIST.
+These were field-tested by several special-operations groups, and most came back with rave reviews. They saw their operator’s ability to interact with both worlds at once, a far greater option than being restricted to slow AR interaction or slumping and being hauled by the team while they went full-VR to deal with electronic hazards.
+&gt; Can’t say I know anyone with a system like this, but it can’t be easy to operate between the two realms. Even operating in an intense spam-zone can make the real world impossible to interact with—I can’t imagine a system that tries to merge the two worlds.
+&gt; Balladeer</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <addtoparentess>False</addtoparentess>
+      <addtoparentcapacity>False</addtoparentcapacity>
+      <isgeneware>False</isgeneware>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <canformpersona />
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <sortorder>0</sortorder>
+    </cyberware>
+    <cyberware>
+      <guid>e239d8db-b8d2-43c3-8ce3-de6fc9a181ae</guid>
+      <sourceid>abdbc210-c1fa-45f1-9840-4f78d9eb8867</sourceid>
+      <name>Chemical Gland (Internal Release or Gradual Release)</name>
+      <category>Basic</category>
+      <limbslot />
+      <limbslotcount>1</limbslotcount>
+      <inheritattributes>False</inheritattributes>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>12R or Gear</avail>
+      <cost>20000 + (99 * Gear Cost)</cost>
+      <weight />
+      <source>CF</source>
+      <page>112</page>
+      <parentid />
+      <hasmodularmount />
+      <plugsintomodularmount />
+      <blocksmounts />
+      <forced />
+      <rating>0</rating>
+      <minagility>3</minagility>
+      <minstrength>3</minstrength>
+      <minrating />
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <subsystems>Chemical Gland Modifications</subsystems>
+      <wirelesson>False</wirelesson>
+      <grade>Used</grade>
+      <location />
+      <extra>Gradual Release</extra>
+      <suite>False</suite>
+      <stolen>False</stolen>
+      <essdiscount>0</essdiscount>
+      <extraessadditivemultiplier>0</extraessadditivemultiplier>
+      <extraessmultiplicativemultiplier>1</extraessmultiplicativemultiplier>
+      <forcegrade />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <prototypetranshuman>False</prototypetranshuman>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <pairbonus />
+      <wirelessbonus />
+      <wirelesspairbonus />
+      <allowgear>
+        <gearcategory>Chemicals</gearcategory>
+        <gearcategory>Custom Drug</gearcategory>
+        <gearcategory>Drugs</gearcategory>
+        <gearcategory>Toxins</gearcategory>
+        <gearcategory>Custom</gearcategory>
+      </allowgear>
+      <improvementsource>Bioware</improvementsource>
+      <pairinclude>
+        <name>Chemical Gland (Internal Release or Gradual Release)</name>
+      </pairinclude>
+      <wirelesspairinclude>
+        <name>Chemical Gland (Internal Release or Gradual Release)</name>
+      </wirelesspairinclude>
+      <gears>
+        <gear>
+          <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
+          <guid>e99d38c0-3632-4391-a614-d62b3c8d8f17</guid>
+          <name>Kamikaze</name>
+          <category>Drugs</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>4R</avail>
+          <cost>100</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>412</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype>spraypen</ammoforweapontype>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children>
+            <gear>
+              <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
+              <guid>8584956a-b0d2-4d36-95d0-20334729f3f0</guid>
+              <name>Pharmaceutical</name>
+              <category>Drug Grades</category>
+              <capacity>0</capacity>
+              <armorcapacity />
+              <minrating />
+              <maxrating />
+              <rating>0</rating>
+              <qty>1.0</qty>
+              <avail>0</avail>
+              <cost>Parent Cost</cost>
+              <weight />
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <stolen>False</stolen>
+              <bonus />
+              <wirelessbonus />
+              <weaponbonus />
+              <flechetteweaponbonus />
+              <source>CF</source>
+              <page>190</page>
+              <isflechetteammo>False</isflechetteammo>
+              <ammoforweapontype />
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid />
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes>Pharmaceutical: High-end controls used to mini- mize impurities and standardize effects. Costs are dou- bled. Any crash effects are halved in time duration. The Addiction Threshold is reduced by 1. Pharmaceutical grade is the minimum grade for customized drugs.</notes>
+              <notesColor>#E3813C</notesColor>
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+              <sortorder>0</sortorder>
+            </gear>
+          </children>
+          <location />
+          <notes>KAMIKAZE
+Vector: Inhalation Speed: Immediate Duration: 10 x 1D6 minutes Addiction Type: Physiological Effect: +1 Body, +1 Agility, +2 Strength, +1 Willpower, +2 Physical limit, +2D6 Initiative Dice, High Pain Tolerance 3 (p. 74) Kamikaze is a tailored combat stimulant. When kamikaze wears off, the user crashes and suffers –1 Reaction, –1 Willpower, and –2 to all Limits for a duration equal to that of the initial effect. He also suffers 6 Stun damage (unresisted).
+The repeated use of kamikaze has a destructive effect on the user’s metabolism. Large doses can cause excitement, tremors, momentary euphoria, and dilated pupils. Excess doses (bordering on overdose level) cause anxiety, hallucinations, and uncontrolled muscular movements. Even higher dosages lead to death. Kamikaze users are near-crazed, filled with a feeling of imperviousness and invincibility, exhibiting almost no regard for their own well-being. They can be entertaining to watch, as long as you’re not in front of them.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <notes>Bonus is for whether this is Internal Release or Gradual Release, not the cost of the chemical.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
@@ -4762,7 +5168,112 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
       <notesColor>#E3813C</notesColor>
     </quality>
   </qualities>
-  <lifestyles />
+  <lifestyles>
+    <lifestyle>
+      <sourceid>9367556e-f82f-4f9d-840e-24c8f824ca68</sourceid>
+      <guid>eb691bff-28d7-4d08-bb16-60e4e32643ad</guid>
+      <name>Ruined Ranch (not dressing)</name>
+      <cost>500</cost>
+      <dice>2</dice>
+      <lp>2</lp>
+      <baselifestyle>Squatter</baselifestyle>
+      <multiplier>40</multiplier>
+      <months>1</months>
+      <roommates>0</roommates>
+      <percentage>100.0</percentage>
+      <area>0</area>
+      <comforts>1</comforts>
+      <security>0</security>
+      <basearea>1</basearea>
+      <basecomforts>1</basecomforts>
+      <basesecurity>1</basesecurity>
+      <maxarea>2</maxarea>
+      <maxcomforts>2</maxcomforts>
+      <maxsecurity>2</maxsecurity>
+      <costforearea>0</costforearea>
+      <costforcomforts>0</costforcomforts>
+      <costforsecurity>0</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
+      <source>SR5</source>
+      <page>369</page>
+      <trustfund>False</trustfund>
+      <splitcostwithroommates>False</splitcostwithroommates>
+      <type>Advanced</type>
+      <increment>Month</increment>
+      <sourceid>9367556e-f82f-4f9d-840e-24c8f824ca68</sourceid>
+      <city>Seattle</city>
+      <district>Redmond</district>
+      <borough>Barrens</borough>
+      <lifestylequalities>
+        <lifestylequality>
+          <sourceid>ff0cb981-4459-46e7-ab75-d8c5bcb0c486</sourceid>
+          <guid>81b7a916-096e-4365-825d-2fde286788b8</guid>
+          <name>Cramped</name>
+          <category>Negative</category>
+          <extra />
+          <cost />
+          <multiplier>-10</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Negative</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <free>False</free>
+          <isfreegrid>False</isfreegrid>
+          <source>SR5</source>
+          <page>370</page>
+          <allowed />
+          <bonus />
+          <notes>CRAMPED
+It’s not small, it’s just cozy—or at least that’s what the landlord said. There is just enough space in your place to live, and not do a whole lot else. Forget doing any hobbies or work, or even stretching your legs when you sit down—there just isn’t the room. Any Skill checks tied to Logic have their Limit reduced by 2 (to a minimum of 1) when performed in this space.
+Cost: –10 percent of the lifestyle</notes>
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
+          <guid>bae67d70-3e87-4644-a381-908a556fd892</guid>
+          <name>Grid Subscription</name>
+          <category>Entertainment - Asset</category>
+          <extra>Public Grid</extra>
+          <cost>50</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>1</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <uselpcost>True</uselpcost>
+          <print>True</print>
+          <lifestylequalitytype>Entertainment</lifestylequalitytype>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <free>True</free>
+          <isfreegrid>True</isfreegrid>
+          <source>RF</source>
+          <page>222</page>
+          <allowed>Medium,High,Luxury</allowed>
+          <bonus />
+          <notes>GRID SUBSCRIPTION
+Point Cost: 1 Type: Asset Monthly Nuyen Cost: 50¥ Minimum Lifestyle: Middle Nobody “downloads” or “records” their favorite song or movie any more. It’s all based on subscriptions and purchases within the Matrix and stored virtually on a grid.
+Commlinks and home entertainment systems connect you wirelessly to everything from photos you’ve taken to corporate-sponsored lines of entertainment that you can watch whenever you want. Without a grid subscription, you might as well have a throwback commlink with an antique external storage device, as the public grid only has trid shows from like two seasons ago.</notes>
+          <notesColor>#E3813C</notesColor>
+        </lifestylequality>
+      </lifestylequalities>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>0</sortorder>
+    </lifestyle>
+  </lifestyles>
   <gears>
     <gear>
       <sourceid>314566c7-4ea1-4f8d-94cd-f213af1e0535</sourceid>
@@ -5619,7 +6130,7 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
       <canswapattributes>True</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>f4eb63ce-c182-406c-b625-5699047e33a9</sourceid>
@@ -5793,7 +6304,7 @@ Vector: Inhalation Speed: 1 minute Duration: (9 – Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
@@ -5909,7 +6420,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>1315cecd-1c13-4d69-9828-a3ea535675da</sourceid>
@@ -5948,7 +6459,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>21b053dd-6ea3-4fc6-9e1d-ed288e31cc46</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -5967,7 +6478,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <sourceid>b3c0a6bd-e086-4971-be77-dc9a9cb2e174</sourceid>
@@ -6024,7 +6535,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>d3bb1242-73b0-4b8a-89ab-27c272ebc900</sourceid>
@@ -6081,7 +6592,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>a0a5008f-deae-4d43-a714-5309b4d9c416</sourceid>
@@ -6138,7 +6649,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>1662e26b-7370-4ade-9d9d-c9b92b0d145b</sourceid>
@@ -6195,7 +6706,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>13</sortorder>
     </gear>
     <gear>
       <sourceid>cffae49c-30d1-42df-b47c-a407f3a86e7a</sourceid>
@@ -6252,7 +6763,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>15</sortorder>
     </gear>
     <gear>
       <sourceid>a1e4b783-0751-43eb-b5bd-ee00f84b7bb3</sourceid>
@@ -6309,7 +6820,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>a37b8000-495b-4ab8-a73b-16a36a6a410e</sourceid>
@@ -6366,7 +6877,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>7bc33fe3-96b0-4f3c-a459-7c85ede9f8c1</sourceid>
@@ -6423,7 +6934,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>168b8c61-9ea4-4816-8cf4-cb996067b6d6</sourceid>
@@ -6480,7 +6991,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>10</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>67ea7c0c-1703-412b-80d3-9c23cc6d8291</sourceid>
@@ -6537,7 +7048,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>11</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>69a87be8-6f05-453d-a344-b02d9fab055c</sourceid>
@@ -6594,7 +7105,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>12</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>ea3178a2-535f-43b7-8555-deca95ac837d</sourceid>
@@ -6651,7 +7162,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>13</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>d5877f46-03e0-4603-b77a-f27e278202ab</sourceid>
@@ -6765,7 +7276,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>15</sortorder>
+      <sortorder>17</sortorder>
     </gear>
     <gear>
       <sourceid>2d8396ff-a4a9-4382-ab69-70d198856e7f</sourceid>
@@ -6891,7 +7402,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <minrating />
       <maxrating />
       <rating>0</rating>
-      <qty>5</qty>
+      <qty>3.0</qty>
       <avail>6R</avail>
       <cost>300</cost>
       <weight />
@@ -6936,7 +7447,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>0c800bca-e6ff-475b-a014-c2069f5e364c</sourceid>
@@ -7086,7 +7597,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -7143,7 +7654,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -7200,7 +7711,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -7257,7 +7768,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
         </gear>
         <gear>
           <sourceid>8a16bbb2-8028-4c74-b22b-7aad9d001073</sourceid>
@@ -7314,9 +7825,353 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>5</sortorder>
         </gear>
       </children>
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>2</sortorder>
+    </gear>
+    <gear>
+      <sourceid>84a3e0d5-ed40-4706-9b96-7f07567bcbef</sourceid>
+      <guid>65322c36-68a6-4147-a44f-63c3a0d55f7e</guid>
+      <name>Shell</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>246</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Shell: This program uses a set of filtering algorithms to give you a +1 dice pool modifier to resist both Matrix and biofeedback damage. This modifier stacks with sim- ilar modifiers from other programs.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>12</sortorder>
+    </gear>
+    <gear>
+      <sourceid>dd86897c-058e-4246-a921-9a556ec139d8</sourceid>
+      <guid>e78737ff-bd92-4d30-97d9-471de6030e02</guid>
+      <name>Smoke and Mirrors</name>
+      <category>Hacking Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>DT</source>
+      <page>57</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>18</sortorder>
+    </gear>
+    <gear>
+      <sourceid>7b8f4a4e-0bdb-4e05-ade4-bf558daf60a6</sourceid>
+      <guid>4422080e-0528-4d9b-a132-6450b80c7679</guid>
+      <name>Virtual Machine</name>
+      <category>Common Programs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>80</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>245</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</location>
+      <notes>Virtual Machine: This program creates a virtual memory space in your deck, giving you increased pro- gram capacity at the cost of system stability. Your deck can run two additional programs, but whenever your persona takes Matrix damage, it takes an additional box of Matrix damage that cannot be resisted.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit>2</programlimit>
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>16</sortorder>
+    </gear>
+    <gear>
+      <sourceid>c429fc81-d11b-434b-b98b-5fbdda9db905</sourceid>
+      <guid>0810d0de-e2a8-45a3-ac7d-2c95a5998035</guid>
+      <name>Ammo: Subsonic</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>8F</avail>
+      <costfor>10</costfor>
+      <cost>40</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>HT</source>
+      <page>189</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>21b053dd-6ea3-4fc6-9e1d-ed288e31cc46</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0c8d16cb-6e96-4d95-8454-104a36091cf9</sourceid>
+      <guid>bfa7413e-6141-499d-9ce5-5da6ee8cddae</guid>
+      <name>Ammo: Gel Rounds</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>2R</avail>
+      <costfor>10</costfor>
+      <cost>25</cost>
+      <weight />
+      <extra>Shotguns</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>434</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>gun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location>21b053dd-6ea3-4fc6-9e1d-ed288e31cc46</location>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>c22784cf-6ff2-4f65-9120-0be4d8eec1e3</sourceid>
+      <guid>6c757965-cf25-4054-b758-4954f6193afa</guid>
+      <name>Duffel Bag (Nice)</name>
+      <category>Tools</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>500</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>RF</source>
+      <page>254</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
       <location />
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -7419,7 +8274,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
           <armorcapacity>[0]</armorcapacity>
           <minrating>2</minrating>
           <maxrating>8</maxrating>
-          <rating>2</rating>
+          <rating>1</rating>
           <qty>1.0</qty>
           <avail>7</avail>
           <cost>0</cost>
@@ -8516,30 +9371,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
     </improvement>
     <improvement>
       <target />
-      <improvedname>Gradual Release</improvedname>
-      <sourcename>eaf83b6a-20a9-4c17-bbf1-574f668ce91a</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Bioware</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>f0f40d68-ec57-4554-99c0-2e1a919f616a</improvedname>
       <sourcename>61002d75-3700-486c-9ab9-aa356e08818e</sourcename>
       <min>0</min>
@@ -8581,7 +9412,7 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -8750,56 +9581,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition />
       <improvementttype>Text</improvementttype>
       <improvementsource>Gear</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>AGI</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <unique>precedence-1</unique>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename />
-      <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>ArmorEncumbrance</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -8981,10 +9762,58 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
     </improvement>
     <improvement>
       <target />
+      <improvedname>Gradual Release</improvedname>
+      <sourcename>e239d8db-b8d2-43c3-8ce3-de6fc9a181ae</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Bioware</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Public Grid</improvedname>
+      <sourcename>bae67d70-3e87-4644-a381-908a556fd892</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>MAG</improvedname>
       <sourcename />
-      <min>-4</min>
-      <max>-4</max>
+      <min>-5</min>
+      <max>-5</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
@@ -9007,8 +9836,8 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <target />
       <improvedname>MAGAdept</improvedname>
       <sourcename />
-      <min>-4</min>
-      <max>-4</max>
+      <min>-5</min>
+      <max>-5</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
@@ -9031,8 +9860,8 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <target />
       <improvedname>RES</improvedname>
       <sourcename />
-      <min>-4</min>
-      <max>-4</max>
+      <min>-5</min>
+      <max>-5</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
@@ -9055,8 +9884,8 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <target />
       <improvedname>DEP</improvedname>
       <sourcename />
-      <min>-4</min>
-      <max>-4</max>
+      <min>-5</min>
+      <max>-5</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
@@ -9086,11 +9915,18 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <name>Drugs</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>39058f23-a0de-4c49-8a3f-8fa8a92b4f35</guid>
       <name>Programs</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>21b053dd-6ea3-4fc6-9e1d-ed288e31cc46</guid>
+      <name>Ammo Stockpile</name>
       <notes />
       <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
