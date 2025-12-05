@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1658798999</settingshashcode>
+  <settingshashcode>-1491457351</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -94,7 +94,7 @@
   <background />
   <concept />
   <notes />
-  <alias>Grand Guard V2</alias>
+  <alias>McLovin</alias>
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
@@ -787,12 +787,20 @@
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Hardware</name>
-        <buywithkarma>False</buywithkarma>
+        <buywithkarma>True</buywithkarma>
+        <specs>
+          <spec>
+            <guid>932389c9-6488-4c13-af29-e394f979b9d0</guid>
+            <name>Jack Out</name>
+            <free>False</free>
+            <expertise>False</expertise>
+          </spec>
+        </specs>
       </skill>
       <skill>
         <guid>f7a2f13f-247b-43b4-a401-d1908546d086</guid>
@@ -1666,7 +1674,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <parentid>b5debdb6-8013-4184-9f3c-9613d46ca9d9</parentid>
       <allowaccessory>False</allowaccessory>
       <weaponname />
-      <included>False</included>
+      <included>True</included>
       <equipped>True</equipped>
       <requireammo>True</requireammo>
       <accuracy>Physical</accuracy>
@@ -2242,7 +2250,7 @@ This is a set of several minor genetic modifications that have the collective ef
       <discountedcost>False</discountedcost>
       <addtoparentess>False</addtoparentess>
       <addtoparentcapacity>False</addtoparentcapacity>
-      <isgeneware>True</isgeneware>
+      <isgeneware>False</isgeneware>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -2631,35 +2639,6 @@ The character may add 1 point of Rating to one of his cyberdeck’s ASDF attribu
 COST: 5 KARMA
 Maybe you’re just nova-hot at moving your fingers around, or maybe your mind is highly organized. Whatever the case, reconfiguring your deck is something you do with freakish rapidity. Whenever you reconfigure your deck (p. 228, SR5), you can make two changes with a single Free Action. So, you may switch two programs for two others, or you can swap two pairs of cyberdeck attributes. You can also swap one program and one attribute pair. Note that a single attribute can only be swapped once, so there is still a limit to how much the new config can achieve.
 Example: Trix has the Quick Config quality and is currently running a Novatech Navigator with Attack 6, Sleaze 5, Data Processing 4, and Firewall 3 (6/5/4/3). She could use a Free Action to reconfigure her deck and swap Attack and Sleaze and then Data Processing and Firewall to end up with 5/6/3/4). What she could not do is swap Attack and Sleaze and then Sleaze with Firewall (5/3/4/6).</notes>
-      <notesColor>#E3813C</notesColor>
-    </quality>
-    <quality>
-      <sourceid>eefe6c28-5d7b-403d-8c24-5bc26536b52b</sourceid>
-      <guid>96d33903-cfec-4ff7-9494-d03ed5fd3c1d</guid>
-      <name>Silence is Golden</name>
-      <extra />
-      <bp>9</bp>
-      <implemented>True</implemented>
-      <contributetobp>True</contributetobp>
-      <contributetolimit>True</contributetolimit>
-      <stagedpurchase>False</stagedpurchase>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenic>False</metagenic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>KC</source>
-      <page>76</page>
-      <sourcename />
-      <bonus />
-      <firstlevelbonus />
-      <naturalweapons />
-      <notes>SILENCE IS GOLDEN
-COST: 9 KARMA
-It might be anemia from all that soykaf, or perhaps there’s something about the character—maybe the Matrix just likes them. Whatever the case, for some reason the ever-present noise of the Matrix is muted near this character.
-The noise penalty for the character and anyone within ten meters of them is reduced by 2. Anyone outside the radius who attempts to connect to the character does not benefit from the noise reduction.</notes>
       <notesColor>#E3813C</notesColor>
     </quality>
     <quality>
@@ -6300,6 +6279,30 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
     </improvement>
     <improvement>
       <target />
+      <improvedname>f3916e3f-02f6-47b1-9792-4320eb645f89</improvedname>
+      <sourcename>207643e9-4001-4f8b-bb24-504205e979e0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>MAG</improvedname>
       <sourcename />
       <min>-1</min>
@@ -6384,30 +6387,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition />
       <improvementttype>Attribute</improvementttype>
       <improvementsource>EssenceLossChargen</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>f3916e3f-02f6-47b1-9792-4320eb645f89</improvedname>
-      <sourcename>207643e9-4001-4f8b-bb24-504205e979e0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
