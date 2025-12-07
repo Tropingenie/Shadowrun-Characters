@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>2068583943</settingshashcode>
+  <settingshashcode>-161774687</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>19175.000</nuyen>
+  <nuyen>14575.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -1545,6 +1545,16 @@ Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Char
       <notes />
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
+    <limitmodifier>
+      <guid>313c6981-fe87-47ea-bee8-75159bc56d28</guid>
+      <name>Thermal Damping</name>
+      <limit>Physical</limit>
+      <bonus>3</bonus>
+      <condition>LimitCondition_TestSneakingThermal</condition>
+      <candelete>False</candelete>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </limitmodifier>
   </limitmodifiers>
   <armors>
     <armor>
@@ -1674,7 +1684,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>RG</source>
       <page>70</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1736,7 +1746,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>RG</source>
       <page>70</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -2263,6 +2273,251 @@ Their use is simple—use them to block melee attacks, especially blades, turnin
 &gt; Bull &gt; No, I mean commlink. I keep my ‘deck in my new bag.
 See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns and sparkles? Kill me now.
 &gt; Bull</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
+    </armor>
+    <armor>
+      <sourceid>cb1e1f7e-a711-44a7-8ed7-a8fc50802c62</sourceid>
+      <guid>7723426b-2786-45ce-91a2-4b2edb2ec81a</guid>
+      <name>Vashon Island: Synergist Business Line Longcoat</name>
+      <category>High-Fashion Armor Clothing</category>
+      <armor>10</armor>
+      <armoroverride>+3</armoroverride>
+      <armorcapacity>6</armorcapacity>
+      <avail>8</avail>
+      <cost>2300</cost>
+      <weight />
+      <source>RG</source>
+      <page>61</page>
+      <armorname />
+      <equipped>True</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods>
+        <armormod>
+          <guid>07246198-0a4f-4600-b7ed-e01c8b16ed55</guid>
+          <sourceid>0d74f2f6-74bf-4c7e-afdf-d44f24c3ac12</sourceid>
+          <name>Custom Fit (Stack)</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[0]</armorcapacity>
+          <gearcapacity />
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <bonus>
+            <selectarmor />
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>59</page>
+          <included>True</included>
+          <equipped>True</equipped>
+          <extra>Vashon Island: Sleeping Tiger</extra>
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>CUSTOM FIT (STACK)
+This characteristic employs all the Custom Fit rules, but in addition these items can stack with other pieces that have been Custom Fit by the same maker, for the same person. The character has to select a specific set of Armored Clothing to have the piece Custom Fit with. The Custom Fit combination then allows the character to use either the base armor or add on the stack bonus for that set of gear.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>51868836-a7b6-4038-b2d1-d9c067315024</guid>
+          <sourceid>cf8accf5-4117-4419-ab73-957489038ab9</sourceid>
+          <name>YNT Softweave Armor</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>[-(Capacity * 0.5 + 0.5*(Capacity mod 2))]</armorcapacity>
+          <gearcapacity />
+          <maxrating>1</maxrating>
+          <rating>0</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>+4</avail>
+          <cost>Armor Cost</cost>
+          <weight />
+          <bonus />
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>RG</source>
+          <page>84</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>YNT SOFTWEAVE ARMOR
+SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the less common metavarients because it’s easier to mold and work into alternative designs than standard armor technologies. It works for the everyday Joe, and it also makes for lighter gear with more flexibility for modifications.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>3ca4331d-8db6-4281-a1e7-eaccef363eed</guid>
+          <sourceid>497b5d6b-df0c-401d-91de-42a224b1fa87</sourceid>
+          <name>Insulation</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>6</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="insulation">
+            <coldarmor>Rating</coldarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>437</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Insulation: Thermal fibers and heat-retentive mate- rials protect the wearer against Cold damage (p. 170). Add the full rating of the Insulation modification to the Armor value when resisting Cold attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+        <armormod>
+          <guid>b856cec0-711b-4a63-b537-10accc07fe10</guid>
+          <sourceid>ba32a6e9-4e6f-47fe-8fd7-c3194a5174d6</sourceid>
+          <name>Thermal Damping</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>3</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>10R</avail>
+          <cost>Rating * 500</cost>
+          <weight />
+          <bonus>
+            <limitmodifier>
+              <limit>Physical</limit>
+              <value>Rating</value>
+              <condition>LimitCondition_TestSneakingThermal</condition>
+            </limitmodifier>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Thermal damping: Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneak- ing test against thermographic vision or thermal sensors.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
+      </armormods>
+      <gears>
+        <gear>
+          <sourceid>5977fb0b-b74e-4eb9-b433-9b7c9877b14f</sourceid>
+          <guid>ba76e783-7a08-4dd2-b885-609fa04d5be5</guid>
+          <name>Holster</name>
+          <category>Armor Enhancements</category>
+          <capacity>[0]</capacity>
+          <armorcapacity>[0]</armorcapacity>
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>2</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>431</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>7723426b-2786-45ce-91a2-4b2edb2ec81a</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </gears>
+      <bonus />
+      <wirelessbonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </wirelessbonus>
+      <location />
+      <notes>Custom tailored Arctic-spec outerwear, including matching parka, gloves, toque, socks, and boots.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
       <sortorder>0</sortorder>
@@ -10012,7 +10267,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -10036,7 +10291,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -11128,6 +11383,79 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Vashon Island: Sleeping Tiger</improvedname>
+      <sourcename>07246198-0a4f-4600-b7ed-e01c8b16ed55</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>insulation</unique>
+      <target />
+      <improvedname />
+      <sourcename>3ca4331d-8db6-4281-a1e7-eaccef363eed</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>6</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ColdArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>313c6981-fe87-47ea-bee8-75159bc56d28</improvedname>
+      <sourcename>b856cec0-711b-4a63-b537-10accc07fe10</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_TestSneakingThermal</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -11369,6 +11697,86 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddWeaponAccessory</nuyentype>
         <objectid>2c6fb10e-8f47-49b8-97fd-5fc600455832</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>141e6b23-a1d9-4fb4-bcff-5fef67cb915b</guid>
+      <date>2025-12-07T11:30:14</date>
+      <amount>-2300</amount>
+      <reason>Purchased Armor Vashon Island: Synergist Business Line Longcoat</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmor</nuyentype>
+        <objectid>7723426b-2786-45ce-91a2-4b2edb2ec81a</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>7e2e7b32-51eb-473a-8cb5-fbad149cddc7</guid>
+      <date>2025-12-07T11:30:22</date>
+      <amount>-2300</amount>
+      <reason>Purchased Armor Mod YNT Softweave Armor</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmorMod</nuyentype>
+        <objectid>51868836-a7b6-4038-b2d1-d9c067315024</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f0e71b20-df79-43e7-b12f-a39e0a3d3c41</guid>
+      <date>2025-12-07T11:30:48</date>
+      <amount>-1500</amount>
+      <reason>Purchased Armor Mod Insulation</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmorMod</nuyentype>
+        <objectid>3ca4331d-8db6-4281-a1e7-eaccef363eed</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>71700581-82c8-49ac-bee1-ffce48706923</guid>
+      <date>2025-12-07T11:30:56</date>
+      <amount>-1500</amount>
+      <reason>Purchased Armor Mod Thermal Damping</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmorMod</nuyentype>
+        <objectid>b856cec0-711b-4a63-b537-10accc07fe10</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a5fc7039-5a0c-49ef-aa1e-6ccb08f640bd</guid>
+      <date>2025-12-07T11:38:38</date>
+      <amount>3000</amount>
+      <reason>Influence</reason>
+      <type>Nuyen</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
