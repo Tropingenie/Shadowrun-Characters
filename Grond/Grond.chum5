@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-161774687</settingshashcode>
+  <settingshashcode>311567727</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -118,7 +118,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>5</karma>
+  <karma>10</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>14575.000</nuyen>
+  <nuyen>33425.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -1090,7 +1090,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
         <notesColor>#E3813C</notesColor>
@@ -1191,6 +1191,22 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
             <expertise>False</expertise>
           </spec>
         </specs>
+        <type>Street</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>dbb280a8-b952-47a7-a2e0-861f62dc27fc</guid>
+        <suid>00000000-0000-0000-0000-000000000000</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>1</karma>
+        <base>0</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Hunting</name>
         <type>Street</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
@@ -1335,7 +1351,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <group>
         <karma>0</karma>
         <base>0</base>
-        <isbroken>False</isbroken>
+        <isbroken>True</isbroken>
         <id>e7bd16a5-0155-4fa0-8dbf-f30c9c4b94c7</id>
         <name>Outdoors</name>
       </group>
@@ -1412,6 +1428,37 @@ Once the design was complete, Bartoli welcomed Grond to visit again, even for ju
       <free>False</free>
       <groupenabled>True</groupenabled>
       <guid>14daade1-3239-446f-babc-f36660b972a5</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Tribe Gwichʼin</name>
+      <role />
+      <location>Alaska</location>
+      <connection>2</connection>
+      <loyalty>2</loyalty>
+      <metatype />
+      <gender />
+      <age />
+      <contacttype />
+      <preferredpayment />
+      <hobbiesvice />
+      <personallife />
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes>Group Contact
+
+Desc tbd</notes>
+      <notesColor>#E3813C</notesColor>
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>a98cc821-9195-48c7-b8a0-c3fa5e74fe69</guid>
       <mainmugshotindex>-1</mainmugshotindex>
       <mugshots />
     </contact>
@@ -1622,7 +1669,7 @@ Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Char
       <source>RG</source>
       <page>70</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -3563,6 +3610,174 @@ Anarchy Weapon: Close Combat, DV (STR/2 + 3), Close OK, Near —, Far —</notes
       <wirelesson>True</wirelesson>
       <sortorder>0</sortorder>
       <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>a92933cb-0c81-4b54-aeb1-ddc24836775d</sourceid>
+      <guid>80bbd6a7-c521-45c1-97b4-977a466664c2</guid>
+      <name>Knife (Survival Kit)</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <spec>Knives</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>5</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>5</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>fac9d052-4f7d-43cd-a649-8703b4c0b9c2</sourceid>
+      <guid>e1e7aa0d-7e2b-4661-ad10-a1b707daf6aa</guid>
+      <name>Micro Flare Launcher</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <spec>Flare Launcher</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>5P(fire)</damage>
+      <ap>-5</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(ml)</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory>Tasers</sizecategory>
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>3</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>-2</conceal>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range>Tasers</range>
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>449</page>
+      <parentid>f77ab85f-a286-4463-9838-003dc6eeb1e4</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>3</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes>Micro flare launcher: The flare launcher can shoot colored flares about 200 meters into the air, illuminating an area the size of a city block for a couple of minutes and negating the modifier for poor or low lighting. If you shoot it at someone, use the Exotic Ranged Weapon skill; the micro flare deals 5P Fire damage.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>flaregun</weapontype>
     </weapon>
   </weapons>
   <cyberwares>
@@ -9563,6 +9778,923 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <homenode>False</homenode>
       <sortorder>0</sortorder>
     </gear>
+    <gear>
+      <sourceid>27f9775d-cd14-4900-827f-ba00d26e0c67</sourceid>
+      <guid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</guid>
+      <name>Survival Kit</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity>[6]</armorcapacity>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>80bbd6a7-c521-45c1-97b4-977a466664c2</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>449</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>9f0d5d35-43f3-4877-b384-cf4188b5bca7</sourceid>
+          <guid>c512b6a1-3655-4646-837b-1d832480c0b9</guid>
+          <name>Lighter</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>d61cb088-eeda-4251-bc5b-1f4b367b9001</sourceid>
+          <guid>83463386-6dc1-47af-ab4c-5ea2344aa9cf</guid>
+          <name>Compass</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>0a897bb2-6260-42d3-ad2f-27345230a133</sourceid>
+          <guid>8c149b08-d2b6-4cf5-b7cb-0fe948b523e8</guid>
+          <name>Matches</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>3975e539-010d-4ffa-b163-17b5e300d336</sourceid>
+          <guid>58167e7e-6d84-41eb-9b80-b62b47bec11f</guid>
+          <name>Lightweight Thermal Blanket</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>c0cf0e8f-386e-4b6d-8f7d-971a4cd0b56b</sourceid>
+          <guid>388b2559-8ab7-4c45-aeaa-bf1472316861</guid>
+          <name>Several Days' Worth of Ration Bars</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+        <gear>
+          <sourceid>1bec7c2a-2c90-43d2-99ac-610f02e38148</sourceid>
+          <guid>8339a08c-1638-4a38-951a-9209e01ea08f</guid>
+          <name>Water Purification Unit</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>449</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location />
+      <notes>Survival kit: An assortment of survival gear in a rug- ged bag. Includes a knife, lighter, matches, compass, lightweight thermal blanket, several days’ worth of ra- tion bars, a water-purification unit, and more. A good item to consider for your go-bag.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>78f71833-4104-4dfb-b811-9bcabff95ecf</sourceid>
+      <guid>f77ab85f-a286-4463-9838-003dc6eeb1e4</guid>
+      <name>Micro Flare Launcher</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>175</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <weaponguid>e1e7aa0d-7e2b-4661-ad10-a1b707daf6aa</weaponguid>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>449</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Micro flare launcher: The flare launcher can shoot colored flares about 200 meters into the air, illuminating an area the size of a city block for a couple of minutes and negating the modifier for poor or low lighting. If you shoot it at someone, use the Exotic Ranged Weapon skill; the micro flare deals 5P Fire damage.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>f3d0d8f1-a2be-45d9-83a6-b5461afb62de</sourceid>
+      <guid>12dc95b9-5bc6-4d32-a4c5-7853e97dc946</guid>
+      <name>Micro Flares</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>4</qty>
+      <avail>0</avail>
+      <cost>25</cost>
+      <weight />
+      <extra>Exotic Ranged Weapons</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>449</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype>flaregun</ammoforweapontype>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>c658ec7e-48c1-4ead-8083-f3ee0eab92e4</sourceid>
+      <guid>dc0cecab-3cdf-4bcd-a76a-2c7a75ac992e</guid>
+      <name>Light Stick</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>10</qty>
+      <avail>0</avail>
+      <cost>25</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>449</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Light stick: Bend, snap, and shake it to produce three hours of soft chemical illumination that covers a ten-me- ter radius.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>08fb5b81-af99-4311-8588-f7d680d3fa5c</sourceid>
+      <guid>9285fea0-4eed-4ae9-9d6a-a9b07e99a4f5</guid>
+      <name>Magnesium Torch</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>5</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>449</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Magnesium torch: Strike and activate for five min- utes of bright torchlight.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>2f30c3cc-a62e-4ac1-8e1f-5fa217cadae4</sourceid>
+      <guid>e3ccaf7f-05f9-4291-8304-768be766c39b</guid>
+      <name>Mapsoft</name>
+      <category>Software</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4</avail>
+      <cost>100</cost>
+      <weight />
+      <extra>Alaska</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>Mapsoft: Mapsoft programs feature detailed infor- mation about a particular area, from streets to business/ residential listings to topographical, census, GPS and environmental data. An interactive interface allows you to quickly determine the best routes and directions, lo- cate the nearest spot of your choice, or create your own customized maps. If a wireless link is maintained, the map automatically self-updates with the latest data from GridGuide. Of course, this feature also means that the mapsoft can be used to track your location. At the gam- emaster’s discretion, mapsofts provide a +1 limit bonus to Navigation Tests made to navigate the area they cover.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>1a55fbe3-b3c1-4568-882f-abe4dedb8572</sourceid>
+      <guid>ec27e235-7fc2-454a-9069-a40222ae4f38</guid>
+      <name>Datasoft</name>
+      <category>Software</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>4</avail>
+      <cost>120</cost>
+      <weight />
+      <extra>Camping</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>441</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
+      <guid>889e7a49-68e2-4832-97f0-94ad95b9f570</guid>
+      <name>Arctic Tent</name>
+      <category>Custom</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>1</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>7cb80189-5893-4852-9d33-dbeea004b0a7</sourceid>
+      <guid>73d747c8-7b04-40da-87ed-f825159f019e</guid>
+      <name>Bodyguard BTL</name>
+      <category>BTLs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>8F</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>CF</source>
+      <page>193</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>BODYGUARD BTL
+Effect: Body + 1, Logic –1 May use Protecting the Principal (p. 125, Run &amp; Gun) without spending Edge.
+When the chip is slotted, the user is assigned a target to protect. The user will then protect this person above all else.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
+    <gear>
+      <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
+      <guid>4186eebf-f4e4-4439-a31a-904e4b328bd2</guid>
+      <name>Cerberus Tooth Necklace</name>
+      <category>Custom</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>1</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes>An artisianal necklace made of the sinew and teeth of a Cerberus Grond hunted in Alaska. Bollard took the time to dress the kill, creating this necklace for him.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>0</sortorder>
+    </gear>
   </gears>
   <vehicles />
   <metamagics />
@@ -10243,7 +11375,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -11090,7 +12222,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>1</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11138,7 +12270,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>5</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11162,7 +12294,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>2</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11186,7 +12318,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>4</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11210,7 +12342,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>3</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11234,7 +12366,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
       <enabled>0</enabled>
-      <order>0</order>
+      <order>6</order>
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
@@ -11452,6 +12584,102 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <customgroup />
       <addtorating>0</addtorating>
       <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Alaska</improvedname>
+      <sourcename>e3ccaf7f-05f9-4291-8304-768be766c39b</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Camping</improvedname>
+      <sourcename>ec27e235-7fc2-454a-9069-a40222ae4f38</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>LOG</improvedname>
+      <sourcename>8b0d5c37-7350-43c0-a8c0-5d70e3caa291</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>-1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>-1 LOG</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Bodyguard</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>BOD</improvedname>
+      <sourcename>6ce4eb49-90f4-4e45-9491-9126129eeac5</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 BOD</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Bodyguard</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -11781,6 +13009,262 @@ An inexpensive, hand-held sensor package used to look around corners or over top
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>434eacd6-9d4c-471f-b6df-c3547bdc1219</guid>
+      <date>2025-12-07T17:58:57</date>
+      <amount>-200</amount>
+      <reason>Purchased Gear Survival Kit</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>f71f1762-1f0a-4992-a9cb-f8402bf64ebe</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>6d0be1f2-55a6-4625-8906-08774e4d5f6d</guid>
+      <date>2025-12-07T17:59:33</date>
+      <amount>-175</amount>
+      <reason>Purchased Gear Micro Flare Launcher</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>f77ab85f-a286-4463-9838-003dc6eeb1e4</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a87a64e1-a13d-44d2-a6f3-3cd3d6198336</guid>
+      <date>2025-12-07T17:59:48</date>
+      <amount>-100</amount>
+      <reason>Purchased Gear Micro Flares</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>12dc95b9-5bc6-4d32-a4c5-7853e97dc946</objectid>
+        <qty>4</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c89b7c91-38e8-4765-8409-a21edb0ef1e7</guid>
+      <date>2025-12-07T18:00:54</date>
+      <amount>-250</amount>
+      <reason>Purchased Gear Light Stick</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>dc0cecab-3cdf-4bcd-a76a-2c7a75ac992e</objectid>
+        <qty>10</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>ac0fd6e6-e067-4c05-a77a-fe22017c824c</guid>
+      <date>2025-12-07T18:01:00</date>
+      <amount>-5</amount>
+      <reason>Purchased Gear Magnesium Torch</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>9285fea0-4eed-4ae9-9d6a-a9b07e99a4f5</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b5b99115-0aee-4003-8be0-3f73de26baaf</guid>
+      <date>2025-12-07T18:04:19</date>
+      <amount>-100</amount>
+      <reason>Purchased Gear Mapsoft</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>e3ccaf7f-05f9-4291-8304-768be766c39b</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>7c4a2704-8c36-460d-a358-399dd8e12c77</guid>
+      <date>2025-12-07T18:21:13</date>
+      <amount>-120</amount>
+      <reason>Purchased Gear Datasoft</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>ec27e235-7fc2-454a-9069-a40222ae4f38</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c53e7fce-d962-4900-b208-c9a64f980fc7</guid>
+      <date>2025-12-07T18:22:13</date>
+      <amount>0</amount>
+      <reason>Purchased Gear Arctic Tent</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>889e7a49-68e2-4832-97f0-94ad95b9f570</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c1efcbae-ee2f-4359-83b9-aa694322658b</guid>
+      <date>2025-12-07T18:31:51</date>
+      <amount>-200</amount>
+      <reason>Purchased Gear Bodyguard BTL</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>73d747c8-7b04-40da-87ed-f825159f019e</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>8f3c2d0a-2652-49a5-866c-8dc90ba221ad</guid>
+      <date>2025-12-07T20:35:46</date>
+      <amount>0</amount>
+      <reason>Purchased Gear Cerberus Tooth Necklace</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>4186eebf-f4e4-4439-a31a-904e4b328bd2</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>11a0cbd6-76a3-4008-9ddf-397a3b880b15</guid>
+      <date>2025-12-07T21:33:23</date>
+      <amount>6</amount>
+      <reason>Game 2: Step Into Christmas</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>4d8be8d4-9955-494b-b3e9-526151891033</guid>
+      <date>2025-12-07T21:34:07</date>
+      <amount>20000</amount>
+      <reason>Game 2: Step Into Christmas</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a1602e70-a9c9-4cd9-998c-91727284945f</guid>
+      <date>2025-12-07T21:36:30</date>
+      <amount>-1</amount>
+      <reason>Knowledge Skill Hunting 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>dbb280a8-b952-47a7-a2e0-861f62dc27fc</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>e5eb8ca7-b11c-40cd-ba6a-74a74ab5357c</guid>
+      <date>2025-12-07T21:36:41</date>
+      <amount>1</amount>
+      <reason>Influence</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>226822f8-fd6b-4f8c-9fe9-f80ea616013d</guid>
+      <date>2025-12-07T21:37:07</date>
+      <amount>-2</amount>
+      <reason>Active Skill Survival 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>7d644d23-e5e8-4cae-a778-f201a7468e67</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>895828aa-4622-4135-ab46-ef0bdbe0b4c3</guid>
+      <date>2025-12-07T21:37:34</date>
+      <amount>1</amount>
+      <reason>Influence</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -11803,6 +13287,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
   <weaponlocations />
   <improvementgroups>
     <improvementgroup>Kamikaze</improvementgroup>
+    <improvementgroup>Bodyguard</improvementgroup>
   </improvementgroups>
   <calendar />
   <calculatedvalues>
