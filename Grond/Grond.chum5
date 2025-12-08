@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>311567727</settingshashcode>
+  <settingshashcode>-19635115</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -118,7 +118,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>10</karma>
+  <karma>0</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -7004,6 +7004,32 @@ Who needs a watch when you’re around? The character with this quality always k
       <notes />
       <notesColor>#E3813C</notesColor>
     </quality>
+    <quality>
+      <sourceid>c6ec1c1f-99aa-43bc-b1cc-8cacd15df862</sourceid>
+      <guid>f0e71edb-f43e-4c94-9ae0-c8d20be65cee</guid>
+      <name>Panzer (Fear/Soak)</name>
+      <extra />
+      <bp>10</bp>
+      <implemented>True</implemented>
+      <contributetobp>True</contributetobp>
+      <contributetolimit>True</contributetolimit>
+      <stagedpurchase>False</stagedpurchase>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenic>False</metagenic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>10</page>
+      <sourcename />
+      <bonus />
+      <firstlevelbonus />
+      <naturalweapons />
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </quality>
   </qualities>
   <lifestyles>
     <lifestyle>
@@ -12684,6 +12710,30 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
       <notes />
       <notesColor>#E3813C</notesColor>
     </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>f0e71edb-f43e-4c94-9ae0-c8d20be65cee</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>DamageResistance</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
   </improvements>
   <sustainedobjects />
   <drugs />
@@ -13261,6 +13311,54 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
         <karmatype>ManualAdd</karmatype>
         <nuyentype>AddCyberware</nuyentype>
         <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>1dbcb3e4-a6bc-4756-b2b1-0880693169cb</guid>
+      <date>2025-12-07T21:45:03</date>
+      <amount>0</amount>
+      <reason>Gained Positive Quality Panzer (Fear/Soak)</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddQuality</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>992e5a92-6b8e-44e3-ad4a-2f1f44ebf9fa</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d9983754-282d-4adf-851d-13f40fe15f27</guid>
+      <date>2025-12-07T21:47:18</date>
+      <amount>10</amount>
+      <reason>WOTS Correction</reason>
+      <type>Karma</type>
+      <refund>True</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b62a28fc-27de-45aa-ba01-853b073b3455</guid>
+      <date>2025-12-07T21:47:40</date>
+      <amount>-20</amount>
+      <reason>Gained Positive Quality Panzer (Fear/Soak)</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>AddQuality</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>f0e71edb-f43e-4c94-9ae0-c8d20be65cee</objectid>
         <qty>0</qty>
         <extra />
       </undo>
