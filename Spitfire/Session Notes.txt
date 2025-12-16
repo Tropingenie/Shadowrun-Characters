@@ -5,6 +5,79 @@
 
 ----
 
+Game 10: Untertauchen
+2025-12-16
+GM: ThibbleDorfPwen
+Playes:
+BLT as Gargamel, cute dorf <3
+Intruder4dk as Pantheon, the man, the machine, the legend
+Myself as Spitfire IIb
+
+That morning, Spitfire IIb drove out to the marina and launched the boat, in preparation for the meat meet. Tlaloc would be meeting them in a host, so a physical meet wasn't strictly necessary, but Spitfire opened a DNI and invited the team to the boat nontheless.
+
+Spitfire gave them an overview of the job before the meet, and they met at the marina before entering the host. Pantheon picked up Gargamel, and they arrived on time at the marina, parking in the long term guest parking. Spitfire gave them his bay number and the name of the boat, making it easy to find among the relatively empty marina.
+
+The time drew, and Spitfire dove into the matrix from his wheelchair, entering the designated host. It was low traffic, and few devices. Inside, they found a table with the sillhouette of a person sitting there. Three more chairs were available for them.
+
+Tlaloc greeted them, telling them about an "errand" he had for them to run, describing the job as "very easy." As he had told Spitfire earlier, he needed a package retrieved from the bottom of the ocean. He showed them the metal box they needed, describing it as somewhat heavy, and its contents as "none of their business." They were to under no circumstances open it. Gargamel looked to the team, but no more questions were forthcoming, so Tlaloc told them the pay of 27,000 each, and sent them the coordinates of the package, just within Tir waters.
+
+Gargamel asked about the traffic, to which Tlaloc mentioned low traffic due to being outside of usual shipping lanes. Gargamel pondered what magical creatures they could find, since he knew about the Kraken attack in Vancouver about 30 years ago. Pantheon asked a final question, confirming that the box had an RFID tag so they could identify it was the correct box.
+
+Spitfire had their Dustoff push off, and maneuvered out of the sound. It would be about 10-12 hours to Portland, so Spitfire took them out to international waters then set the autopilot to navigate the shipping lane closer to the Tir so he could get some sleep.
+
+The boat arrived around 8-9 in the morning, 45km from land, nearing Tir waters. Spitfire, planning to submerge, began to calculate their approach. Pantheon helped, though Spitfire dismissed much of his experience. Still, Spitfire was able to properly plan the route to the coordinates they were given.
+
+"I hope none of you are afraid of the deep, because I'm taking her down."
+
+Spitfire took them to depth, and Gargamel had his spirit Search to find the true location of the box. In the meantime, Spitfire suited up, giving Pantheon the stink-eye when he offered to help her suit up. She pulled the curtain of her bunk, and figured it out on her own. Pantheon set up a Pi-TAC, and distributed Medusa Extensions with various sensor suites to monitor the insides of their suits. They tethered UCC to the Lamprey, and confirmed they could sign.
+
+They entered the launch bay and boarded the Lamprey, and Spitfire began pressurizing the chamber as Gargamel's spirit began searching the wreckage of a ship it had found. After 40 minutes, it found the box in the main cabin of the wreck. From Gargamel's description, it sounded like this was a Trimaran. Not an easy ship to take out, according to Pantheon. It was about 150m below sea level. Spitfire lowered the winch to a safe height, and after checking with the rest of the team, launched the Lamprey.
+
+Water flowed into the chamber. As soon as it was filled, the door opened and they were free to explore the ocean. Spitfire took the Lamprey down to the wreck. Pantheon spotted a Kraken drone. It fired a projectile toward the surface, which Pantheon suspected was a flare. Gargamel shot it down with a spell, preventing it from reaching the surface.
+
+Pantheon went to take down the drone, turning into aquaman and thrusting forward with his spear. The drone exploded into parts, Pantheon put the parts in a net bag to prevent them causing problems for the run or nature.
+
+Spitfire took them down to the boat, and Pantheon pulled out his crowbar, though the door he entered from was fortunately unlocked and undamaged despite the state of the rest of the boat. Now closer, they could see waterlogged corpses buried in the wreckage and floating in the cabins. Pantheon gathered what identifying information he could, to comply with maritime law, then moved on to the main objective.
+
+Pantheon and Gargamel were able to navigate the box out of the wreckage, hooking it to the winch. The team began to "resurface," getting into the compression chamber on the Nightrunner and began to depressurise over the next half hour at a rate determined by Pantheon.
+
+They depressurized without complication.
+
+While still underwater, Pantheon scanned the box for matrix objects, finding only the security tag they were told about. Pantheon was being extra cautious, suspecting the box could release gas or produce other complications as the pressure changed.
+
+Spitfire began resurfacing in the direction of international waters. He caught on his sensors something diving to the boat, fast. Spitfire rolled the sub, in a path more reminiscent of an aircraft than a boat, as depth charges detonated in the waters around them.
+
+The hull creaked and groaned, and Spitfire's RCC screamed, threatening to fry his brain. Spitfire punched it, but the underwater operation was killing his ability to break away. Pantheon shot her with a Saviour Medkit. Gargamel summoned a fire spirit, and another depth charge detonated nearby, sending another wave of biofeedback across the link.
+
+With eyes on, Gargamel described the ship as staffed by Tir-uniformed crew. Spitfire extrapolated that meant a certain type of coast guard boat that he knew carried depth charges. Pantheon jumped on his Pi-Tac to run the boat's secondary systems, helping Spitfire turn the boat vertically and fire the surface motors to resurface faster.
+
+The boat flew out of the water like a majestic dolphin, ready to flee. Now out of the water, one of the operators ran to the gauss cannon, and fired a volley, but on the surface Spitfire was able to exert their full capability and dodge the bullets. Pantheon began operating the vehicle as a copilot as Spitfire made the larger adjustments.
+
+Like greased lightning, Spitfire pulled away from the enemy. With the range, and Spitfire bouncing erratically off the waves, it was a tough shot. Even more bullets flew harmlessly past the prow. Gargamel located and "dismissed" a water spirit, and they broke out of the range of the opfor's guns, and eventually, line of sight, and into international water.
+
+Full of holes but still working, Spitfire performed what criminal competency she could, and Pantheon went into the galley to make soup. Spitfire was worse for wear, and Gargamel was worse than that--she had a nosebleed, his skin was cracking. With a thick French onion soup finished, Pantheon also handed them cans of vegetable juice. Gargamel shotgunned it, while Spitfire sipped gently.
+
+"It's nice to work with actual professionals," commented Pantheon.
+
+"You're the second runner to tell me that."
+
+They continued travelling back to Seattle, and made the journey back without issue. About two hours from Seattle, Pantheon spotted a fishing boat, rigged in with a rating 6 RCC, with ASDF of --65, which he relayed to Spitfire. He also spotted no weapons, drones, or cyberdecks on the matrix. The one hidden icon he found was a stealth tag.
+
+With no active deck, Spitfire slowed down and changed course to avoid the boat. The fishing boat changed to an intercept. Pantheon asked Spitfire if they wanted to disable the boat, which Spitfire agreed with.
+
+Once the boat's sensors were down, Spitfire submerged again to break line of sight. They stayed underwater for some time, and when they resurfaced, the fishing boat was still there, and turned in their direction. At that, Pantheon checked and found the stealth tag again, on the hull of the ship, and fried it.
+
+Spitfire submerged again, finally losing their pursuers--whoever they were remaining unknown. Reaching Seattle without any further issue, Tlaloc send the coordinates, a dead drop in the barrens. It was a simple matter to load Pantheon's truck and retreive the credstick from the warehouse they found.
+
+To do:
+    - Pay bolt hole (done)
+    - Figure out airlock, Thibble was nice this run for simplicity
+    - 27k nuyen, 8 karma, 2 inf, 1 additional inf (CRR), +1 inf streaming (done)
+    - Tag erasers on all vehicles
+    - Increase Tlaloc's Conn to 6 (6 inf)
+
+----
+
 Game 9: Beware Banal Things
 2025-11-24
 GM: solonisonomia
