@@ -5,10 +5,95 @@
 
 ----
 
-Game 10: Untertauchen
+Game 11: Every Street Has its Secrets
+2025-12-12
+GM: epicsts
+Players:
+DemonSunshine as Zeitgeist, Somewhat distinctive elf mage (literally blue)
+Intruder4dk as Pantheon, the man, the machine, the legend
+Myself as Spitfire IIb
+
+Spitfire woke up with a craving for her painkillers, which was satisfied by her implanted daily dosage.
+
+2:15 a.m. Monday morning, at Bellevue Square, was all the information they were given. IIb recognized it as a 5 floor shopping mall. She took the Touristville-Bellevue checkpoint, which she knew would get her through without a search, and was in Bellevue.
+
+The entire team were on time, pulling off 100th avenue into the second story of the parking complex. There was not a car in sight, apart from a cocotaxi with a familiar face.
+
+As an elf, Zeitgeist, arrived, a large GMC entered, opening a rear door then just sitting there. The other side also opened, and a wheelchair lift lowered. Surely, the rest of the team was doing their due diligence, but Spitfire had never a reason to not trust the meet. Still, they waited until Zeitgest approached before donning his mask and leaving his car. There was limo-style seating in the rear, and up against the driver's side there were two individuals: A clean-shaven, middle aged man, and an orc with a head full of hair. Both were nondescript and wearing generic suits.
+
+The man spoke first, and Zeitgeit returned his greeting. He explained the simple job: Acquire a specific datachip. They had a location, and need it pulled out without any "conflicts of interest." He claimed it was not on extraterritorial grounds under Lone Star surveillance. They gave an oddly specific opening offer of about 22 200 Nuyen, with potential for a bonus.
+
+He elaborated. Lone Star were on a stakeout, not actively guarding the chip. They wanted to avoid conflict or awareness from the Star. The bonus would work out to just over 7000 each.
+
+After further questioning, he uncertainly told them the chip was in a posession of someone "among their peers." But he clammed up as Pantheon pursued that line of questioning. Zeitgeist nodded, but given the information they were against other runners pushed her to negotiate an even higher payment. He increased the pay by 7056, 2352 each, bringing up to 31752 per person after bonus.
+
+Spitfire, through her veneer of confidence, was visibly nervous hearing the highest payout she had ever seen. Pantheon seemed confident enough though, and Zeitgeist accepted the job before Spitfire could lose his nerve.
+
+He told them that the chip was in posession of a runner named Barracuda, and showed them an address in Newcastle. Spitfire recognized the name as a razorgirl from the CAS, who was a common sight in the Crime Mall. Of Cutter affiliation, with a rumor that she nabbed some extra data on a run and went MIA since. Notably, she was not on the Hub datahaven. He told them the data came from a reputable source, and Lone Star agreed; the exact nature of the source the Johnson refused to give. He also mentioned Barracuda had likely vacated the premises. He also mentioned he didn't know, but also did not believe, she was working with a team.
+
+The Lone Star procedure for a stakeout would be to have a go team on standby, and awakened observation. Anywhere from 6 to 18 officers, plus drivers, riggers, or mages.
+
+With the details sorted, they received a small wooden box with a burner commlink and RFID tag. The RFID tag had an LED that would be used to confirm the contents of the chip--and were under no circumstances to slot it.
+
+With the meet over, Zeitgeist asked to establish the team's skillsets, offhandedly commenting on Pantheon keeping the Cocotaxi. They began scanning for bugs and marks, detecting nothing of note. Spitfire had the Mercedes follow them.
+
+"Pantheon, I know you,"
+
+Pantheon confirmed his skillset was largely the same as the previous time he worked with Zeitgeist. Spitfire also went over their vehicle and drone suite.
+
+Zeitgeist also went over a few plans. Locating the backup Star team, tracking down Barracuda, buying the chip. There was little to do but to do. They went for tacos to begin their legwork. Zeitgeist tried to strike up conversation with the taco truck guy, who simply stared at her with red, dead eyes.
+
+Zeitgeist started by astrally scouting. She identified a spirit watching from across the street, though didn't see any cops. The house was warded, likely a leftover from being a safehouse, but nothing astrally active. There was a motorcycle though.
+
+Being Spitfire's turn, he deployed his Fly Spy, considering the Sewer Snake idea that was floated by Pantheon. Dry for now, and of little wind, it wasn't difficult to fly over. They began scouting the stakeout house, spotting through the open window a tripod with an emplacement on it with some observation 'ware on it and hardwires running into the main building, noting a directonal mic, laser mic, and camera.
+
+She flew the drone into the house, following the hardwires. The skirting had been removed to allow room for the wires. Within, Spitfire found a heavily armed Lone Star operation. The dining table was up against a wall, replaced by an observation station, chairs piled in another corner. The guard, dozing off, didn't notice Spitfire firing up the drone's rotors to fly. Flying around the room, Spitfire observed an additional few cameras, including one behind the house.
+
+Upstairs was a storage room, with a second observation setup with just a camera, and a sleeping officer, picking up tailored phermones on their olfactory scanner. He drove back downstairs, and scouted the garage, then left the building to locate the cameras.
+
+Moving to the safe house, all access points were covered with wire mesh. Spitfire noted a blind spot in the surveillance behind the house, which his Roto or Pantheon could exploit.
+
+The team decided to go with the Festo plan regardless. Pantheon pulled the sewer maps, locating an access point and the route into the correct house.
+
+The team reconvened 18 hours later, with Zeitgeist in a new Ares Industrious, and she slipped the Sewer Snake into a nearby abandoned house. Spitfire slipped it into the toilet. He navigated it into the house, popping out of the toilet. Moving into the hall, she spotted trip mines on the entrances. Pantheon noted them as equivalent of HE explosives.
+
+Moving the snake was leaving a trail of sewage, so Spitfire hatched a plan. They wrote multiple curses on the wall, followed by "Lone Star" with it ending up "Tabarnak, Fuck, Perkele Lone Star!"
+
+Spitfire fired up the MAD scanner. They noted the icebox and safe, as well as some firearm components in the other closet, silently entering the room. The detector chip they were given began to blink.
+
+Spitfire moved her Fly Spy into the Lone Star operation again, noting there were two cops now. One was cleaning his gun, periodically checking on the feed as well. When there was an opening, IIb slid open the closet door, and came face to face with a solid steel safe.
+
+The team paused, rapidly discussing over DNI their plan of attack. They settled on having Zeitgeist park a car to break the beam, and play music to mask the directional mic. Pantheon would sneak a miniwelder through a window to the Sewer Snake, which could cut through the side of the safe.
+
+As Zeitgeist passed, Spitfire noted that the cop cleaning his gun called the third officer down from upstairs, and all three ended up watching the monitor, though there was no immediate sense of urgency despite some of them seeming irritated.
+
+Despite the additional scrutiny, the officers were sufficiently distracted, helping Pantheon make it to the back of the house without issue. He got the miniwelder to Spitfire, and gave him advice to avoid the anti-tamper. Spitfire torched through the safe, as the senior officer berated the junior for suggesting going outside.
+
+After a few minutes, they were in. Inside there was a commlink, a gun, a go bag, and the chip, wrapped in foam. Spitfire confirmed it was the correct chip, then took everything from the safe. They welded the safe back shut as a cover, and returned to Pantheon who threw everything in a bag and vanished into the night.
+
+Spitfire confirmed the Lone Star were not alerted, and flew his drone out.
+
+The team reconvened far from Lone Star's sphere of influence, and pinged the Johnson.
+
+"Same place, same time. Tonight."
+
+When they met, the Johnson told them the money would be released at midnight. In 22 hours. Zeitgeist had him fix that, and then handed over the chip.
+
+A week later, the perfect crime was discovered. The Lone Star commanded could do nothing but shout: "Fuck!"
+
+To do:
+    - Nitro addiction (done)
+    - Sewer Snake
+    - -2 cereprax
+    - ¥31,752, 7 Karma, 2 Influence
+    - 1 inf streaming
+
+----
+
+Game 10: [CRR] Untertauchen
 2025-12-16
 GM: ThibbleDorfPwen
-Playes:
+Players:
 BLT as Gargamel, cute dorf <3
 Intruder4dk as Pantheon, the man, the machine, the legend
 Myself as Spitfire IIb
