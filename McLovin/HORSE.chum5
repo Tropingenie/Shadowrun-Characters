@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>362530313</settingshashcode>
+  <settingshashcode>-345670209</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -86,10 +86,10 @@
   <gender>F</gender>
   <age>21</age>
   <eyes>None</eyes>
-  <height>Yes</height>
-  <weight>Damn boy she thicc</weight>
-  <skin>None</skin>
-  <hair>haha ur bald</hair>
+  <height>212</height>
+  <weight>616</weight>
+  <skin>Fair</skin>
+  <hair>Black</hair>
   <description>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
@@ -102,37 +102,39 @@
 \par
 What they created was someone with a vendetta, and a little too much Matrix access. Perhaps through luck, or skill, they never noticed her using the 'locked down' cyberdeck they left in her cell to worm her way into their host. It started out small, keycards failing to unlock doors, camera feeds dropping a few seconds of footage, and other near imperceptible failures that flew under the radar. These were, of course, not coincidences: They were McLovin testing her access to the facility's systems.\par
 \par
-Over the next few months, eventually years, she gathered a dossier on the facility, and as many others she could find. When the time was ripe, she struck, posting it to as many pro-technomancy data havens on both sides of the shadows she could find, under the handle "McLovin," after a character from one of the flatvids "they" had given her, still thinking she was stuck to whatever intranet access they gave her. This triggered a series of Technoterrorist attacks, as global technomancer and pro-technomancer communities were enraged to the point of extremism. While Aztechnology managed to keep things under wraps, they still pushed the Corporate Court to designate "McLovin" as an international Matrix terrorist, believing the attack had originated from the outside.\par
+Over the next few months, eventually years, she gathered a dossier on the facility, and as many others she could find. When the time was ripe, she struck, posting it to as many pro-technomancy data havens on both sides of the shadows she could find, under the handle "McLovin," after a character from one of the flatvids "they" had given her to maintain a guise of hospitality. These dossiers triggered a series of Technoterrorist attacks, as technomancer and pro-technomancer communities across the Americas were enraged to the point of extremism. While Aztechnology managed to keep things under wraps, they still pushed the Corporate Court to designate "McLovin" as an international Matrix terrorist, believing the attack had originated from the outside.\par
 \par
 In the chaos, most of the technomancers in the blacksite McLovin was stored in, and McLovin themself, disappeared. The facility's systems went haywire, as the host itself turned against the occupants. Years of preparation and practice had given McLovin full control of the door and camera systems, and when the Technos spoofed it to invite them MARKs she made contact, waltzing past ICE like she owned the place--because at that point, she did. A single reboot wiped nearly a decade of progress, but the deed was done: McLovin was free.\par
 \par
-Still, she needed to wait for the heat to die down. She couldn't just dive back onto the Matrix in the middle of a GOD manhunt, but they didn't know her face. At the suggestion, and with the help, of the technomancers who saved her, she moved to Seattle. Its diversity and proximity to centaur settlements would help her blend into the crowd--as much as a literal horse could blend in, at least. The 'ware that had taken her magic from her came in useful here, allowing her to make it as a hired gun, though having never handled a firearm in her life meant she was a poor shot, relying mostly on her excessive physical capability to shoot straight. Still, with her magic gone, chrome was her way forward, her initiation. She had never learned magic, and so science became her centering.\par
+Still, she needed to wait for the heat to die down. She couldn't just dive back onto the Matrix in the middle of a GOD manhunt, but they didn't know her face. At the suggestion, and with the help, of the technomancers who saved her, she moved to Seattle. Its diversity and proximity to centaur settlements would help her blend into the crowd--as much as a literal horse could blend in, at least. The 'ware that had taken her magic from her came in useful here, allowing her to make it as a hired gun, though having never handled a firearm in her life meant she was a poor shot, relying mostly on her machine body's excessive capability to shoot straight. Still, with her magic gone, chrome was her way forward, her initiation. She had never learned magic, and so science became her centering.\par
 \par
-With limited skill and resources, life was hard, but at least she was free. Sure, sacrifices had to be made to pay the bills, but at least they were being paid. Azech's cover ups helped her more, as the incident didn't reach deep into the public eye, and was soon forgotten among all the other noise of the 6th world, and the time came where McLovin--now calling herself "Grand Guard"--picked up her deck that had been collecting dust, powered down so as to not be detected, and nearly forgotten in a small storage locker she rented.\par
+With limited skill and resources, life was hard, but at least she was free. Sure, sacrifices had to be made to pay the bills, but at least they were being paid. Azech's cover ups helped her more, as the incident didn't reach deep into the public eye, and was soon forgotten among all the other noise of the 6th world, and the time came where McLovin--rebranding herself "Stable Connection"--picked up her deck that had been collecting dust, powered down so as to not be detected, and nearly forgotten in a small storage locker she rented.\par
 \par
-Thus, the rise of "Grand Guard" began, and McLovin prowled the Matrix once more. Her mostly-useless fixer somehow managed to get her into an elite datahaven, opening her up to more and better paying work, better aligned with her skillset. And all the better if she could meet a few other centaurs or make some more friends. It had been a lonely life until now, after all.\par
+Thus, the rise of "Stable Connection" began, and McLovin prowled the Matrix once more. Her mostly-useless fixer somehow managed to get her into an elite datahaven, opening her up to more and better paying work, better aligned with her skillset. And all the better if she could meet a few other centaurs or make some more friends. It had been a lonely life until now, after all.\par
 }</background>
   <concept />
   <notes>{\rtf1\ansi\ansicpg1252\uc1\deff0\deflang4105\deflangfe4105{\fonttbl{\f0\fcharset0 Tahoma;}{\f1 Tahoma;}}
 {\colortbl;}
 {\*\generator Wine Riched20 2.0;}
 \pard\sl-240\slmult1 \lang4105\fs16\f0 Off Muscle Defense:\par
-BOD: 5 + 2 (narcokami)\par
+BOD: 4 + 2 (narcokami)\par
 Cyber Arms: Armour 6\par
 Armour: 12 (Zoe) + 6 (Shield) = 18\par
-31 soak w shield\par
-25 w/o\par
+30 soak w shield\par
+24 w/o\par
 \par
-6 (REA) + 4 (INT) = 10 dodge\par
+5 (REA) + 5 (INT) = 10 dodge\par
 Beta: +5\par
 Psyche: +2\par
 Cere: +3\par
 \par
-DDD: 41 w/ shield, 35 w/o, no extra drugs\par
+DDD: 40 w/ shield, 34 w/o, no extra drugs\par
 \par
-41 DDD 'sober + shield' or 40 DDD 'no shield' -&gt; meets bare minimum\par
+40 DDD 'sober + shield' or 39 DDD 'no shield' -&gt; meets bare minimum w/shield, just under on drugs, good enough for a decker\par
 \par
-\b\f1 Ortho 3, WR 3, RE 3, etc. to postgen\b0\f0 \par
+Actual go time: 42 on psyche + shield\par
+\par
+\b\f1 Ortho 3, WR 3, RE 3, etc. moved to postgen\b0\f0 \par
 \par
 Off Muscle Offense:\par
 Shooting: AGI 8 arm + 2 Shooting - 2 One Hand = 8\par
@@ -145,7 +147,7 @@ Redliner? (augmax AGI)\par
 Specialize limbs\par
 Fill gaps in decking ability\f0 \par
 }</notes>
-  <alias>Grand Guard</alias>
+  <alias>Stable Connection</alias>
   <playername />
   <gamenotes />
   <primaryarm>Left</primaryarm>
@@ -229,10 +231,10 @@ Fill gaps in decking ability\f0 \par
       <metatypemin>1</metatypemin>
       <metatypemax>5</metatypemax>
       <metatypeaugmax>9</metatypeaugmax>
-      <base>3</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -299,10 +301,10 @@ Fill gaps in decking ability\f0 \par
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
-      <base>5</base>
+      <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>BOD</name>
@@ -1245,15 +1247,32 @@ Fill gaps in decking ability\f0 \par
     </skills>
     <knoskills>
       <skill>
-        <guid>300d9a98-b0df-4708-81fe-466fa2374fa1</guid>
-        <suid>00000000-0000-0000-0000-000000000000</suid>
+        <guid>d2eaad6f-c72d-44c1-a137-6ecf7d8d4ea9</guid>
+        <suid>4c0b7b81-5dd4-4247-82da-88161992a374</suid>
         <isknowledge>True</isknowledge>
-        <skillcategory />
+        <skillcategory>Language</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
         <karma>0</karma>
-        <base>4</base>
+        <base>1</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Aztlaner Spanish</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Language</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>300d9a98-b0df-4708-81fe-466fa2374fa1</guid>
+        <suid>00000000-0000-0000-0000-000000000000</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>3</base>
         <notes />
         <notesColor>#E3813C</notesColor>
         <name>Corporate Court</name>
@@ -1266,7 +1285,24 @@ Fill gaps in decking ability\f0 \par
             <expertise>False</expertise>
           </spec>
         </specs>
-        <type />
+        <type>Academic</type>
+        <isnativelanguage>False</isnativelanguage>
+      </skill>
+      <skill>
+        <guid>3a5acff0-cd27-4474-8b3d-db745b35e052</guid>
+        <suid>50a4cbd7-a0f7-474a-97ae-a781320d6780</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <requiresgroundmovement>False</requiresgroundmovement>
+        <requiresswimmovement>False</requiresswimmovement>
+        <requiresflymovement>False</requiresflymovement>
+        <karma>0</karma>
+        <base>4</base>
+        <notes />
+        <notesColor>#E3813C</notesColor>
+        <name>Corporation: Aztechnology</name>
+        <buywithkarma>False</buywithkarma>
+        <type>Academic</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
       <skill>
@@ -1357,7 +1393,7 @@ Fill gaps in decking ability\f0 \par
         <guid>45c85cbe-c751-45f2-b1ab-339955d88b42</guid>
         <suid>00000000-0000-0000-0000-000000000000</suid>
         <isknowledge>True</isknowledge>
-        <skillcategory />
+        <skillcategory>Academic</skillcategory>
         <requiresgroundmovement>False</requiresgroundmovement>
         <requiresswimmovement>False</requiresswimmovement>
         <requiresflymovement>False</requiresflymovement>
@@ -1375,7 +1411,7 @@ Fill gaps in decking ability\f0 \par
             <expertise>False</expertise>
           </spec>
         </specs>
-        <type />
+        <type>Academic</type>
         <isnativelanguage>False</isnativelanguage>
       </skill>
     </knoskills>
@@ -1511,7 +1547,7 @@ Fill gaps in decking ability\f0 \par
       <notesColor>#E3813C</notesColor>
     </limitmodifier>
     <limitmodifier>
-      <guid>55c64449-12e9-47c0-9f5b-d5d4a019724c</guid>
+      <guid>662e2196-33c4-4c59-8a72-1113cd9a6182</guid>
       <name>Ballistic Shield</name>
       <limit>Physical</limit>
       <bonus>-1</bonus>
@@ -1678,6 +1714,37 @@ These items are the most recent incarnations of their corporate creators. That m
           <discountedcost>False</discountedcost>
           <sortorder>0</sortorder>
         </armormod>
+        <armormod>
+          <guid>acbc6bab-4c4a-4e58-9c45-db2d178916b8</guid>
+          <sourceid>0cfb049a-a1bd-4daa-96be-9468c37d9c3c</sourceid>
+          <name>Nonconductivity</name>
+          <category>General</category>
+          <armor>0</armor>
+          <armorcapacity>FixedValues([1],[2],[3],[4],[5],[6])</armorcapacity>
+          <gearcapacity />
+          <maxrating>6</maxrating>
+          <rating>4</rating>
+          <ratinglabel>String_Rating</ratinglabel>
+          <avail>6</avail>
+          <cost>Rating * 250</cost>
+          <weight />
+          <bonus unique="nonconductivity">
+            <electricityarmor>Rating</electricityarmor>
+          </bonus>
+          <wirelessbonus />
+          <wirelesson>True</wirelesson>
+          <source>SR5</source>
+          <page>438</page>
+          <included>False</included>
+          <equipped>True</equipped>
+          <extra />
+          <encumbrance>True</encumbrance>
+          <stolen>False</stolen>
+          <notes>Nonconductivity: Electrical insulation and non-con- ductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
+        </armormod>
       </armormods>
       <bonus>
         <limitmodifier>
@@ -1704,7 +1771,7 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
     </armor>
     <armor>
       <sourceid>943d19f7-ee6b-4ce9-8a43-93d3fe5100f2</sourceid>
-      <guid>ca1dc215-d9fc-4828-b441-dccef9b28b4f</guid>
+      <guid>84f104b9-5ab1-4e10-a2a8-3fba03c583b0</guid>
       <name>Ballistic Shield</name>
       <category>Armor</category>
       <armor>+6</armor>
@@ -1757,7 +1824,6 @@ The Zoé/Armanté fashion shadow war was a major victory for Armanté in terms o
       <notes>Ballistic shield: This large opaque shield is used by SWAT teams and in urban combat. It features a clear plastic window and a built-in ladder frame along the in- side so that it can be used to climb over small obstacles.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <weaponguid>c931a32d-9e49-4c03-b472-500225e3f4fc</weaponguid>
       <sortorder>0</sortorder>
     </armor>
   </armors>
@@ -3053,6 +3119,90 @@ Shotguns aren’t known for their accuracy, but Mossberg hopes the latest versio
       <source>SR5</source>
       <page>438</page>
       <parentid>ca1dc215-d9fc-4828-b441-dccef9b28b4f</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <equipped>True</equipped>
+      <requireammo>True</requireammo>
+      <accuracy>4</accuracy>
+      <mount />
+      <stolen>False</stolen>
+      <extramount />
+      <location />
+      <notes>Ballistic shield: This large opaque shield is used by SWAT teams and in urban combat. It features a clear plastic window and a built-in ladder frame along the in- side so that it can be used to climb over small obstacles.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <weaponslots />
+      <doubledcostweaponslots />
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelessweaponbonus />
+      <wirelesson>True</wirelesson>
+      <sortorder>0</sortorder>
+      <weapontype>melee</weapontype>
+    </weapon>
+    <weapon>
+      <sourceid>a47e8191-869a-456e-b376-ed04ba7a59f0</sourceid>
+      <guid>17ecf9cc-449f-45a3-93b5-6c2c754c862a</guid>
+      <name>Ballistic Shield</name>
+      <category>Exotic Melee Weapons</category>
+      <type>Melee</type>
+      <spec>Shields</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>({STR}+2)S</damage>
+      <ap>0</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <ammoslots>1</ammoslots>
+      <sizecategory />
+      <firingmode>DogBrain</firingmode>
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <accuracy>4</accuracy>
+      <activeammoslot>1</activeammoslot>
+      <conceal>8</conceal>
+      <avail>12R</avail>
+      <cost>0</cost>
+      <weight />
+      <useskill />
+      <useskillspec />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <singleshot>1</singleshot>
+      <shortburst>3</shortburst>
+      <longburst>6</longburst>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <allowsingleshot>True</allowsingleshot>
+      <allowshortburst>True</allowshortburst>
+      <allowlongburst>True</allowlongburst>
+      <allowfullburst>True</allowfullburst>
+      <allowsuppressive>True</allowsuppressive>
+      <source>SR5</source>
+      <page>438</page>
+      <parentid>84f104b9-5ab1-4e10-a2a8-3fba03c583b0</parentid>
       <allowaccessory>True</allowaccessory>
       <weaponname />
       <included>False</included>
@@ -5130,26 +5280,26 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
   </qualities>
   <lifestyles>
     <lifestyle>
-      <sourceid>9367556e-f82f-4f9d-840e-24c8f824ca68</sourceid>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
       <guid>eb691bff-28d7-4d08-bb16-60e4e32643ad</guid>
       <name>Ruined Ranch (not dressing)</name>
-      <cost>500</cost>
-      <dice>2</dice>
-      <lp>2</lp>
-      <baselifestyle>Squatter</baselifestyle>
-      <multiplier>40</multiplier>
+      <cost>2000</cost>
+      <dice>3</dice>
+      <lp>3</lp>
+      <baselifestyle>Low</baselifestyle>
+      <multiplier>60</multiplier>
       <months>1</months>
       <roommates>0</roommates>
       <percentage>100.0</percentage>
       <area>0</area>
       <comforts>1</comforts>
       <security>0</security>
-      <basearea>1</basearea>
-      <basecomforts>1</basecomforts>
-      <basesecurity>1</basesecurity>
-      <maxarea>2</maxarea>
-      <maxcomforts>2</maxcomforts>
-      <maxsecurity>2</maxsecurity>
+      <basearea>2</basearea>
+      <basecomforts>2</basecomforts>
+      <basesecurity>2</basesecurity>
+      <maxarea>3</maxarea>
+      <maxcomforts>3</maxcomforts>
+      <maxsecurity>3</maxsecurity>
       <costforearea>0</costforearea>
       <costforcomforts>0</costforcomforts>
       <costforsecurity>0</costforsecurity>
@@ -5161,45 +5311,14 @@ This can be finding a disappeared loved one, discovering a hidden truth about th
       <splitcostwithroommates>False</splitcostwithroommates>
       <type>Advanced</type>
       <increment>Month</increment>
-      <sourceid>9367556e-f82f-4f9d-840e-24c8f824ca68</sourceid>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
       <city>Seattle</city>
       <district>Redmond</district>
-      <borough>Barrens</borough>
+      <borough>Touristville</borough>
       <lifestylequalities>
         <lifestylequality>
-          <sourceid>ff0cb981-4459-46e7-ab75-d8c5bcb0c486</sourceid>
-          <guid>81b7a916-096e-4365-825d-2fde286788b8</guid>
-          <name>Cramped</name>
-          <category>Negative</category>
-          <extra />
-          <cost />
-          <multiplier>-10</multiplier>
-          <basemultiplier>0</basemultiplier>
-          <lp>1</lp>
-          <areamaximum>0</areamaximum>
-          <comfortsmaximum>0</comfortsmaximum>
-          <securitymaximum>0</securitymaximum>
-          <area>0</area>
-          <comforts>0</comforts>
-          <security>0</security>
-          <uselpcost>True</uselpcost>
-          <print>True</print>
-          <lifestylequalitytype>Negative</lifestylequalitytype>
-          <lifestylequalitysource>Selected</lifestylequalitysource>
-          <free>False</free>
-          <isfreegrid>False</isfreegrid>
-          <source>SR5</source>
-          <page>370</page>
-          <allowed />
-          <bonus />
-          <notes>CRAMPED
-It’s not small, it’s just cozy—or at least that’s what the landlord said. There is just enough space in your place to live, and not do a whole lot else. Forget doing any hobbies or work, or even stretching your legs when you sit down—there just isn’t the room. Any Skill checks tied to Logic have their Limit reduced by 2 (to a minimum of 1) when performed in this space.
-Cost: –10 percent of the lifestyle</notes>
-          <notesColor>#E3813C</notesColor>
-        </lifestylequality>
-        <lifestylequality>
           <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
-          <guid>bae67d70-3e87-4644-a381-908a556fd892</guid>
+          <guid>d38bdd27-a7c0-4cfc-8a88-93ae70cc7b2b</guid>
           <name>Grid Subscription</name>
           <category>Entertainment - Asset</category>
           <extra>Public Grid</extra>
@@ -6077,9 +6196,9 @@ Commlinks and home entertainment systems connect you wirelessly to everything fr
       <discountedcost>False</discountedcost>
       <programlimit>2</programlimit>
       <overclocked>None</overclocked>
-      <attack>5</attack>
+      <attack>1</attack>
       <sleaze>4</sleaze>
-      <dataprocessing>1</dataprocessing>
+      <dataprocessing>5</dataprocessing>
       <firewall>1</firewall>
       <attributearray>5,4,1,1</attributearray>
       <modattack />
@@ -7247,7 +7366,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <armorcapacity />
       <minrating />
       <maxrating>6</maxrating>
-      <rating>4</rating>
+      <rating>3</rating>
       <qty>1.0</qty>
       <avail>Rating * 3</avail>
       <cost>FixedValues(1000,2000,3000,8000,10000,12000)</cost>
@@ -9501,30 +9620,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>Public Grid</improvedname>
-      <sourcename>bae67d70-3e87-4644-a381-908a556fd892</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <unique>8d16019a-b6b8-455b-8034-a8e702dddf55</unique>
       <target />
       <improvedname>WIL</improvedname>
@@ -9539,6 +9634,54 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition />
       <improvementttype>Attribute</improvementttype>
       <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>b1e811e2-fc27-485d-a850-c6b81f00e414</improvedname>
+      <sourcename>8a8849a7-6cbc-44dc-b760-f49706c55db0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_Visible</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>662e2196-33c4-4c59-8a72-1113cd9a6182</improvedname>
+      <sourcename>84f104b9-5ab1-4e10-a2a8-3fba03c583b0</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Armor</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -9646,54 +9789,6 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <notesColor>#E3813C</notesColor>
     </improvement>
     <improvement>
-      <target />
-      <improvedname>b1e811e2-fc27-485d-a850-c6b81f00e414</improvedname>
-      <sourcename>8a8849a7-6cbc-44dc-b760-f49706c55db0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_Visible</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>55c64449-12e9-47c0-9f5b-d5d4a019724c</improvedname>
-      <sourcename>ca1dc215-d9fc-4828-b441-dccef9b28b4f</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>-1</val>
-      <rating>0</rating>
-      <exclude />
-      <condition>LimitCondition_ShieldPhysicalPenalty</condition>
-      <improvementttype>LimitModifier</improvementttype>
-      <improvementsource>Armor</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>0</addtorating>
-      <enabled>1</enabled>
-      <order>0</order>
-      <notes />
-      <notesColor>#E3813C</notesColor>
-    </improvement>
-    <improvement>
       <unique>precedence-1</unique>
       <target />
       <improvedname>AGI</improvedname>
@@ -9733,6 +9828,55 @@ Critters without a Natural Weapon may still make an unarmed attack. As with regu
       <condition />
       <improvementttype>Attribute</improvementttype>
       <improvementsource>ArmorEncumbrance</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Public Grid</improvedname>
+      <sourcename>d38bdd27-a7c0-4cfc-8a88-93ae70cc7b2b</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <unique>nonconductivity</unique>
+      <target />
+      <improvedname />
+      <sourcename>acbc6bab-4c4a-4e58-9c45-db2d178916b8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>4</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>ElectricityArmor</improvementttype>
+      <improvementsource>ArmorMod</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
