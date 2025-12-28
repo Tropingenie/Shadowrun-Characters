@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-1491457351</settingshashcode>
+  <settingshashcode>-345670209</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -94,7 +94,7 @@
   <background />
   <concept />
   <notes />
-  <alias>McLovin</alias>
+  <alias>Stable Connection</alias>
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
