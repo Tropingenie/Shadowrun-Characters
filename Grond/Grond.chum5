@@ -118,7 +118,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <playername />
   <gamenotes />
   <primaryarm>Right</primaryarm>
-  <karma>0</karma>
+  <karma>10</karma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>20</totalattributes>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>32025.000</nuyen>
+  <nuyen>46025.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -201,7 +201,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <base>3</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>AGI</name>
@@ -281,7 +281,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <base>1</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>WIL</name>
@@ -291,7 +291,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>5</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
   </attributes>
   <magenabled>False</magenabled>
@@ -1618,7 +1618,7 @@ Available Techniques: Called Shot (Break Weapon, Disarm), Dim Mak, Jiao Di (Char
       <source>SR5</source>
       <page>438</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1715,69 +1715,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
 &gt; Ma’fan</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
-    </armor>
-    <armor>
-      <sourceid>9bf19d62-ff32-49df-8e70-f1b1f8e8d769</sourceid>
-      <guid>994a69ae-5030-4dd3-82b9-07644a4a24d2</guid>
-      <name>Securetech PPP: Legs Kit</name>
-      <category>Specialty Armor</category>
-      <armor>+1</armor>
-      <armoroverride />
-      <armorcapacity>1</armorcapacity>
-      <avail>6</avail>
-      <cost>300</cost>
-      <weight />
-      <source>RG</source>
-      <page>70</page>
-      <armorname />
-      <equipped>False</equipped>
-      <active>False</active>
-      <homenode>False</homenode>
-      <devicerating />
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <wirelesson>False</wirelesson>
-      <canformpersona />
-      <extra />
-      <damage>0</damage>
-      <rating>0</rating>
-      <maxrating />
-      <ratinglabel>String_Rating</ratinglabel>
-      <stolen>False</stolen>
-      <encumbrance>True</encumbrance>
-      <armormods />
-      <bonus>
-        <limitmodifier>
-          <limit>Social</limit>
-          <value>-1</value>
-          <condition>LimitCondition_Visible</condition>
-        </limitmodifier>
-      </bonus>
-      <wirelessbonus />
-      <location />
-      <notes>SECURETECH PPP
-Not a suit in itself, this innovative little AAS, or Armor Augmentation System, is hot for those who like to be able to add a little extra protection to almost anything.
-Arm, Leg, and Vitals kits are each sold separately, and they augment the protective measures already in place on those areas. The pieces are designed to be taken on and off quickly and worn over existing clothing.
-&gt; These pieces are great for a little added protection that can be pulled from a duffel or even a backpack. Runners can avoid drawing attention to their excess of armor, then when trouble comes, pull a few added pieces from the bag and get into the scrape.
-&gt; Frosty &gt; I prefer keeping a few kits tucked into a vent before the real action starts. I’ve actually left more of these things behind than used. I consider it a point of my success to know there are 64 sets of this tucked into bathroom and storage closet vents around the world.
-&gt; Ma’fan</notes>
-      <notesColor>#E3813C</notesColor>
-      <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </armor>
     <armor>
       <sourceid>f3e262d5-c6ec-4e2e-9081-21d160d8c21b</sourceid>
@@ -1839,7 +1777,69 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
 &gt; Ma’fan</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
+    </armor>
+    <armor>
+      <sourceid>9bf19d62-ff32-49df-8e70-f1b1f8e8d769</sourceid>
+      <guid>994a69ae-5030-4dd3-82b9-07644a4a24d2</guid>
+      <name>Securetech PPP: Legs Kit</name>
+      <category>Specialty Armor</category>
+      <armor>+1</armor>
+      <armoroverride />
+      <armorcapacity>1</armorcapacity>
+      <avail>6</avail>
+      <cost>300</cost>
+      <weight />
+      <source>RG</source>
+      <page>70</page>
+      <armorname />
+      <equipped>False</equipped>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <wirelesson>False</wirelesson>
+      <canformpersona />
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <maxrating />
+      <ratinglabel>String_Rating</ratinglabel>
+      <stolen>False</stolen>
+      <encumbrance>True</encumbrance>
+      <armormods />
+      <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>-1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus />
+      <location />
+      <notes>SECURETECH PPP
+Not a suit in itself, this innovative little AAS, or Armor Augmentation System, is hot for those who like to be able to add a little extra protection to almost anything.
+Arm, Leg, and Vitals kits are each sold separately, and they augment the protective measures already in place on those areas. The pieces are designed to be taken on and off quickly and worn over existing clothing.
+&gt; These pieces are great for a little added protection that can be pulled from a duffel or even a backpack. Runners can avoid drawing attention to their excess of armor, then when trouble comes, pull a few added pieces from the bag and get into the scrape.
+&gt; Frosty &gt; I prefer keeping a few kits tucked into a vent before the real action starts. I’ve actually left more of these things behind than used. I consider it a point of my success to know there are 64 sets of this tucked into bathroom and storage closet vents around the world.
+&gt; Ma’fan</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <sortorder>3</sortorder>
     </armor>
     <armor>
       <sourceid>608d5c68-aba1-40e5-8100-d2615a39a2f3</sourceid>
@@ -1855,7 +1855,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>RG</source>
       <page>74</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1896,7 +1896,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>4</sortorder>
     </armor>
     <armor>
       <sourceid>943d19f7-ee6b-4ce9-8a43-93d3fe5100f2</sourceid>
@@ -1912,7 +1912,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <source>SR5</source>
       <page>438</page>
       <armorname />
-      <equipped>True</equipped>
+      <equipped>False</equipped>
       <active>False</active>
       <homenode>False</homenode>
       <devicerating />
@@ -1953,7 +1953,7 @@ Arm, Leg, and Vitals kits are each sold separately, and they augment the protect
       <notes>Ballistic shield: This large opaque shield is used by SWAT teams and in urban combat. It features a clear plastic window and a built-in ladder frame along the in- side so that it can be used to climb over small obstacles.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>5</sortorder>
     </armor>
     <armor>
       <sourceid>fc8fd2e8-4856-4830-b241-a5128a08f902</sourceid>
@@ -2058,7 +2058,7 @@ The owner can also use their Contacts to help them get the job done, requiring l
 These items are the most recent incarnations of their corporate creators. That means they lose a little more when purchased as Lightly Worn, namely a 20 percent loss of Armor Rating (round adjusted Rating up) when buying older models of the clothes.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </armormod>
         <armormod>
           <guid>91db0b7c-1c8e-4c9d-a3f4-3cb55351ae06</guid>
@@ -2091,7 +2091,7 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
 &gt; Stone</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </armormod>
         <armormod>
           <guid>195e6101-f0d4-4ec6-875f-e497849b66d0</guid>
@@ -2122,7 +2122,7 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
           <notes>Nonconductivity: Electrical insulation and non-con- ductive materials protect the wearer against Electricity damage (p. 170). Add the full rating of this modification to the Armor value when resisting Electricity attacks.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
         </armormod>
         <armormod>
           <guid>6b0be8c4-a9c5-485e-87cd-23014fe8998d</guid>
@@ -2154,7 +2154,7 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
           <notes>Chemical protection: Water-resistant, non-porous, impermeable materials, and a coating of neutraliz- ing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs, p. 408). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
         </armormod>
         <armormod>
           <guid>29c59e2e-083c-4954-a683-dd20757a5047</guid>
@@ -2183,7 +2183,7 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
           <notes>Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Simple Action to change the settings on your electro- chromic clothes, but a couple of Combat Turns to com- plete the change.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>5</sortorder>
         </armormod>
       </armormods>
       <gears>
@@ -2242,7 +2242,7 @@ I’ll admit I loved Manhunt, that remake of the old flatvid with the alien hunt
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>6</sortorder>
         </gear>
       </gears>
       <bonus />
@@ -2261,7 +2261,7 @@ RATING CAPACITY AVAIL COST
 Steampunk 10 14 7 2,250¥ Features: Custom Fit Wireless Bonus: Increase Social Limit by 1 Synergist Business Line 9 5 8 1,500¥ Features: Custom Fit, Holster (concealed) Wireless Bonus: Increase Social Limit by 1 Synergist Business Line Longcoat</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>6</sortorder>
     </armor>
     <armor>
       <sourceid>1c5f484a-996c-4518-bf23-677a506b2ea5</sourceid>
@@ -2322,7 +2322,7 @@ See? &lt;PIC_LINK&gt; &gt; /dev/grrl &gt; A pink cyberdeck holster with unicorns
 &gt; Bull</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>7</sortorder>
     </armor>
     <armor>
       <sourceid>cb1e1f7e-a711-44a7-8ed7-a8fc50802c62</sourceid>
@@ -2427,7 +2427,7 @@ This characteristic employs all the Custom Fit rules, but in addition these item
 SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the less common metavarients because it’s easier to mold and work into alternative designs than standard armor technologies. It works for the everyday Joe, and it also makes for lighter gear with more flexibility for modifications.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </armormod>
         <armormod>
           <guid>3ca4331d-8db6-4281-a1e7-eaccef363eed</guid>
@@ -2458,7 +2458,7 @@ SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the les
           <notes>Insulation: Thermal fibers and heat-retentive mate- rials protect the wearer against Cold damage (p. 170). Add the full rating of the Insulation modification to the Armor value when resisting Cold attacks.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </armormod>
         <armormod>
           <guid>b856cec0-711b-4a63-b537-10accc07fe10</guid>
@@ -2493,7 +2493,7 @@ SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the les
           <notes>Thermal damping: Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneak- ing test against thermographic vision or thermal sensors.</notes>
           <notesColor>#E3813C</notesColor>
           <discountedcost>False</discountedcost>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
         </armormod>
       </armormods>
       <gears>
@@ -2552,7 +2552,7 @@ SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the les
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
         </gear>
       </gears>
       <bonus />
@@ -2567,7 +2567,7 @@ SoftWeave was developed by Yamatetsu Naval Technologies for sapients and the les
       <notes>Custom tailored Arctic-spec outerwear, including matching parka, gloves, toque, socks, and boots.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
-      <sortorder>0</sortorder>
+      <sortorder>8</sortorder>
     </armor>
   </armors>
   <weapons>
@@ -8192,7 +8192,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>16</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>d1fca845-ae01-4b39-a176-1506da699e0e</sourceid>
@@ -8249,7 +8249,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>17</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -8478,7 +8478,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>18</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -8650,7 +8650,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>19</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>692da465-f98f-4da5-86fe-1dd2a5ead742</sourceid>
@@ -8707,7 +8707,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>20</sortorder>
+      <sortorder>12</sortorder>
     </gear>
     <gear>
       <sourceid>429fbdba-2818-43db-948a-e138b6bf49f9</sourceid>
@@ -8764,7 +8764,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>21</sortorder>
+      <sortorder>13</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -9286,7 +9286,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>14</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>314566c7-4ea1-4f8d-94cd-f213af1e0535</sourceid>
@@ -9343,7 +9343,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>15</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>4752d8ab-4393-4fd6-a3c6-c85f65d01281</sourceid>
@@ -10184,7 +10184,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <sortorder>5</sortorder>
         </gear>
       </children>
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes>Survival kit: An assortment of survival gear in a rug- ged bag. Includes a knife, lighter, matches, compass, lightweight thermal blanket, several days’ worth of ra- tion bars, a water-purification unit, and more. A good item to consider for your go-bag.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10203,7 +10203,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <sourceid>78f71833-4104-4dfb-b811-9bcabff95ecf</sourceid>
@@ -10242,7 +10242,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes>Micro flare launcher: The flare launcher can shoot colored flares about 200 meters into the air, illuminating an area the size of a city block for a couple of minutes and negating the modifier for poor or low lighting. If you shoot it at someone, use the Exotic Ranged Weapon skill; the micro flare deals 5P Fire damage.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10261,7 +10261,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>f3d0d8f1-a2be-45d9-83a6-b5461afb62de</sourceid>
@@ -10299,7 +10299,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10318,7 +10318,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>c658ec7e-48c1-4ead-8083-f3ee0eab92e4</sourceid>
@@ -10356,7 +10356,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes>Light stick: Bend, snap, and shake it to produce three hours of soft chemical illumination that covers a ten-me- ter radius.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10375,7 +10375,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>08fb5b81-af99-4311-8588-f7d680d3fa5c</sourceid>
@@ -10413,7 +10413,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes>Magnesium torch: Strike and activate for five min- utes of bright torchlight.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10432,7 +10432,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>9</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>2f30c3cc-a62e-4ac1-8e1f-5fa217cadae4</sourceid>
@@ -10470,7 +10470,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes>Mapsoft: Mapsoft programs feature detailed infor- mation about a particular area, from streets to business/ residential listings to topographical, census, GPS and environmental data. An interactive interface allows you to quickly determine the best routes and directions, lo- cate the nearest spot of your choice, or create your own customized maps. If a wireless link is maintained, the map automatically self-updates with the latest data from GridGuide. Of course, this feature also means that the mapsoft can be used to track your location. At the gam- emaster’s discretion, mapsofts provide a +1 limit bonus to Navigation Tests made to navigate the area they cover.</notes>
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10489,7 +10489,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>10</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>1a55fbe3-b3c1-4568-882f-abe4dedb8572</sourceid>
@@ -10527,7 +10527,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10546,7 +10546,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>11</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
@@ -10584,7 +10584,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <parentid />
       <allowrename>False</allowrename>
       <children />
-      <location />
+      <location>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</location>
       <notes />
       <notesColor>#E3813C</notesColor>
       <discountedcost>False</discountedcost>
@@ -10603,7 +10603,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>12</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>7cb80189-5893-4852-9d33-dbeea004b0a7</sourceid>
@@ -10777,7 +10777,7 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>13</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
@@ -11647,7 +11647,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid />
       <customgroup />
       <addtorating>0</addtorating>
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12445,7 +12445,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12469,7 +12469,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>5</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12493,7 +12493,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>specificattribute</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>2</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12517,7 +12517,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>physicallimit</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>4</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12541,7 +12541,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>initiativediceadd</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>3</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12565,7 +12565,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>conditionmonitoroffset</customid>
       <customgroup>Kamikaze</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>6</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12855,7 +12855,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>specificattribute</customid>
       <customgroup>Bodyguard</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12879,7 +12879,7 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customid>specificattribute</customid>
       <customgroup>Bodyguard</customgroup>
       <addtorating>0</addtorating>
-      <enabled>0</enabled>
+      <enabled>1</enabled>
       <order>0</order>
       <notes />
       <notesColor>#E3813C</notesColor>
@@ -12902,6 +12902,54 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <customname />
       <customid />
       <customgroup />
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>INT</improvedname>
+      <sourcename>eb03f5e5-554d-4b24-84db-8da2ad74cfd2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 INT</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Psyche</customgroup>
+      <addtorating>0</addtorating>
+      <enabled>1</enabled>
+      <order>0</order>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>LOG</improvedname>
+      <sourcename>bcb458b3-dc96-4ce6-8b0f-bb5c52b4566f</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Custom</improvementsource>
+      <custom>True</custom>
+      <customname>+1 LOG</customname>
+      <customid>specificattribute</customid>
+      <customgroup>Psyche</customgroup>
       <addtorating>0</addtorating>
       <enabled>1</enabled>
       <order>0</order>
@@ -13585,6 +13633,70 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>cc433436-8d09-46f2-b5ca-2a7b02a64eca</guid>
+      <date>2026-01-01T22:50:06</date>
+      <amount>18000</amount>
+      <reason>Game 3: Calculated Decisions</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>70756546-4b34-476b-a4c3-ab20da46d9f5</guid>
+      <date>2026-01-01T22:51:25</date>
+      <amount>8</amount>
+      <reason>Game 3: Calculated Decisions</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b9f5f290-ecfc-427d-946b-31733b8ce1bb</guid>
+      <date>2026-01-01T22:52:23</date>
+      <amount>2</amount>
+      <reason>Game 3: Working for the People</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f9ce6cd1-20f8-49e3-b160-c20ec0e5d970</guid>
+      <date>2026-01-01T22:52:23</date>
+      <amount>-8000</amount>
+      <reason>Game 3: Working for the People</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations>
     <location>
@@ -13592,11 +13704,18 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
       <name>'Nade Pouch</name>
       <notes />
       <notesColor>#E3813C</notesColor>
-      <sortorder>2</sortorder>
+      <sortorder>3</sortorder>
     </location>
     <location>
       <guid>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</guid>
       <name>Pharma</name>
+      <notes />
+      <notesColor>#E3813C</notesColor>
+      <sortorder>2</sortorder>
+    </location>
+    <location>
+      <guid>fc3a9491-f96a-4ccc-bed3-d2c7bb71307c</guid>
+      <name>Survival Stuff</name>
       <notes />
       <notesColor>#E3813C</notesColor>
       <sortorder>1</sortorder>
@@ -13608,13 +13727,14 @@ Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 ho
   <improvementgroups>
     <improvementgroup>Kamikaze</improvementgroup>
     <improvementgroup>Bodyguard</improvementgroup>
+    <improvementgroup>Psyche</improvementgroup>
   </improvementgroups>
   <calendar />
   <calculatedvalues>
-    <physicalcm>9</physicalcm>
-    <physicalcmthresholdoffset>0</physicalcmthresholdoffset>
-    <physicalcmoverflow>7</physicalcmoverflow>
+    <physicalcm>10</physicalcm>
+    <physicalcmthresholdoffset>3</physicalcmthresholdoffset>
+    <physicalcmoverflow>8</physicalcmoverflow>
     <stuncm>11</stuncm>
-    <stuncmthresholdoffset>0</stuncmthresholdoffset>
+    <stuncmthresholdoffset>3</stuncmthresholdoffset>
   </calculatedvalues>
 </character>
