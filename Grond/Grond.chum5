@@ -5,7 +5,7 @@
   <appversion>5.225.1040</appversion>
   <gameedition>SR5</gameedition>
   <settings>Runnerhub Create Rules 2025.xml</settings>
-  <settingshashcode>-19635115</settingshashcode>
+  <settingshashcode>2068583943</settingshashcode>
   <buildmethod>SumtoTen</buildmethod>
   <sources>
     <source>AP</source>
@@ -141,7 +141,7 @@ With no SIN and no skills, Grond would have trouble navigating his free life, bu
   <baseastralreputation>0</baseastralreputation>
   <basewildreputation>0</basewildreputation>
   <created>True</created>
-  <nuyen>33425.000</nuyen>
+  <nuyen>32025.000</nuyen>
   <startingnuyen>450000</startingnuyen>
   <nuyenbp>0</nuyenbp>
   <adept>False</adept>
@@ -8192,7 +8192,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>True</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>16</sortorder>
     </gear>
     <gear>
       <sourceid>d1fca845-ae01-4b39-a176-1506da699e0e</sourceid>
@@ -8249,7 +8249,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>17</sortorder>
     </gear>
     <gear>
       <sourceid>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</sourceid>
@@ -8478,7 +8478,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>5</sortorder>
+      <sortorder>18</sortorder>
     </gear>
     <gear>
       <sourceid>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</sourceid>
@@ -8650,7 +8650,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>6</sortorder>
+      <sortorder>19</sortorder>
     </gear>
     <gear>
       <sourceid>692da465-f98f-4da5-86fe-1dd2a5ead742</sourceid>
@@ -8707,7 +8707,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>7</sortorder>
+      <sortorder>20</sortorder>
     </gear>
     <gear>
       <sourceid>429fbdba-2818-43db-948a-e138b6bf49f9</sourceid>
@@ -8764,7 +8764,7 @@ This commlink comes standard as a wristband that is, as you’d expect, blue. De
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>8</sortorder>
+      <sortorder>21</sortorder>
     </gear>
     <gear>
       <sourceid>098bf489-bea9-4f17-b3d9-aead979fdc32</sourceid>
@@ -8938,7 +8938,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>3</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>5de1956f-0ec3-4fad-9e9a-d8b90ac1e3f4</sourceid>
@@ -8995,7 +8995,7 @@ The repeated use of kamikaze has a destructive effect on the user’s metabolism
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>06798b15-40bb-4464-b6a8-a01466ee9b9e</sourceid>
@@ -9286,7 +9286,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>14</sortorder>
     </gear>
     <gear>
       <sourceid>314566c7-4ea1-4f8d-94cd-f213af1e0535</sourceid>
@@ -9343,7 +9343,7 @@ This is not your grandfather’s tomahawk. Made from modern composites and balan
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>2</sortorder>
+      <sortorder>15</sortorder>
     </gear>
     <gear>
       <sourceid>4752d8ab-4393-4fd6-a3c6-c85f65d01281</sourceid>
@@ -9401,7 +9401,7 @@ Originally developed by Shiawase Biotech but now available from several corps, t
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>4</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>1673b6fb-ead9-44bb-b6dd-5430026f2428</sourceid>
@@ -9458,7 +9458,7 @@ Originally developed by Shiawase Biotech but now available from several corps, t
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>1</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>acbff7a4-5382-45de-ab00-880ac6b82276</sourceid>
@@ -9608,7 +9608,7 @@ Originally developed by Shiawase Biotech but now available from several corps, t
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
       </children>
       <location />
@@ -9631,7 +9631,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>1</sortorder>
     </gear>
     <gear>
       <sourceid>c56554d1-4102-446f-8d3e-acd0c7404c3a</sourceid>
@@ -9688,7 +9688,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>4f5b4fbc-78c4-4aa4-a5c2-7739f12e9b39</sourceid>
@@ -9745,7 +9745,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>3</sortorder>
     </gear>
     <gear>
       <sourceid>697ef5f4-8cde-434d-aca6-1bddd4d526d3</sourceid>
@@ -9802,7 +9802,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>4</sortorder>
     </gear>
     <gear>
       <sourceid>27f9775d-cd14-4900-827f-ba00d26e0c67</sourceid>
@@ -9953,7 +9953,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>1</sortorder>
         </gear>
         <gear>
           <sourceid>0a897bb2-6260-42d3-ad2f-27345230a133</sourceid>
@@ -10010,7 +10010,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>2</sortorder>
         </gear>
         <gear>
           <sourceid>3975e539-010d-4ffa-b163-17b5e300d336</sourceid>
@@ -10067,7 +10067,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>3</sortorder>
         </gear>
         <gear>
           <sourceid>c0cf0e8f-386e-4b6d-8f7d-971a4cd0b56b</sourceid>
@@ -10124,7 +10124,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>4</sortorder>
         </gear>
         <gear>
           <sourceid>1bec7c2a-2c90-43d2-99ac-610f02e38148</sourceid>
@@ -10181,7 +10181,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
-          <sortorder>0</sortorder>
+          <sortorder>5</sortorder>
         </gear>
       </children>
       <location />
@@ -10203,7 +10203,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>5</sortorder>
     </gear>
     <gear>
       <sourceid>78f71833-4104-4dfb-b811-9bcabff95ecf</sourceid>
@@ -10261,7 +10261,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>6</sortorder>
     </gear>
     <gear>
       <sourceid>f3d0d8f1-a2be-45d9-83a6-b5461afb62de</sourceid>
@@ -10318,7 +10318,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>7</sortorder>
     </gear>
     <gear>
       <sourceid>c658ec7e-48c1-4ead-8083-f3ee0eab92e4</sourceid>
@@ -10375,7 +10375,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>8</sortorder>
     </gear>
     <gear>
       <sourceid>08fb5b81-af99-4311-8588-f7d680d3fa5c</sourceid>
@@ -10432,7 +10432,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>9</sortorder>
     </gear>
     <gear>
       <sourceid>2f30c3cc-a62e-4ac1-8e1f-5fa217cadae4</sourceid>
@@ -10489,7 +10489,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>10</sortorder>
     </gear>
     <gear>
       <sourceid>1a55fbe3-b3c1-4568-882f-abe4dedb8572</sourceid>
@@ -10546,7 +10546,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>11</sortorder>
     </gear>
     <gear>
       <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
@@ -10603,7 +10603,7 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>12</sortorder>
     </gear>
     <gear>
       <sourceid>7cb80189-5893-4852-9d33-dbeea004b0a7</sourceid>
@@ -10640,8 +10640,66 @@ An inexpensive, hand-held sensor package used to look around corners or over top
       <matrixcmbonus>0</matrixcmbonus>
       <parentid />
       <allowrename>False</allowrename>
-      <children />
-      <location />
+      <children>
+        <gear>
+          <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
+          <guid>4c15e502-850a-43e0-b5a7-02847eec9a08</guid>
+          <name>Designer</name>
+          <category>Custom</category>
+          <capacity />
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>1000.00</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>SR5</source>
+          <page>1</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
       <notes>BODYGUARD BTL
 Effect: Body + 1, Logic –1 May use Protecting the Principal (p. 125, Run &amp; Gun) without spending Edge.
 When the chip is slotted, the user is assigned a target to protect. The user will then protect this person above all else.</notes>
@@ -10662,7 +10720,7 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>2</sortorder>
     </gear>
     <gear>
       <sourceid>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</sourceid>
@@ -10719,7 +10777,123 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-      <sortorder>0</sortorder>
+      <sortorder>13</sortorder>
+    </gear>
+    <gear>
+      <sourceid>778eefae-94ad-4f8c-ad03-8b9039b5c48e</sourceid>
+      <guid>25bdf3d9-0217-473b-a103-bb525b76d7ab</guid>
+      <name>Psyche</name>
+      <category>Drugs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating />
+      <maxrating />
+      <rating>0</rating>
+      <qty>1.0</qty>
+      <avail>0</avail>
+      <cost>200</cost>
+      <weight />
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
+      <bonus />
+      <wirelessbonus />
+      <weaponbonus />
+      <flechetteweaponbonus />
+      <source>SR5</source>
+      <page>412</page>
+      <isflechetteammo>False</isflechetteammo>
+      <ammoforweapontype />
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <sourceid>21f33089-cb7a-4bef-80ae-03d04f1c47ad</sourceid>
+          <guid>d40ee0f0-9553-4685-9dd5-3f2040805368</guid>
+          <name>Pharmaceutical</name>
+          <category>Drug Grades</category>
+          <capacity>0</capacity>
+          <armorcapacity />
+          <minrating />
+          <maxrating />
+          <rating>0</rating>
+          <qty>1.0</qty>
+          <avail>0</avail>
+          <cost>Parent Cost</cost>
+          <weight />
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
+          <bonus />
+          <wirelessbonus />
+          <weaponbonus />
+          <flechetteweaponbonus />
+          <source>CF</source>
+          <page>190</page>
+          <isflechetteammo>False</isflechetteammo>
+          <ammoforweapontype />
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes>Pharmaceutical: High-end controls used to mini- mize impurities and standardize effects. Costs are dou- bled. Any crash effects are halved in time duration. The Addiction Threshold is reduced by 1. Pharmaceutical grade is the minimum grade for customized drugs.</notes>
+          <notesColor>#E3813C</notesColor>
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+          <sortorder>0</sortorder>
+        </gear>
+      </children>
+      <location>4affe7a2-b4b6-4959-9af7-88993f4fd8c1</location>
+      <notes>PSYCHE
+Vector: Ingestion Speed: 10 minutes Duration: (12—Body) hours, minimum of 1 hour Addiction Type: Psychological Effect: +1 Intuition, +1 Logic, +1 Mental limit This designer stimulant is especially prized by magicians and technomancers alike. In addition to the effects noted above, Awakened users also only suffer a –1 dice pool modifier for each sustained spell (rather than the standard –2). Psyche users are simultaneously hyper-aware and detached, easily absorbed by detail and obsessive about certain facts or problems.</notes>
+      <notesColor>#E3813C</notesColor>
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+      <sortorder>1</sortorder>
     </gear>
   </gears>
   <vehicles />
@@ -13360,6 +13534,54 @@ When the chip is slotted, the user is assigned a target to protect. The user wil
         <nuyentype>AddCyberware</nuyentype>
         <objectid>f0e71edb-f43e-4c94-9ae0-c8d20be65cee</objectid>
         <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c39a3280-43f4-4c10-8249-bea3506a49b6</guid>
+      <date>2026-01-01T17:58:51</date>
+      <amount>-1000.000</amount>
+      <reason>Purchased Gear Designer</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>4c15e502-850a-43e0-b5a7-02847eec9a08</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>5e18c3fc-71e6-40b3-a029-1c205df017f1</guid>
+      <date>2026-01-01T17:59:35</date>
+      <amount>-200</amount>
+      <reason>Purchased Gear Psyche</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>25bdf3d9-0217-473b-a103-bb525b76d7ab</objectid>
+        <qty>1.0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>713dbf66-b9ef-49aa-b954-228b81a20c2c</guid>
+      <date>2026-01-01T17:59:51</date>
+      <amount>-200.0</amount>
+      <reason>Purchased Gear Pharmaceutical</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>d40ee0f0-9553-4685-9dd5-3f2040805368</objectid>
+        <qty>1.0</qty>
         <extra />
       </undo>
     </expense>
